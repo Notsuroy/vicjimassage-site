@@ -52,27 +52,126 @@ EN (at /en/):
 
 Language switcher uses a PT slug to EN slug map (both `Header.astro` and `BaseLayout.astro` keep the map in sync). hreflang alternates set per page.
 
-## TODO before launch (blocking)
+## TODO before launch (blocking on Vicji's input)
 
-1. **WhatsApp number**: replace `TODO_WHATSAPP_NUMBER` in `src/data/site.json`
+1. ~~WhatsApp number~~ ✅ Done 2026-05-27: `5511970994438` wired into all booking CTAs.
 2. **Email**: replace `TODO_EMAIL` in `src/data/site.json`
 3. **Pix key**: replace `TODO_PIX_KEY` in `src/data/site.json`
-4. ~~Real photos~~ ✅ Done: 13 photos in `/public/photos/` from Vicji's Drive folder. **Optimization pending**: each photo is 1-2MB; should be compressed to ~200-400KB via sharp or Astro Image component in Phase 2.
-5. ~~Real reviews~~ ✅ Top 10 wired in. PT originals + EN adaptations + 5 theme tags (relax/pain/spiritual/first/international). Source screenshots in `public/Reviews/review-01..10.jpeg`. Author names anonymized to `Cliente A.` through `J.` (no permission to use real names yet, easy to swap when Vicji confirms).
+4. ~~Real photos~~ ✅ Done: 13 photos in `/public/photos/`. Optimized via sharp on 2026-05-27 (24.67MB to 4.83MB WebP).
+5. ~~Real reviews~~ ✅ Done. Top 10 transcribed + EN-translated + theme-tagged. All 30 screenshots displayed in masonry/bento. Source screenshots in `public/Reviews/review-01..30.jpeg`. Author names anonymized to `Cliente A.` through `J.` (waiting on permission to use real names).
 6. **Pricing confirmation**: confirm R$390 / R$540 / R$680 with Vicji; currently set at €60 ≈ R$390 for 60min
-7. **Vicji's story**: record voice note, transcribe, replace placeholder in `src/pages/sobre.astro`
-8. **OG image**: create `/public/og-image.jpg` for social sharing
+7. **Vicji's story**: record voice note, transcribe, replace placeholder in `src/pages/sobre.astro` and `src/pages/en/about.astro`
+8. **OG image**: optional. Currently using `/photos/hero.jpg` as OG image. Dedicated 1200x630 OG image would be nicer.
 
-## TODO after launch (Phase 2)
+## TODO after launch (Phase 2, in priority order)
 
-- [ ] EN mirror at `/en/` (all pages)
-- [ ] hreflang validation
-- [ ] Google Business Profile creation (Atibaia, Espaço Clô address)
-- [ ] Google Search Console + sitemap submission
-- [ ] Cal.com booking integration (currently WhatsApp-only)
-- [ ] Email capture (Kit/MailerLite)
-- [ ] Blog scaffolding + 3 launch posts
-- [ ] `/metodo` page (long game: education brand foundation)
+### Email capture (queued — full plan below in "Email capture playbook")
+- [ ] Phase 1 (no Vicji action): footer signup + inline blog form + `/obrigado` page + Cloudflare Pages Function endpoint. Sends emails to Vicji's inbox initially.
+- [ ] Phase 2 (when Vicji is ready): create Kit account, swap endpoint destination, build welcome sequence.
+- [ ] Phase 3 (after Cal.com): Cal.com webhook to Zapier to Kit (auto-add bookers to list).
+
+### Booking system
+- [ ] Cal.com integration on `/agendar` and `/en/book` (currently WhatsApp-only).
+  - Vicji creates Cal.com account (free), connects Google Calendar, sets weekly availability, creates 3 event types matching the 3 session lengths.
+  - I embed the Cal.com inline widget on the booking pages. WhatsApp stays as fallback below.
+
+### Google Business Profile
+- [ ] GBP creation by Vicji (using `docs/Vicji-GBP-Setup-Guide.docx` + photos in `public/gbp/`).
+- [ ] Once verified, send back GBP link + Place ID so I can embed review CTA on `/contato` and add to LocalBusiness schema.
+
+### Content / SEO
+- [ ] Bing Webmaster Tools verification (Suroy, 5 min).
+- [ ] Local citations: Apontador, GuiaMais, Foursquare, Yelp Brasil.
+- [ ] More blog posts (target 1-2/month). Next 3 ideas:
+  - "Os 7 benefícios da massagem tailandesa" (listicle, Layer 1 awareness)
+  - "Massagem tailandesa vs. sueca: qual escolher" (Layer 2 comparison)
+  - "Massagem tailandesa para ansiedade" (Layer 2 problem-aware)
+- [ ] EN translations of the 3 existing PT blog posts (closer to Itacaré move when nomad audience matters).
+- [ ] `/metodo` page (long-game: foundation for future education brand). Vicji's approach to Thai massage.
+
+### Polish
+- [ ] Dedicated OG image (1200x630, branded).
+- [ ] Real names on reviews (after Vicji confirms which clients consented).
+- [ ] Pix key wired into `/obrigado` and booking confirmation messaging.
+
+---
+
+## Email capture playbook (next session)
+
+**Why now (before Cal.com):** Cal.com only captures bookers. Footer/blog forms capture the 95% of visitors who aren't ready to book yet. That's where long-term list growth lives, and the list is the asset for the eventual education business (year 2-3).
+
+### Architecture
+
+3 capture surfaces, 1 endpoint, swappable destination:
+
+```
+[Footer signup]  ──┐
+[Inline blog form] ├──> /api/subscribe (Cloudflare Pages Function)
+[/obrigado page]   ──┘     │
+                           ├── Phase 1: log + email Vicji
+                           └── Phase 2: POST to Kit API
+```
+
+### Capture surfaces
+
+1. **Footer newsletter signup** on every page. Single email field, quiet design. PT: "Dicas de bem-estar e novidades de Vicji." EN: "Wellness tips and updates from Vicji."
+2. **Inline form at the bottom of every blog post**. High-intent moment. Offers the lead magnet ("5 alongamentos") in exchange for email. Above the "Outros textos" section.
+3. **`/obrigado` thank-you page**: redirected to after booking (via WhatsApp or Cal.com). Second-touch ask for email signup as a "stay in touch" option.
+
+### Lead magnet
+
+**"5 alongamentos que eu ensino a todos os meus clientes"** as a PDF + 3-5 short videos (60sec each).
+
+Why this:
+- High perceived value (videos demonstrate expertise)
+- Direct extension of his service, not random freebie
+- Plants "this guy knows things" seed, drives later booking
+- Becomes a paid course module in year 2
+
+Production: Vicji shoots with his phone in the studio in ~2 hours. PT first, EN dubbed later.
+
+### Email tool: Kit (formerly ConvertKit)
+
+Decision rationale:
+- **Free tier covers 10K subscribers** (years of runway for him)
+- Kit Commerce built in for the eventual course launch
+- Visual automation builder, non-tech-savvy friendly
+- Used by most creator-economy practitioners in his bracket
+- Portuguese supported
+
+Alternative: MailerLite (Brazilian-market friendly, simpler, less course-business-ready).
+
+### Phased rollout
+
+**Phase 1 (no Vicji action needed, can ship before he sets up Kit):**
+- Build footer signup component (PT + EN versions)
+- Build inline blog signup component with lead-magnet hook (placeholder PDF until videos shot)
+- Build `/obrigado` thank-you page
+- Build Cloudflare Pages Function at `/api/subscribe`: validates email + logs + sends Vicji notification email
+- Honeypot anti-spam (no captcha, no UX friction)
+- Schema markup updates to declare newsletter availability
+
+Result: email capture is live from day 1. Captured emails go to Vicji's inbox. He can manually add to whatever tool when ready.
+
+**Phase 2 (when Vicji creates Kit account):**
+- Vicji creates Kit account at kit.com, sets up basic welcome sequence (5 emails over 2 weeks)
+- Sends his Kit API key
+- I swap the Cloudflare Function destination from "log + notify" to "POST /v3/forms/{form_id}/subscribe" on Kit's API
+- Migrate any captured emails into Kit
+- Activate the welcome sequence
+
+**Phase 3 (after Cal.com is set up):**
+- Cal.com webhook fires on every booking
+- Webhook to Zapier (or direct to a Cloudflare Function)
+- Zapier adds subscriber to Kit list with "booker" tag
+- Every booker automatically joins the email list
+
+### Don'ts
+
+- **No exit-intent popups.** Conflicts with bohemian/wellness aesthetic.
+- **No scroll-triggered popups.** Same reason.
+- **No email form on the homepage hero.** Hero is for booking. One CTA per surface.
+- **No "join my newsletter" interruption mid-blog-post.** Stays at the end.
 
 ## Architecture decisions
 
