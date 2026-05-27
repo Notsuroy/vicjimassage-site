@@ -41,7 +41,7 @@ Vicji Massagem Tailandesa
 ```
 
 Notes:
-- Use `Massagem Tailandesa` not `Thai massage` (GBP indexes in local language; this is what Brazilians search)
+- Use `Massagem Tailandesa` not `Thai Massage` (GBP indexes in local language; this is what Brazilians search)
 - Don't add city ("Atibaia") to the name. Google will display the city automatically, and adding it triggers a name-stuffing penalty.
 - Don't add the studio name ("Espaço Clô") to the business name. The studio is a venue, not part of his brand.
 
@@ -144,7 +144,7 @@ Google asks how to verify:
 After verification, fill in this description. **Copy/paste exactly** (750 characters, Portuguese):
 
 ```
-A Thai massage tradicional em Atibaia, no Espaço Clô. Vicji se formou massagista
+A Thai Massage tradicional em Atibaia, no Espaço Clô. Vicji se formou massagista
 na Tailândia, aprofundou em yoga na Índia, e oferece um trabalho corporal integrado
 em três dimensões: físico, energético e espiritual. Único no Brasil oferecendo esse
 atendimento. Sessões de Thai Massage Tradicional (2h ou 3h) e Liberação de Quadril
@@ -163,7 +163,7 @@ Add each session as a separate Service:
 - **Name:** Thai Massage Tradicional, 2 horas
 - **Category:** Massagem
 - **Price:** R$ 330
-- **Description:** Sessão completa de Thai massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
+- **Description:** Sessão completa de Thai Massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
 
 ### Service 2
 - **Name:** Thai Massage Tradicional, 3 horas (imersiva)
@@ -175,7 +175,7 @@ Add each session as a separate Service:
 - **Name:** Liberação de Quadril, 1h30
 - **Category:** Massagem
 - **Price:** R$ 250
-- **Description:** Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.
+- **Description:** Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.
 
 ---
 
@@ -253,7 +253,7 @@ The GBP algorithm gives a "new business boost" for the first 30-60 days. Use it.
 
 ### Week 3
 6. **Add a new photo** every 3-4 days. Even a phone shot of the studio counts. Algorithmic preference for active profiles.
-7. **Post another Update**: maybe a "What is Thai massage" mini-explainer linking to the blog post.
+7. **Post another Update**: maybe a "What is Thai Massage" mini-explainer linking to the blog post.
 
 ### Week 4
 8. **Audit Search Console** for any "vicji" or "massagem tailandesa atibaia" impressions to see if you're appearing yet.

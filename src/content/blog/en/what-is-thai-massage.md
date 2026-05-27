@@ -1,9 +1,9 @@
 ---
-title: "What is Thai massage? A complete guide for anyone who's never tried it"
+title: "What is Thai Massage? A complete guide for anyone who's never tried it"
 description: "Origins, technique, benefits, and the three levels of the work (physical, energetic, spiritual). Written by someone who learned it at the source."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-04.jpg"
-coverAlt: "Vicji conducting a Thai massage session in a park at sunset"
+coverAlt: "Vicji conducting a Thai Massage session in a park at sunset"
 tags: ["fundamentals", "tradition", "first time"]
 author: "Vicji"
 readingTime: "8 min read"
@@ -14,13 +14,13 @@ The first thing most people ask me is: "Is this like a regular massage, just str
 
 It's not. It's not stronger. It's not weaker. It's something else.
 
-Thai massage, originally called **Nuad Bo'Rarn** (literally "ancient work"), is a therapeutic practice over 2,500 years old. It was born in the temples of Thailand, passed down generation by generation between monks and healers, and even today it carries that root: it's not spa technique, it's bodywork with a history.
+Thai Massage, originally called **Nuad Bo'Rarn** (literally "ancient work"), is a therapeutic practice over 2,500 years old. It was born in the temples of Thailand, passed down generation by generation between monks and healers, and even today it carries that root: it's not spa technique, it's bodywork with a history.
 
 This guide is for anyone who's never tried it and wants to understand what they're about to experience, or for anyone who's heard of it but isn't sure yet if it makes sense for them.
 
 ## The origin nobody tells you
 
-The official history attributes the creation of Thai massage to **Jivaka Kumar Bhaccha**, the physician contemporary to the Buddha, around 2,500 years ago. He was the personal doctor to the Buddha and to the Sangha (the Buddhist monastic community). His teachings spread along with Buddhism, from India into southeast Asia, and found fertile ground in Thailand.
+The official history attributes the creation of Thai Massage to **Jivaka Kumar Bhaccha**, the physician contemporary to the Buddha, around 2,500 years ago. He was the personal doctor to the Buddha and to the Sangha (the Buddhist monastic community). His teachings spread along with Buddhism, from India into southeast Asia, and found fertile ground in Thailand.
 
 But the practice that survived to today didn't come only from India. It absorbed influences from Chinese medicine (with its energy lines and pressure points), from Ayurvedic medicine (with its idea of balancing the body's elements), and from Thai folk wisdom itself.
 
@@ -32,7 +32,7 @@ In those traditions, massage isn't a service. It's an offering. It's an act of c
 
 ## The three levels: physical, energetic, spiritual
 
-This is what most distinguishes Thai massage from everything else. It was born integrated, not fragmented. When practiced well, it works the body on three simultaneous dimensions:
+This is what most distinguishes Thai Massage from everything else. It was born integrated, not fragmented. When practiced well, it works the body on three simultaneous dimensions:
 
 **Physical:** deep muscular release, fascia softening, joint mobilization, spinal decompression. The part you can see and measure.
 
@@ -44,7 +44,7 @@ When someone leaves a session saying "I can't explain it, but something shifted,
 
 ## How it actually works
 
-Forget what you've seen in a spa. Thai massage has three characteristics that set it apart from everything else:
+Forget what you've seen in a spa. Thai Massage has three characteristics that set it apart from everything else:
 
 ### 1. It's done on the floor, on a futon
 
@@ -65,7 +65,7 @@ This is why many call it "assisted yoga." It's a partial description, but it cap
 
 ## What changes in the body
 
-The physical effects of Thai massage are well documented:
+The physical effects of Thai Massage are well documented:
 
 - **Improved circulation** (blood and lymphatic)
 - **Release of deep muscular tension**, especially in shoulders, neck, hips, and lower back
@@ -80,7 +80,7 @@ That's real bodywork. It touches what's been held.
 
 ## Who benefits most
 
-Thai massage is versatile, but some profiles tend to have particularly noticeable results:
+Thai Massage is versatile, but some profiles tend to have particularly noticeable results:
 
 - **Desk workers** (programmers, writers, managers) who accumulate tension in shoulders, neck, and hips
 - **Athletes** (runners, surfers, lifters) who need deep muscular recovery
@@ -110,7 +110,7 @@ To make it concrete, here's how Thai compares to other common modalities:
 
 **Sports massage:** oils, focus on specific muscle groups, strong pressure. Great for direct muscular recovery, less deep in energetic terms.
 
-**Thai massage:** no oil, with clothes, on a futon. Combines deep pressure with stretching. Works the whole body as a system, including the energetic and spiritual dimensions. Long sessions, unhurried.
+**Thai Massage:** no oil, with clothes, on a futon. Combines deep pressure with stretching. Works the whole body as a system, including the energetic and spiritual dimensions. Long sessions, unhurried.
 
 Each has its place. Thai is the one I practice because, in my experience, it most deeply shifts what needs to be shifted.
 
@@ -118,14 +118,14 @@ Each has its place. Thai is the one I practice because, in my experience, it mos
 
 Today I work with two types of session:
 
-- **Traditional Thai massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
+- **Traditional Thai Massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
 - **Hip Release Session (1h30):** focused on the foundation of the body. Hips, legs, lower back, and the lower chakras. Shorter but no less deep.
 
 Traditional sessions in Thailand can last two or three hours. I keep that tradition here. The difference between a quick spa session and the real work isn't just "more time" — it's the difference between scratching the surface and actually going in.
 
 ## What to expect from your first session
 
-You arrive, we talk for five to ten minutes. I want to know what you're feeling, if there's any specific area to focus on, if you've had Thai massage before.
+You arrive, we talk for five to ten minutes. I want to know what you're feeling, if there's any specific area to focus on, if you've had Thai Massage before.
 
 Then you lie down on the futon, in comfortable clothes. I work mostly in silence, with traditional music in the background. No small talk during the session, except when we need to communicate about pressure or comfort.
 

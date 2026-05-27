@@ -1,5 +1,5 @@
 ---
-title: "Before your first Thai massage: everything you need to know"
+title: "Before your first Thai Massage: everything you need to know"
 description: "What to wear, what to eat (or not eat), how to prepare, the opening ritual of the session, and what to expect. A practical guide for first-timers."
 publishDate: 2026-05-27
 coverImage: "/photos/portrait.jpg"
@@ -10,7 +10,7 @@ readingTime: "5 min read"
 lang: "en"
 ---
 
-If you've never had Thai massage, it's normal not to know what to expect. Thai massage isn't a spa. There's no massage table, no oil, no need to undress. It's something else.
+If you've never had Thai Massage, it's normal not to know what to expect. Thai Massage isn't a spa. There's no massage table, no oil, no need to undress. It's something else.
 
 This piece covers the six most common questions I get before someone's first session. Five minutes of reading and you arrive prepared.
 
@@ -37,7 +37,7 @@ If you forget and arrive in the wrong clothes, I have some options at the studio
 
 **Main rule: empty stomach, or at least 2 hours after your last meal.**
 
-Thai massage involves compressions on the abdomen, deep stretches, and changes of position. Eating heavily before will make you uncomfortable and the work less effective.
+Thai Massage involves compressions on the abdomen, deep stretches, and changes of position. Eating heavily before will make you uncomfortable and the work less effective.
 
 What works well:
 

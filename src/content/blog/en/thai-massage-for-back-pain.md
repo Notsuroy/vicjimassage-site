@@ -1,6 +1,6 @@
 ---
-title: "Thai massage for lower back pain: why it works and what to expect"
-description: "Why the lower back is where most people hold chronic pain, and how Thai massage works that area differently from conventional approaches."
+title: "Thai Massage for lower back pain: why it works and what to expect"
+description: "Why the lower back is where most people hold chronic pain, and how Thai Massage works that area differently from conventional approaches."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-09.jpg"
 coverAlt: "Vicji working deep in an assisted stretch session"
@@ -16,7 +16,7 @@ Seven out of ten people who walk into my studio say the same thing, with small v
 
 This is by far the most common reason people come to me. And no wonder. Lower back pain is, according to the World Health Organization, **the leading cause of disability in the world today**.
 
-This piece is about why that happens, and why traditional Thai massage can touch that pain in a way other approaches often can't.
+This piece is about why that happens, and why traditional Thai Massage can touch that pain in a way other approaches often can't.
 
 ## Why the lower back accumulates so much
 
@@ -41,9 +41,9 @@ Lower back pain almost never originates only in the lower back. It's the result 
 
 Local massage might provide a few hours of relief. But if the cause is above or below, the pain comes back.
 
-## How Thai massage works differently
+## How Thai Massage works differently
 
-Traditional Thai massage was developed with an integrated view of the body. It's not a technique that treats isolated points. It moves along **energy lines (sen)** that run through the entire body.
+Traditional Thai Massage was developed with an integrated view of the body. It's not a technique that treats isolated points. It moves along **energy lines (sen)** that run through the entire body.
 
 For lower back pain, this means the work begins **far** from the lower back.
 
@@ -60,11 +60,11 @@ This work takes time. That's why my sessions are long (minimum 1h30, ideally 2h 
 
 ## The session I built exactly for this
 
-Alongside the Traditional Thai massage, I offer a focused session called **Hip Release** (1h30, R$ 250). It was developed for exactly the profile I described above: focus on legs, hips, and lower back, with myofascial release and decompression techniques.
+Alongside the Traditional Thai Massage, I offer a focused session called **Hip Release** (1h30, R$ 250). It was developed for exactly the profile I described above: focus on legs, hips, and lower back, with myofascial release and decompression techniques.
 
 On the energetic side, it works the lower chakras (root and sacral), which are exactly the ones that hold the emotional aspects connected to the body's foundation: survival, safety, stability. Often it's that chronic emotional weight that keeps the lower back locked.
 
-If your main concern is lower back pain and you want to start focused, that's the way in. If you want broader work (full body), the Traditional Thai massage in 2h or 3h covers the lower back region as part of the complete circuit.
+If your main concern is lower back pain and you want to start focused, that's the way in. If you want broader work (full body), the Traditional Thai Massage in 2h or 3h covers the lower back region as part of the complete circuit.
 
 ## What to expect right after the session
 
@@ -108,4 +108,4 @@ It doesn't have to happen. But if it does, welcome it. It's part of the work.
 
 ---
 
-**Have chronic lower back pain and want to try?** [Book the Hip Release session](/en/book) (1h30, R$ 250), or the Traditional Thai massage 2h if you prefer full-body work. We talk first to understand your story, and we work together. Sessions in Atibaia, Brazil, at Espaço Clô. English-speaking, international clients welcome.
+**Have chronic lower back pain and want to try?** [Book the Hip Release session](/en/book) (1h30, R$ 250), or the Traditional Thai Massage 2h if you prefer full-body work. We talk first to understand your story, and we work together. Sessions in Atibaia, Brazil, at Espaço Clô. English-speaking, international clients welcome.

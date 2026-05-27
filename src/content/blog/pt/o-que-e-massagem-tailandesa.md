@@ -32,7 +32,7 @@ Lá, massagem não é serviço. É oferenda. É um ato de cuidado que tem dimens
 
 ## Os três níveis: físico, energético, espiritual
 
-Essa é a parte que mais diferencia a Thai massage de tudo o mais. Ele nasceu integrado, não fragmentado. Quando bem executado, trabalha o corpo em três dimensões simultâneas:
+Essa é a parte que mais diferencia a Thai Massage de tudo o mais. Ele nasceu integrado, não fragmentado. Quando bem executado, trabalha o corpo em três dimensões simultâneas:
 
 **Físico:** liberação muscular profunda, soltura das fáscias, mobilização articular, descompressão da coluna. A parte que dá pra ver e medir.
 
