@@ -41,7 +41,7 @@ Vicji Massagem Tailandesa
 ```
 
 Notes:
-- Use `Massagem Tailandesa` not `Thai Massage` (GBP indexes in local language; this is what Brazilians search)
+- Use `Massagem Tailandesa` not `Thai massage` (GBP indexes in local language; this is what Brazilians search)
 - Don't add city ("Atibaia") to the name. Google will display the city automatically, and adding it triggers a name-stuffing penalty.
 - Don't add the studio name ("Espaço Clô") to the business name. The studio is a venue, not part of his brand.
 
@@ -144,13 +144,13 @@ Google asks how to verify:
 After verification, fill in this description. **Copy/paste exactly** (750 characters, Portuguese):
 
 ```
-Massagem tailandesa tradicional em Atibaia, no Espaço Clô. Vicji aprendeu a prática
-na Sunshine Massage School, em Chiang Mai, Tailândia, e trouxe pro Brasil o trabalho
-corporal que respeita o tempo do corpo: presença, ritmo meditativo, alongamentos
-assistidos e pressão consciente nas linhas de energia (sen). Sessões de 60, 90 ou 120
-minutos. Atendimento sob agendamento via WhatsApp. Atende brasileiros e clientes
-internacionais (inglês fluente). Aceita Pix e dinheiro (reais, dólar, euro). Em breve
-em Itacaré, Bahia.
+A Thai massage tradicional em Atibaia, no Espaço Clô. Vicji se formou massagista
+na Tailândia, aprofundou em yoga na Índia, e oferece um trabalho corporal integrado
+em três dimensões: físico, energético e espiritual. Único no Brasil oferecendo esse
+atendimento. Sessões de Thai Massage Tradicional (2h ou 3h) e Liberação de Quadril
+(1h30). Atendimento sob agendamento via WhatsApp. Brasileiros e clientes
+internacionais (inglês fluente). Pix, dinheiro, cartão de crédito ou débito, e
+moedas estrangeiras (USD, EUR). Em breve em Itacaré, Bahia.
 ```
 
 ---
@@ -160,22 +160,22 @@ em Itacaré, Bahia.
 Add each session as a separate Service:
 
 ### Service 1
-- **Name:** Massagem Tailandesa, 60 minutos
+- **Name:** Thai Massage Tradicional, 2 horas
 - **Category:** Massagem
-- **Price:** R$ 390
-- **Description:** Sessão essencial. Corpo inteiro, ritmo meditativo, alongamentos assistidos e pressão consciente nas linhas de energia (sen). Boa para conhecer o trabalho.
+- **Price:** R$ 330
+- **Description:** Sessão completa de Thai massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
 
 ### Service 2
-- **Name:** Massagem Tailandesa, 90 minutos
+- **Name:** Thai Massage Tradicional, 3 horas (imersiva)
 - **Category:** Massagem
-- **Price:** R$ 540
-- **Description:** Sessão recomendada. Tempo para o corpo desacelerar de verdade. Trabalho mais profundo em áreas de maior tensão, sem perder o ritmo da prática.
+- **Price:** R$ 480
+- **Description:** A experiência completa. Cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar. Trabalho profundo nos três níveis: físico, energético, espiritual.
 
 ### Service 3
-- **Name:** Massagem Tailandesa Completa, 120 minutos
+- **Name:** Liberação de Quadril, 1h30
 - **Category:** Massagem
-- **Price:** R$ 680
-- **Description:** Sessão imersiva. A experiência completa, cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar.
+- **Price:** R$ 250
+- **Description:** Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.
 
 ---
 

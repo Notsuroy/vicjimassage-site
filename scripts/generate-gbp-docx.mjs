@@ -359,15 +359,15 @@ children.push(rich([
   { text: ' (750 characters, Portuguese):' },
 ]));
 children.push(codeBlock([
-  'Massagem tailandesa tradicional em Atibaia, no Espaço Clô. Vicji',
-  'aprendeu a prática na Sunshine Massage School, em Chiang Mai,',
-  'Tailândia, e trouxe pro Brasil o trabalho corporal que respeita',
-  'o tempo do corpo: presença, ritmo meditativo, alongamentos',
-  'assistidos e pressão consciente nas linhas de energia (sen).',
-  'Sessões de 60, 90 ou 120 minutos. Atendimento sob agendamento',
-  'via WhatsApp. Atende brasileiros e clientes internacionais',
-  '(inglês fluente). Aceita Pix e dinheiro (reais, dólar, euro).',
-  'Em breve em Itacaré, Bahia.',
+  'A Thai massage tradicional em Atibaia, no Espaço Clô. Vicji se',
+  'formou massagista na Tailândia, aprofundou em yoga na Índia, e',
+  'oferece um trabalho corporal integrado em três dimensões: físico,',
+  'energético e espiritual. Único no Brasil oferecendo esse',
+  'atendimento. Sessões de Thai Massage Tradicional (2h ou 3h) e',
+  'Liberação de Quadril (1h30). Atendimento sob agendamento via',
+  'WhatsApp. Brasileiros e clientes internacionais (inglês fluente).',
+  'Pix, dinheiro, cartão de crédito ou débito, e moedas estrangeiras',
+  '(USD, EUR). Em breve em Itacaré, Bahia.',
 ]));
 
 children.push(hr());
@@ -383,9 +383,9 @@ const svc = (n, name, price, desc) => [
   rich([{ text: 'Price: ', bold: true }, { text: price }]),
   rich([{ text: 'Description: ', bold: true }, { text: desc }]),
 ];
-children.push(...svc(1, 'Massagem Tailandesa, 60 minutos', 'R$ 390', 'Sessão essencial. Corpo inteiro, ritmo meditativo, alongamentos assistidos e pressão consciente nas linhas de energia (sen). Boa para conhecer o trabalho.'));
-children.push(...svc(2, 'Massagem Tailandesa, 90 minutos', 'R$ 540', 'Sessão recomendada. Tempo para o corpo desacelerar de verdade. Trabalho mais profundo em áreas de maior tensão, sem perder o ritmo da prática.'));
-children.push(...svc(3, 'Massagem Tailandesa Completa, 120 minutos', 'R$ 680', 'Sessão imersiva. A experiência completa, cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar.'));
+children.push(...svc(1, 'Thai Massage Tradicional, 2 horas', 'R$ 330', 'Sessão completa de Thai massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.'));
+children.push(...svc(2, 'Thai Massage Tradicional, 3 horas (imersiva)', 'R$ 480', 'A experiência completa. Cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar. Trabalho profundo nos três níveis: físico, energético, espiritual.'));
+children.push(...svc(3, 'Liberação de Quadril, 1h30', 'R$ 250', 'Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.'));
 
 children.push(hr());
 

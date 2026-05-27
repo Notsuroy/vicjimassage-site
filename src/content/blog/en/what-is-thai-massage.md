@@ -32,7 +32,7 @@ In those traditions, massage isn't a service. It's an offering. It's an act of c
 
 ## The three levels: physical, energetic, spiritual
 
-This is what most distinguishes Thai Massage from everything else. It was born integrated, not fragmented. When practiced well, it works the body on three simultaneous dimensions:
+This is what most distinguishes Thai massage from everything else. It was born integrated, not fragmented. When practiced well, it works the body on three simultaneous dimensions:
 
 **Physical:** deep muscular release, fascia softening, joint mobilization, spinal decompression. The part you can see and measure.
 
@@ -118,7 +118,7 @@ Each has its place. Thai is the one I practice because, in my experience, it mos
 
 Today I work with two types of session:
 
-- **Traditional Thai Massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
+- **Traditional Thai massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
 - **Hip Release Session (1h30):** focused on the foundation of the body. Hips, legs, lower back, and the lower chakras. Shorter but no less deep.
 
 Traditional sessions in Thailand can last two or three hours. I keep that tradition here. The difference between a quick spa session and the real work isn't just "more time" — it's the difference between scratching the surface and actually going in.
