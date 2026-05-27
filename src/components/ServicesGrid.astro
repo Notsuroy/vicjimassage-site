@@ -120,13 +120,19 @@ function fxLine(brl: number) {
                     <span class={svc.highlight ? 'text-sand' : 'text-ink'}>
                       {opt.label[lang]}
                     </span>
-                    <span class={`font-display text-2xl ${svc.highlight ? 'text-gold' : 'text-ocean'}`}>
-                      {opt.priceDisplay}
-                    </span>
+                    {lang === 'en' ? (
+                      <span class={`font-display text-xl sm:text-2xl whitespace-nowrap ${svc.highlight ? 'text-gold' : 'text-ocean'}`}>
+                        {fxLine(opt.price)}
+                      </span>
+                    ) : (
+                      <span class={`font-display text-2xl ${svc.highlight ? 'text-gold' : 'text-ocean'}`}>
+                        {opt.priceDisplay}
+                      </span>
+                    )}
                   </div>
                   {lang === 'en' && (
                     <div class={`text-xs text-right mt-0.5 ${svc.highlight ? 'text-sand/60' : 'text-ink-muted/70'}`}>
-                      {fxLine(opt.price)}
+                      {opt.priceDisplay}
                     </div>
                   )}
                 </div>
