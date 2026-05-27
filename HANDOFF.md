@@ -76,3 +76,6 @@ Personal-brand website for **Vicji**, traditional Thai massage therapist based i
 | 2026-05-04 | Domain registered on registro.br |
 | 2026-05-04 | Cloudflare zone created, nameservers swapped (`boyd`/`maeve`) |
 | 2026-05-04 | Astro v1 scaffolded, PT pages built, pushed to GitHub |
+| 2026-05-04 | Cloudflare Pages project `vicjimassage-site` created and deployed |
+| 2026-05-04 | Custom domains attached: apex + www → Pages, both serving 200 |
+| 2026-05-04 | GitHub Actions auto-deploy workflow added (`.github/workflows/deploy.yml`); secrets `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` set on repo |

@@ -14,7 +14,13 @@ npm run dev
 ```
 
 ## Deploy
-Automatic on push to `main` via Cloudflare Pages.
+Automatic on push to `main` via GitHub Actions (`.github/workflows/deploy.yml`) → Cloudflare Pages.
+
+Manual deploy fallback:
+```bash
+npm run build
+npx wrangler pages deploy dist --project-name vicjimassage-site
+```
 
 ## Structure
 - `src/data/site.json` — site-wide config (contact, brand, business info)
