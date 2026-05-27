@@ -1,0 +1,76 @@
+---
+import site from '~/data/site.json';
+
+export interface Props {
+  lang: 'pt' | 'en';
+}
+
+const { lang } = Astro.props;
+
+const content = {
+  pt: {
+    eyebrow: 'Massagem tailandesa tradicional',
+    headline: 'Trabalho corporal que respeita o tempo do corpo.',
+    sub: 'Aprendi na Tailândia, pratico em Atibaia. Sessões para quem busca presença, alívio e uma forma mais antiga de cuidar do corpo.',
+    primary: 'Agendar uma sessão',
+    secondary: 'Conhecer o trabalho',
+    primaryHref: '/agendar',
+    secondaryHref: '/sobre',
+    proof: `★★★★★  ·  Mais de 100 sessões  ·  @${site.contact.instagram} · ${site.contact.instagramFollowers} seguidores`,
+  },
+  en: {
+    eyebrow: 'Traditional Thai bodywork',
+    headline: 'Bodywork that respects the body\'s own pace.',
+    sub: 'I learned it in Thailand, I practice it in Atibaia. Sessions for those seeking presence, relief, and a more ancient way of caring for the body.',
+    primary: 'Book a session',
+    secondary: 'See the work',
+    primaryHref: '/en/book',
+    secondaryHref: '/en/about',
+    proof: `★★★★★  ·  100+ sessions delivered  ·  @${site.contact.instagram} · ${site.contact.instagramFollowers} followers`,
+  },
+};
+
+const c = content[lang];
+---
+
+<section class="relative overflow-hidden">
+  <!-- Photo background placeholder; replace with Vicji's park photo -->
+  <div class="absolute inset-0 z-0">
+    <div class="absolute inset-0 bg-gradient-to-br from-ocean-dark via-ocean to-palm-dark"></div>
+    <div class="absolute inset-0 bg-[url('/hero-placeholder.svg')] bg-cover bg-center opacity-60 mix-blend-overlay"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/80 via-transparent to-transparent"></div>
+  </div>
+
+  <div class="relative z-10 container-wide pt-24 pb-32 sm:pt-32 sm:pb-40 lg:pt-40 lg:pb-48">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-3 mb-6">
+        <span class="h-px w-12 bg-gold"></span>
+        <span class="text-gold uppercase tracking-widest2 text-xs font-medium">{c.eyebrow}</span>
+      </div>
+
+      <h1 class="font-display text-5xl sm:text-6xl lg:text-7xl text-sand leading-[1.05] mb-8">
+        {c.headline}
+      </h1>
+
+      <p class="text-sand/90 text-lg sm:text-xl leading-relaxed max-w-2xl mb-10 font-light">
+        {c.sub}
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href={c.primaryHref} class="btn-primary !bg-terracotta hover:!bg-terracotta-dark">
+          {c.primary}
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href={c.secondaryHref} class="btn-secondary !border-sand/40 !text-sand hover:!bg-sand/10 hover:!border-sand/70">
+          {c.secondary}
+        </a>
+      </div>
+
+      <div class="mt-12 text-sand/70 text-sm tracking-wide">
+        {c.proof}
+      </div>
+    </div>
+  </div>
+</section>

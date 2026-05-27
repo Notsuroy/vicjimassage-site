@@ -1,0 +1,77 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+---
+<BaseLayout
+  title="Sobre — Vicji Massage"
+  description="A história de Vicji: brasileiro, terapeuta tailandês treinado em Chiang Mai, atendendo em Atibaia."
+  lang="pt"
+  path="/sobre"
+>
+  <section class="py-24 sm:py-32">
+    <div class="container-narrow">
+      <div class="label-overline mb-4">A história</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-12 leading-tight">
+        Voltei pra casa pra fazer um trabalho que aprendi do outro lado do mundo.
+      </h1>
+
+      <div class="aspect-[16/10] bg-gradient-to-br from-palm to-ocean rounded-2xl mb-12 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('/portrait-placeholder.svg')] bg-cover bg-center opacity-80"></div>
+        <div class="absolute bottom-6 left-6 text-sand/80 text-xs uppercase tracking-widest2">
+          [Foto principal aqui]
+        </div>
+      </div>
+
+      <div class="prose-soft space-y-6">
+        <p class="font-display italic text-2xl text-ink leading-snug">
+          [TODO: Texto baseado no áudio que o Vicji gravar. Esse aqui é placeholder com o tom certo.]
+        </p>
+
+        <p>
+          Meu nome é Vicji. Sou brasileiro, e a massagem entrou na minha vida como uma pergunta — não como uma profissão. Eu queria entender como o corpo guarda o que a gente vive, e como ele se desfaz disso quando recebe o cuidado certo.
+        </p>
+
+        <p>
+          Essa pergunta me levou pra Tailândia. Estudei na Sunshine Massage School, em Chiang Mai, onde aprendi a prática tradicional tailandesa direto da fonte: a pressão nas linhas de energia (sen), os alongamentos passivos, o ritmo meditativo, o trabalho com a respiração. Tudo o que torna a massagem tailandesa diferente de tudo o que se vê por aqui.
+        </p>
+
+        <p>
+          Voltei pro Brasil porque sentia que esse trabalho fazia falta aqui. A gente vive num ritmo que machuca o corpo de formas que a gente nem percebe — e a maioria das massagens que existem no mercado tratam só o sintoma, não a raiz.
+        </p>
+
+        <p>
+          Hoje atendo em Atibaia, no Espaço Clô. No final do ano vou pra Itacaré, levando essa prática pra perto do mar.
+        </p>
+
+        <p>
+          Cada sessão que eu faço é uma extensão do que aprendi: presença, respeito pelo corpo na minha frente, e tempo. Sem pressa. Sem técnica vazia. Só o trabalho.
+        </p>
+      </div>
+
+      <div class="divider-ornament"></div>
+
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="label-overline mb-2">Formação</div>
+          <p class="text-ink">
+            Sunshine Massage School — Chiang Mai, Tailândia
+          </p>
+          <p class="text-ink-muted text-sm mt-2">
+            Prática traditional Thai massage na fonte, em uma das escolas mais respeitadas do norte da Tailândia.
+          </p>
+        </div>
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="label-overline mb-2">Prática contínua</div>
+          <p class="text-ink">
+            Mais de 100 sessões realizadas
+          </p>
+          <p class="text-ink-muted text-sm mt-2">
+            O que aprendi na Tailândia, eu aprofundo a cada sessão. Cada corpo é um novo livro.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <FinalCTA lang="pt" />
+</BaseLayout>

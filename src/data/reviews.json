@@ -1,0 +1,67 @@
+{
+  "_note": "PLACEHOLDER reviews — Suroy has the real ones, will replace this file when he sends them.",
+  "aggregate": {
+    "count": 100,
+    "rating": 5.0,
+    "sources": ["WhatsApp", "Instagram"]
+  },
+  "themes": {
+    "pt": [
+      { "id": "all", "label": "Todas" },
+      { "id": "relax", "label": "Relaxamento profundo" },
+      { "id": "pain", "label": "Dor e tensão" },
+      { "id": "athletic", "label": "Atletas e recuperação" },
+      { "id": "first", "label": "Primeira vez" },
+      { "id": "international", "label": "Internacional" }
+    ],
+    "en": [
+      { "id": "all", "label": "All" },
+      { "id": "relax", "label": "Deep relaxation" },
+      { "id": "pain", "label": "Pain and tension" },
+      { "id": "athletic", "label": "Athletes and recovery" },
+      { "id": "first", "label": "First time" },
+      { "id": "international", "label": "International" }
+    ]
+  },
+  "reviews": [
+    {
+      "id": "placeholder-1",
+      "author": "Suroy T.",
+      "city": "Toronto, Canadá",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["relax", "international"],
+      "lang": "en",
+      "original": "Best massage I've ever received, and I've gotten a lot of them over the years. Vicji has a presence and intuition that's rare. You can feel that he actually cares about what he's doing.",
+      "translated": {
+        "pt": "A melhor massagem que eu já recebi, e eu já recebi muitas ao longo dos anos. O Vicji tem uma presença e uma intuição que é rara. Dá pra sentir que ele realmente se importa com o que está fazendo."
+      }
+    },
+    {
+      "id": "placeholder-2",
+      "author": "[Cliente]",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["relax", "first"],
+      "lang": "pt",
+      "original": "[PLACEHOLDER — review real do Vicji aqui]",
+      "translated": {
+        "en": "[PLACEHOLDER — Vicji's real review here]"
+      }
+    },
+    {
+      "id": "placeholder-3",
+      "author": "[Cliente]",
+      "city": "São Paulo",
+      "date": "2026",
+      "source": "Instagram",
+      "themes": ["pain"],
+      "lang": "pt",
+      "original": "[PLACEHOLDER — review real do Vicji aqui]",
+      "translated": {
+        "en": "[PLACEHOLDER]"
+      }
+    }
+  ]
+}

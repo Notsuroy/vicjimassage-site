@@ -1,0 +1,79 @@
+---
+export interface Props {
+  lang: 'pt' | 'en';
+}
+const { lang } = Astro.props;
+
+const content = {
+  pt: {
+    overline: 'Por que isso importa',
+    headline: 'A maioria de nós esqueceu como é estar realmente presente no próprio corpo.',
+    body: [
+      'Trabalho sentado, telas, prazos, agitação. O corpo acumula tensão em camadas que ficam invisíveis até virarem dor.',
+      'A massagem tailandesa é uma prática antiga, feita pra desfazer isso devagar. Não é spa, não é "tratamento". É uma forma de voltar pra dentro.',
+    ],
+    cards: [
+      {
+        title: 'Tradição ancestral',
+        body: 'Mais de 2500 anos de prática, originada nos templos da Tailândia. Pressão consciente nas linhas de energia (sen) combinada com alongamentos passivos.',
+      },
+      {
+        title: 'Ritmo meditativo',
+        body: 'Sessões longas, sem pressa. O corpo precisa de tempo pra desacelerar de verdade — não de um spa rápido com música ambiente.',
+      },
+      {
+        title: 'Trabalho integrado',
+        body: 'Corpo, respiração, energia. Saio de uma sessão diferente de como entrei — não só relaxado, mas mais conectado.',
+      },
+    ],
+  },
+  en: {
+    overline: 'Why this matters',
+    headline: 'Most of us have forgotten what it feels like to really be present in our own body.',
+    body: [
+      'Desk work, screens, deadlines, noise. The body accumulates tension in layers that stay invisible until they become pain.',
+      "Thai massage is an ancient practice, designed to unwind that slowly. It's not a spa, it's not a 'treatment'. It's a way of coming back inside.",
+    ],
+    cards: [
+      {
+        title: 'Ancient tradition',
+        body: 'Over 2,500 years of practice, born in the temples of Thailand. Conscious pressure along the energy lines (sen) combined with assisted stretching.',
+      },
+      {
+        title: 'Meditative pace',
+        body: "Long sessions, no rush. The body needs time to truly slow down — not a quick spa visit with ambient music.",
+      },
+      {
+        title: 'Integrated work',
+        body: "Body, breath, energy. You leave a session different from how you entered — not just relaxed, but more connected.",
+      },
+    ],
+  },
+};
+
+const c = content[lang];
+---
+
+<section class="py-24 sm:py-32">
+  <div class="container-wide">
+    <div class="max-w-narrow mx-auto text-center mb-16">
+      <div class="label-overline mb-4">{c.overline}</div>
+      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-8 leading-tight">
+        {c.headline}
+      </h2>
+      {c.body.map(p => (
+        <p class="text-ink-muted text-lg leading-relaxed mb-4 max-w-prose mx-auto">{p}</p>
+      ))}
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-16">
+      {c.cards.map((card, i) => (
+        <div class="bg-white/60 backdrop-blur-sm rounded-2xl p-8 border border-sand-deep/30 hover:shadow-soft transition-shadow duration-500">
+          <div class="text-gold font-display text-3xl mb-4">{String(i + 1).padStart(2, '0')}</div>
+          <h3 class="font-display text-2xl text-ocean mb-3">{card.title}</h3>
+          <p class="text-ink-muted leading-relaxed">{card.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

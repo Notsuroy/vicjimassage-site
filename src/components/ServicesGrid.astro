@@ -1,0 +1,88 @@
+---
+import services from '~/data/services.json';
+
+export interface Props {
+  lang: 'pt' | 'en';
+  showAll?: boolean;
+}
+const { lang, showAll = false } = Astro.props;
+
+const content = {
+  pt: {
+    overline: 'O que ofereço',
+    headline: 'Sessões para diferentes ritmos.',
+    sub: 'Toda sessão é massagem tailandesa tradicional. O que muda é a profundidade do trabalho que o tempo permite.',
+    recommended: 'Recomendada',
+    book: 'Agendar',
+    seeAll: 'Ver tudo sobre as sessões',
+    seeAllHref: '/servicos',
+  },
+  en: {
+    overline: 'What I offer',
+    headline: 'Sessions for different rhythms.',
+    sub: 'Every session is traditional Thai massage. What changes is the depth of work that time allows.',
+    recommended: 'Recommended',
+    book: 'Book',
+    seeAll: 'Learn more about the sessions',
+    seeAllHref: '/en/services',
+  },
+};
+
+const c = content[lang];
+const items = showAll ? services.services : services.services;
+const bookHref = lang === 'pt' ? '/agendar' : '/en/book';
+---
+
+<section class="py-24 sm:py-32">
+  <div class="container-wide">
+    <div class="max-w-narrow mx-auto text-center mb-16">
+      <div class="label-overline mb-4">{c.overline}</div>
+      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-6">{c.headline}</h2>
+      <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      {items.map(svc => (
+        <div class={`relative rounded-2xl p-8 transition-all duration-500 ${
+          svc.highlight
+            ? 'bg-ocean text-sand shadow-soft md:-translate-y-4 ring-2 ring-gold'
+            : 'bg-white/60 backdrop-blur-sm border border-sand-deep/30 hover:shadow-soft'
+        }`}>
+          {svc.highlight && (
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-ocean-dark text-xs uppercase tracking-widest2 px-4 py-1 rounded-full font-medium">
+              {c.recommended}
+            </div>
+          )}
+          <div class={`text-sm uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
+            {svc.duration}
+          </div>
+          <h3 class={`font-display text-2xl mb-4 ${svc.highlight ? 'text-sand' : 'text-ocean'}`}>
+            {svc.name[lang]}
+          </h3>
+          <p class={`text-base leading-relaxed mb-6 ${svc.highlight ? 'text-sand/85' : 'text-ink-muted'}`}>
+            {svc.description[lang]}
+          </p>
+          <div class={`font-display text-3xl mb-6 ${svc.highlight ? 'text-gold' : 'text-ocean'}`}>
+            {svc.priceDisplay}
+          </div>
+          <a
+            href={bookHref}
+            class={svc.highlight
+              ? 'inline-flex items-center justify-center w-full py-3 rounded-full bg-terracotta text-sand font-medium hover:bg-terracotta-dark transition-colors'
+              : 'inline-flex items-center justify-center w-full py-3 rounded-full border border-ocean/30 text-ocean font-medium hover:bg-ocean/5 transition-colors'}
+          >
+            {c.book}
+          </a>
+        </div>
+      ))}
+    </div>
+
+    {!showAll && (
+      <div class="text-center mt-12">
+        <a href={c.seeAllHref} class="text-ocean hover:text-terracotta transition-colors font-medium underline underline-offset-4 decoration-gold/50">
+          {c.seeAll} →
+        </a>
+      </div>
+    )}
+  </div>
+</section>

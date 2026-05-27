@@ -1,0 +1,59 @@
+{
+  "_note": "PLACEHOLDER pricing — confirm with Vicji. Base price ~€60 = R$390 (rate at build time). Session lengths and modalities to be confirmed.",
+  "currency": "BRL",
+  "currencySymbol": "R$",
+  "services": [
+    {
+      "id": "thai-60",
+      "duration": "60 min",
+      "price": 390,
+      "priceDisplay": "R$ 390",
+      "name": {
+        "pt": "Massagem Tailandesa — 60 minutos",
+        "en": "Thai Massage — 60 minutes"
+      },
+      "description": {
+        "pt": "Sessão essencial. Corpo inteiro, ritmo meditativo, alongamentos assistidos e pressão consciente nas linhas de energia (sen).",
+        "en": "Essential session. Full body, meditative pace, assisted stretching, and conscious pressure along the energy lines (sen)."
+      },
+      "highlight": false
+    },
+    {
+      "id": "thai-90",
+      "duration": "90 min",
+      "price": 540,
+      "priceDisplay": "R$ 540",
+      "name": {
+        "pt": "Massagem Tailandesa — 90 minutos",
+        "en": "Thai Massage — 90 minutes"
+      },
+      "description": {
+        "pt": "Sessão recomendada. Tempo para o corpo desacelerar de verdade. Trabalho mais profundo em áreas de maior tensão, sem perder o ritmo da prática.",
+        "en": "Recommended session. Time for the body to truly slow down. Deeper work in areas of tension, without losing the rhythm of the practice."
+      },
+      "highlight": true
+    },
+    {
+      "id": "thai-120",
+      "duration": "120 min",
+      "price": 680,
+      "priceDisplay": "R$ 680",
+      "name": {
+        "pt": "Massagem Tailandesa Completa — 120 minutos",
+        "en": "Full Thai Massage — 120 minutes"
+      },
+      "description": {
+        "pt": "Sessão imersiva. A experiência completa: cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar.",
+        "en": "Immersive session. The full experience: head to toe, with enough time for the nervous system to settle. Ideal for those who haven't truly stopped in a long time."
+      },
+      "highlight": false
+    }
+  ],
+  "_pendingConfirmation": [
+    "Confirm actual prices",
+    "Confirm if foot-only or partial sessions offered",
+    "Confirm if couples/duo sessions offered",
+    "Confirm if herbal compress (Luk Pra Kob) offered",
+    "Confirm house-call vs studio-only"
+  ]
+}

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #F5EFE6;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(122, 155, 110, 0.06), transparent 40%),
+      radial-gradient(circle at 80% 90%, rgba(212, 133, 91, 0.05), transparent 50%);
+    background-attachment: fixed;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+    color: #2C3539;
+  }
+  h1 { font-weight: 500; }
+  h2 { font-weight: 500; }
+  ::selection { background-color: rgba(212, 133, 91, 0.3); }
+}
+
+@layer components {
+  .container-narrow {
+    @apply max-w-narrow mx-auto px-6 sm:px-8;
+  }
+  .container-wide {
+    @apply max-w-content mx-auto px-6 sm:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full
+           bg-ocean text-sand font-medium tracking-wide
+           hover:bg-ocean-dark transition-all duration-300
+           shadow-soft hover:shadow-lg hover:-translate-y-0.5;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full
+           border border-ocean/30 text-ocean font-medium tracking-wide
+           hover:bg-ocean/5 hover:border-ocean/60 transition-all duration-300;
+  }
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full
+           bg-[#25D366] text-white font-medium tracking-wide
+           hover:bg-[#1FAA52] transition-all duration-300
+           shadow-soft hover:shadow-lg hover:-translate-y-0.5;
+  }
+  .label-overline {
+    @apply text-xs uppercase tracking-widest2 text-terracotta font-medium;
+  }
+  .prose-soft p {
+    @apply text-ink-muted leading-relaxed text-lg;
+  }
+  .divider-ornament {
+    @apply flex items-center justify-center gap-3 my-12 text-gold/60;
+  }
+  .divider-ornament::before,
+  .divider-ornament::after {
+    content: '';
+    @apply h-px w-12 bg-gold/30;
+  }
+}
+
+/* Reviews wall card */
+.review-card {
+  @apply bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-card border border-sand-deep/40
+         transition-all duration-500 hover:shadow-soft hover:-translate-y-1;
+}
+
+/* Subtle texture overlay for hero */
+.texture-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(20, 62, 71, 0.4) 100%);
+  pointer-events: none;
+}

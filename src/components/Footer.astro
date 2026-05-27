@@ -1,0 +1,117 @@
+---
+import site from '~/data/site.json';
+
+export interface Props {
+  lang: 'pt' | 'en';
+}
+
+const { lang } = Astro.props;
+
+const labels = {
+  pt: {
+    contact: 'Contato',
+    location: 'Estúdio',
+    hours: 'Horário',
+    follow: 'Acompanhe',
+    rights: 'Todos os direitos reservados',
+    nav: 'Navegação',
+    home: 'Início',
+    about: 'Sobre',
+    services: 'Serviços',
+    book: 'Agendar',
+  },
+  en: {
+    contact: 'Contact',
+    location: 'Studio',
+    hours: 'Hours',
+    follow: 'Follow',
+    rights: 'All rights reserved',
+    nav: 'Navigation',
+    home: 'Home',
+    about: 'About',
+    services: 'Services',
+    book: 'Book',
+  },
+};
+
+const t = labels[lang];
+const navLinks = lang === 'pt'
+  ? [
+      { href: '/', label: t.home },
+      { href: '/sobre', label: t.about },
+      { href: '/servicos', label: t.services },
+      { href: '/agendar', label: t.book },
+    ]
+  : [
+      { href: '/en/', label: t.home },
+      { href: '/en/about', label: t.about },
+      { href: '/en/services', label: t.services },
+      { href: '/en/book', label: t.book },
+    ];
+---
+
+<footer class="mt-32 bg-ocean text-sand/90">
+  <div class="container-wide py-16">
+    <div class="grid md:grid-cols-4 gap-12">
+
+      <div class="md:col-span-1">
+        <div class="font-display text-3xl text-sand mb-3">Vicji</div>
+        <p class="text-sand/70 text-sm leading-relaxed">
+          {site.brand.shortDescription[lang]}
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-sand text-sm uppercase tracking-widest2 mb-4 font-sans font-medium">
+          {t.location}
+        </h4>
+        <address class="not-italic text-sand/70 text-sm leading-relaxed">
+          <strong class="text-sand">{site.location.studio}</strong><br />
+          {site.location.street}<br />
+          {site.location.neighborhood}<br />
+          {site.location.city} — {site.location.state}<br />
+          {site.location.postalCode}
+        </address>
+      </div>
+
+      <div>
+        <h4 class="text-sand text-sm uppercase tracking-widest2 mb-4 font-sans font-medium">
+          {t.hours}
+        </h4>
+        <p class="text-sand/70 text-sm leading-relaxed">{site.hours[lang]}</p>
+
+        <h4 class="text-sand text-sm uppercase tracking-widest2 mb-4 mt-6 font-sans font-medium">
+          {t.follow}
+        </h4>
+        <a href={site.contact.instagramUrl} class="text-sand/70 text-sm hover:text-gold transition-colors inline-flex items-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+          </svg>
+          @{site.contact.instagram} · {site.contact.instagramFollowers}
+        </a>
+      </div>
+
+      <div>
+        <h4 class="text-sand text-sm uppercase tracking-widest2 mb-4 font-sans font-medium">
+          {t.nav}
+        </h4>
+        <ul class="space-y-2">
+          {navLinks.map(link => (
+            <li>
+              <a href={link.href} class="text-sand/70 text-sm hover:text-gold transition-colors">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-12 pt-8 border-t border-sand/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-sand/50">
+      <div>© {new Date().getFullYear()} Vicji Massage. {t.rights}.</div>
+      <div class="font-display italic text-sand/40">{site.brand.tagline[lang]}</div>
+    </div>
+  </div>
+</footer>

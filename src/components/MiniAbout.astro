@@ -1,0 +1,67 @@
+---
+export interface Props {
+  lang: 'pt' | 'en';
+}
+const { lang } = Astro.props;
+
+const content = {
+  pt: {
+    overline: 'Quem te atende',
+    headline: 'Vicji',
+    subhead: 'Brasileiro, terapeuta, viajante.',
+    body: [
+      'Comecei minha jornada com massagem buscando uma forma mais íntegra de cuidar do corpo. Viajei pra Tailândia pra estudar na fonte — na Sunshine Massage School, em Chiang Mai — onde aprendi a prática tradicional que carrego comigo até hoje.',
+      'Voltei pro Brasil pra oferecer esse trabalho aqui. Hoje atendo em Atibaia, no Espaço Clô, e em breve em Itacaré.',
+      'O que eu trago pra cada sessão é o que a tradição me ensinou: presença, ritmo, e respeito pelo corpo que está na minha frente.',
+    ],
+    cta: 'Ler a história completa',
+    ctaHref: '/sobre',
+  },
+  en: {
+    overline: 'Who you\'ll work with',
+    headline: 'Vicji',
+    subhead: 'Brazilian, therapist, traveler.',
+    body: [
+      'I started my journey with massage looking for a more integrated way of caring for the body. I traveled to Thailand to study at the source — at the Sunshine Massage School in Chiang Mai — where I learned the traditional practice I carry with me today.',
+      "I came back to Brazil to offer this work here. Today I see clients in Atibaia, at Espaço Clô, and soon in Itacaré.",
+      'What I bring to each session is what the tradition taught me: presence, rhythm, and respect for the body in front of me.',
+    ],
+    cta: 'Read the full story',
+    ctaHref: '/en/about',
+  },
+};
+
+const c = content[lang];
+---
+
+<section class="py-24 sm:py-32 bg-sand-dark/30">
+  <div class="container-wide">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="relative">
+        <!-- Photo placeholder - swap for Vicji's portrait -->
+        <div class="aspect-[4/5] bg-gradient-to-br from-palm to-ocean rounded-2xl shadow-soft relative overflow-hidden">
+          <div class="absolute inset-0 bg-[url('/portrait-placeholder.svg')] bg-cover bg-center opacity-80"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-sand/80 text-xs uppercase tracking-widest2">
+            [Foto do Vicji aqui]
+          </div>
+        </div>
+        <div class="absolute -bottom-6 -right-6 bg-terracotta rounded-2xl p-6 shadow-card hidden sm:block">
+          <div class="font-display text-4xl text-sand">2500+</div>
+          <div class="text-sand/90 text-xs uppercase tracking-widest2 mt-1">
+            {lang === 'pt' ? 'anos de tradição' : 'years of tradition'}
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="label-overline mb-4">{c.overline}</div>
+        <h2 class="font-display text-5xl sm:text-6xl text-ocean mb-2">{c.headline}</h2>
+        <p class="font-display italic text-2xl text-ink-muted mb-8">{c.subhead}</p>
+        {c.body.map(p => (
+          <p class="text-ink-muted text-lg leading-relaxed mb-4">{p}</p>
+        ))}
+        <a href={c.ctaHref} class="btn-secondary mt-6">{c.cta}</a>
+      </div>
+    </div>
+  </div>
+</section>

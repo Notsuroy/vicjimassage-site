@@ -1,0 +1,49 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import ServicesGrid from '~/components/ServicesGrid.astro';
+import FAQ from '~/components/FAQ.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+---
+<BaseLayout
+  title="Serviços — Vicji Massage"
+  description="Sessões de massagem tailandesa tradicional em Atibaia. 60, 90 ou 120 minutos."
+  lang="pt"
+  path="/servicos"
+>
+  <section class="pt-24 pb-16">
+    <div class="container-narrow text-center">
+      <div class="label-overline mb-4">Serviços</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-6 leading-tight">
+        Sessões pensadas pro corpo que tá na minha frente.
+      </h1>
+      <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
+        Toda sessão é massagem tailandesa tradicional, sem óleo, em futon, com roupa confortável. O que muda é o tempo — e o quanto o corpo permite ir fundo.
+      </p>
+    </div>
+  </section>
+
+  <ServicesGrid lang="pt" showAll={true} />
+
+  <section class="py-24">
+    <div class="container-narrow">
+      <h2 class="font-display text-3xl text-ocean mb-8 text-center">Como é uma sessão comigo</h2>
+      <div class="space-y-6 text-ink-muted leading-relaxed">
+        <p><strong class="text-ink">Chegada.</strong> Conversamos primeiro. Eu quero entender o que tu está sentindo, o que te trouxe aqui, se tem alguma área pra evitar ou pra cuidar com mais atenção.</p>
+        <p><strong class="text-ink">A sessão.</strong> Tu fica deitado num futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Pressão consciente nas linhas de energia, alongamentos passivos, ritmo meditativo. Não tem hora pra terminar — tem o tempo que a gente combinou.</p>
+        <p><strong class="text-ink">Saída.</strong> Eu te deixo uns minutos sozinho no fim, pra integrar. Água, recomendações simples pras próximas horas, e tu vai embora.</p>
+      </div>
+
+      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-12">
+        <h3 class="font-display text-2xl text-ocean mb-4">Pagamento e cancelamento</h3>
+        <ul class="space-y-2 text-ink-muted">
+          <li>• Pix ou dinheiro, na hora da sessão</li>
+          <li>• Cancelamentos com até 24h de antecedência, sem custo</li>
+          <li>• Clientes internacionais: aceito reais, dólar ou euro em dinheiro</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <FAQ lang="pt" />
+  <FinalCTA lang="pt" />
+</BaseLayout>

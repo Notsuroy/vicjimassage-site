@@ -1,0 +1,144 @@
+---
+import reviews from '~/data/reviews.json';
+
+export interface Props {
+  lang: 'pt' | 'en';
+}
+const { lang } = Astro.props;
+
+const content = {
+  pt: {
+    overline: `${reviews.aggregate.count}+ sessões realizadas`,
+    headline: 'O corpo lembra. Eles também.',
+    sub: 'Trechos reais de mensagens que recebi depois das sessões. Filtra por tema, ou rola até estar pronto pra agendar.',
+    filterLabel: 'Filtrar por:',
+    loadMore: 'Mais avaliações',
+    translatedFrom: 'Traduzido do inglês',
+    originalIn: 'Original',
+    via: 'via',
+  },
+  en: {
+    overline: `${reviews.aggregate.count}+ sessions delivered`,
+    headline: 'The body remembers. So do they.',
+    sub: "Real excerpts from messages I've received after sessions. Filter by theme, or scroll until you're ready to book.",
+    filterLabel: 'Filter by:',
+    loadMore: 'More reviews',
+    translatedFrom: 'Translated from Portuguese',
+    originalIn: 'Original in English',
+    via: 'via',
+  },
+};
+
+const c = content[lang];
+const themes = reviews.themes[lang];
+
+function getReviewText(review, currentLang) {
+  if (review.lang === currentLang) return { text: review.original, label: c.originalIn };
+  const translated = review.translated?.[currentLang];
+  if (translated) {
+    const label = review.lang === 'en' ? (currentLang === 'pt' ? 'Traduzido do inglês' : c.translatedFrom) : c.translatedFrom;
+    return { text: translated, label };
+  }
+  return { text: review.original, label: '' };
+}
+---
+
+<section class="py-24 sm:py-32 bg-gradient-to-b from-sand to-sand-dark/40">
+  <div class="container-wide">
+    <div class="max-w-narrow mx-auto text-center mb-12">
+      <div class="label-overline mb-4">{c.overline}</div>
+      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-6">{c.headline}</h2>
+      <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
+    </div>
+
+    <!-- Filter chips -->
+    <div class="flex flex-wrap justify-center gap-2 mb-12">
+      <span class="text-sm text-ink-muted self-center mr-2">{c.filterLabel}</span>
+      {themes.map((theme, i) => (
+        <button
+          data-theme={theme.id}
+          class={`review-filter px-4 py-2 rounded-full text-sm transition-all duration-300 ${
+            i === 0
+              ? 'bg-ocean text-sand border border-ocean'
+              : 'bg-white/60 text-ink-muted border border-sand-deep/40 hover:bg-white hover:text-ocean'
+          }`}
+        >
+          {theme.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Reviews grid -->
+    <div id="reviews-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      {reviews.reviews.map((review, idx) => {
+        const r = getReviewText(review, lang);
+        return (
+          <article
+            data-themes={review.themes.join(',')}
+            class={`review-card ${idx >= 9 ? 'hidden' : ''}`}
+          >
+            <div class="flex items-center gap-1 text-gold mb-3">
+              {[1,2,3,4,5].map(() => (
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              ))}
+            </div>
+            <p class="text-ink leading-relaxed font-display text-xl italic mb-6">
+              "{r.text}"
+            </p>
+            <div class="flex items-center justify-between text-sm border-t border-sand-deep/30 pt-4">
+              <div>
+                <div class="text-ink font-medium">{review.author}</div>
+                <div class="text-ink-muted text-xs">{review.city} · {review.date}</div>
+              </div>
+              <div class="text-right">
+                <div class="text-ink-muted text-xs">{c.via} {review.source}</div>
+                {r.label && <div class="text-terracotta text-[10px] uppercase tracking-widest2 mt-1">{r.label}</div>}
+              </div>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    {reviews.reviews.length > 9 && (
+      <div class="text-center mt-12">
+        <button id="load-more-reviews" class="btn-secondary">{c.loadMore}</button>
+      </div>
+    )}
+  </div>
+</section>
+
+<script is:inline>
+  // Filter logic
+  const filters = document.querySelectorAll('.review-filter');
+  const cards = document.querySelectorAll('#reviews-grid .review-card');
+  filters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const theme = btn.getAttribute('data-theme');
+      filters.forEach(f => {
+        f.classList.remove('bg-ocean', 'text-sand', 'border-ocean');
+        f.classList.add('bg-white/60', 'text-ink-muted', 'border-sand-deep/40');
+      });
+      btn.classList.add('bg-ocean', 'text-sand', 'border-ocean');
+      btn.classList.remove('bg-white/60', 'text-ink-muted', 'border-sand-deep/40');
+      cards.forEach(card => {
+        const themes = (card.getAttribute('data-themes') || '').split(',');
+        const show = theme === 'all' || themes.includes(theme);
+        card.classList.toggle('hidden', !show);
+      });
+    });
+  });
+
+  // Load more
+  const loadBtn = document.getElementById('load-more-reviews');
+  if (loadBtn) {
+    loadBtn.addEventListener('click', () => {
+      document.querySelectorAll('#reviews-grid .review-card.hidden').forEach((c, i) => {
+        if (i < 9) c.classList.remove('hidden');
+      });
+      if (document.querySelectorAll('#reviews-grid .review-card.hidden').length === 0) {
+        loadBtn.style.display = 'none';
+      }
+    });
+  }
+</script>

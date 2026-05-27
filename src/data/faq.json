@@ -1,0 +1,62 @@
+{
+  "pt": [
+    {
+      "q": "Preciso me preparar pra primeira sessão?",
+      "a": "Não. Venha como está. A única coisa que ajuda é evitar refeições pesadas nas duas horas antes. Roupas confortáveis (a massagem tailandesa é feita vestido) e o resto eu cuido."
+    },
+    {
+      "q": "Massagem tailandesa dói?",
+      "a": "Não tem que doer. A pressão é firme e o trabalho é profundo, mas o ritmo é meditativo. Eu leio teu corpo durante toda a sessão e ajusto. Tu sempre podes me dizer se algo é demais."
+    },
+    {
+      "q": "Qual a diferença pra massagem sueca ou relaxante?",
+      "a": "A massagem tailandesa é feita sem óleo, com roupa, em um futon no chão. Combina pressão nas linhas de energia (sen) com alongamentos assistidos, parecido com yoga passivo. É mais ativa, mais ritmo, e trabalha o corpo como um todo, incluindo a parte energética."
+    },
+    {
+      "q": "Quantas sessões eu preciso pra sentir resultado?",
+      "a": "Uma sessão já entrega muito. Mas o trabalho corporal funciona em camadas: a segunda sessão é sempre mais profunda que a primeira, porque o teu corpo já confia no processo."
+    },
+    {
+      "q": "Tem alguma contraindicação?",
+      "a": "Gravidez (especialmente primeiro trimestre), febre, lesão recente, ou condição cardiovascular grave: conversa comigo antes. Em quase todos os outros casos, a massagem tailandesa é segura e benéfica."
+    },
+    {
+      "q": "Como funciona o pagamento?",
+      "a": "Pix ou dinheiro, na hora da sessão. Te mando a chave Pix junto com a confirmação do agendamento."
+    },
+    {
+      "q": "E se eu precisar cancelar?",
+      "a": "Sem problema, só me avisa com pelo menos 24h de antecedência pra eu poder oferecer o horário pra outra pessoa."
+    }
+  ],
+  "en": [
+    {
+      "q": "Do I need to prepare for my first session?",
+      "a": "No. Come as you are. The only thing that helps is avoiding heavy meals two hours before. Wear comfortable clothes (Thai massage is done fully clothed) and I'll take care of the rest."
+    },
+    {
+      "q": "Does Thai massage hurt?",
+      "a": "It shouldn't. The pressure is firm and the work is deep, but the pace is meditative. I read your body throughout the session and adjust. You can always tell me if something is too much."
+    },
+    {
+      "q": "How is it different from Swedish or relaxation massage?",
+      "a": "Thai massage is done without oil, fully clothed, on a futon on the floor. It combines pressure along energy lines (sen) with assisted stretching, similar to passive yoga. It's more active, more rhythmic, and works the whole body, including the energetic dimension."
+    },
+    {
+      "q": "How many sessions do I need to feel results?",
+      "a": "One session already delivers a lot. But bodywork works in layers: the second session is always deeper than the first, because your body has learned to trust the process."
+    },
+    {
+      "q": "Are there any contraindications?",
+      "a": "Pregnancy (especially first trimester), fever, recent injury, or serious cardiovascular condition: let me know before. In almost every other case, Thai massage is safe and beneficial."
+    },
+    {
+      "q": "How does payment work?",
+      "a": "Pix or cash, at the time of the session. I'll send you the Pix key along with the booking confirmation. International clients can pay in cash (BRL, USD, or EUR)."
+    },
+    {
+      "q": "What if I need to cancel?",
+      "a": "No problem, just let me know at least 24 hours in advance so I can offer the slot to someone else."
+    }
+  ]
+}

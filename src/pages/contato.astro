@@ -1,0 +1,77 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import site from '~/data/site.json';
+const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.location.mapsQuery)}`;
+---
+<BaseLayout
+  title="Contato — Vicji Massage"
+  description="Como entrar em contato com Vicji. Estúdio no Espaço Clô, Atibaia."
+  lang="pt"
+  path="/contato"
+>
+  <section class="py-24 sm:py-32">
+    <div class="container-narrow">
+      <div class="label-overline mb-4">Contato</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-12 leading-tight">
+        Onde me encontrar.
+      </h1>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <h2 class="font-display text-2xl text-ocean mb-4">Estúdio</h2>
+          <address class="not-italic text-ink-muted leading-relaxed">
+            <strong class="text-ink">{site.location.studio}</strong><br />
+            {site.location.street}<br />
+            {site.location.neighborhood}<br />
+            {site.location.city} — {site.location.state}<br />
+            {site.location.postalCode}
+          </address>
+          <a href={mapsUrl} target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-ocean hover:text-terracotta transition-colors text-sm">
+            Abrir no Google Maps
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <h2 class="font-display text-2xl text-ocean mb-4">Direto</h2>
+          <ul class="space-y-3 text-ink-muted">
+            <li>
+              <span class="block text-xs uppercase tracking-widest2 text-terracotta mb-1">WhatsApp</span>
+              <a href="/agendar" class="text-ink hover:text-ocean">Conversar comigo →</a>
+            </li>
+            <li>
+              <span class="block text-xs uppercase tracking-widest2 text-terracotta mb-1">Instagram</span>
+              <a href={site.contact.instagramUrl} class="text-ink hover:text-ocean">
+                @{site.contact.instagram} · {site.contact.instagramFollowers} seguidores
+              </a>
+            </li>
+            <li>
+              <span class="block text-xs uppercase tracking-widest2 text-terracotta mb-1">Horário</span>
+              <span class="text-ink">{site.hours.pt}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 aspect-[16/9] rounded-2xl overflow-hidden border border-sand-deep/30 bg-sand-dark/30 flex items-center justify-center">
+        <iframe
+          src={`https://www.google.com/maps?q=${encodeURIComponent(site.location.mapsQuery)}&output=embed`}
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="mt-12 bg-sand-dark/30 rounded-2xl p-8 text-center">
+        <div class="label-overline mb-2">Em breve</div>
+        <p class="font-display text-2xl text-ocean">Itacaré, Bahia</p>
+        <p class="text-ink-muted mt-2">
+          {site.location.futureLocation.note.pt}
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

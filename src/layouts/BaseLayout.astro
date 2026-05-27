@@ -1,0 +1,57 @@
+---
+import '~/styles/global.css';
+import Header from '~/components/Header.astro';
+import Footer from '~/components/Footer.astro';
+import WhatsAppFloat from '~/components/WhatsAppFloat.astro';
+import site from '~/data/site.json';
+
+export interface Props {
+  title: string;
+  description?: string;
+  lang?: 'pt' | 'en';
+  path?: string;
+}
+
+const { title, description, lang = 'pt', path = '/' } = Astro.props;
+const desc = description ?? site.seo.defaultDescription[lang];
+const ogImage = '/og-image.jpg';
+
+// hreflang alternates
+const ptPath = path.startsWith('/en') ? path.replace(/^\/en/, '') || '/' : path;
+const enPath = path.startsWith('/en') ? path : `/en${path === '/' ? '' : path}`;
+---
+<!doctype html>
+<html lang={lang === 'pt' ? 'pt-BR' : 'en'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(path, Astro.site).toString()} />
+    <link rel="alternate" hreflang="pt-BR" href={new URL(ptPath, Astro.site).toString()} />
+    <link rel="alternate" hreflang="en" href={new URL(enPath, Astro.site).toString()} />
+    <link rel="alternate" hreflang="x-default" href={new URL(ptPath, Astro.site).toString()} />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:image" content={new URL(ogImage, Astro.site).toString()} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={lang === 'pt' ? 'pt_BR' : 'en_US'} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;600&display=swap" />
+  </head>
+  <body class="bg-sand text-ink font-sans antialiased selection:bg-terracotta/30">
+    <Header lang={lang} currentPath={path} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <WhatsAppFloat lang={lang} />
+  </body>
+</html>

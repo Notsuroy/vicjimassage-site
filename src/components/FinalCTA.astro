@@ -1,0 +1,65 @@
+---
+import site from '~/data/site.json';
+
+export interface Props {
+  lang: 'pt' | 'en';
+}
+const { lang } = Astro.props;
+
+const content = {
+  pt: {
+    overline: 'Pronto pra começar',
+    headline: 'Teu corpo já tá pronto. Marca uma sessão.',
+    sub: 'Atendimento no Espaço Clô, em Atibaia. Mudança pra Itacaré ainda este ano.',
+    primary: 'Agendar agora',
+    secondary: 'WhatsApp direto',
+    primaryHref: '/agendar',
+    address: site.location.fullAddress,
+  },
+  en: {
+    overline: 'Ready to begin',
+    headline: "Your body's already ready. Book a session.",
+    sub: 'Sessions at Espaço Clô, in Atibaia. Relocating to Itacaré later this year.',
+    primary: 'Book now',
+    secondary: 'WhatsApp direct',
+    primaryHref: '/en/book',
+    address: site.location.fullAddress,
+  },
+};
+
+const c = content[lang];
+const whatsapp = site.contact.whatsapp;
+const msg = lang === 'pt'
+  ? 'Oi Vicji! Tenho interesse em agendar uma sessão.'
+  : "Hi Vicji! I'd like to book a session.";
+const whHref = whatsapp.startsWith('TODO') ? '#' : `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
+---
+
+<section class="py-24 sm:py-32 bg-ocean text-sand relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-ocean to-ocean-dark"></div>
+  <div class="absolute inset-0 opacity-10 bg-grain"></div>
+
+  <div class="relative container-narrow text-center">
+    <div class="text-gold uppercase tracking-widest2 text-xs mb-4">{c.overline}</div>
+    <h2 class="font-display text-4xl sm:text-6xl text-sand mb-6 leading-tight">
+      {c.headline}
+    </h2>
+    <p class="text-sand/80 text-lg mb-10 max-w-xl mx-auto">{c.sub}</p>
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href={c.primaryHref} class="btn-primary !bg-terracotta hover:!bg-terracotta-dark">
+        {c.primary}
+      </a>
+      <a href={whHref} target="_blank" rel="noopener" class="btn-whatsapp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/>
+        </svg>
+        {c.secondary}
+      </a>
+    </div>
+
+    <div class="divider-ornament !text-gold/40">
+      <span class="text-gold/60 text-sm font-display italic">{c.address}</span>
+    </div>
+  </div>
+</section>

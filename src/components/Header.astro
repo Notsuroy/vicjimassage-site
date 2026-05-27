@@ -1,0 +1,112 @@
+---
+import site from '~/data/site.json';
+
+export interface Props {
+  lang: 'pt' | 'en';
+  currentPath: string;
+}
+
+const { lang, currentPath } = Astro.props;
+
+const nav = {
+  pt: [
+    { href: '/', label: 'Início' },
+    { href: '/sobre', label: 'Sobre' },
+    { href: '/servicos', label: 'Serviços' },
+    { href: '/agendar', label: 'Agendar' },
+    { href: '/contato', label: 'Contato' },
+  ],
+  en: [
+    { href: '/en/', label: 'Home' },
+    { href: '/en/about', label: 'About' },
+    { href: '/en/services', label: 'Services' },
+    { href: '/en/book', label: 'Book' },
+    { href: '/en/contact', label: 'Contact' },
+  ],
+};
+
+const items = nav[lang];
+const altLangPath = lang === 'pt'
+  ? `/en${currentPath === '/' ? '' : currentPath}`
+  : currentPath.replace(/^\/en/, '') || '/';
+const altLabel = lang === 'pt' ? 'EN' : 'PT';
+const ctaLabel = lang === 'pt' ? 'Agendar sessão' : 'Book a session';
+const ctaHref = lang === 'pt' ? '/agendar' : '/en/book';
+---
+
+<header class="sticky top-0 z-40 bg-sand/85 backdrop-blur-md border-b border-sand-deep/40">
+  <div class="container-wide flex items-center justify-between py-4">
+    <a href={lang === 'pt' ? '/' : '/en/'} class="flex items-baseline gap-2 group">
+      <span class="font-display text-2xl font-semibold text-ocean group-hover:text-terracotta transition-colors">
+        Vicji
+      </span>
+      <span class="font-display italic text-sm text-ink-muted hidden sm:inline">
+        massage
+      </span>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-8">
+      {items.map(item => (
+        <a
+          href={item.href}
+          class={`text-sm tracking-wide transition-colors ${
+            currentPath === item.href
+              ? 'text-ocean font-medium'
+              : 'text-ink-muted hover:text-ocean'
+          }`}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <div class="flex items-center gap-4">
+      <a
+        href={altLangPath}
+        class="text-xs uppercase tracking-widest2 text-ink-muted hover:text-terracotta transition-colors border border-ink-muted/20 rounded-full px-3 py-1.5"
+        aria-label={lang === 'pt' ? 'Switch to English' : 'Mudar para português'}
+      >
+        {altLabel}
+      </a>
+      <a href={ctaHref} class="btn-primary hidden lg:inline-flex !py-2.5 !px-5 text-sm">
+        {ctaLabel}
+      </a>
+    </div>
+
+    <button
+      id="mobile-menu-toggle"
+      class="md:hidden text-ocean p-2"
+      aria-label="Menu"
+    >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <line x1="4" y1="7" x2="20" y2="7" />
+        <line x1="4" y1="12" x2="20" y2="12" />
+        <line x1="4" y1="17" x2="20" y2="17" />
+      </svg>
+    </button>
+  </div>
+
+  <nav id="mobile-menu" class="hidden md:hidden bg-sand border-t border-sand-deep/40">
+    <div class="container-wide py-4 flex flex-col gap-3">
+      {items.map(item => (
+        <a
+          href={item.href}
+          class={`py-2 text-base ${
+            currentPath === item.href ? 'text-ocean font-medium' : 'text-ink-muted'
+          }`}
+        >
+          {item.label}
+        </a>
+      ))}
+      <a href={ctaHref} class="btn-primary mt-3 self-start">{ctaLabel}</a>
+    </div>
+  </nav>
+</header>
+
+<script is:inline>
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => menu.classList.toggle('hidden'));
+  }
+</script>
