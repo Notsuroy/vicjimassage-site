@@ -10,7 +10,7 @@ readingTime: "4 min de leitura"
 lang: "pt"
 ---
 
-Se você nunca fez massagem tailandesa, é normal não saber o que esperar. Massagem tailandesa não é spa. Não tem maca, não tem óleo, não tem roupa de baixo. É outra coisa.
+Se você nunca fez massagem tailandesa, é normal não saber o que esperar. Massagem tailandesa não é spa. É prática milenar de cura e cuidado com o próximo.
 
 Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira sessão. Cinco minutos de leitura e você chega preparado.
 
@@ -21,17 +21,14 @@ Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira s
 Recomendo:
 
 - Calça legging, calça de moletom ou bermuda esportiva
-- Camiseta de manga curta ou regata
+- Camiseta de manga curta, "Top" ou regata
 - Tecido que estica e respira (algodão, dry-fit)
 
-Evita:
+Evitar:
 
 - Calça jeans (não estica)
 - Camisas com botões (incomodam ao deitar)
-- Roupa muito larga (atrapalha os movimentos)
-- Joias, relógio e maquiagem, se possível (deixa em casa, ou tira na hora)
-
-Se esquecer e chegar com roupa errada, eu tenho algumas opções no estúdio. Mas o ideal é vir já preparado.
+- Joias, relógio e maquiagem, se possível (deixar em casa, ou tirar na hora)
 
 ## 2. O que comer (e não comer) antes
 
@@ -65,7 +62,7 @@ Depois disso é que a massagem propriamente dita começa.
 
 ## 4. Como te comunicar comigo durante a sessão
 
-Eu trabalho principalmente em silêncio. Sem conversa fiada. A música tradicional fica baixa, o ambiente fica calmo. Isso é proposital, ajuda o sistema nervoso a desacelerar.
+O trabalho acontece principalmente em silêncio. A música de fundo acompanha toda a sessão, e o ambiente fica calmo e receptivo. Isso é intencional, ajuda o sistema nervoso a desacelerar.
 
 Mas você sempre pode (e deve) falar quando:
 
@@ -87,9 +84,9 @@ Cada corpo responde diferente, mas alguns padrões são comuns:
 
 **Suspiros profundos, bocejos.** O corpo soltando. Acolhe.
 
-**Emoção inesperada.** Algumas pessoas choram. Outras riem. Outras sentem raiva sem saber por quê. O corpo guarda coisas, e às vezes elas pedem passagem quando a tensão sai. Se acontecer com você, tudo bem. Não precisa explicar nem se desculpar. Só sente.
+**Emoção inesperada.** Algumas pessoas choram. Outras riem. Outras sentem raiva sem saber por quê. O corpo guarda coisas, e às vezes elas pedem passagem quando a tensão sai. Se acontecer com você, tudo bem. Não precisa explicar nem se desculpar. Só se permita sentir, sem julgamentos.
 
-**Sensação de "não estar inteiro no corpo".** Comum em sessões mais longas. O sistema nervoso entrou em estado meditativo. Vai voltar.
+**Sensação de estar "fora do corpo".** Comum em sessões mais longas. O sistema nervoso entrou em estado meditativo. É uma sensação mágica, aproveite. Ao momento do término da sessão tudo estará de volta ao normal.
 
 **Sentir mais um lado do corpo que o outro.** O corpo tem assimetrias. A sessão geralmente expõe e ajuda a equilibrar.
 
@@ -121,9 +118,9 @@ A sessão não termina quando você se levanta do futon. As próximas 24 horas s
 
 Acontece, e é normal.
 
-Muita gente diz que a **segunda** sessão é onde o trabalho realmente começa. A primeira, o corpo ainda está descobrindo o que é. Está aprendendo a confiar. Está medindo se isso é seguro.
+A primeira sessão já entrega muito. Mas também depende do quanto você se permite entregar à experiência.
 
-Na segunda, o corpo já chega entregue. E é aí que a profundidade real aparece.
+Muita gente diz que a partir da segunda sessão pode-se notar uma imersão ainda maior.
 
 Então: não julga a prática só pela primeira sessão. Se algo te chamou, dá uma segunda chance.
 

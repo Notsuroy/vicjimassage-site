@@ -20,11 +20,11 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
         <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
           <h2 class="font-display text-2xl text-ocean mb-4">Studio</h2>
           <address class="not-italic text-ink-muted leading-relaxed">
-            <strong class="text-ink">{site.location.studio}</strong><br />
-            {site.location.street}<br />
-            {site.location.neighborhood}<br />
-            {site.location.city}, {site.location.state}<br />
-            {site.location.postalCode}, {site.location.countryEn}
+            <span class="block font-semibold text-ink">{site.location.studio}</span>
+            <span class="block">{site.location.street}</span>
+            <span class="block">{site.location.neighborhood}</span>
+            <span class="block">{site.location.city}, {site.location.state}</span>
+            <span class="block">{site.location.postalCode}, {site.location.countryEn}</span>
           </address>
           <a href={mapsUrl} target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-ocean hover:text-terracotta transition-colors text-sm">
             Open in Google Maps
