@@ -15,11 +15,14 @@ import FinalCTA from '~/components/FinalCTA.astro';
         Voltei pra casa pra fazer um trabalho que aprendi do outro lado do mundo.
       </h1>
 
-      <div class="aspect-[16/10] bg-gradient-to-br from-palm to-ocean rounded-2xl mb-12 relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('/portrait-placeholder.svg')] bg-cover bg-center opacity-80"></div>
-        <div class="absolute bottom-6 left-6 text-sand/80 text-xs uppercase tracking-widest2">
-          [Foto principal aqui]
-        </div>
+      <div class="aspect-[3/4] sm:aspect-[16/10] rounded-2xl mb-12 relative overflow-hidden bg-ocean-dark">
+        <img
+          src="/photos/portrait-meditative.jpg"
+          alt="Vicji em momento meditativo durante uma sessão"
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/40 via-transparent to-transparent"></div>
       </div>
 
       <div class="prose-soft space-y-6">

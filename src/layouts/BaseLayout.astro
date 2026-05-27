@@ -14,7 +14,7 @@ export interface Props {
 
 const { title, description, lang = 'pt', path = '/' } = Astro.props;
 const desc = description ?? site.seo.defaultDescription[lang];
-const ogImage = '/og-image.jpg';
+const ogImage = '/photos/hero.jpg';
 
 // hreflang alternates
 const ptPath = path.startsWith('/en') ? path.replace(/^\/en/, '') || '/' : path;

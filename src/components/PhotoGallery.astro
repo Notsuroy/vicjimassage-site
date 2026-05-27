@@ -1,0 +1,61 @@
+---
+export interface Props {
+  lang: 'pt' | 'en';
+}
+const { lang } = Astro.props;
+
+const content = {
+  pt: {
+    overline: 'Galeria',
+    headline: 'O trabalho, em movimento.',
+    sub: 'Fotos de sessões reais, em parques abertos, onde a prática respira.',
+  },
+  en: {
+    overline: 'Gallery',
+    headline: 'The work, in motion.',
+    sub: 'Photos from real sessions, in open parks, where the practice breathes.',
+  },
+};
+const c = content[lang];
+
+// Curated mix: action, atmosphere, intensity, intimacy
+const photos = [
+  { src: '/photos/gallery-04.jpg', alt: 'Vicji conduzindo uma sessão ao entardecer', span: 'col-span-2 row-span-2' },
+  { src: '/photos/gallery-01.jpg', alt: 'Vicji aplicando pressão consciente', span: '' },
+  { src: '/photos/gallery-03.jpg', alt: 'Sessão de massagem com fonte de água ao fundo', span: '' },
+  { src: '/photos/gallery-05.jpg', alt: 'Vicji em prática meditativa', span: '' },
+  { src: '/photos/gallery-08.jpg', alt: 'Alongamento assistido tradicional', span: '' },
+  { src: '/photos/gallery-10.jpg', alt: 'Postura de yoga assistido em sessão', span: 'col-span-2' },
+  { src: '/photos/gallery-06.jpg', alt: 'Massagem nos pés tradicional tailandesa', span: '' },
+  { src: '/photos/gallery-09.jpg', alt: 'Trabalho corporal profundo', span: '' },
+];
+---
+
+<section class="py-24 sm:py-32 bg-sand-dark/30">
+  <div class="container-wide">
+    <div class="max-w-narrow mx-auto text-center mb-16">
+      <div class="label-overline mb-4">{c.overline}</div>
+      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-6">{c.headline}</h2>
+      <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 auto-rows-[200px] sm:auto-rows-[240px] gap-3 max-w-6xl mx-auto">
+      {photos.map((p) => (
+        <a
+          href={p.src}
+          target="_blank"
+          rel="noopener"
+          class={`block relative overflow-hidden rounded-2xl shadow-card group ${p.span}`}
+        >
+          <img
+            src={p.src}
+            alt={p.alt}
+            loading="lazy"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
