@@ -1,5 +1,6 @@
 ---
 import services from '~/data/services.json';
+import site from '~/data/site.json';
 
 export interface Props {
   lang: 'pt' | 'en';
@@ -17,6 +18,8 @@ const content = {
     seeAll: 'Ver detalhes das sessões',
     seeAllHref: '/servicos',
     each: 'cada',
+    included: 'O que está incluso na sessão',
+    highlightsLabel: 'A sessão inclui',
   },
   en: {
     overline: 'What I offer',
@@ -27,12 +30,23 @@ const content = {
     seeAll: 'See session details',
     seeAllHref: '/en/services',
     each: 'each',
+    included: "What's included in the session",
+    highlightsLabel: 'The session includes',
   },
 };
 
 const c = content[lang];
 const items = services.services;
 const bookHref = lang === 'pt' ? '/agendar' : '/en/book';
+
+// FX helpers, only used when lang === 'en'
+const usdRate = site.fx?.usdPerBrl ?? 0.196;
+const eurRate = site.fx?.eurPerBrl ?? 0.181;
+function fxLine(brl: number) {
+  const usd = Math.round(brl * usdRate);
+  const eur = Math.round(brl * eurRate);
+  return `≈ USD $${usd} / EUR €${eur}`;
+}
 ---
 
 <section class="py-24 sm:py-32">
@@ -78,20 +92,43 @@ const bookHref = lang === 'pt' ? '/agendar' : '/en/book';
             </ul>
           )}
 
+          {showAll && svc.included && (
+            <div class={`rounded-xl p-5 mb-6 ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
+              <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
+                {c.included}
+              </div>
+              <ul class={`space-y-2 text-sm ${svc.highlight ? 'text-sand/90' : 'text-ink-muted'}`}>
+                {svc.included[lang].map(item => (
+                  <li class="flex items-start gap-2">
+                    <span class={svc.highlight ? 'text-gold mt-0.5' : 'text-terracotta mt-0.5'}>✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <!-- Pricing options -->
           <div class={`pt-6 border-t ${svc.highlight ? 'border-sand/20' : 'border-sand-deep/40'}`}>
             <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
               {svc.options.length > 1 ? (lang === 'pt' ? 'Duração' : 'Duration') : (lang === 'pt' ? 'Sessão' : 'Session')}
             </div>
-            <div class="space-y-2 mb-6">
+            <div class="space-y-3 mb-6">
               {svc.options.map(opt => (
-                <div class="flex items-baseline justify-between gap-4">
-                  <span class={svc.highlight ? 'text-sand' : 'text-ink'}>
-                    {opt.label[lang]}
-                  </span>
-                  <span class={`font-display text-2xl ${svc.highlight ? 'text-gold' : 'text-ocean'}`}>
-                    {opt.priceDisplay}
-                  </span>
+                <div>
+                  <div class="flex items-baseline justify-between gap-4">
+                    <span class={svc.highlight ? 'text-sand' : 'text-ink'}>
+                      {opt.label[lang]}
+                    </span>
+                    <span class={`font-display text-2xl ${svc.highlight ? 'text-gold' : 'text-ocean'}`}>
+                      {opt.priceDisplay}
+                    </span>
+                  </div>
+                  {lang === 'en' && (
+                    <div class={`text-xs text-right mt-0.5 ${svc.highlight ? 'text-sand/60' : 'text-ink-muted/70'}`}>
+                      {fxLine(opt.price)}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

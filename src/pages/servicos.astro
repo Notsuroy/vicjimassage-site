@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import ServicesGrid from '~/components/ServicesGrid.astro';
+import CredentialsStrip from '~/components/CredentialsStrip.astro';
 import FAQ from '~/components/FAQ.astro';
 import FinalCTA from '~/components/FinalCTA.astro';
 import Breadcrumbs from '~/components/Breadcrumbs.astro';
@@ -72,7 +73,35 @@ const breadcrumbs = {
     </div>
   </section>
 
+  <CredentialsStrip lang="pt" />
+
   <ServicesGrid lang="pt" showAll={true} />
+
+  <!-- Duration philosophy -->
+  <section class="py-20 sm:py-24">
+    <div class="container-narrow">
+      <div class="bg-ocean rounded-3xl p-8 sm:p-12 text-sand shadow-soft">
+        <div class="label-overline text-gold mb-4">Sobre o tempo</div>
+        <h2 class="font-display text-3xl sm:text-4xl mb-6 leading-tight text-sand">
+          Por que minhas sessões duram 1h30, 2h ou 3h.
+        </h2>
+        <div class="space-y-4 text-sand/90 leading-relaxed">
+          <p>
+            A grande maioria das massagens no Brasil dura uma hora. Não é porque uma hora é o tempo que o corpo precisa. É porque uma hora cabe na agenda de quem vende sessão como produto, entre um cliente e outro.
+          </p>
+          <p>
+            A Thai Massage tradicional não funciona assim. Na Tailândia, sessões de duas, três e até quatro horas são o padrão. O trabalho é lento. O corpo precisa de tempo para abrir. As linhas de energia precisam ser percorridas inteiras. Os alongamentos precisam ser sustentados. A integração no final é parte da prática, não um extra.
+          </p>
+          <p>
+            Quando você fecha uma sessão de 2h ou 3h comigo, você não está pagando por mais tempo. Está pagando para que o trabalho aconteça de verdade. Sem cronômetro acelerando, sem manobras encurtadas, sem encerrar antes do corpo ter ido onde precisa ir.
+          </p>
+          <p class="font-display italic text-lg text-gold">
+            É a diferença entre arranhar a superfície e realmente imergir.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Session structure -->
   <section class="py-24 bg-sand-dark/30">

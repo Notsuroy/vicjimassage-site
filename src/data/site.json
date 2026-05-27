@@ -48,6 +48,12 @@
     "methodsEn": ["Pix", "Cash", "Credit card", "Debit card"],
     "pixKey": "TODO_PIX_KEY"
   },
+  "fx": {
+    "_note": "Approximate FX rates for displaying USD/EUR equivalents to international clients on /en/services. Update when BRL moves >10%. Source: average mid-market rate.",
+    "usdPerBrl": 0.196,
+    "eurPerBrl": 0.181,
+    "updatedAt": "2026-05-27"
+  },
   "seo": {
     "defaultDescription": {
       "pt": "Massagem tailandesa tradicional em Atibaia com Victor: corpo, energia e espírito. Treinado na Tailândia e na Índia. Sessões de Thai Massage e Liberação de Quadril no Espaço Clô.",
