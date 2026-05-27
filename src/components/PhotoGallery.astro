@@ -18,17 +18,19 @@ const content = {
 };
 const c = content[lang];
 
-// Curated mix: action, atmosphere, intensity, intimacy.
-// Displayed in masonry (CSS columns) so each photo keeps its natural aspect ratio.
+// 7 curated photos in a 4x4 bento grid:
+// - 1 landscape hero (2x2 cell, no crop on landscape)
+// - 6 verticals (1x2 cells, minimal crop since cell aspect matches image)
+// Math: 4 + 6*2 = 16 cells = 4 cols x 4 rows = clean rectangle, zero dead space.
+// `?v=2` cache-busts the photos that were re-cropped after the initial deploy.
 const photos = [
-  { src: '/photos/gallery-04.jpg', alt: 'Vicji conduzindo uma sessão ao entardecer' },
-  { src: '/photos/gallery-01.jpg', alt: 'Vicji aplicando pressão consciente' },
-  { src: '/photos/gallery-03.jpg', alt: 'Sessão de massagem com fonte de água ao fundo' },
-  { src: '/photos/gallery-05.jpg', alt: 'Vicji em prática meditativa' },
-  { src: '/photos/gallery-08.jpg', alt: 'Alongamento assistido tradicional' },
-  { src: '/photos/gallery-10.jpg', alt: 'Postura de yoga assistido em sessão' },
-  { src: '/photos/gallery-06.jpg', alt: 'Massagem nos pés tradicional tailandesa' },
-  { src: '/photos/gallery-09.jpg', alt: 'Trabalho corporal profundo' },
+  { src: '/photos/gallery-04.jpg',      alt: 'Vicji conduzindo uma sessão ao entardecer',         span: 'col-span-2 row-span-2' }, // hero (landscape)
+  { src: '/photos/gallery-01.jpg',      alt: 'Vicji aplicando pressão consciente',                span: 'row-span-2' },
+  { src: '/photos/gallery-03.jpg',      alt: 'Sessão de massagem com fonte de água ao fundo',     span: 'row-span-2' },
+  { src: '/photos/gallery-05.jpg?v=2',  alt: 'Vicji em prática meditativa',                       span: 'row-span-2' },
+  { src: '/photos/gallery-08.jpg',      alt: 'Alongamento assistido tradicional',                 span: 'row-span-2' },
+  { src: '/photos/gallery-10.jpg?v=2',  alt: 'Postura de yoga assistido em sessão',               span: 'row-span-2' },
+  { src: '/photos/gallery-06.jpg',      alt: 'Massagem nos pés tradicional tailandesa',           span: 'row-span-2' },
 ];
 ---
 
@@ -40,21 +42,21 @@ const photos = [
       <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
     </div>
 
-    <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 max-w-6xl mx-auto">
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 auto-rows-[160px] sm:auto-rows-[200px] lg:auto-rows-[220px] gap-3 max-w-6xl mx-auto">
       {photos.map((p) => (
         <a
           href={p.src}
           target="_blank"
           rel="noopener"
-          class="break-inside-avoid mb-4 block relative overflow-hidden rounded-2xl shadow-card group bg-white"
+          class={`block relative overflow-hidden rounded-2xl shadow-card group bg-ocean-dark ${p.span}`}
         >
           <picture>
-            <source type="image/webp" srcset={p.src.replace(/\.jpg$/, '.webp')} />
+            <source type="image/webp" srcset={p.src.replace(/\.jpg(\?.*)?$/, '.webp$1')} />
             <img
               src={p.src}
               alt={p.alt}
               loading="lazy"
-              class="w-full h-auto block transition-transform duration-700 group-hover:scale-[1.02]"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
             />
           </picture>
           <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
