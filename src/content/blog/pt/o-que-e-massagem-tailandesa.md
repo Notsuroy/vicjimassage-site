@@ -14,7 +14,7 @@ A primeira coisa que muita gente me pergunta é: "isso é tipo uma massagem norm
 
 Não é. Não é mais forte. Não é mais fraca. É outra coisa.
 
-A massagem tailandesa, chamada na origem de **Nuad Bo'Rarn** (literalmente: "trabalho ancestral"), é uma prática terapêutica com mais de dois mil e quinhentos anos. Nasceu nos templos da Tailândia, foi passada de geração em geração entre monges e curandeiros, e até hoje guarda essa raiz: não é técnica de spa, é trabalho corporal com história.
+A massagem tailandesa, chamada na origem de **Nuad Boran** (literalmente: "trabalho ancestral"), é uma prática terapêutica com mais de dois mil e quinhentos anos. Nasceu nos templos da Tailândia, foi passada de geração em geração entre monges e curandeiros, e até hoje guarda essa raiz: não é técnica de spa, é trabalho corporal com história.
 
 Esse guia é pra quem nunca experimentou e quer entender o que está prestes a viver, ou pra quem ouviu falar mas ainda não sabe se faz sentido.
 
@@ -38,7 +38,7 @@ Essa é a parte que mais diferencia a Thai Massage de tudo o mais. Ele nasceu in
 
 **Energético:** trabalho direto sobre os centros energéticos (chakras) e as linhas de energia (sen). O corpo descansa do que estava represado.
 
-**Espiritual:** a sessão começa com meditação, atravessa o silêncio, fecha em integração. O toque vem de um lugar de presença e intenção, não de mecânica.
+**Espiritual:** O toque vem de um lugar de presença e intenção. Criando um campo meditativo. A massagem é feita com o coração antes das mãos. Não é técnica vazia. É prática integrativa.
 
 Quando alguém sai de uma sessão dizendo "não sei explicar, mas algo mudou", está descrevendo os três níveis trabalhando juntos. É isso que separa uma sessão profunda de uma massagem comum.
 
