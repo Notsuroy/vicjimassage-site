@@ -63,6 +63,54 @@
   }
 }
 
+/* Blog post body typography */
+.prose-blog {
+  @apply text-ink leading-relaxed;
+}
+.prose-blog p {
+  @apply mb-6 text-lg leading-[1.8];
+}
+.prose-blog h2 {
+  @apply font-display text-3xl sm:text-4xl text-ocean mt-12 mb-4 leading-tight;
+}
+.prose-blog h3 {
+  @apply font-display text-2xl text-ocean mt-10 mb-3 leading-tight;
+}
+.prose-blog h4 {
+  @apply font-sans text-lg uppercase tracking-widest2 text-terracotta mt-8 mb-2 font-medium;
+}
+.prose-blog ul, .prose-blog ol {
+  @apply mb-6 pl-6 text-lg leading-[1.8];
+}
+.prose-blog ul { @apply list-disc; }
+.prose-blog ol { @apply list-decimal; }
+.prose-blog ul li, .prose-blog ol li {
+  @apply mb-2 pl-2;
+}
+.prose-blog ul li::marker { color: #C9A961; }
+.prose-blog ol li::marker { color: #C9A961; }
+.prose-blog blockquote {
+  @apply border-l-4 border-gold/60 pl-6 my-8 font-display italic text-2xl text-ink leading-snug;
+}
+.prose-blog a {
+  @apply text-ocean underline underline-offset-4 decoration-gold/50 hover:text-terracotta transition-colors;
+}
+.prose-blog strong {
+  @apply text-ink font-semibold;
+}
+.prose-blog em {
+  @apply italic;
+}
+.prose-blog hr {
+  @apply my-12 border-0 h-px bg-gradient-to-r from-transparent via-sand-deep to-transparent;
+}
+.prose-blog img {
+  @apply rounded-2xl my-8 w-full;
+}
+.prose-blog code {
+  @apply bg-sand-dark/40 px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
 /* Reviews wall card */
 .review-card {
   @apply bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-card border border-sand-deep/40

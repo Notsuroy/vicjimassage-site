@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+
+const posts = (await getCollection('blog', ({ data }) => data.lang === 'en' && !data.draft))
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+function fmtDate(d: Date) {
+  return new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+}
+---
+<BaseLayout
+  title="Blog · Vicji Massage"
+  description="Writing on Thai massage, presence, pain, recovery, and bodywork. Written by Vicji in Atibaia, Brazil."
+  lang="en"
+  path="/en/blog"
+>
+  <section class="pt-24 pb-12">
+    <div class="container-narrow text-center">
+      <div class="label-overline mb-4">Blog</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-6 leading-tight">
+        Notes on the body and the practice.
+      </h1>
+      <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
+        Everything I've learned about Thai massage, about presence, about care. Written without rush, for those who want to understand the work before living it.
+      </p>
+    </div>
+  </section>
+
+  <section class="pb-24">
+    <div class="container-wide">
+      {posts.length === 0 ? (
+        <p class="text-center text-ink-muted italic">English posts coming soon. <a href="/blog" class="text-ocean underline hover:text-terracotta">Read the Portuguese version →</a></p>
+      ) : (
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {posts.map(post => (
+            <a
+              href={`/en/blog/${post.slug.replace(/^en\//, '')}`}
+              class="group bg-white/70 rounded-2xl overflow-hidden border border-sand-deep/30 hover:shadow-soft hover:-translate-y-1 transition-all duration-500 flex flex-col"
+            >
+              {post.data.coverImage && (
+                <div class="aspect-[4/3] overflow-hidden bg-ocean-dark">
+                  <img src={post.data.coverImage} alt={post.data.coverAlt ?? post.data.title} loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+              )}
+              <div class="p-6 flex flex-col flex-1">
+                <div class="flex items-center gap-3 text-xs text-ink-muted uppercase tracking-widest2 mb-3">
+                  <time datetime={post.data.publishDate.toISOString()}>{fmtDate(post.data.publishDate)}</time>
+                  {post.data.readingTime && <><span>·</span><span>{post.data.readingTime}</span></>}
+                </div>
+                <h2 class="font-display text-2xl text-ocean group-hover:text-terracotta transition-colors mb-3 leading-tight">
+                  {post.data.title}
+                </h2>
+                <p class="text-ink-muted leading-relaxed text-base flex-1">{post.data.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <FinalCTA lang="en" />
+</BaseLayout>
