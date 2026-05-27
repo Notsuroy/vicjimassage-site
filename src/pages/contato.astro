@@ -38,7 +38,9 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
           <ul class="space-y-3 text-ink-muted">
             <li>
               <span class="block text-xs uppercase tracking-widest2 text-terracotta mb-1">WhatsApp</span>
-              <a href="/agendar" class="text-ink hover:text-ocean">Conversar comigo →</a>
+              <a href={`https://wa.me/${site.contact.whatsapp}`} target="_blank" rel="noopener" class="text-ink hover:text-ocean">
+                {site.contact.whatsappDisplay} →
+              </a>
             </li>
             <li>
               <span class="block text-xs uppercase tracking-widest2 text-terracotta mb-1">Instagram</span>
