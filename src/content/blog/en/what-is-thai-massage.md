@@ -125,11 +125,11 @@ Traditional sessions in Thailand can last two or three hours. I keep that tradit
 
 ## What to expect from your first session
 
-You arrive, we talk for five to ten minutes. I want to know what you're feeling, if there's any specific area to focus on, if you've had Thai Massage before.
+You arrive, and we sit together for fifteen to thirty minutes, unhurried. I want to get to know you and introduce myself, hear what you're feeling, your state of health, how things are emotionally, how you're sleeping, what practices you've already tried, and so on. It's a conversation that opens a space of understanding, compassion, and welcome.
 
-Then you lie down on the futon, in comfortable clothes. I work mostly in silence, with traditional music in the background. No small talk during the session, except when we need to communicate about pressure or comfort.
+Then you lie down on the futon, in comfortable clothes. I work mostly in silence, with traditional music in the background. Not much talking, no small chat.
 
-At the end, I leave you alone for a few minutes to integrate. Water, a few recommendations for the next hours, and you head out.
+At the end, I leave you alone for a few minutes to integrate everything we did. Then I come back into the room and we have a brief closing conversation. I hear from you how you felt and how you're feeling now, give you feedback on the state of your body, and share extra recommendations for you to apply in your day-to-day.
 
 For many people, the first session is just the start of a curiosity. The second is where the work really begins, because the body has learned to trust the process.
 
@@ -143,4 +143,4 @@ If it makes sense, you'll come back.
 
 ---
 
-**Ready to try?** Sessions in Atibaia, Brazil, at Espaço Clô. [Book a session](/en/book) or message me on WhatsApp. We talk first to understand what you're looking for. International clients welcome — I speak English fluently and accept cash in BRL, USD, or EUR.
+**Ready to try?** Sessions in Atibaia, Brazil, at Espaço Clô. [Book a session](/en/book) or message me on WhatsApp. We talk first to understand what you're looking for. International clients welcome. I speak English fluently and accept cash in BRL, USD, or EUR.

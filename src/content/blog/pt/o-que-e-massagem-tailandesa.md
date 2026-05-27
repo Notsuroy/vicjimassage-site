@@ -124,11 +124,11 @@ Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho e
 
 ## O que esperar da sua primeira sessão
 
-Você chega, conversamos cinco a dez minutos. Eu quero saber o que você está sentindo, se tem alguma área específica pra cuidar, se já fez massagem tailandesa antes.
+Você chega, conversamos com calma de quinze a trinta minutos. Eu quero te conhecer e me apresentar, saber o que você está sentindo, o seu estado de saúde, como anda o lado emocional, o seu sono, às técnicas que já experimentou, e por aí vai. É uma conversa que abre um campo de entendimento, compaixão e acolhimento.
 
-Depois, você deita no futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Sem conversa durante a sessão, a não ser quando precisamos comunicar algo sobre pressão ou conforto.
+Depois, você deita no futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Sem muita conversa ou bate papo.
 
-No final, eu te deixo uns minutos sozinho pra integrar. Água, recomendações pras próximas horas, e você vai embora.
+No final, eu te deixo uns minutos sozinho para integrar toda a prática que tivemos. Após volto para sala e temos uma breve conversa final, escuto de você como se sentiu e como está se sentindo, te dou um feedback sobre o estado do seu corpo e dicas extras importantes para você aplicar no seu dia a dia.
 
 Pra muita gente, a primeira sessão é só o começo de uma curiosidade. A segunda é onde o trabalho realmente começa, porque o corpo já confia no processo.
 
