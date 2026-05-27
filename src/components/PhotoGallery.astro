@@ -18,16 +18,17 @@ const content = {
 };
 const c = content[lang];
 
-// Curated mix: action, atmosphere, intensity, intimacy
+// Curated mix: action, atmosphere, intensity, intimacy.
+// Displayed in masonry (CSS columns) so each photo keeps its natural aspect ratio.
 const photos = [
-  { src: '/photos/gallery-04.jpg', alt: 'Vicji conduzindo uma sessão ao entardecer', span: 'col-span-2 row-span-2' },
-  { src: '/photos/gallery-01.jpg', alt: 'Vicji aplicando pressão consciente', span: '' },
-  { src: '/photos/gallery-03.jpg', alt: 'Sessão de massagem com fonte de água ao fundo', span: '' },
-  { src: '/photos/gallery-05.jpg', alt: 'Vicji em prática meditativa', span: '' },
-  { src: '/photos/gallery-08.jpg', alt: 'Alongamento assistido tradicional', span: '' },
-  { src: '/photos/gallery-10.jpg', alt: 'Postura de yoga assistido em sessão', span: 'col-span-2' },
-  { src: '/photos/gallery-06.jpg', alt: 'Massagem nos pés tradicional tailandesa', span: '' },
-  { src: '/photos/gallery-09.jpg', alt: 'Trabalho corporal profundo', span: '' },
+  { src: '/photos/gallery-04.jpg', alt: 'Vicji conduzindo uma sessão ao entardecer' },
+  { src: '/photos/gallery-01.jpg', alt: 'Vicji aplicando pressão consciente' },
+  { src: '/photos/gallery-03.jpg', alt: 'Sessão de massagem com fonte de água ao fundo' },
+  { src: '/photos/gallery-05.jpg', alt: 'Vicji em prática meditativa' },
+  { src: '/photos/gallery-08.jpg', alt: 'Alongamento assistido tradicional' },
+  { src: '/photos/gallery-10.jpg', alt: 'Postura de yoga assistido em sessão' },
+  { src: '/photos/gallery-06.jpg', alt: 'Massagem nos pés tradicional tailandesa' },
+  { src: '/photos/gallery-09.jpg', alt: 'Trabalho corporal profundo' },
 ];
 ---
 
@@ -39,13 +40,13 @@ const photos = [
       <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
     </div>
 
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 auto-rows-[200px] sm:auto-rows-[240px] gap-3 max-w-6xl mx-auto">
+    <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 max-w-6xl mx-auto">
       {photos.map((p) => (
         <a
           href={p.src}
           target="_blank"
           rel="noopener"
-          class={`block relative overflow-hidden rounded-2xl shadow-card group ${p.span}`}
+          class="break-inside-avoid mb-4 block relative overflow-hidden rounded-2xl shadow-card group bg-white"
         >
           <picture>
             <source type="image/webp" srcset={p.src.replace(/\.jpg$/, '.webp')} />
@@ -53,7 +54,7 @@ const photos = [
               src={p.src}
               alt={p.alt}
               loading="lazy"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              class="w-full h-auto block transition-transform duration-700 group-hover:scale-[1.02]"
             />
           </picture>
           <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
