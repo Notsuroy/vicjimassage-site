@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER pricing — confirm with Vicji. Base price ~€60 = R$390 (rate at build time). Session lengths and modalities to be confirmed.",
+  "_note": "PLACEHOLDER pricing. Confirm with Vicji. Base price ~€60 = R$390 (rate at build time). Session lengths and modalities to be confirmed.",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
@@ -9,8 +9,8 @@
       "price": 390,
       "priceDisplay": "R$ 390",
       "name": {
-        "pt": "Massagem Tailandesa — 60 minutos",
-        "en": "Thai Massage — 60 minutes"
+        "pt": "Massagem Tailandesa, 60 minutos",
+        "en": "Thai Massage, 60 minutes"
       },
       "description": {
         "pt": "Sessão essencial. Corpo inteiro, ritmo meditativo, alongamentos assistidos e pressão consciente nas linhas de energia (sen).",
@@ -24,8 +24,8 @@
       "price": 540,
       "priceDisplay": "R$ 540",
       "name": {
-        "pt": "Massagem Tailandesa — 90 minutos",
-        "en": "Thai Massage — 90 minutes"
+        "pt": "Massagem Tailandesa, 90 minutos",
+        "en": "Thai Massage, 90 minutes"
       },
       "description": {
         "pt": "Sessão recomendada. Tempo para o corpo desacelerar de verdade. Trabalho mais profundo em áreas de maior tensão, sem perder o ritmo da prática.",
@@ -39,8 +39,8 @@
       "price": 680,
       "priceDisplay": "R$ 680",
       "name": {
-        "pt": "Massagem Tailandesa Completa — 120 minutos",
-        "en": "Full Thai Massage — 120 minutes"
+        "pt": "Massagem Tailandesa Completa, 120 minutos",
+        "en": "Full Thai Massage, 120 minutes"
       },
       "description": {
         "pt": "Sessão imersiva. A experiência completa: cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar.",

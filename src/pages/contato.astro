@@ -4,7 +4,7 @@ import site from '~/data/site.json';
 const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.location.mapsQuery)}`;
 ---
 <BaseLayout
-  title="Contato — Vicji Massage"
+  title="Contato · Vicji Massage"
   description="Como entrar em contato com Vicji. Estúdio no Espaço Clô, Atibaia."
   lang="pt"
   path="/contato"
@@ -23,7 +23,7 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
             <strong class="text-ink">{site.location.studio}</strong><br />
             {site.location.street}<br />
             {site.location.neighborhood}<br />
-            {site.location.city} — {site.location.state}<br />
+            {site.location.city}, {site.location.state}<br />
             {site.location.postalCode}
           </address>
           <a href={mapsUrl} target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-ocean hover:text-terracotta transition-colors text-sm">

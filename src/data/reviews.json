@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER reviews — Suroy has the real ones, will replace this file when he sends them.",
+  "_note": "PLACEHOLDER reviews. Suroy has the real ones, will replace this file when he sends them.",
   "aggregate": {
     "count": 100,
     "rating": 5.0,
@@ -45,9 +45,9 @@
       "source": "WhatsApp",
       "themes": ["relax", "first"],
       "lang": "pt",
-      "original": "[PLACEHOLDER — review real do Vicji aqui]",
+      "original": "[PLACEHOLDER: review real do Vicji aqui]",
       "translated": {
-        "en": "[PLACEHOLDER — Vicji's real review here]"
+        "en": "[PLACEHOLDER: Vicji's real review here]"
       }
     },
     {
@@ -58,7 +58,7 @@
       "source": "Instagram",
       "themes": ["pain"],
       "lang": "pt",
-      "original": "[PLACEHOLDER — review real do Vicji aqui]",
+      "original": "[PLACEHOLDER: review real do Vicji aqui]",
       "translated": {
         "en": "[PLACEHOLDER]"
       }

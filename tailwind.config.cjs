@@ -6,38 +6,38 @@ module.exports = {
       colors: {
         // Bohemian Tropical palette
         ocean: {
-          DEFAULT: '#1F5965', // deep ocean teal — primary
+          DEFAULT: '#1F5965', // deep ocean teal: primary
           dark:    '#143E47',
           light:   '#3A7884',
         },
         palm: {
-          DEFAULT: '#7A9B6E', // tropical sage — secondary
+          DEFAULT: '#7A9B6E', // tropical sage: secondary
           dark:    '#5C7A54',
           light:   '#9DB893',
         },
         terracotta: {
-          DEFAULT: '#D4855B', // sun-baked terracotta — warm accent
+          DEFAULT: '#D4855B', // sun-baked terracotta: warm accent
           dark:    '#B26641',
           light:   '#E3A684',
         },
         gold: {
-          DEFAULT: '#C9A961', // antique gold — spiritual accent
+          DEFAULT: '#C9A961', // antique gold: spiritual accent
           dark:    '#A88A45',
         },
         sand: {
-          DEFAULT: '#F5EFE6', // sandy cream — background
+          DEFAULT: '#F5EFE6', // sandy cream: background
           dark:    '#EBE2D2',
           deep:    '#DCD1BC',
         },
         ink: {
-          DEFAULT: '#2C3539', // deep slate — primary text
-          muted:   '#7A7268', // driftwood gray — secondary text
+          DEFAULT: '#2C3539', // deep slate: primary text
+          muted:   '#7A7268', // driftwood gray: secondary text
         },
       },
       fontFamily: {
         sans:    ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
         display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        accent:  ['"Caveat"', '"Homemade Apple"', 'cursive'],
+        accent:  ['"Grand Hotel"', '"Billabong"', 'cursive'],
       },
       maxWidth: {
         prose: '70ch',

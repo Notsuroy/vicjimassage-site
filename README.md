@@ -23,7 +23,7 @@ npx wrangler pages deploy dist --project-name vicjimassage-site
 ```
 
 ## Structure
-- `src/data/site.json` — site-wide config (contact, brand, business info)
-- `src/data/services.json` — service menu
-- `src/data/reviews.json` — testimonials
-- `src/pages/` — Portuguese pages at root, English mirrors at `/en/`
+- `src/data/site.json`: site-wide config (contact, brand, business info)
+- `src/data/services.json`: service menu
+- `src/data/reviews.json`: testimonials
+- `src/pages/`: Portuguese pages at root, English mirrors at `/en/`
