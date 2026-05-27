@@ -44,6 +44,7 @@ if (lang === 'pt') {
   altLangPath = reverseRouteMap[currentPath] || '/';
 }
 const altLabel = lang === 'pt' ? 'EN' : 'PT';
+const altFlag = lang === 'pt' ? '🇬🇧' : '🇧🇷';
 const ctaLabel = lang === 'pt' ? 'Agendar sessão' : 'Book a session';
 const ctaHref = lang === 'pt' ? '/agendar' : '/en/book';
 ---
@@ -77,10 +78,11 @@ const ctaHref = lang === 'pt' ? '/agendar' : '/en/book';
     <div class="flex items-center gap-4">
       <a
         href={altLangPath}
-        class="text-xs uppercase tracking-widest2 text-ink-muted hover:text-terracotta transition-colors border border-ink-muted/20 rounded-full px-3 py-1.5"
+        class="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest2 text-ink-muted hover:text-terracotta transition-colors border border-ink-muted/20 hover:border-terracotta/50 rounded-full px-3 py-1.5"
         aria-label={lang === 'pt' ? 'Switch to English' : 'Mudar para português'}
       >
-        {altLabel}
+        <span class="text-base leading-none" aria-hidden="true">{altFlag}</span>
+        <span>{altLabel}</span>
       </a>
       <a href={ctaHref} class="btn-primary hidden lg:inline-flex !py-2.5 !px-5 text-sm">
         {ctaLabel}
