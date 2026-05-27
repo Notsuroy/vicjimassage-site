@@ -1,5 +1,5 @@
 ---
-title: "What is Thai Massage? A complete guide for anyone who's never tried it"
+title: "What is traditional Thai Massage? A complete guide for anyone who's never tried it"
 description: "Origins, technique, benefits, and the three levels of the work (physical, energetic, spiritual). Written by someone who learned it at the source."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-04.jpg"
@@ -44,7 +44,7 @@ When someone leaves a session saying "I can't explain it, but something shifted,
 
 ## How it actually works
 
-Forget what you've seen in a spa. Thai Massage has three characteristics that set it apart from everything else:
+Forget what you've seen in a spa. Traditional Thai Massage has three characteristics that set it apart from everything else:
 
 ### 1. It's done on the floor, on a futon
 
@@ -72,7 +72,7 @@ The physical effects of Thai Massage are well documented:
 - **Increased joint mobility** (especially in hips and spine)
 - **Reduction in chronic pain**, mainly in the lumbar and cervical regions
 - **Better sleep quality** (many people report sleeping unusually deep the following night)
-- **Regulation of the autonomic nervous system** (moves out of "fight or flight" mode into "rest and digest")
+- **Regulation of the autonomic nervous system** (moves out of "fight or flight" mode into "rest and regeneration")
 
 But what I see in practice, session after session, goes beyond the physical. People leave more connected to their own bodies. Some cry during the session without knowing why. Others sleep ten hours the following night. Others can only say they feel "different" without being able to explain.
 
@@ -112,7 +112,7 @@ To make it concrete, here's how Thai compares to other common modalities:
 
 **Thai Massage:** no oil, with clothes, on a futon. Combines deep pressure with stretching. Works the whole body as a system, including the energetic and spiritual dimensions. Long sessions, unhurried.
 
-Each has its place. Thai is the one I practice because, in my experience, it most deeply shifts what needs to be shifted.
+Each has its place. Thai is the one I practice because, in my experience, it most deeply cares for the whole being.
 
 ## The two sessions I offer
 
@@ -121,7 +121,7 @@ Today I work with two types of session:
 - **Traditional Thai Massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
 - **Hip Release Session (1h30):** focused on the foundation of the body. Hips, legs, lower back, and the lower chakras. Shorter but no less deep.
 
-Traditional sessions in Thailand can last two or three hours. I keep that tradition here. The difference between a quick spa session and the real work isn't just "more time" — it's the difference between scratching the surface and actually going in.
+Traditional sessions in Thailand can last two or three hours. I keep that tradition here. The difference between a quick spa session and the real work isn't just "more time". It's the difference between scratching the surface and actually immersing.
 
 ## What to expect from your first session
 
