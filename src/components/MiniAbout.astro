@@ -39,12 +39,15 @@ const c = content[lang];
     <div class="grid lg:grid-cols-2 gap-16 items-center">
       <div class="relative">
         <div class="aspect-[4/5] rounded-2xl shadow-soft relative overflow-hidden bg-ocean-dark">
-          <img
-            src="/photos/portrait.jpg"
-            alt="Vicji, terapeuta de massagem tailandesa em Atibaia"
-            class="absolute inset-0 w-full h-full object-cover object-top"
-            loading="lazy"
-          />
+          <picture>
+            <source type="image/webp" srcset="/photos/portrait.webp" />
+            <img
+              src="/photos/portrait.jpg"
+              alt="Vicji, terapeuta de massagem tailandesa em Atibaia"
+              class="absolute inset-0 w-full h-full object-cover object-top"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="absolute -bottom-6 -right-6 bg-terracotta rounded-2xl p-6 shadow-card hidden sm:block">
           <div class="font-display text-4xl text-sand">2500+</div>

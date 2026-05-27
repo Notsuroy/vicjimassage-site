@@ -39,7 +39,11 @@ const c = content[lang];
   <!-- Hero photo: vertical (mobile) + landscape (desktop ≥768px) -->
   <div class="absolute inset-0 z-0">
     <picture>
+      <!-- Desktop: WebP first, JPEG fallback -->
+      <source media="(min-width: 768px)" type="image/webp" srcset="/photos/hero.webp" />
       <source media="(min-width: 768px)" srcset="/photos/hero.jpg" />
+      <!-- Mobile: WebP first, JPEG fallback -->
+      <source type="image/webp" srcset="/photos/gallery-01.webp" />
       <img
         src="/photos/gallery-01.jpg"
         alt="Vicji aplicando massagem tailandesa tradicional em sessão ao ar livre"

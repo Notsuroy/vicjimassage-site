@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import site from '~/data/site.json';
 
 const whatsapp = site.contact.whatsapp;
@@ -54,4 +55,8 @@ const whHref = whatsapp.startsWith('TODO') ? '#' : `https://wa.me/${whatsapp}?te
       </div>
     </div>
   </section>
+  <Breadcrumbs items={[
+    { name: 'Início', href: '/' },
+    { name: 'Agendar', href: '/agendar' },
+  ]} />
 </BaseLayout>

@@ -1,0 +1,45 @@
+---
+// Renders both visual breadcrumbs (optional) and a BreadcrumbList JSON-LD block.
+// Pages pass an array of { name, href } items, including the current page as the last item.
+
+export interface BreadcrumbItem {
+  name: string;
+  href: string;
+}
+export interface Props {
+  items: BreadcrumbItem[];
+  visual?: boolean; // render visual breadcrumb trail (default: false; pages already have their own H1)
+}
+const { items, visual = false } = Astro.props;
+
+const ld = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": item.name,
+    "item": new URL(item.href, Astro.site).toString(),
+  })),
+};
+---
+{visual && (
+  <nav aria-label="Breadcrumb" class="container-wide pt-6 pb-2">
+    <ol class="flex flex-wrap items-center gap-2 text-xs text-ink-muted uppercase tracking-widest2">
+      {items.map((item, i) => (
+        <>
+          {i > 0 && <li class="text-gold/60">/</li>}
+          <li>
+            {i === items.length - 1 ? (
+              <span class="text-ink">{item.name}</span>
+            ) : (
+              <a href={item.href} class="hover:text-terracotta transition-colors">{item.name}</a>
+            )}
+          </li>
+        </>
+      ))}
+    </ol>
+  </nav>
+)}
+
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

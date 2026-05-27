@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import site from '~/data/site.json';
 const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.location.mapsQuery)}`;
 ---
@@ -79,4 +80,8 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
       </div>
     </div>
   </section>
+  <Breadcrumbs items={[
+    { name: 'Início', href: '/' },
+    { name: 'Contato', href: '/contato' },
+  ]} />
 </BaseLayout>

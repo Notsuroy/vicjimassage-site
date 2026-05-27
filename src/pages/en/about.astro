@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import FinalCTA from '~/components/FinalCTA.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
 ---
 <BaseLayout
   title="About · Vicji Massage"
@@ -16,12 +17,15 @@ import FinalCTA from '~/components/FinalCTA.astro';
       </h1>
 
       <div class="aspect-[3/4] sm:aspect-[16/10] rounded-2xl mb-12 relative overflow-hidden bg-ocean-dark">
-        <img
-          src="/photos/portrait-meditative.jpg"
-          alt="Vicji in a meditative moment during a session"
-          class="absolute inset-0 w-full h-full object-cover object-center"
-          loading="eager"
-        />
+        <picture>
+          <source type="image/webp" srcset="/photos/portrait-meditative.webp" />
+          <img
+            src="/photos/portrait-meditative.jpg"
+            alt="Vicji in a meditative moment during a session"
+            class="absolute inset-0 w-full h-full object-cover object-center"
+            loading="eager"
+          />
+        </picture>
         <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/40 via-transparent to-transparent"></div>
       </div>
 
@@ -77,4 +81,8 @@ import FinalCTA from '~/components/FinalCTA.astro';
   </section>
 
   <FinalCTA lang="en" />
+  <Breadcrumbs items={[
+    { name: 'Home', href: '/en/' },
+    { name: 'About', href: '/en/about' },
+  ]} />
 </BaseLayout>

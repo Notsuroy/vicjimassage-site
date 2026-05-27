@@ -3,6 +3,44 @@ import BaseLayout from '~/layouts/BaseLayout.astro';
 import ServicesGrid from '~/components/ServicesGrid.astro';
 import FAQ from '~/components/FAQ.astro';
 import FinalCTA from '~/components/FinalCTA.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import services from '~/data/services.json';
+import site from '~/data/site.json';
+
+const offerCatalog = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Traditional Thai Massage",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Vicji Massage",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": site.location.street,
+      "addressLocality": site.location.city,
+      "addressRegion": site.location.state,
+      "postalCode": site.location.postalCode,
+      "addressCountry": "BR",
+    },
+  },
+  "areaServed": { "@type": "City", "name": "Atibaia" },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Thai Massage Sessions",
+    "itemListElement": services.services.map((s) => ({
+      "@type": "Offer",
+      "name": s.name.en,
+      "description": s.description.en,
+      "price": s.price,
+      "priceCurrency": "BRL",
+      "itemOffered": {
+        "@type": "Service",
+        "name": s.name.en,
+        "duration": `PT${s.duration.replace(/[^\d]/g, '')}M`,
+      },
+    })),
+  },
+};
 ---
 <BaseLayout
   title="Services · Vicji Massage"
@@ -46,4 +84,11 @@ import FinalCTA from '~/components/FinalCTA.astro';
 
   <FAQ lang="en" />
   <FinalCTA lang="en" />
+
+  <Breadcrumbs items={[
+    { name: 'Home', href: '/en/' },
+    { name: 'Services', href: '/en/services' },
+  ]} />
+
+  <script type="application/ld+json" set:html={JSON.stringify(offerCatalog)} />
 </BaseLayout>
