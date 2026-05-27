@@ -53,7 +53,11 @@ function fxLine(brl: number) {
   <div class="container-wide">
     <div class="max-w-narrow mx-auto text-center mb-16">
       <div class="label-overline mb-4">{c.overline}</div>
-      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-6">{c.headline}</h2>
+      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-6 leading-tight">
+        {c.headline.split('. ').map((part, i, arr) => (
+          <span class="block">{part}{i < arr.length - 1 ? '.' : ''}</span>
+        ))}
+      </h2>
       <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
     </div>
 
