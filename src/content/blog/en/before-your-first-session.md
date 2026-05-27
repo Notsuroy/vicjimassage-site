@@ -10,7 +10,7 @@ readingTime: "5 min read"
 lang: "en"
 ---
 
-If you've never had Thai Massage, it's normal not to know what to expect. Thai Massage isn't a spa. There's no massage table, no oil, no need to undress. It's something else.
+If you've never had Thai Massage, it's normal not to know what to expect. Thai Massage isn't a spa. It's an ancient practice of healing and care for the other.
 
 This piece covers the six most common questions I get before someone's first session. Five minutes of reading and you arrive prepared.
 
@@ -21,17 +21,14 @@ This piece covers the six most common questions I get before someone's first ses
 I recommend:
 
 - Leggings, sweatpants, or athletic shorts
-- Short-sleeve t-shirt or tank top
+- Short-sleeve t-shirt, sports top, or tank top
 - Fabric that stretches and breathes (cotton, dri-fit)
 
 Avoid:
 
 - Jeans (don't stretch)
 - Button-up shirts (uncomfortable when lying face-down)
-- Very loose clothing (gets in the way of the work)
 - Jewelry, watches, and makeup if possible (leave at home, or remove on arrival)
-
-If you forget and arrive in the wrong clothes, I have some options at the studio. But ideal is to come ready.
 
 ## 2. What to eat (and not eat) before
 
@@ -65,7 +62,7 @@ After that, the massage itself begins.
 
 ## 4. How to communicate with me during the session
 
-I work mostly in silence. No small talk. Traditional music stays low, the environment is calm. This is deliberate: it helps the nervous system slow down.
+The work happens mostly in silence. Background music carries the whole session, and the environment stays calm and receptive. This is intentional: it helps the nervous system slow down.
 
 But you can (and should) speak up when:
 
@@ -87,9 +84,9 @@ Every body responds differently, but some patterns are common:
 
 **Deep sighs, yawns.** The body letting go. Welcome it.
 
-**Unexpected emotion.** Some people cry. Others laugh. Others feel anger without knowing why. The body holds things, and sometimes they ask to pass through when the tension leaves. If it happens to you, that's okay. You don't have to explain or apologize. Just feel it.
+**Unexpected emotion.** Some people cry. Others laugh. Others feel anger without knowing why. The body holds things, and sometimes they ask to pass through when the tension leaves. If it happens to you, that's okay. You don't have to explain or apologize. Just let yourself feel, without judgment.
 
-**Feeling like you're not entirely in your body.** Common in longer sessions. The nervous system entered a meditative state. It comes back.
+**Feeling "out of body".** Common in longer sessions. The nervous system entered a meditative state. It's a magical sensation, enjoy it. By the end of the session everything will be back to normal.
 
 **Feeling one side of the body more than the other.** Bodies have asymmetries. The session usually exposes and helps balance them.
 
@@ -121,9 +118,9 @@ The session doesn't end when you stand up from the futon. The next 24 hours are 
 
 It happens, and it's normal.
 
-Many people say the **second** session is where the work actually begins. In the first, the body is still discovering what this is. Still learning to trust. Still gauging if it's safe.
+The first session already delivers a lot. But it also depends on how much you let yourself surrender to the experience.
 
-In the second, the body already arrives surrendered. And that's where the real depth shows up.
+Many people say that from the second session on, you can notice an even deeper immersion.
 
 So: don't judge the practice by the first session alone. If something called to you, give it a second chance.
 
