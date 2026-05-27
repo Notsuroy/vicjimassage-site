@@ -3,12 +3,12 @@ import BaseLayout from '~/layouts/BaseLayout.astro';
 import site from '~/data/site.json';
 
 const whatsapp = site.contact.whatsapp;
-const msg = "Hi Vicji! I'd like to book a session. My name is";
+const msg = "Hi Victor! I'd like to book a session. My name is";
 const whHref = whatsapp.startsWith('TODO') ? '#' : `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
 ---
 <BaseLayout
   title="Book a Session · Vicji Massage"
-  description="Book your Thai Massage session with Vicji in Atibaia, Brazil. Sessions at Espaço Clô."
+  description="Book your Thai Massage session with Victor in Atibaia, Brazil. Sessions at Espaço Clô."
   lang="en"
   path="/en/book"
 >

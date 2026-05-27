@@ -3,9 +3,9 @@ title: "Massagem tailandesa para dor lombar: por que funciona e o que esperar"
 description: "Por que a região lombar é o lugar onde mais gente acumula dor crônica, e como a massagem tailandesa trabalha essa área de forma diferente das massagens convencionais."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-09.jpg"
-coverAlt: "Vicji trabalhando profundamente em uma sessão de alongamento assistido"
+coverAlt: "Victor trabalhando profundamente em uma sessão de alongamento assistido"
 tags: ["dor lombar", "alívio de dor", "trabalho corporal"]
-author: "Vicji"
+author: "Victor"
 readingTime: "6 min de leitura"
 lang: "pt"
 ---

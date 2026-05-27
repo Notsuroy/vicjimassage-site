@@ -3,9 +3,9 @@ title: "Antes da sua primeira massagem tailandesa: tudo o que você precisa sabe
 description: "O que vestir, o que comer (ou não comer), como se preparar, o ritual de abertura da sessão, e o que esperar. Um guia prático pra primeira vez."
 publishDate: 2026-05-27
 coverImage: "/photos/portrait.jpg"
-coverAlt: "Vicji recebendo um cliente para uma sessão"
+coverAlt: "Victor recebendo um cliente para uma sessão"
 tags: ["primeira vez", "prático", "como funciona"]
-author: "Vicji"
+author: "Victor"
 readingTime: "4 min de leitura"
 lang: "pt"
 ---

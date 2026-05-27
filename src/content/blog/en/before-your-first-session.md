@@ -3,9 +3,9 @@ title: "Before your first Thai Massage: everything you need to know"
 description: "What to wear, what to eat (or not eat), how to prepare, the opening ritual of the session, and what to expect. A practical guide for first-timers."
 publishDate: 2026-05-27
 coverImage: "/photos/portrait.jpg"
-coverAlt: "Vicji greeting a client for a session"
+coverAlt: "Victor greeting a client for a session"
 tags: ["first time", "practical", "how it works"]
-author: "Vicji"
+author: "Victor"
 readingTime: "5 min read"
 lang: "en"
 ---

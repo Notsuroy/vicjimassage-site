@@ -3,9 +3,9 @@ title: "Thai Massage for lower back pain: why it works and what to expect"
 description: "Why the lower back is where most people hold chronic pain, and how Thai Massage works that area differently from conventional approaches."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-09.jpg"
-coverAlt: "Vicji working deep in an assisted stretch session"
+coverAlt: "Victor working deep in an assisted stretch session"
 tags: ["back pain", "pain relief", "bodywork"]
-author: "Vicji"
+author: "Victor"
 readingTime: "6 min read"
 lang: "en"
 ---

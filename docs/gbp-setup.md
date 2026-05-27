@@ -1,13 +1,13 @@
-# Google Business Profile setup for Vicji
+# Google Business Profile setup for Victor
 
-Step-by-step guide to creating Vicji's GBP. Designed for a WhatsApp screen-share session with him. Reading time: 5 min. Setup time: ~15 min. Verification time: 5 days to 2 weeks (postcard) or 1-3 days (video).
+Step-by-step guide to creating Victor's GBP. Designed for a WhatsApp screen-share session with him. Reading time: 5 min. Setup time: ~15 min. Verification time: 5 days to 2 weeks (postcard) or 1-3 days (video).
 
 ---
 
 ## Before you start
 
 ### Who creates this and owns it
-**Vicji creates and owns it under HIS Google account.** Not Suroy's.
+**Victor creates and owns it under HIS Google account.** Not Suroy's.
 
 Reasons:
 - The profile is a legal claim to ownership of a business listing. Should be his.
@@ -15,7 +15,7 @@ Reasons:
 - Postcard verification goes to his physical address. He has to pick it up.
 - Suroy can be added as a Manager (full access except ownership transfer) afterward.
 
-If Vicji doesn't have a Gmail account, create one first at accounts.google.com.
+If Victor doesn't have a Gmail account, create one first at accounts.google.com.
 
 ### What to have ready
 - Phone (his Brazilian mobile, not WhatsApp number if different)
@@ -28,7 +28,7 @@ If Vicji doesn't have a Gmail account, create one first at accounts.google.com.
 ## Step 1: Create the profile
 
 1. Go to **business.google.com**
-2. Sign in with Vicji's Google account
+2. Sign in with Victor's Google account
 3. Click **Manage now** (or **Add your business**)
 
 ---
@@ -91,7 +91,7 @@ Make sure when Google's map pin appears, it actually lands on the building. If i
 
 ## Step 5: Service area
 
-Vicji works from the studio only (right now). Skip the service-area question OR leave it blank.
+Victor works from the studio only (right now). Skip the service-area question OR leave it blank.
 
 If he eventually does house calls, he can add service areas later (e.g., "Atibaia, Bragança Paulista, Jundiaí").
 
@@ -100,7 +100,7 @@ If he eventually does house calls, he can add service areas later (e.g., "Atibai
 ## Step 6: Contact info
 
 **Phone:**
-Vicji's Brazilian mobile (with country code: +55 11 XXXXX-XXXX or +55 19 XXXXX-XXXX or whatever his region is).
+Victor's Brazilian mobile (with country code: +55 11 XXXXX-XXXX or +55 19 XXXXX-XXXX or whatever his region is).
 Use his **WhatsApp number** since that's where clients book.
 
 **Website:**
@@ -114,11 +114,11 @@ https://vicjimassage.com.br
 
 Google asks how to verify:
 
-**Order of preference for Vicji:**
+**Order of preference for Victor:**
 
 ### Option 1: Video verification (BEST if available)
 - Schedule a video call with Google support
-- Vicji holds his phone, films himself walking through the studio
+- Victor holds his phone, films himself walking through the studio
 - Shows the address from outside
 - Shows him doing massage stuff (technique demos, equipment, business signs)
 - Approval in 1-3 business days
@@ -144,7 +144,7 @@ Google asks how to verify:
 After verification, fill in this description. **Copy/paste exactly** (750 characters, Portuguese):
 
 ```
-A Thai Massage tradicional em Atibaia, no Espaço Clô. Vicji se formou massagista
+A Thai Massage tradicional em Atibaia, no Espaço Clô. Victor se formou massagista
 na Tailândia, aprofundou em yoga na Índia, e oferece um trabalho corporal integrado
 em três dimensões: físico, energético e espiritual. Único no Brasil oferecendo esse
 atendimento. Sessões de Thai Massage Tradicional (2h ou 3h) e Liberação de Quadril
@@ -191,7 +191,7 @@ Sábado:   09:00 - 16:00
 Domingo:  Fechado
 ```
 
-(Adjust to Vicji's actual schedule. Check with him.)
+(Adjust to Victor's actual schedule. Check with him.)
 
 Mark **"By appointment"** if available, since he doesn't take walk-ins.
 
@@ -220,7 +220,7 @@ GBP asks about attributes (amenities, accessibility, etc.). Fill in what's true:
 - Online appointments → **Yes** (WhatsApp counts)
 - LGBTQ+ friendly → **Yes** (if true)
 - Wi-Fi → If the studio has it
-- Wheelchair accessible entrance → Check with Vicji (Espaço Clô may or may not)
+- Wheelchair accessible entrance → Check with Victor (Espaço Clô may or may not)
 
 **Service options:**
 - In-store services → **Yes**
@@ -248,7 +248,7 @@ The GBP algorithm gives a "new business boost" for the first 30-60 days. Use it.
 
 ### Week 2
 4. **Post a "Welcome" Update** on the GBP. Use his story:
-   > "Sou Vicji, terapeuta de massagem tailandesa em Atibaia. Aprendi na fonte, em Chiang Mai, e trouxe a prática pro Brasil. Atendo no Espaço Clô. Te espero pra uma sessão."
+   > "Sou Victor, terapeuta de massagem tailandesa em Atibaia. Aprendi na fonte, em Chiang Mai, e trouxe a prática pro Brasil. Atendo no Espaço Clô. Te espero pra uma sessão."
 5. **Reply to every review** (positive or negative) within 24h. Google notices.
 
 ### Week 3
@@ -265,7 +265,7 @@ By day 30, the GBP should be ranking for branded queries (`vicji massage`, `vicj
 
 ## Adding Suroy as a Manager (optional but recommended)
 
-Once verified, Vicji can add you so you can manage day-to-day without owning the profile:
+Once verified, Victor can add you so you can manage day-to-day without owning the profile:
 
 1. In GBP dashboard: **Settings** → **Managers** → **Add**
 2. Enter Suroy's Google email
@@ -279,7 +279,7 @@ Once verified, Vicji can add you so you can manage day-to-day without owning the
 - Don't put the city in the business name
 - Don't put the website URL in the business name
 - Don't make up an address (Google verifies)
-- Don't list service areas if Vicji only works from the studio
+- Don't list service areas if Victor only works from the studio
 - Don't add fake reviews
 - Don't bulk-import reviews from another platform
 - Don't add categories that don't actually apply (no "Hair salon")
@@ -287,7 +287,7 @@ Once verified, Vicji can add you so you can manage day-to-day without owning the
 
 ---
 
-## When Vicji moves to Itacaré later this year
+## When Victor moves to Itacaré later this year
 
 DON'T delete this profile. DON'T create a new one.
 

@@ -3,9 +3,9 @@ title: "What is Thai Massage? A complete guide for anyone who's never tried it"
 description: "Origins, technique, benefits, and the three levels of the work (physical, energetic, spiritual). Written by someone who learned it at the source."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-04.jpg"
-coverAlt: "Vicji conducting a Thai Massage session in a park at sunset"
+coverAlt: "Victor conducting a Thai Massage session in a park at sunset"
 tags: ["fundamentals", "tradition", "first time"]
-author: "Vicji"
+author: "Victor"
 readingTime: "8 min read"
 lang: "en"
 ---

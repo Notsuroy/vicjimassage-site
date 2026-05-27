@@ -3,9 +3,9 @@ title: "O que é massagem tailandesa? Guia completo para quem nunca experimentou
 description: "Origem, técnica, benefícios e os três níveis do trabalho (físico, energético e espiritual). Escrito por quem aprendeu na fonte da tradição, na Tailândia."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-04.jpg"
-coverAlt: "Vicji conduzindo uma sessão de massagem tailandesa em um parque ao entardecer"
+coverAlt: "Victor conduzindo uma sessão de massagem tailandesa em um parque ao entardecer"
 tags: ["fundamentos", "tradição", "primeira vez"]
-author: "Vicji"
+author: "Victor"
 readingTime: "8 min de leitura"
 lang: "pt"
 ---

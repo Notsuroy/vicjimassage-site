@@ -7,8 +7,8 @@ export interface Props {
 
 const { lang } = Astro.props;
 const msg = lang === 'pt'
-  ? 'Oi Vicji! Tenho interesse em agendar uma sessão.'
-  : "Hi Vicji! I'd like to book a session.";
+  ? 'Oi Victor! Tenho interesse em agendar uma sessão.'
+  : "Hi Victor! I'd like to book a session.";
 const whatsapp = site.contact.whatsapp;
 const href = whatsapp.startsWith('TODO')
   ? '#'

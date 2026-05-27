@@ -4,12 +4,12 @@ import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import site from '~/data/site.json';
 
 const whatsapp = site.contact.whatsapp;
-const msg = 'Oi Vicji! Tenho interesse em agendar uma sessão. Meu nome é';
+const msg = 'Oi Victor! Tenho interesse em agendar uma sessão. Meu nome é';
 const whHref = whatsapp.startsWith('TODO') ? '#' : `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
 ---
 <BaseLayout
   title="Agendar uma Sessão · Vicji Massage"
-  description="Agende sua sessão de massagem tailandesa com Vicji em Atibaia. Atendimento no Espaço Clô."
+  description="Agende sua sessão de massagem tailandesa com Victor em Atibaia. Atendimento no Espaço Clô."
   lang="pt"
   path="/agendar"
 >
