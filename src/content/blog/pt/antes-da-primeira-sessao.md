@@ -10,9 +10,9 @@ readingTime: "4 min de leitura"
 lang: "pt"
 ---
 
-Se tu nunca fez massagem tailandesa, é normal não saber o que esperar. Massagem tailandesa não é spa. Não tem maca, não tem óleo, não tem roupa de baixo. É outra coisa.
+Se você nunca fez massagem tailandesa, é normal não saber o que esperar. Massagem tailandesa não é spa. Não tem maca, não tem óleo, não tem roupa de baixo. É outra coisa.
 
-Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira sessão. Cinco minutos de leitura e tu chega preparado.
+Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira sessão. Cinco minutos de leitura e você chega preparado.
 
 ## 1. O que vestir
 
@@ -55,9 +55,9 @@ O que evitar:
 
 Antes da massagem em si, tem um ritual de abertura que faz parte do trabalho:
 
-**Chá relaxante.** Te ofereço um chá quando tu chega. A gente conversa um pouco. Eu quero conhecer um pouco da tua história, qualquer coisa que esteja te incomodando no corpo, qualquer expectativa que tu tenha.
+**Chá relaxante.** Te ofereço um chá quando você chega. A gente conversa um pouco. Eu quero conhecer um pouco da sua história, qualquer coisa que esteja te incomodando no corpo, qualquer expectativa que você tenha.
 
-**Respirações guiadas.** Tu deita, eu te guio em respirações profundas. Isso prepara o sistema nervoso pro estado de entrega.
+**Respirações guiadas.** Você deita, eu te guio em respirações profundas. Isso prepara o sistema nervoso pro estado de entrega.
 
 **Incenso e meditação.** Energizo o ambiente com incenso, e abro com um minuto de meditação. Não é decoração. É a parte que conecta a técnica à intenção.
 
@@ -67,15 +67,15 @@ Depois disso é que a massagem propriamente dita começa.
 
 Eu trabalho principalmente em silêncio. Sem conversa fiada. A música tradicional fica baixa, o ambiente fica calmo. Isso é proposital, ajuda o sistema nervoso a desacelerar.
 
-Mas tu sempre pode (e deve) falar quando:
+Mas você sempre pode (e deve) falar quando:
 
 - **A pressão está muito forte:** "mais leve" ou "tira a pressão"
 - **A pressão está muito leve:** "pode aumentar"
 - **Algo dói (não no sentido bom, no sentido ruim):** fala na hora
-- **Tu precisa de uma pausa:** "preciso de um minuto"
-- **Tu está com frio ou calor:** eu ajusto
+- **Você precisa de uma pausa:** "preciso de um minuto"
+- **Você está com frio ou calor:** eu ajusto
 
-Não tenta "aguentar" se algo está desconfortável. O trabalho corporal funciona quando o corpo confia no que está acontecendo. Se tu está aguentando algo desagradável em silêncio, o corpo se fecha, e o trabalho não chega onde precisa.
+Não tenta "aguentar" se algo está desconfortável. O trabalho corporal funciona quando o corpo confia no que está acontecendo. Se você está aguentando algo desagradável em silêncio, o corpo se fecha, e o trabalho não chega onde precisa.
 
 ## 5. O que pode acontecer durante a sessão
 
@@ -87,7 +87,7 @@ Cada corpo responde diferente, mas alguns padrões são comuns:
 
 **Suspiros profundos, bocejos.** O corpo soltando. Acolhe.
 
-**Emoção inesperada.** Algumas pessoas choram. Outras riem. Outras sentem raiva sem saber por quê. O corpo guarda coisas, e às vezes elas pedem passagem quando a tensão sai. Se acontecer contigo, tudo bem. Não precisa explicar nem se desculpar. Só sente.
+**Emoção inesperada.** Algumas pessoas choram. Outras riem. Outras sentem raiva sem saber por quê. O corpo guarda coisas, e às vezes elas pedem passagem quando a tensão sai. Se acontecer com você, tudo bem. Não precisa explicar nem se desculpar. Só sente.
 
 **Sensação de "não estar inteiro no corpo".** Comum em sessões mais longas. O sistema nervoso entrou em estado meditativo. Vai voltar.
 
@@ -97,7 +97,7 @@ Nenhuma dessas reações é "errada". Todas são sinais de que o trabalho está 
 
 ## 6. O que fazer depois da sessão
 
-A sessão não termina quando tu se levanta do futon. As próximas 24 horas são parte do trabalho.
+A sessão não termina quando você se levanta do futon. As próximas 24 horas são parte do trabalho.
 
 **Logo após:**
 
@@ -129,4 +129,4 @@ Então: não julga a prática só pela primeira sessão. Se algo te chamou, dá 
 
 ---
 
-**Pronto?** [Marca tua primeira sessão](/agendar) ou me manda mensagem no WhatsApp. Eu respondo todas pessoalmente. Atendimento em Atibaia, no Espaço Clô.
+**Pronto?** [Marca sua primeira sessão](/agendar) ou me manda mensagem no WhatsApp. Eu respondo todas pessoalmente. Atendimento em Atibaia, no Espaço Clô.

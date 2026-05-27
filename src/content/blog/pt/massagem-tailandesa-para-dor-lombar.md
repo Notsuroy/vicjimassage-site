@@ -51,7 +51,7 @@ Em uma sessão típica para alguém com dor lombar, eu:
 
 1. **Começo nos pés.** Sim, pés. As linhas que sustentam a postura começam ali. Liberar tensão nos pés muda como a perna inteira se organiza.
 2. **Subo pelas pernas, trabalhando posterior de coxa e glúteos.** Esses músculos, quando encurtados, mantêm a pelve em rotação anterior, sobrecarregando a lombar.
-3. **Abro o quadril com alongamentos passivos.** Esse é o coração do trabalho. Posturas similares ao "pombo" do yoga, mas eu seguro pra ti, ajustando profundidade conforme o corpo permite.
+3. **Abro o quadril com alongamentos passivos.** Esse é o coração do trabalho. Posturas similares ao "pombo" do yoga, mas eu seguro pra você, ajustando profundidade conforme o corpo permite.
 4. **Trabalho o psoas.** O psoas conecta a coluna lombar à parte interna da coxa. Quando crônicamente tenso, ele literalmente puxa a coluna pra frente, gerando compressão na lombar. Liberar o psoas é frequentemente a chave que destrava tudo.
 5. **Só então chego na lombar em si.** Pressão consciente nas linhas paralelas à coluna, alongamento da coluna toda, trabalho com a respiração.
 6. **Fecho com inversões e descompressões.** Posturas onde o quadril fica mais alto que a cabeça, permitindo que a coluna se descomprima.
@@ -64,7 +64,7 @@ Além da Thai Massage Tradicional, eu ofereço uma sessão específica chamada *
 
 No campo energético, ela trabalha os chakras inferiores (raiz e sacral), que são exatamente os que carregam os aspectos emocionais ligados à base do corpo: sobrevivência, segurança, estabilidade. Frequentemente é justamente esse peso emocional crônico que mantém a lombar travada.
 
-Se a tua queixa principal é dor lombar e tu quer começar focado, é por aí. Se tu quer o trabalho mais amplo (corpo inteiro), a Thai Massage Tradicional de 2h ou 3h cobre a região lombar como parte do circuito completo.
+Se a sua queixa principal é dor lombar e você quer começar focado, é por aí. Se você quer o trabalho mais amplo (corpo inteiro), a Thai Massage Tradicional de 2h ou 3h cobre a região lombar como parte do circuito completo.
 
 ## O que esperar logo após a sessão
 
@@ -83,7 +83,7 @@ A maioria das pessoas relata redução significativa da dor lombar logo após a 
 - **Se a dor é crônica (anos):** é trabalho de meses, não de uma sessão. O corpo aprendeu um padrão e vai precisar de tempo pra reorganizar. Recomendo começar com sessões semanais ou quinzenais por dois meses, depois espaçar.
 - **Se a dor tem origem estrutural (hérnia confirmada, escoliose acentuada):** a massagem ajuda muito como suporte, mas precisa ser combinada com acompanhamento de fisioterapeuta ou médico ortopedista.
 
-Eu não substituo médico. Se tu tem dor lombar que irradia pra perna, dormência, fraqueza, ou que apareceu de repente sem causa aparente, **procura avaliação médica primeiro**. A massagem entra depois, como parte do tratamento.
+Eu não substituo médico. Se você tem dor lombar que irradia pra perna, dormência, fraqueza, ou que apareceu de repente sem causa aparente, **procura avaliação médica primeiro**. A massagem entra depois, como parte do tratamento.
 
 ## Quem se beneficia mais
 
@@ -107,4 +107,4 @@ Não tem que acontecer. Mas se acontecer, acolhe. É parte do trabalho.
 
 ---
 
-**Tem dor lombar crônica e quer experimentar?** [Marca a Liberação de Quadril](/agendar) (1h30, R$ 250), ou a Thai Massage Tradicional de 2h se preferir o trabalho corpo inteiro. Conversamos antes pra entender tua história, e a gente trabalha juntos. Atendimento em Atibaia, no Espaço Clô.
+**Tem dor lombar crônica e quer experimentar?** [Marca a Liberação de Quadril](/agendar) (1h30, R$ 250), ou a Thai Massage Tradicional de 2h se preferir o trabalho corpo inteiro. Conversamos antes pra entender sua história, e a gente trabalha juntos. Atendimento em Atibaia, no Espaço Clô.

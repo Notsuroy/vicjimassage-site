@@ -44,8 +44,8 @@
     "en": "Monday to Saturday, by appointment"
   },
   "payment": {
-    "methods": ["Pix", "Dinheiro"],
-    "methodsEn": ["Pix", "Cash"],
+    "methods": ["Pix", "Dinheiro", "Cartão de crédito", "Cartão de débito"],
+    "methodsEn": ["Pix", "Cash", "Credit card", "Debit card"],
     "pixKey": "TODO_PIX_KEY"
   },
   "seo": {

@@ -437,7 +437,8 @@ children.push(bullet('In-store services: Yes'));
 children.push(h4('Payment methods:'));
 children.push(bullet('Pix: Yes'));
 children.push(bullet('Dinheiro: Yes'));
-children.push(bullet('Cartão de crédito: No (unless Vicji sets up Mercado Pago/Stripe)'));
+children.push(bullet('Cartão de crédito: Yes'));
+children.push(bullet('Cartão de débito: Yes'));
 
 children.push(h4('Languages spoken:'));
 children.push(bullet('Português'));

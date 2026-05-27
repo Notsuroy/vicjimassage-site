@@ -228,7 +228,8 @@ GBP asks about attributes (amenities, accessibility, etc.). Fill in what's true:
 **Payment methods:**
 - Pix → **Yes**
 - Dinheiro → **Yes**
-- Cartão de crédito → **No** (unless Vicji sets up Mercado Pago/Stripe)
+- Cartão de crédito → **Yes**
+- Cartão de débito → **Yes**
 
 **Languages spoken:**
 - Português

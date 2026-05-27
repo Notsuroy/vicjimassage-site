@@ -44,22 +44,22 @@ Quando alguém sai de uma sessão dizendo "não sei explicar, mas algo mudou", e
 
 ## Como funciona, na prática
 
-Esquece o que tu já viu em spa. A massagem tailandesa tem três características que a diferenciam de tudo o mais:
+Esquece o que você já viu em spa. A massagem tailandesa tem três características que a diferenciam de tudo o mais:
 
 ### 1. É feita no chão, em um futon
 
-Não é maca, não é cama de massagem. É um colchão tradicional no chão, que dá espaço pro terapeuta usar o corpo todo (pés, joelhos, pernas, mãos, cotovelos) e pra ti receber em diferentes posições.
+Não é maca, não é cama de massagem. É um colchão tradicional no chão, que dá espaço pro terapeuta usar o corpo todo (pés, joelhos, pernas, mãos, cotovelos) e pra você receber em diferentes posições.
 
 ### 2. É feita com roupa
 
-Sem óleo, sem se despir. Tu fica em roupa confortável (calça e camiseta, idealmente). Isso muda completamente a sensação: não tem aquela pegada de "estar exposto", e o trabalho consegue ir bem mais fundo sem causar a fricção da pele com óleo.
+Sem óleo, sem se despir. Você fica em roupa confortável (calça e camiseta, idealmente). Isso muda completamente a sensação: não tem aquela pegada de "estar exposto", e o trabalho consegue ir bem mais fundo sem causar a fricção da pele com óleo.
 
 ### 3. Combina pressão e alongamento
 
 A sessão tem dois movimentos principais que se alternam:
 
 - **Pressão consciente nas linhas de energia (sen):** segundo a tradição tailandesa, o corpo é atravessado por 72.000 linhas de energia. Dez delas são as principais. O terapeuta percorre essas linhas com pressão calibrada, soltando bloqueios.
-- **Alongamentos passivos (parecidos com yoga):** tu é colocado em posturas que mobilizam articulações, abrem o quadril, alongam a coluna. Mas tu não faz força. Eu faço por ti.
+- **Alongamentos passivos (parecidos com yoga):** você é colocado em posturas que mobilizam articulações, abrem o quadril, alongam a coluna. Mas você não faz força. Eu faço por você.
 
 Por isso muita gente chama de "yoga assistido". É uma descrição parcial, mas captura uma parte: o efeito final é parecido com uma prática de yoga profunda, sem ter feito esforço pra chegar lá.
 
@@ -99,7 +99,7 @@ Não é indicada (ou precisa ser conversada antes) para:
 - Osteoporose avançada
 - Inflamações agudas
 
-Se tu tem alguma dessas condições, me avisa antes da sessão. A gente decide juntos o que faz sentido.
+Se você tem alguma dessas condições, me avisa antes da sessão. A gente decide juntos o que faz sentido.
 
 ## Diferença pra outras massagens
 
@@ -124,11 +124,11 @@ Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho e
 
 ## O que esperar da sua primeira sessão
 
-Tu chega, conversamos cinco a dez minutos. Eu quero saber o que tu está sentindo, se tem alguma área específica pra cuidar, se já fez massagem tailandesa antes.
+Você chega, conversamos cinco a dez minutos. Eu quero saber o que você está sentindo, se tem alguma área específica pra cuidar, se já fez massagem tailandesa antes.
 
-Depois, tu deita no futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Sem conversa durante a sessão, a não ser quando precisamos comunicar algo sobre pressão ou conforto.
+Depois, você deita no futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Sem conversa durante a sessão, a não ser quando precisamos comunicar algo sobre pressão ou conforto.
 
-No final, eu te deixo uns minutos sozinho pra integrar. Água, recomendações pras próximas horas, e tu vai embora.
+No final, eu te deixo uns minutos sozinho pra integrar. Água, recomendações pras próximas horas, e você vai embora.
 
 Pra muita gente, a primeira sessão é só o começo de uma curiosidade. A segunda é onde o trabalho realmente começa, porque o corpo já confia no processo.
 
@@ -136,10 +136,10 @@ Pra muita gente, a primeira sessão é só o começo de uma curiosidade. A segun
 
 Eu sou suspeito pra responder, então deixa eu reformular: vale a pena experimentar?
 
-Se tu chegou até aqui, é porque algo no teu corpo, na tua vida, ou na tua curiosidade te trouxe pra cá. Não precisa decidir se "vale a pena pra sempre" depois de uma sessão. Só vem uma vez. Sente.
+Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe pra cá. Não precisa decidir se "vale a pena pra sempre" depois de uma sessão. Só vem uma vez. Sente.
 
-Se fizer sentido, tu volta.
+Se fizer sentido, você volta.
 
 ---
 
-**Pronto pra experimentar?** Atendo em Atibaia, no Espaço Clô. [Marca uma sessão](/agendar) ou me chama no WhatsApp. Conversamos antes pra entender o que tu busca.
+**Pronto pra experimentar?** Atendo em Atibaia, no Espaço Clô. [Marca uma sessão](/agendar) ou me chama no WhatsApp. Conversamos antes pra entender o que você busca.
