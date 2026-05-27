@@ -14,7 +14,7 @@ The first thing most people ask me is: "Is this like a regular massage, just str
 
 It's not. It's not stronger. It's not weaker. It's something else.
 
-Thai Massage, originally called **Nuad Bo'Rarn** (literally "ancient work"), is a therapeutic practice over 2,500 years old. It was born in the temples of Thailand, passed down generation by generation between monks and healers, and even today it carries that root: it's not spa technique, it's bodywork with a history.
+Thai Massage, originally called **Nuad Boran** (literally "ancient work"), is a therapeutic practice over 2,500 years old. It was born in the temples of Thailand, passed down generation by generation between monks and healers, and even today it carries that root: it's not spa technique, it's bodywork with a history.
 
 This guide is for anyone who's never tried it and wants to understand what they're about to experience, or for anyone who's heard of it but isn't sure yet if it makes sense for them.
 
@@ -38,7 +38,7 @@ This is what most distinguishes Thai Massage from everything else. It was born i
 
 **Energetic:** direct work on the body's energy centers (chakras) and the energy lines (sen). The body rests from what it had been holding.
 
-**Spiritual:** the session opens with meditation, moves through silence, closes in integration. The touch comes from presence and intention, not mechanics.
+**Spiritual:** The touch comes from presence and intention, creating a meditative field. The massage is done with the heart before the hands. It is not empty technique. It is integrative practice.
 
 When someone leaves a session saying "I can't explain it, but something shifted," they're describing the three levels working together. That's what separates a deep session from a regular massage.
 
