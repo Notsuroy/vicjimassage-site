@@ -1,6 +1,6 @@
 ---
 title: "Thai Massage for lower back pain: why it works and what to expect"
-description: "Why the lower back is where most people hold chronic pain, and how Thai Massage works that area differently from conventional approaches."
+description: "Why the lower back is one of the places where most people hold chronic pain, and how Thai Massage works that area differently from conventional approaches."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-09.jpg"
 coverAlt: "Victor working deep in an assisted stretch session"
@@ -14,7 +14,7 @@ Seven out of ten people who walk into my studio say the same thing, with small v
 
 "I have lower back pain that keeps coming back. I've done physical therapy. I've taken medication. It improves a little, then it returns."
 
-This is by far the most common reason people come to me. And no wonder. Lower back pain is, according to the World Health Organization, **the leading cause of disability in the world today**.
+This is by far one of the most common reasons people come to me. And no wonder. Lower back pain is, according to the World Health Organization, **the leading cause of disability in the world today**.
 
 This piece is about why that happens, and why traditional Thai Massage can touch that pain in a way other approaches often can't.
 
