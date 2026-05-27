@@ -1,5 +1,5 @@
 {
-  "_note": "Top 10 reviews curated by Suroy from WhatsApp. Transcribed from public/Reviews/review-NN.jpeg. PT is original (sic typos preserved minimally for authenticity, only obvious autocorrect fixes applied). EN is adapted, not literally translated.",
+  "_note": "All 30 review screenshots. Top 10 (featured: true) have full transcription/translation/themes for SEO and theme filtering. The other 20 display as screenshots only. Source images live in /public/Reviews/ as review-01..30.jpeg.",
   "aggregate": {
     "count": 100,
     "rating": 5.0,
@@ -8,29 +8,31 @@
   "themes": {
     "pt": [
       { "id": "all",           "label": "Todas" },
+      { "id": "featured",      "label": "Destaques (top 10)" },
       { "id": "relax",         "label": "Relaxamento profundo" },
       { "id": "pain",          "label": "Alívio de dor" },
       { "id": "spiritual",     "label": "Experiência espiritual" },
-      { "id": "first",         "label": "Primeira vez" },
-      { "id": "international", "label": "Internacional" }
+      { "id": "first",         "label": "Primeira vez" }
     ],
     "en": [
       { "id": "all",           "label": "All" },
+      { "id": "featured",      "label": "Top 10" },
       { "id": "relax",         "label": "Deep relaxation" },
       { "id": "pain",          "label": "Pain relief" },
       { "id": "spiritual",     "label": "Spiritual experience" },
-      { "id": "first",         "label": "First time" },
-      { "id": "international", "label": "International" }
+      { "id": "first",         "label": "First time" }
     ]
   },
   "reviews": [
     {
       "id": "r01",
+      "image": "/Reviews/review-01.jpeg",
+      "featured": true,
       "author": "Cliente A.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["pain", "relax", "spiritual"],
+      "themes": ["featured", "pain", "relax", "spiritual"],
       "lang": "pt",
       "original": "Eu tardo mas não falho!!! 12 dias depois e continuo sem minha dor na lombar que sentia todos os dias... vc fez magica!! Amei a experiencia completa, o cuidado desde a preparação e inicio até como é conduzida a prática toda!!! Consegui sentir a atenção em cada parte do meu corpo e como seu trabalho com intenção faz toda a diferença! Logo no dia ja me senti mais leve e solta, meu quadril parece que não estava mais travado e o caminhar ficou mais fluido. Além de tudo fisico senti que fiquei com mais vontade de cuidar de mim e continuar em um momento de meditação e intenção no resto do dia!! Vi, foi uma experiencia diferente de tudo oq ja tinha vivido! Obrigada pelo espaço e pelo cuidado, espero estar com vc mais vezes ❤️",
       "translated": {
@@ -39,11 +41,13 @@
     },
     {
       "id": "r02",
+      "image": "/Reviews/review-02.jpeg",
+      "featured": true,
       "author": "Cliente B.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["spiritual", "relax", "first"],
+      "themes": ["featured", "spiritual", "relax", "first"],
       "lang": "pt",
       "original": "Uma experiência completamente transcedental! Senti fluxos de energia circulando pelo meu corpo que nunca havia acessado. Chorei, sorri, respirei, me senti cuidada, olhada e acolhida. A presença de Victor ja é terapêutica, todo seu cuidado em preparar o ambiente, onde quer que atenda, é um carinho a parte. Pra além da técnica, notoriamente executada com excelência, sua sensibilidade e presença deixam claro que nada ali é um manual sendo seguido. É algo totalmente feito pra você! Obrigada pela oportunidade de viver essa transformação! 🤍",
       "translated": {
@@ -52,11 +56,13 @@
     },
     {
       "id": "r03",
+      "image": "/Reviews/review-03.jpeg",
+      "featured": true,
       "author": "Cliente C.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["pain", "relax", "first"],
+      "themes": ["featured", "pain", "relax", "first"],
       "lang": "pt",
       "original": "Ontem, como te falei, saí da sessão me sentindo relaxada, e, o mais importante, sem dor na cervical que estava me incomodando há meses. Eu me sentia como se estivesse flutuando, e não caminhando. Tive uma excelente noite de sono, como há muito tempo não acontecia. Dormi profundamente e hj só acordei com o alarme (coisa rara comigo). Eu estava dormindo tão profundamente que tive muita dificuldade para sair da cama. Parecia que eu estava \"dopada\", como se eu tivesse tomado algum remédio para dormir. Demorei horrores para acordar de verdade. Até após o banho eu ainda queria voltar a dormir, coisa que nunca acontece comigo. Continuo sem a dor na cervical 🙏🙏🙏. Nem me lembro a última vez que passei um dia sem dor. Seu trabalho é maravilhoso e sua energia é algo indescritível. Só tenho uma coisa para te dizer: muitíssimo obrigada!",
       "translated": {
@@ -65,11 +71,13 @@
     },
     {
       "id": "r04",
+      "image": "/Reviews/review-04.jpeg",
+      "featured": true,
       "author": "Cliente D.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["spiritual", "first", "relax"],
+      "themes": ["featured", "spiritual", "first", "relax"],
       "lang": "pt",
       "original": "Cara, a experiência da massagem foi uma verdadeira montanha-russa! No início, houve um mergulho imediato em uma calma quase absoluta. O ambiente trabalhando todos os sentidos (a música, o cheiro, a temperatura que você deixou), tudo ajudava a desacelerar o corpo e a mente. Eu tava completamente presente, sem pressa, sem ruído. Depois, à medida que a massagem avançava, surgiram momentos de introspecção. Tive reflexões sobre a vida, sobre escolhas, sobre relacionamentos, sobre coisas que eu nem sabia que estavam guardadas ali. E depois foi o mais maluco, lá na parte dos braços começou a vir um nó na garganta, uma vontade de chorar, como se o corpo estivesse liberando algo acumulado há tempos.",
       "translated": {
@@ -78,11 +86,13 @@
     },
     {
       "id": "r05",
+      "image": "/Reviews/review-05.jpeg",
+      "featured": true,
       "author": "Cliente E.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["relax", "spiritual", "first"],
+      "themes": ["featured", "relax", "spiritual", "first"],
       "lang": "pt",
       "original": "A experiência foi muito boa! O local é ideal: aconchegante e equilibrado para relaxar. A sua abordagem inicial acolhe e esclarece, deixando-nos à vontade, tranquilo. A massagem foi na medida, fazendo com que eu conseguisse me entregar ao momento, relaxar e aproveitar os benefícios dela decorrentes. Relaxei profundamente e senti paz, segurança e conforto espiritual. Acredito que vc está no caminho certo para ser um diferencial na vida das pessoas. Parabéns pelo lindo trabalho!",
       "translated": {
@@ -91,11 +101,13 @@
     },
     {
       "id": "r06",
+      "image": "/Reviews/review-06.jpeg",
+      "featured": true,
       "author": "Cliente F.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["relax", "first", "spiritual"],
+      "themes": ["featured", "relax", "first", "spiritual"],
       "lang": "pt",
       "original": "A Thai Massage é uma experiência de duas horas de entrega real. Não é só massagem, é um reset corporal e mental. Eu senti meu estado físico mudar completamente. Saí mais leve, alinhada e, naquela noite, dormi profundamente por 8 horas seguidas, algo que não acontecia há tempos. O ambiente é extremamente acolhedor, com pessoas gentis e uma energia muito boa. Ele explica com clareza cada etapa da Thai Massage, o que traz segurança e conexão com o processo. E o feedback no final é um diferencial: faz a gente refletir, entender o próprio corpo, padrões e sair dali mais consciente. É uma experiência que vai além do físico. Recomendo de olhos fechados 😄",
       "translated": {
@@ -104,11 +116,13 @@
     },
     {
       "id": "r07",
+      "image": "/Reviews/review-07.jpeg",
+      "featured": true,
       "author": "Cliente G.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["pain", "spiritual", "first"],
+      "themes": ["featured", "pain", "spiritual", "first"],
       "lang": "pt",
       "original": "Olá meu querido amigo, vou tentar explicar porque o que eu senti no dia da massagem é algo inexplicável, começando pela parte física os alongamentos e liberação foram maravilhosos, eu te relatei sobre minha lombar da qual estava sentindo muita dor e os efeitos da liberação feita eu sinto até hoje, pois nunca mais senti dores intensas no local como sentia antes e todo o resto do meu corpo também agradece até hoje os efeitos de tudo o que você fez, por isso gratidão 🙏 e gratidão imensa pela manipulação de energia feita durante o trabalho que me levou a um estado de consciência diferente e que quando você \"acabou\" me fez permanecer nesse estado meditativo intenso e me fez me sentir ainda mais leve, poderia passar horas falando mas não conseguiria passar a sensação pra quem vai ler, é preciso que sintam por si, então gratidão a você e que seu trabalho de cura chegue a todos que possam conhecê-lo, Blessed be meu amigo 💫✨",
       "translated": {
@@ -117,11 +131,13 @@
     },
     {
       "id": "r08",
+      "image": "/Reviews/review-08.jpeg",
+      "featured": true,
       "author": "Cliente H.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["first", "spiritual", "relax"],
+      "themes": ["featured", "first", "spiritual", "relax"],
       "lang": "pt",
       "original": "A sessão de Thai Massage com o Victor foi surpreendente! Achei que seria mais uma massagem normal, porém foi muito mais que isso. O tratamento corporal físico é sensacional, porém o psicológico e espiritual também são tratados de maneira conjunta, ou seja, a sessão é completa! O que acho muito importante salientar é que, além de apresentar muito conhecimento sobre tudo o que inclui a Thai Massage, o Victor é extremamente educado e respeitoso, demonstrando um trabalho com integridade e técnica. Logo após a sessão já pude sentir a melhora, e com o passar dos dias, mais ainda. Estou muito satisfeito com o investimento, valeu muito a pena. Obrigado Victor!",
       "translated": {
@@ -130,11 +146,13 @@
     },
     {
       "id": "r09",
+      "image": "/Reviews/review-09.jpeg",
+      "featured": true,
       "author": "Cliente I.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["relax", "spiritual", "first"],
+      "themes": ["featured", "relax", "spiritual", "first"],
       "lang": "pt",
       "original": "Oi Vi!! Quero te agradecer pela incrível experiência que me proporcionou. Faço massagens há anos e em diversas modalidades mas nada se compara com a sua tai massagem. Tudo perfeito desde o bate papo inicial e até o final. Confesso que me desliguei de uma forma que a sensação que tive é que fui parar em outra dimensão! Eu realmente fiquei muito bem e por mais alguns dias inclusive. Já quero voltar muito em breve. Obrigada por me trazer essa leveza e equilíbrio, estava precisando muito mesmo. Amei!",
       "translated": {
@@ -143,16 +161,38 @@
     },
     {
       "id": "r10",
+      "image": "/Reviews/review-10.jpeg",
+      "featured": true,
       "author": "Cliente J.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["relax", "spiritual"],
+      "themes": ["featured", "relax", "spiritual"],
       "lang": "pt",
       "original": "Oii Vi, boa noite! Tudo bem? Nem sei o que te dizer, é muito além de uma massagem, é um acontecimento! Rs Brincadeiras a parte, muito obrigada mesmo! Realmente é uma experiência inexplicável! A paz que senti, o relaxamento do meu corpo, a forma como peguei no sono quando meu corpo desligou todos os pontos de stress, é indescritível! Sorte de cruzar seu caminho, pra poder vivenciar essa experiência! Voltarei em breve, com certeza! Boa semana",
       "translated": {
         "en": "Hi Vi, good evening! How are you? I don't even know what to say, it's way beyond a massage, it's an event. Jokes aside, thank you so much, really. It really is an experience I can't explain. The peace I felt, the way my body relaxed, the way I fell asleep when my body switched off every stress point, it's beyond words. Lucky to have crossed paths with you, to get to live this experience. I'll be back soon, for sure. Have a great week."
       }
-    }
+    },
+    { "id": "r11", "image": "/Reviews/review-11.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r12", "image": "/Reviews/review-12.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r13", "image": "/Reviews/review-13.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r14", "image": "/Reviews/review-14.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r15", "image": "/Reviews/review-15.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r16", "image": "/Reviews/review-16.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r17", "image": "/Reviews/review-17.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r18", "image": "/Reviews/review-18.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r19", "image": "/Reviews/review-19.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r20", "image": "/Reviews/review-20.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r21", "image": "/Reviews/review-21.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r22", "image": "/Reviews/review-22.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r23", "image": "/Reviews/review-23.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r24", "image": "/Reviews/review-24.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r25", "image": "/Reviews/review-25.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r26", "image": "/Reviews/review-26.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r27", "image": "/Reviews/review-27.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r28", "image": "/Reviews/review-28.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r29", "image": "/Reviews/review-29.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" },
+    { "id": "r30", "image": "/Reviews/review-30.jpeg", "featured": false, "source": "WhatsApp", "date": "2026" }
   ]
 }

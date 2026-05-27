@@ -97,3 +97,4 @@ Language switcher uses a PT slug to EN slug map (both `Header.astro` and `BaseLa
 | 2026-05-04 | Instagram logo: outline to brand-gradient (yellow to orange to pink to purple to blue). |
 | 2026-05-04 | EN mirror built (5 pages). Language switcher uses PT/EN route slug map. Sitemap updated with all 10 URLs. |
 | 2026-05-04 | Top 10 reviews wired into Reviews Wall. PT originals transcribed from `public/Reviews/review-01..10.jpeg`; EN translations adapted (not literal). New `spiritual` theme added. ReviewsWall component upgraded: line-clamp with fade + click-to-expand modal for long reviews. |
+| 2026-05-04 | Reviews Wall rebuilt to show all 30 WhatsApp screenshots as masonry-style grid (authenticity over polish). Top 10 sort first with gold "Destaque/Featured" ribbon. Click any screenshot to open modal: full image left + transcribed text right (top 10 only). Transcribed text also lives in sr-only block for SEO indexing. |
