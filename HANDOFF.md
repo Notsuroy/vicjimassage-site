@@ -44,7 +44,7 @@ Personal-brand website for **Vicji**, traditional Thai massage therapist based i
 1. **WhatsApp number** — replace `TODO_WHATSAPP_NUMBER` in `src/data/site.json`
 2. **Email** — replace `TODO_EMAIL` in `src/data/site.json`
 3. **Pix key** — replace `TODO_PIX_KEY` in `src/data/site.json`
-4. **Real photos** — replace SVG placeholders in `/public/hero-placeholder.svg`, `/public/portrait-placeholder.svg`
+4. ~~Real photos~~ ✅ Done — 13 photos in `/public/photos/` from Vicji's Drive folder. **Optimization pending**: each photo is 1-2MB; should be compressed to ~200-400KB via sharp or Astro Image component in Phase 2.
 5. **Real reviews** — replace placeholder content in `src/data/reviews.json` (Suroy has the source material)
 6. **Pricing confirmation** — confirm R$390 / R$540 / R$680 with Vicji; currently set at €60 ≈ R$390 for 60min
 7. **Vicji's story** — record voice note, transcribe, replace placeholder in `src/pages/sobre.astro`
@@ -79,3 +79,4 @@ Personal-brand website for **Vicji**, traditional Thai massage therapist based i
 | 2026-05-04 | Cloudflare Pages project `vicjimassage-site` created and deployed |
 | 2026-05-04 | Custom domains attached: apex + www → Pages, both serving 200 |
 | 2026-05-04 | GitHub Actions auto-deploy workflow added (`.github/workflows/deploy.yml`); secrets `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` set on repo |
+| 2026-05-04 | Real photos integrated: `hero.jpg` (Hero), `portrait.jpg` (MiniAbout), `portrait-meditative.jpg` (/sobre), `gallery-01..10.jpg` (new PhotoGallery component on homepage). 13 photos total in `public/photos/`. |
