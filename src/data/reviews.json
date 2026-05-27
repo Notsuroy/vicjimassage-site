@@ -1,7 +1,7 @@
 {
   "_note": "All 30 review screenshots. Top 10 (featured: true) have full transcription/translation/themes for SEO and theme filtering. The other 20 display as screenshots only. Source images live in /public/Reviews/ as review-01..30.jpeg.",
   "aggregate": {
-    "count": 100,
+    "count": 200,
     "rating": 5.0,
     "sources": ["WhatsApp", "Instagram"]
   },
