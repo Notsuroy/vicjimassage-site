@@ -12,34 +12,39 @@ const content = {
     headline: 'O corpo lembra. Eles também.',
     sub: 'Trechos reais de mensagens que recebi depois das sessões. Filtra por tema, ou rola até estar pronto pra agendar.',
     filterLabel: 'Filtrar por:',
-    loadMore: 'Mais avaliações',
-    translatedFrom: 'Traduzido do inglês',
-    originalIn: 'Original',
+    readFull: 'Ler completa',
+    close: 'Fechar',
+    translatedLabel: 'Traduzido do inglês',
+    originalLabel: 'Original',
     via: 'via',
+    none: 'Nenhuma avaliação neste tema ainda.',
   },
   en: {
     overline: `${reviews.aggregate.count}+ sessions delivered`,
     headline: 'The body remembers. So do they.',
     sub: "Real excerpts from messages I've received after sessions. Filter by theme, or scroll until you're ready to book.",
     filterLabel: 'Filter by:',
-    loadMore: 'More reviews',
-    translatedFrom: 'Translated from Portuguese',
-    originalIn: 'Original in English',
+    readFull: 'Read full review',
+    close: 'Close',
+    translatedLabel: 'Translated from Portuguese',
+    originalLabel: 'Original in English',
     via: 'via',
+    none: 'No reviews under this theme yet.',
   },
 };
 
 const c = content[lang];
 const themes = reviews.themes[lang];
 
-function getReviewText(review, currentLang) {
-  if (review.lang === currentLang) return { text: review.original, label: c.originalIn };
+function getReviewText(review: any, currentLang: 'pt' | 'en') {
+  if (review.lang === currentLang) {
+    return { text: review.original, label: c.originalLabel, translated: false };
+  }
   const translated = review.translated?.[currentLang];
   if (translated) {
-    const label = review.lang === 'en' ? (currentLang === 'pt' ? 'Traduzido do inglês' : c.translatedFrom) : c.translatedFrom;
-    return { text: translated, label };
+    return { text: translated, label: c.translatedLabel, translated: true };
   }
-  return { text: review.original, label: '' };
+  return { text: review.original, label: '', translated: false };
 }
 ---
 
@@ -70,48 +75,71 @@ function getReviewText(review, currentLang) {
 
     <!-- Reviews grid -->
     <div id="reviews-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-      {reviews.reviews.map((review, idx) => {
+      {reviews.reviews.map((review) => {
         const r = getReviewText(review, lang);
         return (
           <article
             data-themes={review.themes.join(',')}
-            class={`review-card ${idx >= 9 ? 'hidden' : ''}`}
+            data-review-id={review.id}
+            class="review-card relative flex flex-col cursor-pointer"
           >
             <div class="flex items-center gap-1 text-gold mb-3">
               {[1,2,3,4,5].map(() => (
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
               ))}
             </div>
-            <p class="text-ink leading-relaxed font-display text-xl italic mb-6">
-              "{r.text}"
-            </p>
-            <div class="flex items-center justify-between text-sm border-t border-sand-deep/30 pt-4">
+            <div class="relative flex-1">
+              <svg class="absolute -top-2 -left-1 w-7 h-7 text-terracotta/30" viewBox="0 0 24 24" fill="currentColor"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+              <p class="text-ink leading-relaxed text-base relative pl-5 line-clamp-[8] review-text">
+                {r.text}
+              </p>
+              <div class="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white via-white/80 to-transparent pointer-events-none review-fade"></div>
+            </div>
+            <button class="text-terracotta text-sm font-medium mt-3 hover:text-ocean transition-colors text-left review-expand">
+              {c.readFull} →
+            </button>
+            <div class="flex items-center justify-between text-sm border-t border-sand-deep/30 pt-4 mt-4">
               <div>
                 <div class="text-ink font-medium">{review.author}</div>
                 <div class="text-ink-muted text-xs">{review.city} · {review.date}</div>
               </div>
               <div class="text-right">
                 <div class="text-ink-muted text-xs">{c.via} {review.source}</div>
-                {r.label && <div class="text-terracotta text-[10px] uppercase tracking-widest2 mt-1">{r.label}</div>}
+                {r.translated && <div class="text-terracotta text-[10px] uppercase tracking-widest2 mt-1">{r.label}</div>}
               </div>
             </div>
+            <!-- Hidden full text for modal -->
+            <template class="review-full-text">{r.text}</template>
           </article>
         );
       })}
     </div>
 
-    {reviews.reviews.length > 9 && (
-      <div class="text-center mt-12">
-        <button id="load-more-reviews" class="btn-secondary">{c.loadMore}</button>
-      </div>
-    )}
+    <div id="reviews-empty" class="hidden text-center text-ink-muted mt-12 italic">{c.none}</div>
   </div>
 </section>
 
+<!-- Full-review modal -->
+<div id="review-modal" class="fixed inset-0 z-[60] bg-ocean-dark/80 backdrop-blur-sm hidden items-center justify-center p-4">
+  <div class="bg-sand rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-8 sm:p-10 relative shadow-2xl">
+    <button id="review-modal-close" aria-label={c.close} class="absolute top-4 right-4 w-10 h-10 rounded-full bg-sand-dark/40 hover:bg-sand-dark text-ocean flex items-center justify-center transition-colors">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="flex items-center gap-1 text-gold mb-4">
+      {[1,2,3,4,5].map(() => (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      ))}
+    </div>
+    <p id="review-modal-text" class="text-ink text-lg leading-relaxed whitespace-pre-line"></p>
+    <div id="review-modal-meta" class="mt-6 pt-4 border-t border-sand-deep/40 text-sm text-ink-muted"></div>
+  </div>
+</div>
+
 <script is:inline>
-  // Filter logic
+  // Filter
   const filters = document.querySelectorAll('.review-filter');
   const cards = document.querySelectorAll('#reviews-grid .review-card');
+  const empty = document.getElementById('reviews-empty');
   filters.forEach(btn => {
     btn.addEventListener('click', () => {
       const theme = btn.getAttribute('data-theme');
@@ -121,24 +149,47 @@ function getReviewText(review, currentLang) {
       });
       btn.classList.add('bg-ocean', 'text-sand', 'border-ocean');
       btn.classList.remove('bg-white/60', 'text-ink-muted', 'border-sand-deep/40');
+      let visible = 0;
       cards.forEach(card => {
         const themes = (card.getAttribute('data-themes') || '').split(',');
         const show = theme === 'all' || themes.includes(theme);
         card.classList.toggle('hidden', !show);
+        if (show) visible++;
       });
+      if (empty) empty.classList.toggle('hidden', visible !== 0);
     });
   });
 
-  // Load more
-  const loadBtn = document.getElementById('load-more-reviews');
-  if (loadBtn) {
-    loadBtn.addEventListener('click', () => {
-      document.querySelectorAll('#reviews-grid .review-card.hidden').forEach((c, i) => {
-        if (i < 9) c.classList.remove('hidden');
-      });
-      if (document.querySelectorAll('#reviews-grid .review-card.hidden').length === 0) {
-        loadBtn.style.display = 'none';
-      }
-    });
+  // Modal
+  const modal = document.getElementById('review-modal');
+  const modalText = document.getElementById('review-modal-text');
+  const modalMeta = document.getElementById('review-modal-meta');
+  const modalClose = document.getElementById('review-modal-close');
+  function openModal(card) {
+    const tpl = card.querySelector('template.review-full-text');
+    const author = card.querySelector('.text-ink.font-medium')?.textContent ?? '';
+    const meta = card.querySelectorAll('.text-ink-muted')[0]?.textContent ?? '';
+    if (tpl && modalText) modalText.textContent = tpl.innerHTML || tpl.textContent || '';
+    if (modalMeta) modalMeta.textContent = `${author} · ${meta}`.trim();
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
   }
+  function closeModal() {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+  cards.forEach(card => {
+    card.addEventListener('click', (e) => {
+      // ignore link clicks inside the card
+      if (e.target.closest('a')) return;
+      openModal(card);
+    });
+    const expandBtn = card.querySelector('.review-expand');
+    if (expandBtn) expandBtn.addEventListener('click', (e) => { e.stopPropagation(); openModal(card); });
+  });
+  modalClose?.addEventListener('click', closeModal);
+  modal?.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
 </script>

@@ -58,7 +58,7 @@ Language switcher uses a PT slug to EN slug map (both `Header.astro` and `BaseLa
 2. **Email**: replace `TODO_EMAIL` in `src/data/site.json`
 3. **Pix key**: replace `TODO_PIX_KEY` in `src/data/site.json`
 4. ~~Real photos~~ ✅ Done: 13 photos in `/public/photos/` from Vicji's Drive folder. **Optimization pending**: each photo is 1-2MB; should be compressed to ~200-400KB via sharp or Astro Image component in Phase 2.
-5. **Real reviews**: replace placeholder content in `src/data/reviews.json` (Suroy has the source material)
+5. ~~Real reviews~~ ✅ Top 10 wired in. PT originals + EN adaptations + 5 theme tags (relax/pain/spiritual/first/international). Source screenshots in `public/Reviews/review-01..10.jpeg`. Author names anonymized to `Cliente A.` through `J.` (no permission to use real names yet, easy to swap when Vicji confirms).
 6. **Pricing confirmation**: confirm R$390 / R$540 / R$680 with Vicji; currently set at €60 ≈ R$390 for 60min
 7. **Vicji's story**: record voice note, transcribe, replace placeholder in `src/pages/sobre.astro`
 8. **OG image**: create `/public/og-image.jpg` for social sharing
@@ -96,3 +96,4 @@ Language switcher uses a PT slug to EN slug map (both `Header.astro` and `BaseLa
 | 2026-05-04 | Wordmark font swapped to Grand Hotel (Instagram-style script). Em-dash purge across entire codebase per ÉLEVÉE/Vicji copy rule. |
 | 2026-05-04 | Instagram logo: outline to brand-gradient (yellow to orange to pink to purple to blue). |
 | 2026-05-04 | EN mirror built (5 pages). Language switcher uses PT/EN route slug map. Sitemap updated with all 10 URLs. |
+| 2026-05-04 | Top 10 reviews wired into Reviews Wall. PT originals transcribed from `public/Reviews/review-01..10.jpeg`; EN translations adapted (not literal). New `spiritual` theme added. ReviewsWall component upgraded: line-clamp with fade + click-to-expand modal for long reviews. |

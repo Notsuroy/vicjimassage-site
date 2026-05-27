@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER reviews. Suroy has the real ones, will replace this file when he sends them.",
+  "_note": "Top 10 reviews curated by Suroy from WhatsApp. Transcribed from public/Reviews/review-NN.jpeg. PT is original (sic typos preserved minimally for authenticity, only obvious autocorrect fixes applied). EN is adapted, not literally translated.",
   "aggregate": {
     "count": 100,
     "rating": 5.0,
@@ -7,60 +7,151 @@
   },
   "themes": {
     "pt": [
-      { "id": "all", "label": "Todas" },
-      { "id": "relax", "label": "Relaxamento profundo" },
-      { "id": "pain", "label": "Dor e tensão" },
-      { "id": "athletic", "label": "Atletas e recuperação" },
-      { "id": "first", "label": "Primeira vez" },
+      { "id": "all",           "label": "Todas" },
+      { "id": "relax",         "label": "Relaxamento profundo" },
+      { "id": "pain",          "label": "Alívio de dor" },
+      { "id": "spiritual",     "label": "Experiência espiritual" },
+      { "id": "first",         "label": "Primeira vez" },
       { "id": "international", "label": "Internacional" }
     ],
     "en": [
-      { "id": "all", "label": "All" },
-      { "id": "relax", "label": "Deep relaxation" },
-      { "id": "pain", "label": "Pain and tension" },
-      { "id": "athletic", "label": "Athletes and recovery" },
-      { "id": "first", "label": "First time" },
+      { "id": "all",           "label": "All" },
+      { "id": "relax",         "label": "Deep relaxation" },
+      { "id": "pain",          "label": "Pain relief" },
+      { "id": "spiritual",     "label": "Spiritual experience" },
+      { "id": "first",         "label": "First time" },
       { "id": "international", "label": "International" }
     ]
   },
   "reviews": [
     {
-      "id": "placeholder-1",
-      "author": "Suroy T.",
-      "city": "Toronto, Canadá",
-      "date": "2026",
-      "source": "WhatsApp",
-      "themes": ["relax", "international"],
-      "lang": "en",
-      "original": "Best massage I've ever received, and I've gotten a lot of them over the years. Vicji has a presence and intuition that's rare. You can feel that he actually cares about what he's doing.",
-      "translated": {
-        "pt": "A melhor massagem que eu já recebi, e eu já recebi muitas ao longo dos anos. O Vicji tem uma presença e uma intuição que é rara. Dá pra sentir que ele realmente se importa com o que está fazendo."
-      }
-    },
-    {
-      "id": "placeholder-2",
-      "author": "[Cliente]",
+      "id": "r01",
+      "author": "Cliente A.",
       "city": "Atibaia",
       "date": "2026",
       "source": "WhatsApp",
-      "themes": ["relax", "first"],
+      "themes": ["pain", "relax", "spiritual"],
       "lang": "pt",
-      "original": "[PLACEHOLDER: review real do Vicji aqui]",
+      "original": "Eu tardo mas não falho!!! 12 dias depois e continuo sem minha dor na lombar que sentia todos os dias... vc fez magica!! Amei a experiencia completa, o cuidado desde a preparação e inicio até como é conduzida a prática toda!!! Consegui sentir a atenção em cada parte do meu corpo e como seu trabalho com intenção faz toda a diferença! Logo no dia ja me senti mais leve e solta, meu quadril parece que não estava mais travado e o caminhar ficou mais fluido. Além de tudo fisico senti que fiquei com mais vontade de cuidar de mim e continuar em um momento de meditação e intenção no resto do dia!! Vi, foi uma experiencia diferente de tudo oq ja tinha vivido! Obrigada pelo espaço e pelo cuidado, espero estar com vc mais vezes ❤️",
       "translated": {
-        "en": "[PLACEHOLDER: Vicji's real review here]"
+        "en": "Took me a while but I had to tell you. 12 days later and I'm still without the lower-back pain I used to feel every single day. You worked magic. I loved the whole experience, the care from the preparation and start through the entire practice. I could feel the attention in every part of my body and how your work with intention makes all the difference. Right away I felt lighter and freer, my hip felt unlocked and walking became fluid. Beyond the physical, I left wanting to take care of myself, to stay in that meditative space for the rest of the day. Vi, this was unlike anything I've ever experienced. Thank you for the space and the care. I hope to come back many more times. ❤️"
       }
     },
     {
-      "id": "placeholder-3",
-      "author": "[Cliente]",
-      "city": "São Paulo",
+      "id": "r02",
+      "author": "Cliente B.",
+      "city": "Atibaia",
       "date": "2026",
-      "source": "Instagram",
-      "themes": ["pain"],
+      "source": "WhatsApp",
+      "themes": ["spiritual", "relax", "first"],
       "lang": "pt",
-      "original": "[PLACEHOLDER: review real do Vicji aqui]",
+      "original": "Uma experiência completamente transcedental! Senti fluxos de energia circulando pelo meu corpo que nunca havia acessado. Chorei, sorri, respirei, me senti cuidada, olhada e acolhida. A presença de Victor ja é terapêutica, todo seu cuidado em preparar o ambiente, onde quer que atenda, é um carinho a parte. Pra além da técnica, notoriamente executada com excelência, sua sensibilidade e presença deixam claro que nada ali é um manual sendo seguido. É algo totalmente feito pra você! Obrigada pela oportunidade de viver essa transformação! 🤍",
       "translated": {
-        "en": "[PLACEHOLDER]"
+        "en": "A completely transcendental experience. I felt currents of energy moving through my body that I'd never accessed before. I cried, I smiled, I breathed, I felt cared for, seen, held. Victor's presence alone is therapeutic. The care he puts into preparing the space, wherever he works, is its own kind of love. Beyond the technique, which is clearly executed at a high level, his sensitivity and presence make it obvious that nothing here is a manual being followed. It is completely made for you. Thank you for the chance to live this transformation. 🤍"
+      }
+    },
+    {
+      "id": "r03",
+      "author": "Cliente C.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["pain", "relax", "first"],
+      "lang": "pt",
+      "original": "Ontem, como te falei, saí da sessão me sentindo relaxada, e, o mais importante, sem dor na cervical que estava me incomodando há meses. Eu me sentia como se estivesse flutuando, e não caminhando. Tive uma excelente noite de sono, como há muito tempo não acontecia. Dormi profundamente e hj só acordei com o alarme (coisa rara comigo). Eu estava dormindo tão profundamente que tive muita dificuldade para sair da cama. Parecia que eu estava \"dopada\", como se eu tivesse tomado algum remédio para dormir. Demorei horrores para acordar de verdade. Até após o banho eu ainda queria voltar a dormir, coisa que nunca acontece comigo. Continuo sem a dor na cervical 🙏🙏🙏. Nem me lembro a última vez que passei um dia sem dor. Seu trabalho é maravilhoso e sua energia é algo indescritível. Só tenho uma coisa para te dizer: muitíssimo obrigada!",
+      "translated": {
+        "en": "Yesterday, like I told you, I left the session feeling relaxed and, more importantly, without the neck pain that had been bothering me for months. I felt like I was floating, not walking. I had the best night of sleep I'd had in a long time. I slept so deeply that today I only woke up because of my alarm (which rarely happens). I was sleeping so deeply that I had real trouble getting out of bed. It felt like I'd been sedated, like I'd taken a sleep medication. It took forever to fully wake up. Even after my shower I still wanted to go back to bed, which never happens to me. The neck pain is still gone 🙏🙏🙏. I can't remember the last time I went a whole day without pain. Your work is wonderful and your energy is something I can't describe. I only have one thing to say to you: thank you, deeply."
+      }
+    },
+    {
+      "id": "r04",
+      "author": "Cliente D.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["spiritual", "first", "relax"],
+      "lang": "pt",
+      "original": "Cara, a experiência da massagem foi uma verdadeira montanha-russa! No início, houve um mergulho imediato em uma calma quase absoluta. O ambiente trabalhando todos os sentidos (a música, o cheiro, a temperatura que você deixou), tudo ajudava a desacelerar o corpo e a mente. Eu tava completamente presente, sem pressa, sem ruído. Depois, à medida que a massagem avançava, surgiram momentos de introspecção. Tive reflexões sobre a vida, sobre escolhas, sobre relacionamentos, sobre coisas que eu nem sabia que estavam guardadas ali. E depois foi o mais maluco, lá na parte dos braços começou a vir um nó na garganta, uma vontade de chorar, como se o corpo estivesse liberando algo acumulado há tempos.",
+      "translated": {
+        "en": "Man, the massage experience was a real rollercoaster. At first, there was an immediate dive into almost absolute calm. The environment was working all the senses (the music, the scent, the temperature you set), everything helped slow the body and the mind down. I was completely present, no rush, no noise. Then, as the massage went on, moments of introspection started coming up. I had reflections about life, about choices, about relationships, about things I didn't even know were stored in there. And then came the wildest part: around the arms, a lump came up in my throat, a wanting to cry, like the body was releasing something it had been holding for a long time."
+      }
+    },
+    {
+      "id": "r05",
+      "author": "Cliente E.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["relax", "spiritual", "first"],
+      "lang": "pt",
+      "original": "A experiência foi muito boa! O local é ideal: aconchegante e equilibrado para relaxar. A sua abordagem inicial acolhe e esclarece, deixando-nos à vontade, tranquilo. A massagem foi na medida, fazendo com que eu conseguisse me entregar ao momento, relaxar e aproveitar os benefícios dela decorrentes. Relaxei profundamente e senti paz, segurança e conforto espiritual. Acredito que vc está no caminho certo para ser um diferencial na vida das pessoas. Parabéns pelo lindo trabalho!",
+      "translated": {
+        "en": "The experience was wonderful. The space is ideal: cozy, balanced, made for letting go. Your initial approach welcomes and clarifies, putting us at ease. The massage was perfectly calibrated, allowing me to give myself over to the moment, relax, and receive its benefits. I relaxed deeply and felt peace, safety, and spiritual comfort. I believe you're on the right path to becoming a real difference in people's lives. Congratulations on the beautiful work."
+      }
+    },
+    {
+      "id": "r06",
+      "author": "Cliente F.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["relax", "first", "spiritual"],
+      "lang": "pt",
+      "original": "A Thai Massage é uma experiência de duas horas de entrega real. Não é só massagem, é um reset corporal e mental. Eu senti meu estado físico mudar completamente. Saí mais leve, alinhada e, naquela noite, dormi profundamente por 8 horas seguidas, algo que não acontecia há tempos. O ambiente é extremamente acolhedor, com pessoas gentis e uma energia muito boa. Ele explica com clareza cada etapa da Thai Massage, o que traz segurança e conexão com o processo. E o feedback no final é um diferencial: faz a gente refletir, entender o próprio corpo, padrões e sair dali mais consciente. É uma experiência que vai além do físico. Recomendo de olhos fechados 😄",
+      "translated": {
+        "en": "Thai Massage is a two-hour experience of real surrender. It's not just massage, it's a body and mind reset. I felt my physical state completely change. I left lighter, aligned, and that night I slept deeply for 8 straight hours, something that hadn't happened in a long time. The space is incredibly welcoming, with kind people and great energy. He explains every stage of the Thai Massage clearly, which brings safety and a connection to the process. And the feedback at the end is a real differentiator: it makes you reflect, understand your own body, your patterns, and walk out more conscious. It's an experience that goes beyond the physical. I recommend it with my eyes closed 😄"
+      }
+    },
+    {
+      "id": "r07",
+      "author": "Cliente G.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["pain", "spiritual", "first"],
+      "lang": "pt",
+      "original": "Olá meu querido amigo, vou tentar explicar porque o que eu senti no dia da massagem é algo inexplicável, começando pela parte física os alongamentos e liberação foram maravilhosos, eu te relatei sobre minha lombar da qual estava sentindo muita dor e os efeitos da liberação feita eu sinto até hoje, pois nunca mais senti dores intensas no local como sentia antes e todo o resto do meu corpo também agradece até hoje os efeitos de tudo o que você fez, por isso gratidão 🙏 e gratidão imensa pela manipulação de energia feita durante o trabalho que me levou a um estado de consciência diferente e que quando você \"acabou\" me fez permanecer nesse estado meditativo intenso e me fez me sentir ainda mais leve, poderia passar horas falando mas não conseguiria passar a sensação pra quem vai ler, é preciso que sintam por si, então gratidão a você e que seu trabalho de cura chegue a todos que possam conhecê-lo, Blessed be meu amigo 💫✨",
+      "translated": {
+        "en": "Hello my dear friend, I'll try to explain because what I felt the day of the massage is something hard to put into words. Starting with the physical: the stretches and the release were wonderful. I told you about my lower back, which had been hurting badly, and the effects of the release you did I still feel today. I've never again felt those intense pains there, and the rest of my body still thanks you for the effects of everything you did. So, gratitude 🙏. And immense gratitude for the energy work you did during the session, which took me into a different state of consciousness, and when you 'finished' it kept me in that intense meditative state and made me feel even lighter. I could talk for hours but I couldn't pass on the sensation to whoever reads this, it has to be felt for yourself. So, gratitude to you, and may your healing work reach everyone who can find you. Blessed be, my friend. 💫✨"
+      }
+    },
+    {
+      "id": "r08",
+      "author": "Cliente H.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["first", "spiritual", "relax"],
+      "lang": "pt",
+      "original": "A sessão de Thai Massage com o Victor foi surpreendente! Achei que seria mais uma massagem normal, porém foi muito mais que isso. O tratamento corporal físico é sensacional, porém o psicológico e espiritual também são tratados de maneira conjunta, ou seja, a sessão é completa! O que acho muito importante salientar é que, além de apresentar muito conhecimento sobre tudo o que inclui a Thai Massage, o Victor é extremamente educado e respeitoso, demonstrando um trabalho com integridade e técnica. Logo após a sessão já pude sentir a melhora, e com o passar dos dias, mais ainda. Estou muito satisfeito com o investimento, valeu muito a pena. Obrigado Victor!",
+      "translated": {
+        "en": "The Thai Massage session with Victor was a surprise. I thought it would be just another massage, but it was so much more than that. The physical bodywork is sensational, but the psychological and spiritual are treated together, so the session is complete. What I think is really worth highlighting is that, beyond his deep knowledge of everything that Thai Massage includes, Victor is extremely respectful and well-mannered, working with integrity and real technique. I felt the improvement right after the session, and even more in the days that followed. I'm very satisfied with the investment, it was worth every cent. Thank you Victor!"
+      }
+    },
+    {
+      "id": "r09",
+      "author": "Cliente I.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["relax", "spiritual", "first"],
+      "lang": "pt",
+      "original": "Oi Vi!! Quero te agradecer pela incrível experiência que me proporcionou. Faço massagens há anos e em diversas modalidades mas nada se compara com a sua tai massagem. Tudo perfeito desde o bate papo inicial e até o final. Confesso que me desliguei de uma forma que a sensação que tive é que fui parar em outra dimensão! Eu realmente fiquei muito bem e por mais alguns dias inclusive. Já quero voltar muito em breve. Obrigada por me trazer essa leveza e equilíbrio, estava precisando muito mesmo. Amei!",
+      "translated": {
+        "en": "Hi Vi!! I want to thank you for the incredible experience you gave me. I've been getting massages for years, in many different modalities, but nothing compares to your Thai massage. Everything was perfect, from the initial conversation through to the very end. I have to confess I disconnected in a way that the sensation I had was that I'd ended up in another dimension. I genuinely felt amazing, and it kept going for several days after. I already want to come back, soon. Thank you for bringing me this lightness and balance, I really needed it. I loved it."
+      }
+    },
+    {
+      "id": "r10",
+      "author": "Cliente J.",
+      "city": "Atibaia",
+      "date": "2026",
+      "source": "WhatsApp",
+      "themes": ["relax", "spiritual"],
+      "lang": "pt",
+      "original": "Oii Vi, boa noite! Tudo bem? Nem sei o que te dizer, é muito além de uma massagem, é um acontecimento! Rs Brincadeiras a parte, muito obrigada mesmo! Realmente é uma experiência inexplicável! A paz que senti, o relaxamento do meu corpo, a forma como peguei no sono quando meu corpo desligou todos os pontos de stress, é indescritível! Sorte de cruzar seu caminho, pra poder vivenciar essa experiência! Voltarei em breve, com certeza! Boa semana",
+      "translated": {
+        "en": "Hi Vi, good evening! How are you? I don't even know what to say, it's way beyond a massage, it's an event. Jokes aside, thank you so much, really. It really is an experience I can't explain. The peace I felt, the way my body relaxed, the way I fell asleep when my body switched off every stress point, it's beyond words. Lucky to have crossed paths with you, to get to live this experience. I'll be back soon, for sure. Have a great week."
       }
     }
   ]
