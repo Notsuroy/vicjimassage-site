@@ -36,17 +36,23 @@ const c = content[lang];
 ---
 
 <section class="relative overflow-hidden">
-  <!-- Hero photo: Vicji giving massage in park, golden hour -->
+  <!-- Hero photo: vertical (mobile) + landscape (desktop ≥768px) -->
   <div class="absolute inset-0 z-0">
-    <img
-      src="/photos/hero.jpg"
-      alt="Vicji conduzindo uma sessão de massagem tailandesa em um parque ao entardecer"
-      class="absolute inset-0 w-full h-full object-cover object-center"
-      loading="eager"
-      fetchpriority="high"
-    />
-    <div class="absolute inset-0 bg-gradient-to-r from-ocean-dark/85 via-ocean-dark/60 to-ocean-dark/30"></div>
-    <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/90 via-transparent to-ocean-dark/20"></div>
+    <picture>
+      <source media="(min-width: 768px)" srcset="/photos/hero.jpg" />
+      <img
+        src="/photos/gallery-05.jpg"
+        alt="Vicji em momento de prática meditativa ao entardecer"
+        class="absolute inset-0 w-full h-full object-cover object-center"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </picture>
+    <!-- Mobile gradient (top→bottom, heavier at bottom for text legibility) -->
+    <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/95 via-ocean-dark/50 to-ocean-dark/30 md:hidden"></div>
+    <!-- Desktop gradient (left→right, heavier on left where text lives) -->
+    <div class="absolute inset-0 bg-gradient-to-r from-ocean-dark/85 via-ocean-dark/60 to-ocean-dark/30 hidden md:block"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/80 via-transparent to-transparent hidden md:block"></div>
   </div>
 
   <div class="relative z-10 container-wide pt-24 pb-32 sm:pt-32 sm:pb-40 lg:pt-40 lg:pb-48">
