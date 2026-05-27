@@ -1,0 +1,51 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Hero from '~/components/Hero.astro';
+import ProblemPromise from '~/components/ProblemPromise.astro';
+import MiniAbout from '~/components/MiniAbout.astro';
+import ServicesGrid from '~/components/ServicesGrid.astro';
+import PhotoGallery from '~/components/PhotoGallery.astro';
+import ReviewsWall from '~/components/ReviewsWall.astro';
+import FAQ from '~/components/FAQ.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+import site from '~/data/site.json';
+---
+<BaseLayout
+  title="Vicji · Traditional Thai Massage in Atibaia, Brazil"
+  lang="en"
+  path="/en/"
+>
+  <Hero lang="en" />
+  <ProblemPromise lang="en" />
+  <MiniAbout lang="en" />
+  <ServicesGrid lang="en" />
+  <PhotoGallery lang="en" />
+  <ReviewsWall lang="en" />
+  <FAQ lang="en" />
+  <FinalCTA lang="en" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
+    "name": "Vicji Massage",
+    "description": site.brand.shortDescription.en,
+    "image": new URL('/photos/hero.jpg', Astro.site).toString(),
+    "url": Astro.site?.toString(),
+    "telephone": site.contact.whatsapp.startsWith('TODO') ? undefined : `+${site.contact.whatsapp}`,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": site.location.street,
+      "addressLocality": site.location.city,
+      "addressRegion": site.location.state,
+      "postalCode": site.location.postalCode,
+      "addressCountry": "BR"
+    },
+    "sameAs": [site.contact.instagramUrl],
+    "priceRange": "R$ 390 to R$ 680",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "100"
+    }
+  })} />
+</BaseLayout>

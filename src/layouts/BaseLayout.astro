@@ -16,9 +16,18 @@ const { title, description, lang = 'pt', path = '/' } = Astro.props;
 const desc = description ?? site.seo.defaultDescription[lang];
 const ogImage = '/photos/hero.jpg';
 
-// hreflang alternates
-const ptPath = path.startsWith('/en') ? path.replace(/^\/en/, '') || '/' : path;
-const enPath = path.startsWith('/en') ? path : `/en${path === '/' ? '' : path}`;
+// PT <-> EN route slug map (must match the one in Header.astro)
+const ptToEn = {
+  '/':         '/en/',
+  '/sobre':    '/en/about',
+  '/servicos': '/en/services',
+  '/agendar':  '/en/book',
+  '/contato':  '/en/contact',
+};
+const enToPt = Object.fromEntries(Object.entries(ptToEn).map(([k, v]) => [v, k]));
+
+const ptPath = lang === 'pt' ? path : (enToPt[path] || '/');
+const enPath = lang === 'en' ? path : (ptToEn[path] || '/en/');
 ---
 <!doctype html>
 <html lang={lang === 'pt' ? 'pt-BR' : 'en'}>

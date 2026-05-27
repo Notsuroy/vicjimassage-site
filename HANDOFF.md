@@ -34,13 +34,23 @@ Personal-brand website for **Vicji**, traditional Thai massage therapist based i
 **Copy rules (non-negotiable):**
 - Never use em dashes (the U+2014 character). Use commas, periods, colons, or en dashes (U+2013) instead. Run `grep -rPn '\xe2\x80\x94' src/ HANDOFF.md README.md tailwind.config.cjs` before any push to verify zero hits.
 
-## Pages built (v1, Portuguese only)
+## Pages built (v1, PT + EN)
 
-- [x] `/`: Funnel homepage (Hero, Problem/Promise, MiniAbout, Services, Reviews wall, FAQ, Final CTA)
+PT (root):
+- [x] `/`: Funnel homepage (Hero, Problem/Promise, MiniAbout, Services, Gallery, Reviews wall, FAQ, Final CTA)
 - [x] `/sobre`: About page (placeholder copy, awaiting Vicji's voice note)
 - [x] `/servicos`: Service menu with 3 sessions (60/90/120 min)
 - [x] `/agendar`: Booking page (WhatsApp-driven)
 - [x] `/contato`: Contact + studio location + Google Maps embed
+
+EN (at /en/):
+- [x] `/en/`: Homepage (same components, EN content)
+- [x] `/en/about`
+- [x] `/en/services`
+- [x] `/en/book`
+- [x] `/en/contact`
+
+Language switcher uses a PT slug to EN slug map (both `Header.astro` and `BaseLayout.astro` keep the map in sync). hreflang alternates set per page.
 
 ## TODO before launch (blocking)
 
@@ -84,3 +94,5 @@ Personal-brand website for **Vicji**, traditional Thai massage therapist based i
 | 2026-05-04 | GitHub Actions auto-deploy workflow added (`.github/workflows/deploy.yml`); secrets `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` set on repo |
 | 2026-05-04 | Real photos integrated: `hero.jpg` (Hero), `portrait.jpg` (MiniAbout), `portrait-meditative.jpg` (/sobre), `gallery-01..10.jpg` (new PhotoGallery component on homepage). 13 photos total in `public/photos/`. |
 | 2026-05-04 | Wordmark font swapped to Grand Hotel (Instagram-style script). Em-dash purge across entire codebase per ÉLEVÉE/Vicji copy rule. |
+| 2026-05-04 | Instagram logo: outline to brand-gradient (yellow to orange to pink to purple to blue). |
+| 2026-05-04 | EN mirror built (5 pages). Language switcher uses PT/EN route slug map. Sitemap updated with all 10 URLs. |

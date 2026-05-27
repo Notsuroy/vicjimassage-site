@@ -26,9 +26,23 @@ const nav = {
 };
 
 const items = nav[lang];
-const altLangPath = lang === 'pt'
-  ? `/en${currentPath === '/' ? '' : currentPath}`
-  : currentPath.replace(/^\/en/, '') || '/';
+
+// PT route slug <-> EN route slug mapping (route slugs differ by language for SEO)
+const routeMap = {
+  '/':         '/en/',
+  '/sobre':    '/en/about',
+  '/servicos': '/en/services',
+  '/agendar':  '/en/book',
+  '/contato':  '/en/contact',
+};
+const reverseRouteMap = Object.fromEntries(Object.entries(routeMap).map(([k, v]) => [v, k]));
+
+let altLangPath;
+if (lang === 'pt') {
+  altLangPath = routeMap[currentPath] || '/en/';
+} else {
+  altLangPath = reverseRouteMap[currentPath] || '/';
+}
 const altLabel = lang === 'pt' ? 'EN' : 'PT';
 const ctaLabel = lang === 'pt' ? 'Agendar sessão' : 'Book a session';
 const ctaHref = lang === 'pt' ? '/agendar' : '/en/book';

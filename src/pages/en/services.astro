@@ -1,0 +1,49 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import ServicesGrid from '~/components/ServicesGrid.astro';
+import FAQ from '~/components/FAQ.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+---
+<BaseLayout
+  title="Services · Vicji Massage"
+  description="Traditional Thai massage sessions in Atibaia, Brazil. 60, 90, or 120 minutes."
+  lang="en"
+  path="/en/services"
+>
+  <section class="pt-24 pb-16">
+    <div class="container-narrow text-center">
+      <div class="label-overline mb-4">Services</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-6 leading-tight">
+        Sessions shaped for the body in front of me.
+      </h1>
+      <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
+        Every session is traditional Thai massage, no oil, on a futon, in comfortable clothes. What changes is the time, and how deep the body lets us go.
+      </p>
+    </div>
+  </section>
+
+  <ServicesGrid lang="en" showAll={true} />
+
+  <section class="py-24">
+    <div class="container-narrow">
+      <h2 class="font-display text-3xl text-ocean mb-8 text-center">What a session with me looks like</h2>
+      <div class="space-y-6 text-ink-muted leading-relaxed">
+        <p><strong class="text-ink">Arrival.</strong> We talk first. I want to understand what you're feeling, what brought you here, if there's any area to avoid or to care for more.</p>
+        <p><strong class="text-ink">The session.</strong> You lie on a futon, in comfortable clothes. I work in silence, with traditional music in the background. Conscious pressure along the energy lines, passive stretching, meditative pace. There's no clock. Just the time we agreed on.</p>
+        <p><strong class="text-ink">Leaving.</strong> I leave you alone for a few minutes at the end, to integrate. Water, simple recommendations for the next few hours, and you head home.</p>
+      </div>
+
+      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-12">
+        <h3 class="font-display text-2xl text-ocean mb-4">Payment and cancellation</h3>
+        <ul class="space-y-2 text-ink-muted">
+          <li>· Pix (Brazilian instant payment) or cash, at the time of the session</li>
+          <li>· International clients: cash in BRL, USD, or EUR accepted</li>
+          <li>· Cancellations with at least 24h notice, no charge</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <FAQ lang="en" />
+  <FinalCTA lang="en" />
+</BaseLayout>

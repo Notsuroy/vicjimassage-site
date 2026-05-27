@@ -1,0 +1,80 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+---
+<BaseLayout
+  title="About · Vicji Massage"
+  description="Vicji's story: a Brazilian therapist who traveled to Thailand to study Thai massage at the source. Now practicing in Atibaia."
+  lang="en"
+  path="/en/about"
+>
+  <section class="py-24 sm:py-32">
+    <div class="container-narrow">
+      <div class="label-overline mb-4">The story</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-12 leading-tight">
+        I came home to do work I learned on the other side of the world.
+      </h1>
+
+      <div class="aspect-[3/4] sm:aspect-[16/10] rounded-2xl mb-12 relative overflow-hidden bg-ocean-dark">
+        <img
+          src="/photos/portrait-meditative.jpg"
+          alt="Vicji in a meditative moment during a session"
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-ocean-dark/40 via-transparent to-transparent"></div>
+      </div>
+
+      <div class="prose-soft space-y-6">
+        <p class="font-display italic text-2xl text-ink leading-snug">
+          [TODO: Text adapted from Vicji's voice note. This placeholder reflects the intended tone.]
+        </p>
+
+        <p>
+          My name is Vicji. I'm Brazilian, and massage came into my life as a question, not as a profession. I wanted to understand how the body holds what we live through, and how it lets go when it receives the right care.
+        </p>
+
+        <p>
+          That question took me to Thailand. I studied at the Sunshine Massage School in Chiang Mai, where I learned traditional Thai practice at the source: pressure along the energy lines (sen), passive stretching, meditative pace, working with the breath. Everything that makes Thai massage different from what you find elsewhere.
+        </p>
+
+        <p>
+          I came back to Brazil because I felt this work was missing here. We live at a pace that hurts the body in ways we barely notice, and most massages on the market only treat the symptom, not the root.
+        </p>
+
+        <p>
+          Today I see clients in Atibaia, at Espaço Clô. Later this year I'm moving to Itacaré, bringing the practice close to the sea.
+        </p>
+
+        <p>
+          Every session I give is an extension of what I learned: presence, respect for the body in front of me, and time. No rush. No empty technique. Just the work.
+        </p>
+      </div>
+
+      <div class="divider-ornament"></div>
+
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="label-overline mb-2">Training</div>
+          <p class="text-ink">
+            Sunshine Massage School, Chiang Mai, Thailand
+          </p>
+          <p class="text-ink-muted text-sm mt-2">
+            Traditional Thai massage practice at the source, in one of the most respected schools in northern Thailand.
+          </p>
+        </div>
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="label-overline mb-2">Ongoing practice</div>
+          <p class="text-ink">
+            100+ sessions delivered
+          </p>
+          <p class="text-ink-muted text-sm mt-2">
+            What I learned in Thailand, I deepen with every session. Every body is a new book.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <FinalCTA lang="en" />
+</BaseLayout>

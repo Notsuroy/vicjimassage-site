@@ -6,6 +6,11 @@ const pages = [
   { loc: '/servicos', priority: '0.9' },
   { loc: '/agendar', priority: '0.9' },
   { loc: '/contato', priority: '0.7' },
+  { loc: '/en/', priority: '1.0' },
+  { loc: '/en/about', priority: '0.8' },
+  { loc: '/en/services', priority: '0.9' },
+  { loc: '/en/book', priority: '0.9' },
+  { loc: '/en/contact', priority: '0.7' },
 ];
 
 export const GET: APIRoute = ({ site }) => {

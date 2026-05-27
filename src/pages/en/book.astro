@@ -1,0 +1,57 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import site from '~/data/site.json';
+
+const whatsapp = site.contact.whatsapp;
+const msg = "Hi Vicji! I'd like to book a session. My name is";
+const whHref = whatsapp.startsWith('TODO') ? '#' : `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
+---
+<BaseLayout
+  title="Book a Session · Vicji Massage"
+  description="Book your Thai massage session with Vicji in Atibaia, Brazil. Sessions at Espaço Clô."
+  lang="en"
+  path="/en/book"
+>
+  <section class="py-24 sm:py-32">
+    <div class="container-narrow text-center">
+      <div class="label-overline mb-4">Booking</div>
+      <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-6 leading-tight">
+        Let's set it up.
+      </h1>
+      <p class="text-ink-muted text-lg leading-relaxed mb-12 max-w-xl mx-auto">
+        The fastest way is WhatsApp. I reply personally, confirm a time, send you the address, and the payment details. Simple.
+      </p>
+
+      <a href={whHref} target="_blank" rel="noopener" class="btn-whatsapp text-lg !py-4 !px-8">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/>
+        </svg>
+        Message me on WhatsApp
+      </a>
+
+      <p class="text-ink-muted text-sm mt-6">
+        Prefer another way? <a href="/en/contact" class="text-ocean underline underline-offset-4 decoration-gold/50 hover:text-terracotta">See other ways to reach me →</a>
+      </p>
+
+      <div class="divider-ornament"></div>
+
+      <div class="grid sm:grid-cols-3 gap-6 text-left">
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="text-terracotta font-display text-3xl mb-2">1</div>
+          <h3 class="font-display text-xl text-ocean mb-2">You message me</h3>
+          <p class="text-ink-muted text-sm">Tell me what you're looking for, if it's your first time, and what days work for you.</p>
+        </div>
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="text-terracotta font-display text-3xl mb-2">2</div>
+          <h3 class="font-display text-xl text-ocean mb-2">We confirm</h3>
+          <p class="text-ink-muted text-sm">I offer you available times and send you the studio address in Atibaia.</p>
+        </div>
+        <div class="bg-white/60 rounded-2xl p-6 border border-sand-deep/30">
+          <div class="text-terracotta font-display text-3xl mb-2">3</div>
+          <h3 class="font-display text-xl text-ocean mb-2">You come in</h3>
+          <p class="text-ink-muted text-sm">Comfortable clothes, no heavy meals 2h before. Payment at the session: Pix, cash (BRL/USD/EUR).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
