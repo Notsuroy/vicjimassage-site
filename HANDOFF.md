@@ -32,7 +32,7 @@ Personal-brand website for **Vicji**, traditional Thai massage therapist based i
 - Accent: Grand Hotel (script, used for the "Vicji" wordmark, chosen to match Instagram's iconic logo style)
 
 **Copy rules (non-negotiable):**
-- Never use em dashes (the U+2014 character). Use commas, periods, colons, or en dashes (U+2013) instead. Run `grep -rn $'—' src/ HANDOFF.md README.md tailwind.config.cjs` before any push to verify zero hits.
+- Never use em dashes (the U+2014 character). Use commas, periods, colons, or en dashes (U+2013) instead. Run `grep -rPn '\xe2\x80\x94' src/ HANDOFF.md README.md tailwind.config.cjs` before any push to verify zero hits.
 
 ## Pages built (v1, Portuguese only)
 
