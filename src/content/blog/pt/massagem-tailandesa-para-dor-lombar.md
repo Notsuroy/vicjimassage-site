@@ -56,7 +56,15 @@ Em uma sessão típica para alguém com dor lombar, eu:
 5. **Só então chego na lombar em si.** Pressão consciente nas linhas paralelas à coluna, alongamento da coluna toda, trabalho com a respiração.
 6. **Fecho com inversões e descompressões.** Posturas onde o quadril fica mais alto que a cabeça, permitindo que a coluna se descomprima.
 
-Esse trabalho leva tempo. Por isso minhas sessões são longas (mínimo 60 minutos, idealmente 90 ou 120). Não dá pra fazer esse circuito em 30 minutos. E é por isso que sessões express raramente resolvem dor lombar crônica.
+Esse trabalho leva tempo. Por isso minhas sessões são longas (mínimo 1h30, idealmente 2h ou mais). Não dá pra fazer esse circuito em 30 minutos. E é por isso que sessões express raramente resolvem dor lombar crônica.
+
+## A sessão que eu desenvolvi exatamente pra isso
+
+Além da Thai Massage Tradicional, eu ofereço uma sessão específica chamada **Liberação de Quadril** (1h30, R$ 250). Ela foi desenvolvida exatamente pro perfil que descrevi acima: foco em pernas, quadril e lombar, com técnicas de liberação miofascial e descompressão.
+
+No campo energético, ela trabalha os chakras inferiores (raiz e sacral), que são exatamente os que carregam os aspectos emocionais ligados à base do corpo: sobrevivência, segurança, estabilidade. Frequentemente é justamente esse peso emocional crônico que mantém a lombar travada.
+
+Se a tua queixa principal é dor lombar e tu quer começar focado, é por aí. Se tu quer o trabalho mais amplo (corpo inteiro), a Thai Massage Tradicional de 2h ou 3h cobre a região lombar como parte do circuito completo.
 
 ## O que esperar logo após a sessão
 
@@ -99,4 +107,4 @@ Não tem que acontecer. Mas se acontecer, acolhe. É parte do trabalho.
 
 ---
 
-**Tem dor lombar crônica e quer experimentar?** [Marca uma sessão de 90 minutos](/agendar). Conversamos antes pra entender tua história, e a gente trabalha juntos. Atendimento em Atibaia, no Espaço Clô.
+**Tem dor lombar crônica e quer experimentar?** [Marca a Liberação de Quadril](/agendar) (1h30, R$ 250), ou a Thai Massage Tradicional de 2h se preferir o trabalho corpo inteiro. Conversamos antes pra entender tua história, e a gente trabalha juntos. Atendimento em Atibaia, no Espaço Clô.

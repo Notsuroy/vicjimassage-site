@@ -1,6 +1,6 @@
 ---
-title: "Antes da sua primeira massagem tailandesa: 5 coisas pra saber"
-description: "O que vestir, o que comer (ou não comer), como se preparar e o que esperar. Um guia prático pra primeira sessão."
+title: "Antes da sua primeira massagem tailandesa: tudo o que você precisa saber"
+description: "O que vestir, o que comer (ou não comer), como se preparar, o ritual de abertura da sessão, e o que esperar. Um guia prático pra primeira vez."
 publishDate: 2026-05-27
 coverImage: "/photos/portrait.jpg"
 coverAlt: "Vicji recebendo um cliente para uma sessão"
@@ -16,26 +16,26 @@ Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira s
 
 ## 1. O que vestir
 
-**Roupa confortável e justa-mas-não-apertada.** Como ir pra uma aula de yoga.
+**Camiseta e calça confortáveis, de algodão ou flexível (leggings).** Como ir pra uma aula de yoga.
 
 Recomendo:
 
 - Calça legging, calça de moletom ou bermuda esportiva
 - Camiseta de manga curta ou regata
-- Tecido que estica (algodão com elastano, dry-fit, etc.)
+- Tecido que estica e respira (algodão, dry-fit)
 
 Evita:
 
 - Calça jeans (não estica)
-- Camisas com botões (incomodam ao deitar de bruços)
+- Camisas com botões (incomodam ao deitar)
 - Roupa muito larga (atrapalha os movimentos)
-- Joias e relógio (deixa em casa ou tira na hora)
+- Joias, relógio e maquiagem, se possível (deixa em casa, ou tira na hora)
 
 Se esquecer e chegar com roupa errada, eu tenho algumas opções no estúdio. Mas o ideal é vir já preparado.
 
 ## 2. O que comer (e não comer) antes
 
-**Regra principal: nenhuma refeição pesada nas duas horas antes da sessão.**
+**Regra principal: estômago vazio, ou pelo menos 2h depois da última refeição.**
 
 A massagem tailandesa envolve compressões na barriga, alongamentos profundos e mudanças de posição. Comer muito antes vai te deixar desconfortável e o trabalho vai ser menos efetivo.
 
@@ -51,7 +51,19 @@ O que evitar:
 - Álcool no mesmo dia (o álcool desidrata e atrapalha o relaxamento muscular)
 - Café nas duas horas antes (a cafeína dificulta o sistema nervoso entrar em modo descanso)
 
-## 3. Como te comunicar comigo durante a sessão
+## 3. Como começa a sessão (o ritual)
+
+Antes da massagem em si, tem um ritual de abertura que faz parte do trabalho:
+
+**Chá relaxante.** Te ofereço um chá quando tu chega. A gente conversa um pouco. Eu quero conhecer um pouco da tua história, qualquer coisa que esteja te incomodando no corpo, qualquer expectativa que tu tenha.
+
+**Respirações guiadas.** Tu deita, eu te guio em respirações profundas. Isso prepara o sistema nervoso pro estado de entrega.
+
+**Incenso e meditação.** Energizo o ambiente com incenso, e abro com um minuto de meditação. Não é decoração. É a parte que conecta a técnica à intenção.
+
+Depois disso é que a massagem propriamente dita começa.
+
+## 4. Como te comunicar comigo durante a sessão
 
 Eu trabalho principalmente em silêncio. Sem conversa fiada. A música tradicional fica baixa, o ambiente fica calmo. Isso é proposital, ajuda o sistema nervoso a desacelerar.
 
@@ -65,7 +77,7 @@ Mas tu sempre pode (e deve) falar quando:
 
 Não tenta "aguentar" se algo está desconfortável. O trabalho corporal funciona quando o corpo confia no que está acontecendo. Se tu está aguentando algo desagradável em silêncio, o corpo se fecha, e o trabalho não chega onde precisa.
 
-## 4. O que pode acontecer durante a sessão
+## 5. O que pode acontecer durante a sessão
 
 Cada corpo responde diferente, mas alguns padrões são comuns:
 
@@ -83,7 +95,7 @@ Cada corpo responde diferente, mas alguns padrões são comuns:
 
 Nenhuma dessas reações é "errada". Todas são sinais de que o trabalho está acontecendo.
 
-## 5. O que fazer depois da sessão
+## 6. O que fazer depois da sessão
 
 A sessão não termina quando tu se levanta do futon. As próximas 24 horas são parte do trabalho.
 

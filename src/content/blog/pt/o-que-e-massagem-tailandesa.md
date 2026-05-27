@@ -1,6 +1,6 @@
 ---
 title: "O que é massagem tailandesa? Guia completo para quem nunca experimentou"
-description: "Origem, técnica, benefícios e o que esperar de uma sessão de massagem tailandesa tradicional. Escrito por quem aprendeu na fonte, em Chiang Mai."
+description: "Origem, técnica, benefícios e os três níveis do trabalho (físico, energético e espiritual). Escrito por quem aprendeu na fonte da tradição, na Tailândia."
 publishDate: 2026-05-27
 coverImage: "/photos/gallery-04.jpg"
 coverAlt: "Vicji conduzindo uma sessão de massagem tailandesa em um parque ao entardecer"
@@ -26,9 +26,21 @@ Mas a prática que sobreviveu até hoje não veio só da Índia. Ela absorveu in
 
 Por séculos, foi ensinada oralmente. Pai pra filho, mestre pra discípulo. Só recentemente, nas últimas décadas, começou a ser sistematizada em escolas formais.
 
-Quando eu fui pra Tailândia estudar, fui pra Chiang Mai, no norte do país, onde a tradição é mais preservada. Estudei na **Sunshine Massage School**, uma das escolas mais respeitadas da região. E o que mais me marcou não foi a técnica em si. Foi a postura por trás dela.
+Quando eu fui pra Tailândia estudar, me formei na fonte da tradição. Depois fui pra Índia mergulhar no yoga, que aprofundou a compreensão energética do trabalho. E o que mais me marcou nessas duas formações não foi a técnica em si. Foi a postura por trás dela.
 
 Lá, massagem não é serviço. É oferenda. É um ato de cuidado que tem dimensão espiritual.
+
+## Os três níveis: físico, energético, espiritual
+
+Essa é a parte que mais diferencia o Thai Massage de tudo o mais. Ele nasceu integrado, não fragmentado. Quando bem executado, trabalha o corpo em três dimensões simultâneas:
+
+**Físico:** liberação muscular profunda, soltura das fáscias, mobilização articular, descompressão da coluna. A parte que dá pra ver e medir.
+
+**Energético:** trabalho direto sobre os centros energéticos (chakras) e as linhas de energia (sen). O corpo descansa do que estava represado.
+
+**Espiritual:** a sessão começa com meditação, atravessa o silêncio, fecha em integração. O toque vem de um lugar de presença e intenção, não de mecânica.
+
+Quando alguém sai de uma sessão dizendo "não sei explicar, mas algo mudou", está descrevendo os três níveis trabalhando juntos. É isso que separa uma sessão profunda de uma massagem comum.
 
 ## Como funciona, na prática
 
@@ -76,13 +88,16 @@ A massagem tailandesa é versátil, mas alguns perfis costumam ter resultados mu
 - **Quem nunca para** e precisa de um espaço onde o corpo pode realmente desacelerar
 - **Quem busca um trabalho corporal mais integrado**, não só físico
 
-Não é indicada (ou precisa ser adaptada) para:
+Não é indicada (ou precisa ser conversada antes) para:
 
-- Primeiro trimestre de gravidez (depois do primeiro trimestre, conversa comigo antes)
-- Febre ou infecção ativa
-- Lesão muscular ou óssea recente
-- Condição cardiovascular grave não controlada
-- Pós-operatório recente
+- Gestantes de risco
+- Fraturas recentes
+- Pele lesionada
+- Cirurgia com menos de 6 meses
+- Doenças cardiovasculares graves
+- Trombose
+- Osteoporose avançada
+- Inflamações agudas
 
 Se tu tem alguma dessas condições, me avisa antes da sessão. A gente decide juntos o que faz sentido.
 
@@ -94,19 +109,18 @@ Pra ficar claro, aqui está a diferença das modalidades mais comuns:
 
 **Massagem desportiva:** óleos, foco em grupos musculares específicos, pressão forte. Ótima para recuperação muscular direta, menos profunda em termos energéticos.
 
-**Massagem tailandesa:** sem óleo, com roupa, no futon. Combina pressão profunda com alongamentos. Trabalha o corpo como um todo, incluindo a dimensão energética. Sessões longas (60 a 120 minutos).
+**Massagem tailandesa:** sem óleo, com roupa, no tatame. Combina pressão profunda com alongamentos. Trabalha o corpo como um todo, incluindo a dimensão energética e espiritual. Sessões longas, sem pressa.
 
 Cada uma tem seu espaço. A tailandesa é a que eu pratico porque, na minha experiência, é a que mais profundamente desloca o que precisa ser deslocado.
 
-## Quanto tempo dura uma sessão
+## As duas sessões que eu ofereço
 
-Sessões tradicionais na Tailândia podem durar duas, três horas. Aqui no Brasil, eu ofereço três formatos:
+Hoje atendo dois tipos de sessão:
 
-- **60 minutos:** sessão essencial. Bom pra entender o trabalho.
-- **90 minutos:** sessão recomendada. Tempo pro corpo desacelerar de verdade.
-- **120 minutos:** sessão imersiva. A experiência completa, ideal pra quem está há muito tempo sem parar.
+- **Thai Massage Tradicional (2h ou 3h):** corpo inteiro, dos pés à cabeça. A versão de 2h é o ponto de entrada natural. A de 3h é a experiência imersiva, ideal pra quem está há muito tempo sem parar.
+- **Liberação de Quadril (1h30):** sessão focada na base do corpo. Quadril, pernas, lombar, e os chakras inferiores. Curta mais não menos profunda.
 
-A diferença entre uma sessão de 60 e uma de 90 não é só "30 minutos a mais". É a diferença entre arranhar a superfície e realmente entrar.
+Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho essa tradição aqui. A diferença entre uma sessão curta de spa e o trabalho de verdade não é só "mais tempo" — é a diferença entre arranhar a superfície e realmente entrar.
 
 ## O que esperar da sua primeira sessão
 
