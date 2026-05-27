@@ -9,7 +9,8 @@ const { lang } = Astro.props;
 const content = {
   pt: {
     overline: 'Pronto pra começar',
-    headline: 'Se sentiu que é para você. Agende uma sessão.',
+    headlineTop: 'Se sentiu que é para você.',
+    headlineBottom: 'Agende a sua sessão.',
     sub: 'Atendimento no Espaço Clô, em Atibaia.',
     primary: 'Agendar agora',
     secondary: 'WhatsApp direto',
@@ -18,7 +19,8 @@ const content = {
   },
   en: {
     overline: 'Ready to begin',
-    headline: "If you feel it's for you, book a session.",
+    headlineTop: "If you feel it's for you.",
+    headlineBottom: 'Book your session.',
     sub: 'Sessions at Espaço Clô, in Atibaia.',
     primary: 'Book now',
     secondary: 'WhatsApp direct',
@@ -42,7 +44,8 @@ const whHref = whatsapp.startsWith('TODO') ? '#' : `https://wa.me/${whatsapp}?te
   <div class="relative container-narrow text-center">
     <div class="text-gold uppercase tracking-widest2 text-xs mb-4">{c.overline}</div>
     <h2 class="font-display text-4xl sm:text-6xl text-sand mb-6 leading-tight">
-      {c.headline}
+      <span class="block">{c.headlineTop}</span>
+      <span class="block mt-3 sm:mt-4">{c.headlineBottom}</span>
     </h2>
     <p class="text-sand/80 text-lg mb-10 max-w-xl mx-auto">{c.sub}</p>
 
