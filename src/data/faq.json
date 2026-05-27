@@ -1,16 +1,20 @@
 {
   "pt": [
     {
-      "q": "Preciso me preparar pra primeira sessão?",
-      "a": "Não. Venha como está. A única coisa que ajuda é evitar refeições pesadas nas duas horas antes. Roupas confortáveis (a massagem tailandesa é feita vestido) e o resto eu cuido."
+      "q": "Qual a diferença entre Thai Massage Tradicional e Liberação de Quadril?",
+      "a": "A Thai Massage Tradicional percorre o corpo inteiro, dos pés à cabeça, com duração de 2h ou 3h. A Liberação de Quadril é mais focada (1h30) e mergulha na parte inferior do corpo: pernas, quadril, lombar, e os chakras inferiores (raiz e sacral). Se é tua primeira vez, a Tradicional de 2h é o ponto de partida natural."
+    },
+    {
+      "q": "O que vestir? Preciso me preparar?",
+      "a": "Camiseta e calça confortáveis, de algodão ou leggings. Sem joias ou maquiagem se possível. Estômago vazio, ou pelo menos 2h depois da última refeição. O resto, eu cuido."
     },
     {
       "q": "Massagem tailandesa dói?",
-      "a": "Não tem que doer. A pressão é firme e o trabalho é profundo, mas o ritmo é meditativo. Eu leio teu corpo durante toda a sessão e ajusto. Tu sempre podes me dizer se algo é demais."
+      "a": "Não tem que doer. A pressão é firme e o trabalho é profundo, mas o ritmo é meditativo. Eu leio o teu corpo durante toda a sessão e ajusto. Tu sempre podes me dizer se algo é demais."
     },
     {
       "q": "Qual a diferença pra massagem sueca ou relaxante?",
-      "a": "A massagem tailandesa é feita sem óleo, com roupa, em um futon no chão. Combina pressão nas linhas de energia (sen) com alongamentos assistidos, parecido com yoga passivo. É mais ativa, mais ritmo, e trabalha o corpo como um todo, incluindo a parte energética."
+      "a": "A Thai Massage é feita sem óleo, com roupa, no tatame. Combina pressão nas linhas de energia (sen) com alongamentos passivos inspirados no yoga. É mais ativa, com mais ritmo, e trabalha o corpo inteiro: físico, energético e espiritual. Não é técnica vazia, é prática."
     },
     {
       "q": "Quantas sessões eu preciso pra sentir resultado?",
@@ -18,11 +22,11 @@
     },
     {
       "q": "Tem alguma contraindicação?",
-      "a": "Gravidez (especialmente primeiro trimestre), febre, lesão recente, ou condição cardiovascular grave: conversa comigo antes. Em quase todos os outros casos, a massagem tailandesa é segura e benéfica."
+      "a": "Gestantes de risco, fraturas recentes, pele lesionada, cirurgia com menos de 6 meses, doenças cardiovasculares graves, trombose, osteoporose avançada ou inflamações agudas. Em qualquer um desses casos, me avisa antes pra gente decidir juntos."
     },
     {
       "q": "Como funciona o pagamento?",
-      "a": "Pix ou dinheiro, na hora da sessão. Te mando a chave Pix junto com a confirmação do agendamento."
+      "a": "Pix ou dinheiro, na hora da sessão. Te mando a chave Pix junto com a confirmação do agendamento. Clientes internacionais podem pagar em dólar ou euro em dinheiro."
     },
     {
       "q": "E se eu precisar cancelar?",
@@ -31,16 +35,20 @@
   ],
   "en": [
     {
-      "q": "Do I need to prepare for my first session?",
-      "a": "No. Come as you are. The only thing that helps is avoiding heavy meals two hours before. Wear comfortable clothes (Thai massage is done fully clothed) and I'll take care of the rest."
+      "q": "What is the difference between Traditional Thai Massage and Hip Release?",
+      "a": "Traditional Thai Massage runs through the whole body, head to toe, in either 2h or 3h. Hip Release is more focused (1h30) and dives into the lower body: legs, hips, lower back, and the lower chakras (root and sacral). If it is your first time, the 2h Traditional is the natural starting point."
+    },
+    {
+      "q": "What should I wear? Do I need to prepare?",
+      "a": "Comfortable t-shirt and pants, cotton or leggings. No jewelry or makeup if possible. Empty stomach, or at least 2h after your last meal. The rest, I take care of."
     },
     {
       "q": "Does Thai massage hurt?",
-      "a": "It shouldn't. The pressure is firm and the work is deep, but the pace is meditative. I read your body throughout the session and adjust. You can always tell me if something is too much."
+      "a": "It should not. The pressure is firm and the work is deep, but the pace is meditative. I read your body throughout the session and adjust. You can always tell me if something is too much."
     },
     {
       "q": "How is it different from Swedish or relaxation massage?",
-      "a": "Thai massage is done without oil, fully clothed, on a futon on the floor. It combines pressure along energy lines (sen) with assisted stretching, similar to passive yoga. It's more active, more rhythmic, and works the whole body, including the energetic dimension."
+      "a": "Thai Massage is done without oil, fully clothed, on a futon. It combines pressure along the energy lines (sen) with passive yoga-inspired stretches. It is more active, more rhythmic, and works the whole body: physical, energetic, and spiritual. It is not empty technique. It is practice."
     },
     {
       "q": "How many sessions do I need to feel results?",
@@ -48,11 +56,11 @@
     },
     {
       "q": "Are there any contraindications?",
-      "a": "Pregnancy (especially first trimester), fever, recent injury, or serious cardiovascular condition: let me know before. In almost every other case, Thai massage is safe and beneficial."
+      "a": "High-risk pregnancy, recent fractures, injured skin, surgery within the last 6 months, serious cardiovascular conditions, thrombosis, advanced osteoporosis, or acute inflammation. In any of these cases, let me know in advance so we can decide together."
     },
     {
       "q": "How does payment work?",
-      "a": "Pix or cash, at the time of the session. I'll send you the Pix key along with the booking confirmation. International clients can pay in cash (BRL, USD, or EUR)."
+      "a": "Pix or cash, at the time of the session. I will send you the Pix key along with the booking confirmation. International clients can pay in cash in BRL, USD, or EUR."
     },
     {
       "q": "What if I need to cancel?",

@@ -1,59 +1,194 @@
 {
-  "_note": "PLACEHOLDER pricing. Confirm with Vicji. Base price ~€60 = R$390 (rate at build time). Session lengths and modalities to be confirmed.",
+  "_note": "Two services per Vicji's actual offering (his client-facing copy, sent via WhatsApp 2026-05-27). Prices and durations confirmed by Vicji himself. Thai Tradicional has two duration variants (2h and 3h). Liberação de Quadril is a focused 1h30 session.",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
     {
-      "id": "thai-60",
-      "duration": "60 min",
-      "price": 390,
-      "priceDisplay": "R$ 390",
+      "id": "thai-tradicional",
+      "slug": "thai-tradicional",
+      "highlight": true,
+      "icon": "lotus",
       "name": {
-        "pt": "Massagem Tailandesa, 60 minutos",
-        "en": "Thai Massage, 60 minutes"
+        "pt": "Thai Massage Tradicional",
+        "en": "Traditional Thai Massage"
+      },
+      "tagline": {
+        "pt": "A sessão completa. Corpo, energia, espírito.",
+        "en": "The full session. Body, energy, spirit."
       },
       "description": {
-        "pt": "Sessão essencial. Corpo inteiro, ritmo meditativo, alongamentos assistidos e pressão consciente nas linhas de energia (sen).",
-        "en": "Essential session. Full body, meditative pace, assisted stretching, and conscious pressure along the energy lines (sen)."
+        "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga, com o objetivo de liberar a musculatura, relaxar fáscias, mobilizar articulações, descomprimir vértebras, soltar tensões e emoções acumuladas, e equilibrar os centros energéticos do corpo (chakras).",
+        "en": "Complete traditional Thai massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga, working to release muscle tension, relax fascia, mobilize joints, decompress the spine, free stored emotions, and balance the body's energy centers (chakras)."
       },
-      "highlight": false
+      "options": [
+        {
+          "duration": "2h",
+          "price": 330,
+          "priceDisplay": "R$ 330",
+          "label": {
+            "pt": "2 horas",
+            "en": "2 hours"
+          }
+        },
+        {
+          "duration": "3h",
+          "price": 480,
+          "priceDisplay": "R$ 480",
+          "label": {
+            "pt": "3 horas (imersiva)",
+            "en": "3 hours (immersive)"
+          }
+        }
+      ],
+      "highlights": {
+        "pt": [
+          "Trabalho corpo inteiro, pés à cabeça",
+          "Pressão em pontos energéticos (sen) + alongamentos assistidos",
+          "Equilíbrio dos chakras",
+          "Liberação miofascial e descompressão vertebral",
+          "Ambiente com música tradicional e incenso"
+        ],
+        "en": [
+          "Full-body work, head to toe",
+          "Pressure on energy points (sen) + assisted stretching",
+          "Chakra balancing",
+          "Myofascial release and spinal decompression",
+          "Setting with traditional music and incense"
+        ]
+      }
     },
     {
-      "id": "thai-90",
-      "duration": "90 min",
-      "price": 540,
-      "priceDisplay": "R$ 540",
+      "id": "liberacao-quadril",
+      "slug": "liberacao-quadril",
+      "highlight": false,
+      "icon": "wave",
       "name": {
-        "pt": "Massagem Tailandesa, 90 minutos",
-        "en": "Thai Massage, 90 minutes"
+        "pt": "Liberação de Quadril",
+        "en": "Hip Release Session"
+      },
+      "tagline": {
+        "pt": "Foco profundo na base do corpo.",
+        "en": "Deep focus on the body's foundation."
       },
       "description": {
-        "pt": "Sessão recomendada. Tempo para o corpo desacelerar de verdade. Trabalho mais profundo em áreas de maior tensão, sem perder o ritmo da prática.",
-        "en": "Recommended session. Time for the body to truly slow down. Deeper work in areas of tension, without losing the rhythm of the practice."
+        "pt": "Sessão focada em aliviar tensões da parte inferior do corpo, soltar os quadris, descomprimir a região lombar, e harmonizar os chakras inferiores (raiz e sacral). Trabalha aspectos emocionais relacionados à sobrevivência, segurança, estabilidade, prazer, sexualidade e criatividade. Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão.",
+        "en": "Focused session for releasing tension in the lower body, opening the hips, decompressing the lower back, and harmonizing the lower chakras (root and sacral). Works the emotional aspects connected to survival, safety, stability, pleasure, sexuality, and creativity. Combines Thai Massage techniques with targeted stretches, myofascial release, and decompression."
       },
-      "highlight": true
-    },
-    {
-      "id": "thai-120",
-      "duration": "120 min",
-      "price": 680,
-      "priceDisplay": "R$ 680",
-      "name": {
-        "pt": "Massagem Tailandesa Completa, 120 minutos",
-        "en": "Full Thai Massage, 120 minutes"
-      },
-      "description": {
-        "pt": "Sessão imersiva. A experiência completa: cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar.",
-        "en": "Immersive session. The full experience: head to toe, with enough time for the nervous system to settle. Ideal for those who haven't truly stopped in a long time."
-      },
-      "highlight": false
+      "options": [
+        {
+          "duration": "1h30",
+          "price": 250,
+          "priceDisplay": "R$ 250",
+          "label": {
+            "pt": "1 hora e 30 minutos",
+            "en": "1 hour 30 minutes"
+          }
+        }
+      ],
+      "highlights": {
+        "pt": [
+          "Foco em pernas, quadril e lombar",
+          "Liberação miofascial profunda",
+          "Harmonização dos chakras raiz e sacral",
+          "Trabalho emocional ligado à base do corpo"
+        ],
+        "en": [
+          "Focus on legs, hips, and lower back",
+          "Deep myofascial release",
+          "Harmonizing root and sacral chakras",
+          "Emotional work tied to the body's foundation"
+        ]
+      }
     }
   ],
-  "_pendingConfirmation": [
-    "Confirm actual prices",
-    "Confirm if foot-only or partial sessions offered",
-    "Confirm if couples/duo sessions offered",
-    "Confirm if herbal compress (Luk Pra Kob) offered",
-    "Confirm house-call vs studio-only"
-  ]
+  "sessionStructure": {
+    "pt": [
+      {
+        "label": "Abertura",
+        "icon": "✨",
+        "body": "Ofereço um chá relaxante. Conversamos um pouco para eu conhecer você, seu histórico de saúde, e te apresentar a técnica que vamos realizar. Criamos um espaço de acolhimento e segurança."
+      },
+      {
+        "label": "Conexão e Intenção",
+        "icon": "🕯️",
+        "body": "Você deita confortavelmente. Te guio em respirações profundas que preparam o corpo para o estado de entrega. Energizo o ambiente com incenso e abro a sessão com um minuto de meditação, despertando a energia compassiva e curadora que conduz todo o trabalho."
+      },
+      {
+        "label": "A Massagem",
+        "icon": "🌿",
+        "body": "Sobre o tatame, com música de fundo. Combina alongamentos passivos inspirados no yoga, pressões rítmicas e toques conscientes nos pontos de energia. O toque é firme e meditativo, levando o corpo a um estado profundo de liberação. Dos pés à cabeça, com enfoque específico no que cada corpo precisa."
+      },
+      {
+        "label": "Integração e Silêncio",
+        "icon": "💫",
+        "body": "Ao final, o corpo descansa em quietude para assimilar a sessão. A energia se reorganiza, o sistema nervoso entra em repouso restaurador."
+      },
+      {
+        "label": "Encerramento",
+        "icon": "🙏",
+        "body": "Conversamos sobre como foi. Sensações, emoções, o que apareceu. Dou um feedback sobre o estado corporal e energético, com dicas pra aplicar no dia a dia."
+      }
+    ],
+    "en": [
+      {
+        "label": "Opening",
+        "icon": "✨",
+        "body": "I offer you a relaxing tea. We talk for a few minutes so I can get to know you, your health history, and walk you through what we're about to do. We build a space of trust and safety."
+      },
+      {
+        "label": "Connection and Intention",
+        "icon": "🕯️",
+        "body": "You lie down comfortably. I guide you through deep breathing that prepares the body for the work ahead. I energize the space with incense and open the session with a minute of meditation, awakening the compassionate, healing energy that runs through the whole practice."
+      },
+      {
+        "label": "The Massage",
+        "icon": "🌿",
+        "body": "On the futon, with traditional music. Passive yoga-inspired stretches, rhythmic pressure, conscious touch on the energy points. The touch is firm and meditative, taking the body to a deep state of release. Head to toe, with specific focus on what each body needs."
+      },
+      {
+        "label": "Integration and Silence",
+        "icon": "💫",
+        "body": "At the end, the body rests in stillness to absorb the work. Energy reorganizes. The nervous system enters deep restorative rest."
+      },
+      {
+        "label": "Closing",
+        "icon": "🙏",
+        "body": "We talk about how it went. Sensations, emotions, what came up. I give you feedback on your physical and energetic state, with tips you can apply day to day."
+      }
+    ]
+  },
+  "preparation": {
+    "pt": [
+      "Camiseta e calça confortáveis (algodão ou leggings)",
+      "Sem acessórios ou maquiagem, se possível",
+      "Estômago vazio, ou pelo menos 2h após a refeição"
+    ],
+    "en": [
+      "Comfortable t-shirt and pants (cotton or leggings)",
+      "No jewelry or makeup if possible",
+      "Empty stomach, or at least 2h after a meal"
+    ]
+  },
+  "contraindications": {
+    "pt": [
+      "Gestantes de risco",
+      "Fraturas recentes",
+      "Pele lesionada",
+      "Cirurgia com menos de 6 meses",
+      "Doenças cardiovasculares graves",
+      "Trombose",
+      "Osteoporose avançada",
+      "Inflamações agudas"
+    ],
+    "en": [
+      "High-risk pregnancy",
+      "Recent fractures",
+      "Injured skin",
+      "Surgery within the last 6 months",
+      "Serious cardiovascular conditions",
+      "Thrombosis",
+      "Advanced osteoporosis",
+      "Acute inflammation"
+    ]
+  }
 }

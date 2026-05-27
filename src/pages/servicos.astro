@@ -3,6 +3,7 @@ import BaseLayout from '~/layouts/BaseLayout.astro';
 import ServicesGrid from '~/components/ServicesGrid.astro';
 import FAQ from '~/components/FAQ.astro';
 import FinalCTA from '~/components/FinalCTA.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import services from '~/data/services.json';
 import site from '~/data/site.json';
 
@@ -26,19 +27,21 @@ const offerCatalog = {
   "areaServed": { "@type": "City", "name": "Atibaia" },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Sessões de Massagem Tailandesa",
-    "itemListElement": services.services.map((s) => ({
-      "@type": "Offer",
-      "name": s.name.pt,
-      "description": s.description.pt,
-      "price": s.price,
-      "priceCurrency": "BRL",
-      "itemOffered": {
-        "@type": "Service",
-        "name": s.name.pt,
-        "duration": `PT${s.duration.replace(/[^\d]/g, '')}M`,
-      },
-    })),
+    "name": "Sessões",
+    "itemListElement": services.services.flatMap(s =>
+      s.options.map(o => ({
+        "@type": "Offer",
+        "name": `${s.name.pt}, ${o.label.pt}`,
+        "description": s.description.pt,
+        "price": o.price,
+        "priceCurrency": "BRL",
+        "itemOffered": {
+          "@type": "Service",
+          "name": s.name.pt,
+          "duration": `PT${o.duration.replace(/[^\d]/g, '')}H`.replace('H30', 'H30M'),
+        },
+      }))
+    ),
   },
 };
 
@@ -53,7 +56,7 @@ const breadcrumbs = {
 ---
 <BaseLayout
   title="Serviços · Vicji Massage"
-  description="Sessões de massagem tailandesa tradicional em Atibaia. 60, 90 ou 120 minutos."
+  description="Sessões de Thai Massage tradicional e Liberação de Quadril em Atibaia. Trabalho em três níveis: físico, energético e espiritual."
   lang="pt"
   path="/servicos"
 >
@@ -61,31 +64,81 @@ const breadcrumbs = {
     <div class="container-narrow text-center">
       <div class="label-overline mb-4">Serviços</div>
       <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-6 leading-tight">
-        Sessões pensadas pro corpo que tá na minha frente.
+        Duas sessões. Dois caminhos no mesmo trabalho.
       </h1>
       <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
-        Toda sessão é massagem tailandesa tradicional, sem óleo, em futon, com roupa confortável. O que muda é o tempo, e o quanto o corpo permite ir fundo.
+        A Thai Massage Tradicional percorre o corpo inteiro. A Liberação de Quadril mergulha na base. Ambas integram o trabalho físico, energético e espiritual.
       </p>
     </div>
   </section>
 
   <ServicesGrid lang="pt" showAll={true} />
 
-  <section class="py-24">
+  <!-- Session structure -->
+  <section class="py-24 bg-sand-dark/30">
     <div class="container-narrow">
-      <h2 class="font-display text-3xl text-ocean mb-8 text-center">Como é uma sessão comigo</h2>
-      <div class="space-y-6 text-ink-muted leading-relaxed">
-        <p><strong class="text-ink">Chegada.</strong> Conversamos primeiro. Eu quero entender o que tu está sentindo, o que te trouxe aqui, se tem alguma área pra evitar ou pra cuidar com mais atenção.</p>
-        <p><strong class="text-ink">A sessão.</strong> Tu fica deitado num futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Pressão consciente nas linhas de energia, alongamentos passivos, ritmo meditativo. Não tem hora pra terminar. Tem o tempo que a gente combinou.</p>
-        <p><strong class="text-ink">Saída.</strong> Eu te deixo uns minutos sozinho no fim, pra integrar. Água, recomendações simples pras próximas horas, e tu vai embora.</p>
+      <div class="text-center mb-16">
+        <div class="label-overline mb-4">Como é uma sessão comigo</div>
+        <h2 class="font-display text-4xl sm:text-5xl text-ocean leading-tight">
+          A sessão tem cinco momentos.
+        </h2>
       </div>
 
-      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-12">
+      <div class="space-y-6">
+        {services.sessionStructure.pt.map((step, i) => (
+          <div class="flex gap-6 bg-white/60 rounded-2xl p-6 sm:p-8 border border-sand-deep/30">
+            <div class="flex-shrink-0 text-3xl sm:text-4xl">{step.icon}</div>
+            <div class="flex-1">
+              <div class="flex items-baseline gap-3 mb-2">
+                <span class="text-gold font-display text-sm">{String(i + 1).padStart(2, '0')}</span>
+                <h3 class="font-display text-2xl text-ocean">{step.label}</h3>
+              </div>
+              <p class="text-ink-muted leading-relaxed">{step.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Preparation + Contraindications -->
+  <section class="py-24">
+    <div class="container-narrow">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">🧘</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">Como se preparar</h2>
+          <ul class="space-y-3 text-ink-muted">
+            {services.preparation.pt.map(item => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">⚠️</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">Contraindicações</h2>
+          <p class="text-ink-muted text-sm mb-4">Em qualquer um desses casos, me avisa antes pra gente decidir juntos:</p>
+          <ul class="space-y-2 text-ink-muted text-sm">
+            {services.contraindications.pt.map(item => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-8">
         <h3 class="font-display text-2xl text-ocean mb-4">Pagamento e cancelamento</h3>
         <ul class="space-y-2 text-ink-muted">
-          <li>• Pix ou dinheiro, na hora da sessão</li>
-          <li>• Cancelamentos com até 24h de antecedência, sem custo</li>
-          <li>• Clientes internacionais: aceito reais, dólar ou euro em dinheiro</li>
+          <li>· Pix ou dinheiro, na hora da sessão</li>
+          <li>· Cancelamentos com até 24h de antecedência, sem custo</li>
+          <li>· Clientes internacionais: aceito reais, dólar ou euro em dinheiro</li>
         </ul>
       </div>
     </div>
@@ -93,6 +146,11 @@ const breadcrumbs = {
 
   <FAQ lang="pt" />
   <FinalCTA lang="pt" />
+
+  <Breadcrumbs items={[
+    { name: 'Início', href: '/' },
+    { name: 'Serviços', href: '/servicos' },
+  ]} />
 
   <script type="application/ld+json" set:html={JSON.stringify(offerCatalog)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbs)} />

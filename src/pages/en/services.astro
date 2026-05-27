@@ -26,25 +26,27 @@ const offerCatalog = {
   "areaServed": { "@type": "City", "name": "Atibaia" },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Thai Massage Sessions",
-    "itemListElement": services.services.map((s) => ({
-      "@type": "Offer",
-      "name": s.name.en,
-      "description": s.description.en,
-      "price": s.price,
-      "priceCurrency": "BRL",
-      "itemOffered": {
-        "@type": "Service",
-        "name": s.name.en,
-        "duration": `PT${s.duration.replace(/[^\d]/g, '')}M`,
-      },
-    })),
+    "name": "Sessions",
+    "itemListElement": services.services.flatMap(s =>
+      s.options.map(o => ({
+        "@type": "Offer",
+        "name": `${s.name.en}, ${o.label.en}`,
+        "description": s.description.en,
+        "price": o.price,
+        "priceCurrency": "BRL",
+        "itemOffered": {
+          "@type": "Service",
+          "name": s.name.en,
+          "duration": `PT${o.duration.replace(/[^\d]/g, '')}H`.replace('H30', 'H30M'),
+        },
+      }))
+    ),
   },
 };
 ---
 <BaseLayout
   title="Services · Vicji Massage"
-  description="Traditional Thai massage sessions in Atibaia, Brazil. 60, 90, or 120 minutes."
+  description="Traditional Thai Massage and Hip Release sessions in Atibaia, Brazil. Work in three dimensions: physical, energetic, spiritual."
   lang="en"
   path="/en/services"
 >
@@ -52,26 +54,74 @@ const offerCatalog = {
     <div class="container-narrow text-center">
       <div class="label-overline mb-4">Services</div>
       <h1 class="font-display text-5xl sm:text-6xl text-ocean mb-6 leading-tight">
-        Sessions shaped for the body in front of me.
+        Two sessions. Two paths through the same work.
       </h1>
       <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
-        Every session is traditional Thai massage, no oil, on a futon, in comfortable clothes. What changes is the time, and how deep the body lets us go.
+        Traditional Thai Massage runs through the whole body. Hip Release dives into the foundation. Both integrate the physical, energetic, and spiritual work.
       </p>
     </div>
   </section>
 
   <ServicesGrid lang="en" showAll={true} />
 
-  <section class="py-24">
+  <section class="py-24 bg-sand-dark/30">
     <div class="container-narrow">
-      <h2 class="font-display text-3xl text-ocean mb-8 text-center">What a session with me looks like</h2>
-      <div class="space-y-6 text-ink-muted leading-relaxed">
-        <p><strong class="text-ink">Arrival.</strong> We talk first. I want to understand what you're feeling, what brought you here, if there's any area to avoid or to care for more.</p>
-        <p><strong class="text-ink">The session.</strong> You lie on a futon, in comfortable clothes. I work in silence, with traditional music in the background. Conscious pressure along the energy lines, passive stretching, meditative pace. There's no clock. Just the time we agreed on.</p>
-        <p><strong class="text-ink">Leaving.</strong> I leave you alone for a few minutes at the end, to integrate. Water, simple recommendations for the next few hours, and you head home.</p>
+      <div class="text-center mb-16">
+        <div class="label-overline mb-4">What a session with me looks like</div>
+        <h2 class="font-display text-4xl sm:text-5xl text-ocean leading-tight">
+          The session has five moments.
+        </h2>
       </div>
 
-      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-12">
+      <div class="space-y-6">
+        {services.sessionStructure.en.map((step, i) => (
+          <div class="flex gap-6 bg-white/60 rounded-2xl p-6 sm:p-8 border border-sand-deep/30">
+            <div class="flex-shrink-0 text-3xl sm:text-4xl">{step.icon}</div>
+            <div class="flex-1">
+              <div class="flex items-baseline gap-3 mb-2">
+                <span class="text-gold font-display text-sm">{String(i + 1).padStart(2, '0')}</span>
+                <h3 class="font-display text-2xl text-ocean">{step.label}</h3>
+              </div>
+              <p class="text-ink-muted leading-relaxed">{step.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24">
+    <div class="container-narrow">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">🧘</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">How to prepare</h2>
+          <ul class="space-y-3 text-ink-muted">
+            {services.preparation.en.map(item => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">⚠️</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">Contraindications</h2>
+          <p class="text-ink-muted text-sm mb-4">In any of these cases, let me know in advance so we can decide together:</p>
+          <ul class="space-y-2 text-ink-muted text-sm">
+            {services.contraindications.en.map(item => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-8">
         <h3 class="font-display text-2xl text-ocean mb-4">Payment and cancellation</h3>
         <ul class="space-y-2 text-ink-muted">
           <li>· Pix (Brazilian instant payment) or cash, at the time of the session</li>

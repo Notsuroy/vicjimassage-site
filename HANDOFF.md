@@ -65,7 +65,7 @@ Language switcher uses a PT slug to EN slug map (both `Header.astro` and `BaseLa
 
 ## TODO after launch (Phase 2, in priority order)
 
-### Email capture (queued — full plan below in "Email capture playbook")
+### Email capture (queued, full plan below in "Email capture playbook")
 - [ ] Phase 1 (no Vicji action): footer signup + inline blog form + `/obrigado` page + Cloudflare Pages Function endpoint. Sends emails to Vicji's inbox initially.
 - [ ] Phase 2 (when Vicji is ready): create Kit account, swap endpoint destination, build welcome sequence.
 - [ ] Phase 3 (after Cal.com): Cal.com webhook to Zapier to Kit (auto-add bookers to list).
@@ -205,3 +205,4 @@ Result: email capture is live from day 1. Captured emails go to Vicji's inbox. H
 | 2026-05-27 | Schema markup expanded: Service + OfferCatalog with each session as priced Offer on `/servicos` + `/en/services`. BreadcrumbList added to `/sobre`, `/servicos`, `/agendar`, `/contato`, `/blog`, `/blog/[slug]` and EN equivalents via shared `Breadcrumbs.astro` component. |
 | 2026-05-27 | IndexNow set up. Key `0pes2e9k...` placed at `public/<key>.txt`. Ping script at `scripts/indexnow-ping.mjs` submits all 15 URLs to Bing (forwards to Yandex/others). Run manually after content changes. |
 | 2026-05-27 | GBP prep packet complete: `docs/Vicji-GBP-Setup-Guide.docx` (Word doc, 16KB, share-ready) generated via `scripts/generate-gbp-docx.mjs` from `docs/gbp-setup.md`. 8 pre-cropped photos in `public/gbp/`. Pending: Vicji creates and verifies the profile (his Google account, his address). |
+| 2026-05-27 | Full content reframe per Vicji's voice-note feedback + client-facing copy. **Services restructured from 3 generic tiers (60/90/120min at R$390-680) to his ACTUAL 2 services**: Thai Massage Tradicional (2h R$330 / 3h R$480) and Liberação de Quadril (1h30 R$250). Brand positioning reframed from physical-only to 3-dimensional (physical + energetic + spiritual). Added India yoga training + "único no Brasil" unique-positioning claim. Rewrote: services.json (with sessionStructure + preparation + contraindications), site.json (brand/SEO), Hero, ProblemPromise, MiniAbout, ServicesGrid (entirely rewritten for 2-service layout), /servicos + /en/services (full restructure with 5-step session structure), /sobre + /en/about (Thailand + India + world synthesis story), faq.json (new contraindications + payment + service comparison Q), homepage schema (priceRange updated). Khòp khun kráp 🙏 signature added to /sobre. |
