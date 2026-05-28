@@ -6,15 +6,15 @@
     },
     {
       "q": "O que vestir? Preciso me preparar?",
-      "a": "Camiseta e calça confortáveis, de algodão ou leggings. Sem joias ou maquiagem se possível. Estômago vazio, ou pelo menos 2h depois da última refeição. O resto, eu cuido."
+      "a": "Camiseta e calça confortáveis, de algodão ou leggings. Sem acessórios ou maquiagem se possível. Estômago vazio, ou pelo menos 2h depois da última refeição. O resto, eu cuido."
     },
     {
       "q": "Massagem tailandesa dói?",
-      "a": "Não tem que doer. A pressão é firme e o trabalho é profundo, mas o ritmo é meditativo. Eu leio o seu corpo durante toda a sessão e ajusto. Você sempre pode me dizer se algo é demais."
+      "a": "Não tem que doer. A pressão é firme e o trabalho é profundo, mas o ritmo é meditativo. Eu leio o seu corpo durante toda a sessão e faço os ajustes necessários. Você sempre pode me dizer se algo é demais."
     },
     {
       "q": "Qual a diferença pra massagem sueca ou relaxante?",
-      "a": "A Thai Massage é feita sem óleo, com roupa, no tatame. Combina pressão nas linhas de energia (sen) com alongamentos passivos inspirados no yoga. É mais ativa, com mais ritmo, e trabalha o corpo inteiro: físico, energético e espiritual. Não é técnica vazia, é prática milenar."
+      "a": "A Thai Massage Tradicional é feita sem óleo, com roupa, no tatame. Combina pressão nas linhas de energia (sen) com alongamentos passivos inspirados no yoga. É mais ativa, com mais ritmo, e trabalha o corpo como um todo (físico, energético e espiritual). Não é técnica vazia, é prática milenar."
     },
     {
       "q": "Quantas sessões eu preciso pra sentir resultado?",
@@ -22,7 +22,7 @@
     },
     {
       "q": "Tem alguma contraindicação?",
-      "a": "Gestantes de risco, fraturas recentes, pele lesionada, cirurgia com menos de 6 meses, doenças cardiovasculares graves, trombose, osteoporose avançada ou inflamações agudas. Em qualquer um desses casos, me avisa antes pra gente decidir juntos."
+      "a": "Gestantes de risco, fraturas recentes, pele lesionada, cirurgia com menos de 6 meses, doenças cardiovasculares graves, trombose, osteoporose avançada ou inflamações agudas. Em qualquer um desses casos, me avisa antes para decidirmos juntos."
     },
     {
       "q": "Como funciona o pagamento?",
@@ -30,7 +30,7 @@
     },
     {
       "q": "E se eu precisar cancelar?",
-      "a": "Sem problema, só me avisa com pelo menos 24h de antecedência pra eu poder oferecer o horário pra outra pessoa."
+      "a": "Sem problema, só me avisa com pelo menos 24h de antecedência para que eu possa oferecer o horário pra outra pessoa."
     }
   ],
   "en": [
@@ -40,15 +40,15 @@
     },
     {
       "q": "What should I wear? Do I need to prepare?",
-      "a": "Comfortable t-shirt and pants, cotton or leggings. No jewelry or makeup if possible. Empty stomach, or at least 2h after your last meal. The rest, I take care of."
+      "a": "Comfortable t-shirt and pants, cotton or leggings. No accessories or makeup if possible. Empty stomach, or at least 2h after your last meal. The rest, I take care of."
     },
     {
       "q": "Does Thai Massage hurt?",
-      "a": "It should not. The pressure is firm and the work is deep, but the pace is meditative. I read your body throughout the session and adjust. You can always tell me if something is too much."
+      "a": "It should not. The pressure is firm and the work is deep, but the pace is meditative. I read your body throughout the session and make the necessary adjustments. You can always tell me if something is too much."
     },
     {
       "q": "How is it different from Swedish or relaxation massage?",
-      "a": "Thai Massage is done without oil, fully clothed, on a futon. It combines pressure along the energy lines (sen) with passive yoga-inspired stretches. It is more active, more rhythmic, and works the whole body: physical, energetic, and spiritual. It is not empty technique. It is an ancient practice."
+      "a": "Traditional Thai Massage is done without oil, fully clothed, on a futon. It combines pressure along the energy lines (sen) with passive yoga-inspired stretches. It is more active, more rhythmic, and works the body as a whole (physical, energetic, and spiritual). It is not empty technique. It is an ancient practice."
     },
     {
       "q": "How many sessions do I need to feel results?",

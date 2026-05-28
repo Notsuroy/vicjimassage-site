@@ -17,8 +17,8 @@
         "en": "The full session. Body, energy, spirit."
       },
       "description": {
-        "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga, com o objetivo de liberar a musculatura, relaxar fáscias, mobilizar articulações, descomprimir vértebras, soltar tensões e emoções acumuladas, e equilibrar os centros energéticos do corpo (chakras).",
-        "en": "Complete traditional Thai Massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga, working to release muscle tension, relax fascia, mobilize joints, decompress the spine, free stored emotions, and balance the body's energy centers (chakras)."
+        "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga, com o objetivo de liberar a musculatura, relaxar tensões fasciais, mobilizar articulações, descomprimir vértebras, eliminar tensões e emoções acumuladas, e equilibrar os centros energéticos do corpo (chakras).",
+        "en": "Complete traditional Thai Massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga, working to release muscle tension, release fascial tension, mobilize joints, decompress the spine, clear stored tensions and emotions, and balance the body's energy centers (chakras)."
       },
       "options": [
         {
@@ -42,14 +42,14 @@
       ],
       "highlights": {
         "pt": [
-          "Trabalho corpo inteiro, pés à cabeça",
+          "Trabalho o corpo inteiro, pés à cabeça",
           "Pressão em pontos energéticos (sen) + alongamentos assistidos",
           "Equilíbrio dos chakras",
           "Liberação miofascial e descompressão vertebral",
           "Ambiente com música tradicional e incenso"
         ],
         "en": [
-          "Full-body work, head to toe",
+          "Work the whole body, head to toe",
           "Pressure on energy points (sen) + assisted stretching",
           "Chakra balancing",
           "Myofascial release and spinal decompression",
@@ -61,9 +61,9 @@
           "Conversa inicial de 15 a 30 minutos (te conhecer, entender o que está sentindo, alinhar a sessão)",
           "A sessão completa, sem cronômetro acelerando o trabalho",
           "Tempo de integração em silêncio no final, para o corpo assimilar",
-          "Conversa de encerramento com feedback sobre seu estado físico e energético",
+          "Conversa de encerramento com feedback sobre o seu estado físico e energético",
           "Dicas para o seu dia a dia, baseadas no que apareceu na sessão",
-          "Acompanhamento por WhatsApp nos dias seguintes, se você quiser"
+          "Acompanhamento por WhatsApp nos dias seguintes, se te interessar"
         ],
         "en": [
           "Opening conversation, 15 to 30 minutes (get to know you, understand what you're feeling, set the session intention)",
@@ -71,7 +71,7 @@
           "Integration time in silence at the end, for the body to absorb",
           "Closing conversation with feedback on your physical and energetic state",
           "Day-to-day recommendations based on what came up in the session",
-          "WhatsApp follow-up over the next days if you'd like"
+          "WhatsApp follow-up over the next days if you're interested"
         ]
       }
     },

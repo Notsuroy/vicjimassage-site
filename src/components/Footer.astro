@@ -66,11 +66,11 @@ const navLinks = lang === 'pt'
           {t.location}
         </h4>
         <address class="not-italic text-sand/70 text-sm leading-relaxed">
-          <strong class="text-sand">{site.location.studio}</strong><br />
-          {site.location.street}<br />
-          {site.location.neighborhood}<br />
-          {site.location.city}, {site.location.state}<br />
-          {site.location.postalCode}
+          <span class="block text-sand font-medium">{site.location.studio}</span>
+          <span class="block">{site.location.street}</span>
+          <span class="block">{site.location.neighborhood}</span>
+          <span class="block">{site.location.city}, {site.location.state}</span>
+          <span class="block">{site.location.postalCode}</span>
         </address>
       </div>
 
