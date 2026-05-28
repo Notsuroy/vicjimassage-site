@@ -28,7 +28,7 @@ import site from '~/data/site.json';
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
     "name": "Vicji Massage",
-    "description": site.brand.shortDescription.en,
+    "description": site.brand.fullDescription.en,
     "image": new URL('/photos/hero.jpg', Astro.site).toString(),
     "url": Astro.site?.toString(),
     "telephone": site.contact.whatsapp.startsWith('TODO') ? undefined : `+${site.contact.whatsapp}`,

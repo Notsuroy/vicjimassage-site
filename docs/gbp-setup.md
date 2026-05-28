@@ -141,16 +141,18 @@ Google asks how to verify:
 
 ## Step 8: Business description (after verification)
 
-After verification, fill in this description. **Copy/paste exactly** (750 characters, Portuguese):
+After verification, fill in this description. **Copy/paste exactly** (~700 characters, Portuguese). This is the canonical brand description, also used in the site's LocalBusiness schema (`site.brand.fullDescription.pt`), so Google sees consistent messaging across GBP and the website:
 
 ```
-A Thai Massage tradicional em Atibaia, no Espaço Clô. Victor se formou massagista
-na Tailândia, aprofundou em yoga na Índia, e oferece um trabalho corporal integrado
-em três dimensões: físico, energético e espiritual. Único no Brasil oferecendo esse
-atendimento. Sessões de Thai Massage Tradicional (2h ou 3h) e Liberação de Quadril
-(1h30). Atendimento sob agendamento via WhatsApp. Brasileiros e clientes
-internacionais (inglês fluente). Pix, dinheiro, cartão de crédito ou débito, e
-moedas estrangeiras (USD, EUR). Em breve em Itacaré, Bahia.
+Massagem tailandesa tradicional em Atibaia, no Espaço Clô.
+
+Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na fonte da tradição, e em yoga na Índia. Sou o único no Brasil oferecendo esse trabalho integrado: a técnica milenar da Thai Massage combinada com a compreensão energética dessas duas formações.
+
+A sessão acontece no tatame, com roupa confortável, e trabalha o corpo em três dimensões: físico, energético e espiritual. Mais de 200 sessões realizadas.
+
+Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Quadril (1h30, foco na base).
+
+Atendimentos sob agendamento, de segunda a sábado.
 ```
 
 ---
