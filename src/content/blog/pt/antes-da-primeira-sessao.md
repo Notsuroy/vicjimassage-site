@@ -21,7 +21,7 @@ Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira s
 Recomendo:
 
 - Calça legging, calça de moletom ou bermuda esportiva
-- Camiseta de manga curta, top ou regata
+- Camiseta de manga curta ou regata
 - Tecido que estica e respira (algodão, dry-fit)
 
 Evitar:

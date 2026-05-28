@@ -21,7 +21,7 @@ This piece covers the six most common questions I get before someone's first ses
 I recommend:
 
 - Leggings, sweatpants, or athletic shorts
-- Short-sleeve t-shirt, sports top, or tank top
+- Short-sleeve t-shirt or tank top
 - Fabric that stretches and breathes (cotton, dri-fit)
 
 Avoid:
