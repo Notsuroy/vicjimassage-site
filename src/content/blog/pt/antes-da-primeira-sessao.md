@@ -16,12 +16,12 @@ Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira s
 
 ## 1. O que vestir
 
-**Camiseta e calça confortáveis, de algodão ou flexível (leggings).** Como ir pra uma aula de yoga.
+**Camiseta e calça confortáveis, de algodão ou flexível (leggings).**
 
 Recomendo:
 
 - Calça legging, calça de moletom ou bermuda esportiva
-- Camiseta de manga curta, "Top" ou regata
+- Camiseta de manga curta, top ou regata
 - Tecido que estica e respira (algodão, dry-fit)
 
 Evitar:

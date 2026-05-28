@@ -16,7 +16,7 @@ This piece covers the six most common questions I get before someone's first ses
 
 ## 1. What to wear
 
-**Comfortable t-shirt and pants, cotton or stretchy (leggings).** Like going to a yoga class.
+**Comfortable t-shirt and pants, cotton or stretchy (leggings).**
 
 I recommend:
 
