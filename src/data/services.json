@@ -119,20 +119,20 @@
       },
       "included": {
         "pt": [
-          "Conversa inicial de 15 a 30 minutos",
-          "A sessão completa, sem cronômetro acelerando",
-          "Tempo de integração em silêncio no final",
-          "Conversa de encerramento com feedback do seu corpo",
-          "Dicas para o seu dia a dia",
-          "Acompanhamento por WhatsApp se você quiser"
+          "Conversa inicial de 15 a 30 minutos (te conhecer, entender o que está sentindo, alinhar a sessão)",
+          "A sessão completa, sem cronômetro acelerando o trabalho",
+          "Tempo de integração em silêncio no final, para o corpo assimilar",
+          "Conversa de encerramento com feedback sobre o seu estado físico e energético",
+          "Dicas para o seu dia a dia, baseadas no que apareceu na sessão",
+          "Acompanhamento por WhatsApp nos dias seguintes, se te interessar"
         ],
         "en": [
-          "Opening conversation, 15 to 30 minutes",
-          "The full session, no clock rushing",
-          "Integration time in silence at the end",
-          "Closing conversation with feedback on your body",
-          "Day-to-day recommendations",
-          "WhatsApp follow-up if you'd like"
+          "Opening conversation, 15 to 30 minutes (get to know you, understand what you're feeling, set the session intention)",
+          "The full session, no clock rushing the work",
+          "Integration time in silence at the end, for the body to absorb",
+          "Closing conversation with feedback on your physical and energetic state",
+          "Day-to-day recommendations based on what came up in the session",
+          "WhatsApp follow-up over the next days if you're interested"
         ]
       }
     }
@@ -147,7 +147,7 @@
       {
         "label": "Conexão e Intenção",
         "icon": "🕯️",
-        "body": "Você deita confortavelmente. Te guio em respirações profundas que preparam o corpo para o estado de entrega. Energizo o ambiente com incenso e abro a sessão com um minuto de meditação, despertando a energia compassiva e curadora que conduz todo o trabalho."
+        "body": "Você deita confortavelmente. Te guio em respirações profundas e completas que preparam o corpo para o estado de entrega. Energizo o ambiente com incenso e realizo um minuto de meditação, despertando a energia compassiva e curadora que conduz todo o trabalho."
       },
       {
         "label": "A Massagem",
@@ -162,7 +162,7 @@
       {
         "label": "Encerramento",
         "icon": "🙏",
-        "body": "Conversamos sobre como foi. Sensações, emoções, o que apareceu. Dou um feedback sobre o estado corporal e energético, com dicas pra aplicar no dia a dia."
+        "body": "Conversamos sobre como foi. Sensações, emoções, o que apareceu. Dou um feedback sobre o estado corporal e energético, com dicas extras pra aplicar no dia a dia."
       }
     ],
     "en": [
@@ -174,7 +174,7 @@
       {
         "label": "Connection and Intention",
         "icon": "🕯️",
-        "body": "You lie down comfortably. I guide you through deep breathing that prepares the body for the work ahead. I energize the space with incense and open the session with a minute of meditation, awakening the compassionate, healing energy that runs through the whole practice."
+        "body": "You lie down comfortably. I guide you through deep, complete breathing that prepares the body for the work ahead. I energize the space with incense and perform a minute of meditation, awakening the compassionate, healing energy that runs through the whole practice."
       },
       {
         "label": "The Massage",
@@ -189,7 +189,7 @@
       {
         "label": "Closing",
         "icon": "🙏",
-        "body": "We talk about how it went. Sensations, emotions, what came up. I give you feedback on your physical and energetic state, with tips you can apply day to day."
+        "body": "We talk about how it went. Sensations, emotions, what came up. I give you feedback on your physical and energetic state, with extra tips you can apply day to day."
       }
     ]
   },
