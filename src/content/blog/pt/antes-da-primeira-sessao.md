@@ -52,25 +52,25 @@ O que evitar:
 
 Antes da massagem em si, tem um ritual de abertura que faz parte do trabalho:
 
-**Chá relaxante.** Te ofereço um chá quando você chega. A gente conversa um pouco. Eu quero conhecer um pouco da sua história, qualquer coisa que esteja te incomodando no corpo, qualquer expectativa que você tenha.
+**Chá relaxante.** Te ofereço um chá quando você chega. A gente conversa um pouco. Eu quero conhecer um pouco da sua história, qualquer coisa que esteja te incomodando no seu corpo, e qualquer expectativa que você tenha.
 
-**Respirações guiadas.** Você deita, eu te guio em respirações profundas. Isso prepara o sistema nervoso pro estado de entrega.
+**Respirações guiadas.** Você deita, e eu te guio para realizar respirações profundas e completas. Isso irá preparar o seu sistema nervoso para o estado de descanso e entrega.
 
-**Incenso e meditação.** Energizo o ambiente com incenso, e abro com um minuto de meditação. Não é decoração. É a parte que conecta a técnica à intenção.
+**Incenso e meditação.** Energizo o ambiente com incenso, e realizo um minuto de meditação. Não é apenas mais um procedimento, é parte essencial que conecta a técnica à intenção.
 
 Depois disso é que a massagem propriamente dita começa.
 
-## 4. Como te comunicar comigo durante a sessão
+## 4. Como se comunicar comigo durante a sessão
 
 O trabalho acontece principalmente em silêncio. A música de fundo acompanha toda a sessão, e o ambiente fica calmo e receptivo. Isso é intencional, ajuda o sistema nervoso a desacelerar.
 
 Mas você sempre pode (e deve) falar quando:
 
-- **A pressão está muito forte:** "mais leve" ou "tira a pressão"
+- **A pressão está muito forte:** "mais leve" ou "reduz a pressão"
 - **A pressão está muito leve:** "pode aumentar"
-- **Algo dói (não no sentido bom, no sentido ruim):** fala na hora
+- **Algo dói (não no sentido bom):** me diga no momento
 - **Você precisa de uma pausa:** "preciso de um minuto"
-- **Você está com frio ou calor:** eu ajusto
+- **Você está com frio ou calor:** eu ajusto na hora
 
 Não tenta "aguentar" se algo está desconfortável. O trabalho corporal funciona quando o corpo confia no que está acontecendo. Se você está aguentando algo desagradável em silêncio, o corpo se fecha, e o trabalho não chega onde precisa.
 
@@ -78,17 +78,15 @@ Não tenta "aguentar" se algo está desconfortável. O trabalho corporal funcion
 
 Cada corpo responde diferente, mas alguns padrões são comuns:
 
-**Vontade de dormir.** Muito comum. Pode dormir. Eu continuo trabalhando.
+**Vontade de dormir.** Muito comum, e bom. Pode dormir. Eu continuo trabalhando.
 
 **Estômago roncando.** Sinal de que o sistema nervoso parassimpático ativou. É bom sinal.
 
-**Suspiros profundos, bocejos.** O corpo soltando. Acolhe.
+**Suspiros profundos, bocejos.** É o corpo soltando as tensões. Ótimo sinal.
 
 **Emoção inesperada.** Algumas pessoas choram. Outras riem. Outras sentem raiva sem saber por quê. O corpo guarda coisas, e às vezes elas pedem passagem quando a tensão sai. Se acontecer com você, tudo bem. Não precisa explicar nem se desculpar. Só se permita sentir, sem julgamentos.
 
 **Sensação de estar "fora do corpo".** Comum em sessões mais longas. O sistema nervoso entrou em estado meditativo. É uma sensação mágica, aproveite. Ao momento do término da sessão tudo estará de volta ao normal.
-
-**Sentir mais um lado do corpo que o outro.** O corpo tem assimetrias. A sessão geralmente expõe e ajuda a equilibrar.
 
 Nenhuma dessas reações é "errada". Todas são sinais de que o trabalho está acontecendo.
 
@@ -126,4 +124,4 @@ Então: não julga a prática só pela primeira sessão. Se algo te chamou, dá 
 
 ---
 
-**Pronto?** [Marca sua primeira sessão](/agendar) ou me manda mensagem no WhatsApp. Eu respondo todas pessoalmente. Atendimento em Atibaia, no Espaço Clô.
+**Pronto?** [Já marca a sua primeira sessão](/agendar), ou me manda uma mensagem no WhatsApp. Eu respondo todas pessoalmente. Atendimento em Atibaia, no Espaço Clô.
