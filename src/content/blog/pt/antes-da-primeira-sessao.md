@@ -1,6 +1,6 @@
 ---
 title: "Antes da sua primeira massagem tailandesa: tudo o que você precisa saber"
-description: "O que vestir, o que comer (ou não comer), como se preparar, o ritual de abertura da sessão, e o que esperar. Um guia prático pra primeira vez."
+description: "O que vestir, o que comer (ou não comer), como se preparar, o ritual de abertura da sessão, e o que esperar. Um guia prático para a primeira vez."
 publishDate: 2026-05-27
 coverImage: "/photos/portrait.jpg"
 coverAlt: "Victor recebendo um cliente para uma sessão"
@@ -21,7 +21,7 @@ Esse texto cobre as cinco perguntas mais comuns que me fazem antes da primeira s
 Recomendo:
 
 - Calça legging, calça de moletom ou bermuda esportiva
-- Camiseta de manga curta ou regata
+- Camiseta, top, ou regata
 - Tecido que estica e respira (algodão, dry-fit)
 
 Evitar:
@@ -39,14 +39,14 @@ A massagem tailandesa envolve compressões na barriga, alongamentos profundos e 
 O que funciona bem:
 
 - Uma fruta uma hora antes
-- Um lanche leve (iogurte, castanhas) duas horas antes
-- Água. Sem restrição. Hidrata-te bem antes e depois.
+- Um lanche leve (iogurte, castanhas)
+- Água. Sem restrição. Hidrate-se bem antes e depois.
 
 O que evitar:
 
 - Refeição completa (almoço/jantar) nas duas horas anteriores
 - Álcool no mesmo dia (o álcool desidrata e atrapalha o relaxamento muscular)
-- Café nas duas horas antes (a cafeína dificulta o sistema nervoso entrar em modo descanso)
+- Café nas duas horas antes (a cafeína dificulta o sistema nervoso entrar em modo de descanso)
 
 ## 3. Como começa a sessão (o ritual)
 

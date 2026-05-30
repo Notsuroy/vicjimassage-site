@@ -16,7 +16,7 @@ Não é. Não é mais forte. Não é mais fraca. É outra coisa.
 
 A massagem tailandesa, chamada na origem de **Nuad Boran** (literalmente: "Massagem antiga"), é uma prática terapêutica com mais de dois mil e quinhentos anos. Nasceu nos templos da Tailândia, foi passada de geração em geração entre monges e curandeiros, e até hoje guarda essa raiz.
 
-Esse guia é pra quem nunca experimentou e quer entender o que está prestes a viver, ou pra quem ouviu falar mas ainda não sabe se faz sentido.
+Esse guia é pra quem nunca experimentou e quer entender o que está prestes a viver, ou para quem ouviu falar mas ainda não sabe se faz sentido.
 
 ## A origem que ninguém te conta
 
@@ -36,9 +36,9 @@ Essa é a parte que mais diferencia a Thai Massage de tudo o mais. Ela nasceu in
 
 **Físico:** liberação muscular profunda, soltura das fáscias, mobilização articular, descompressão da coluna. A parte que dá pra ver e medir.
 
-**Energético:** trabalho direto sobre os centros energéticos (chakras) e as linhas de energia (sen). O corpo descansa do que estava represado.
+**Energético:** trabalho direto sobre os centros energéticos (chakras) e as linhas de energia (sen). O corpo libera o que estava represado.
 
-**Espiritual:** O toque vem de um lugar de presença e intenção. Criando um campo meditativo. A massagem é feita com o coração antes das mãos. Não é técnica vazia. É prática integrativa.
+**Espiritual:** O toque vem de um lugar de presença e intenção, criando um campo meditativo. A massagem é feita com o coração antes das mãos. Não é técnica vazia. É prática integrativa milenar.
 
 Quando alguém sai de uma sessão dizendo "não sei explicar, mas algo mudou", está descrevendo os três níveis trabalhando juntos. É isso que separa uma sessão profunda de uma massagem comum.
 
@@ -48,7 +48,7 @@ Esquece o que você já viu em spa. A massagem tailandesa tradicional tem três 
 
 ### 1. É feita no chão, em um futon
 
-Não é maca, não é cama de massagem. É um colchão tradicional no chão, que dá espaço para o terapeuta usar o corpo todo (pés, joelhos, pernas, mãos, cotovelos) e pra você receber em diferentes posições, com a gravidade e a biomecânica a favor.
+Não é maca, não é cama de massagem. É um colchão tradicional no chão, que dá espaço para o terapeuta usar o corpo todo (pés, joelhos, pernas, mãos, cotovelos) com o auxílio da gravidade e da biomecânica.
 
 ### 2. É feita com roupa
 
@@ -61,7 +61,7 @@ A sessão tem dois movimentos principais que se alternam:
 - **Pressão consciente nas linhas de energia (sen):** segundo a tradição tailandesa, o corpo é atravessado por 72.000 linhas de energia. Dez delas são as principais. O terapeuta percorre essas linhas com pressão calibrada, soltando os bloqueios.
 - **Alongamentos passivos (parecidos com yoga):** você é colocado em posturas que mobilizam articulações, abrem o quadril, alongam a coluna. Mas você não faz força. Eu conduzo por você.
 
-Por isso muita gente chama de "yoga assistido". É uma descrição parcial, mas captura uma parte: o efeito final é parecido com uma prática de yoga profunda, sem ter feito esforço pra chegar lá.
+Por isso muita gente chama de "yoga assistido". É uma descrição parcial, mas captura uma parte: o efeito final é parecido com uma prática de yoga profunda, sem ter feito esforço para chegar lá.
 
 ## O que muda no corpo
 
@@ -69,12 +69,12 @@ Os efeitos físicos da massagem tailandesa são bem documentados:
 
 - **Melhora da circulação** (sanguínea e linfática)
 - **Redução de tensões musculares profundas**, especialmente em ombros, pescoço, quadril e lombar
-- **Aumento de mobilidade articular** (especialmente no quadril e na coluna)
-- **Diminuição de dores crônicas**, principalmente na lombar, cervical e quadris
+- **Aumento de mobilidade articular** (especialmente no quadril, coluna e ombros)
+- **Diminuição de dores crônicas**, principalmente na lombar, cervical, quadris e ombros
 - **Melhora da qualidade do sono** (muita gente relata dormir profundamente nas noites seguintes)
 - **Regulação do sistema nervoso autônomo** (sai do modo "luta ou fuga" para o modo "descanso e regeneração")
 
-Mas o que eu vejo na prática, sessão após sessão, vai além do físico. As pessoas saem mais conectadas com o próprio corpo. Algumas choram durante a sessão sem saber o porquê. Outras dormem por dez horas naquela noite. Outras só conseguem dizer que se sentem "diferentes" sem conseguir explicar muito.
+Mas o que eu vejo na prática, sessão após sessão, vai muito além do físico. As pessoas saem mais conectadas com o próprio corpo. Algumas choram durante a sessão sem saber o porquê. Outras dormem por dez horas naquela noite. Outras só conseguem dizer que se sentem "diferentes" sem conseguir explicar muito.
 
 Isso é trabalho corporal de verdade. Mexe com o que está guardado.
 
@@ -118,7 +118,7 @@ Cada uma tem seu espaço. A tailandesa é a que eu pratico porque, na minha expe
 Hoje atendo dois tipos de sessão:
 
 - **Thai Massage Tradicional (2h ou 3h):** corpo inteiro, dos pés à cabeça. A versão de 2h é o ponto de entrada natural. A de 3h é a experiência imersiva, ideal pra quem está há muitos anos com tensão acumulada ou precisa de um cuidado mais específico.
-- **Liberação de Quadril (1h30):** sessão focada na base do corpo. Quadril, pernas, lombar, e os chakras inferiores. Mais curta mas ainda sim profunda.
+- **Liberação de Quadril (1h30):** sessão focada na base do corpo. Quadril, pernas, lombar, e os chakras inferiores. Mais curta, mas ainda sim profunda.
 
 Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho essa tradição aqui. A diferença entre uma sessão curta de spa e o trabalho de verdade não é só "mais tempo". É a diferença entre arranhar a superfície e realmente imergir.
 
@@ -134,7 +134,7 @@ No final, eu te deixo uns minutos sozinho para integrar toda a prática que tive
 
 Eu sou suspeito pra responder, então deixa eu reformular: vale a pena experimentar?
 
-Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe pra cá. Não precisa decidir se "vale a pena pra sempre" depois de uma sessão. Só vem uma vez, e sente. Te garanto que, ao menos, você não irá se arrepender.
+Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe pra cá. Não precisa decidir se "vale a pena para sempre" depois de uma sessão. Só vem uma vez, e sente. Te garanto que, ao menos, você não irá se arrepender.
 
 E se após fizer sentido, será sempre um prazer recebê-lo de volta.
 
