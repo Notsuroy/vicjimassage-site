@@ -16,7 +16,7 @@ Não é. Não é mais forte. Não é mais fraca. É outra coisa.
 
 A massagem tailandesa, chamada na origem de **Nuad Boran** (literalmente: "Massagem antiga"), é uma prática terapêutica com mais de dois mil e quinhentos anos. Nasceu nos templos da Tailândia, foi passada de geração em geração entre monges e curandeiros, e até hoje guarda essa raiz.
 
-Esse guia é pra quem nunca experimentou e quer entender o que está prestes a viver, ou para quem ouviu falar mas ainda não sabe se faz sentido.
+Esse guia é para quem nunca experimentou e quer entender o que está prestes a viver, ou para quem ouviu falar mas ainda não sabe se faz sentido.
 
 ## A origem que ninguém te conta
 
@@ -24,9 +24,9 @@ A história oficial atribui a criação da massagem tailandesa a **Jivaka Kumar 
 
 Mas a prática que sobreviveu até hoje não veio só da Índia. Ela absorveu influências da medicina chinesa (com as linhas de energia e os pontos de pressão), da medicina ayurvédica (com a ideia de equilíbrio entre os elementos do corpo), e da própria sabedoria popular tailandesa.
 
-Por séculos, foi ensinada oralmente. Pai pra filho, mestre pra discípulo. Só recentemente, nas últimas décadas, começou a ser sistematizada em escolas formais.
+Por séculos, foi ensinada oralmente. Pai para filho, mestre para discípulo. Só recentemente, nas últimas décadas, começou a ser sistematizada em escolas formais.
 
-Quando eu fui pra Tailândia estudar, me formei na fonte da tradição. Depois fui pra Índia mergulhar no yoga, que aprofundou a compreensão energética do trabalho. E o que mais me marcou nessas duas formações não foi a técnica em si. Foi a postura e tradição por trás delas.
+Quando eu fui para a Tailândia estudar, me formei na fonte da tradição. Depois fui para a Índia mergulhar no yoga, que aprofundou a compreensão energética do trabalho. E o que mais me marcou nessas duas formações não foi a técnica em si. Foi a postura e a tradição por trás delas.
 
 Lá, massagem não é serviço. É oferenda. É um ato de cuidado que tem dimensão espiritual.
 
@@ -34,7 +34,7 @@ Lá, massagem não é serviço. É oferenda. É um ato de cuidado que tem dimens
 
 Essa é a parte que mais diferencia a Thai Massage de tudo o mais. Ela nasceu integrada, e não fragmentada em partes. Quando bem executada, trabalha o corpo em três dimensões simultâneas:
 
-**Físico:** liberação muscular profunda, soltura das fáscias, mobilização articular, descompressão da coluna. A parte que dá pra ver e medir.
+**Físico:** liberação miofascial, mobilização articular, descompressão da coluna. A parte que dá pra ver e medir.
 
 **Energético:** trabalho direto sobre os centros energéticos (chakras) e as linhas de energia (sen). O corpo libera o que estava represado.
 
@@ -101,9 +101,9 @@ Não é indicada (ou precisa ser conversada antes) para:
 
 Se você tem alguma dessas condições, me avisa antes da sessão. A gente decide juntos o que faz sentido.
 
-## Diferença pra outras massagens
+## Diferença para outras massagens
 
-Pra ficar claro, aqui está a diferença das modalidades mais comuns:
+Para ficar claro, aqui está a diferença das modalidades mais comuns:
 
 **Massagem sueca (relaxante):** óleos, manobras suaves, foco em circulação superficial e relaxamento imediato. Mais leve, menos profunda.
 
@@ -117,7 +117,7 @@ Cada uma tem seu espaço. A tailandesa é a que eu pratico porque, na minha expe
 
 Hoje atendo dois tipos de sessão:
 
-- **Thai Massage Tradicional (2h ou 3h):** corpo inteiro, dos pés à cabeça. A versão de 2h é o ponto de entrada natural. A de 3h é a experiência imersiva, ideal pra quem está há muitos anos com tensão acumulada ou precisa de um cuidado mais específico.
+- **Thai Massage Tradicional (2h ou 3h):** corpo inteiro, dos pés à cabeça. A versão de 2h é o ponto de entrada natural. A de 3h é a experiência imersiva, ideal para quem está há muitos anos com tensão acumulada ou precisa de um cuidado mais específico.
 - **Liberação de Quadril (1h30):** sessão focada na base do corpo. Quadril, pernas, lombar, e os chakras inferiores. Mais curta, mas ainda sim profunda.
 
 Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho essa tradição aqui. A diferença entre uma sessão curta de spa e o trabalho de verdade não é só "mais tempo". É a diferença entre arranhar a superfície e realmente imergir.
@@ -132,7 +132,7 @@ No final, eu te deixo uns minutos sozinho para integrar toda a prática que tive
 
 ## Vale a pena?
 
-Eu sou suspeito pra responder, então deixa eu reformular: vale a pena experimentar?
+Eu sou suspeito para responder, então deixa eu reformular: vale a pena experimentar?
 
 Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe pra cá. Não precisa decidir se "vale a pena para sempre" depois de uma sessão. Só vem uma vez, e sente. Te garanto que, ao menos, você não irá se arrepender.
 

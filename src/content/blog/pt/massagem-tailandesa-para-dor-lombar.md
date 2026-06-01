@@ -72,7 +72,7 @@ Cada corpo responde diferente, mas alguns padrões são comuns:
 
 - **Sensação imediata de leveza** no quadril e na lombar
 - **Caminhar diferente** ao sair (mais fluido, menos truncado)
-- **Sonolência**: o sistema nervoso entra em modo descanso profundo, e muita gente dorme excepcionalmente bem na noite seguinte
+- **Sonolência**: o sistema nervoso entra em modo descanso profundo, e muita gente dorme excepcionalmente bem nas noites seguintes
 - Em alguns casos, **uma leve sensibilidade no dia seguinte**, similar à de um treino. Isso é normal. Significa que o tecido foi mobilizado.
 
 ## O que esperar nos próximos dias
@@ -83,7 +83,7 @@ A maioria das pessoas relata redução significativa da dor lombar logo após a 
 - **Se a dor é crônica (anos):** é trabalho de meses, não de uma sessão. O corpo aprendeu um padrão e vai precisar de tempo pra reorganizar. Recomendo começar com sessões semanais ou quinzenais por dois meses, depois espaçar.
 - **Se a dor tem origem estrutural (hérnia confirmada, escoliose acentuada):** a massagem ajuda muito como suporte, mas precisa ser combinada com o acompanhamento de fisioterapeuta ou médico ortopedista.
 
-Eu não substituo o médico. Se você tem dor lombar que irradia pra perna, dormência, fraqueza, ou que apareceu de repente sem causa aparente, **procura uma avaliação médica primeiro**. A massagem entra depois, como parte do tratamento.
+Eu não substituo o médico. Se você tem dor lombar que irradia para a perna, dormência, fraqueza, ou que apareceu de repente sem causa aparente, **procura uma avaliação médica primeiro**. A massagem entra depois, como parte do tratamento.
 
 ## Quem se beneficia mais
 
