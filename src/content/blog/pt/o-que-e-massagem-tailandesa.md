@@ -2,12 +2,22 @@
 title: "O que é massagem tailandesa tradicional? Guia completo para quem nunca experimentou"
 description: "Origem, técnica, benefícios e os três níveis do trabalho (físico, energético e espiritual). Escrito por quem aprendeu na fonte da tradição, na Tailândia."
 publishDate: 2026-05-27
+updatedDate: 2026-05-29
 coverImage: "/photos/gallery-04.jpg"
 coverAlt: "Victor conduzindo uma sessão de massagem tailandesa em um parque ao entardecer"
 tags: ["fundamentos", "tradição", "primeira vez"]
 author: "Victor"
 readingTime: "8 min de leitura"
 lang: "pt"
+showFAQ: true
+keywords:
+  - "massagem tailandesa"
+  - "o que é massagem tailandesa"
+  - "thai massage"
+  - "benefícios da massagem tailandesa"
+  - "Nuad Boran"
+  - "massagem tailandesa tradicional"
+  - "massagem tailandesa Atibaia"
 ---
 
 A primeira coisa que muita gente me pergunta é: "isso é tipo uma massagem normal, só que mais forte?"
@@ -63,9 +73,9 @@ A sessão tem dois movimentos principais que se alternam:
 
 Por isso muita gente chama de "yoga assistido". É uma descrição parcial, mas captura uma parte: o efeito final é parecido com uma prática de yoga profunda, sem ter feito esforço para chegar lá.
 
-## O que muda no corpo
+## Benefícios da massagem tailandesa: o que muda no corpo
 
-Os efeitos físicos da massagem tailandesa são bem documentados:
+Os benefícios da massagem tailandesa são bem documentados pela prática e por estudos clínicos. Os efeitos físicos mais comuns:
 
 - **Melhora da circulação** (sanguínea e linfática)
 - **Redução de tensões musculares profundas**, especialmente em ombros, pescoço, quadril e lombar

@@ -4,6 +4,7 @@ import BaseLayout from '~/layouts/BaseLayout.astro';
 import FinalCTA from '~/components/FinalCTA.astro';
 import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import site from '~/data/site.json';
+import faqData from '~/data/faq.json';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => data.lang === 'pt' && !data.draft);
@@ -27,6 +28,10 @@ const all = (await getCollection('blog', ({ data }) => data.lang === 'pt' && !da
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
   .slice(0, 2);
 
+// Compute word count from rendered markdown for Article schema
+const rawBody = post.body || '';
+const wordCount = rawBody.split(/\s+/).filter(Boolean).length;
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -35,10 +40,36 @@ const articleSchema = {
   "image": post.data.coverImage ? new URL(post.data.coverImage, Astro.site).toString() : undefined,
   "datePublished": post.data.publishDate.toISOString(),
   "dateModified": (post.data.updatedDate ?? post.data.publishDate).toISOString(),
-  "author": { "@type": "Person", "name": post.data.author, "url": Astro.site?.toString() + "sobre" },
-  "publisher": { "@type": "Organization", "name": "Vicji Massage", "url": Astro.site?.toString() },
+  "author": {
+    "@type": "Person",
+    "name": post.data.author,
+    "url": new URL("/sobre", Astro.site).toString(),
+    "jobTitle": "Massagista tailandês",
+    "knowsAbout": ["Massagem tailandesa", "Nuad Boran", "Yoga", "Liberação miofascial"],
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vicji Massage",
+    "url": Astro.site?.toString(),
+    "logo": { "@type": "ImageObject", "url": new URL("/og-image.jpg", Astro.site).toString() },
+  },
   "mainEntityOfPage": { "@type": "WebPage", "@id": new URL(`/blog/${post.slug.replace(/^pt\//, '')}`, Astro.site).toString() },
+  "inLanguage": "pt-BR",
+  "wordCount": wordCount,
+  "articleSection": post.data.tags?.[0] ?? "Massagem tailandesa",
+  ...(post.data.keywords?.length ? { "keywords": post.data.keywords.join(", ") } : {}),
 };
+
+// FAQPage schema — only emitted when showFAQ is true on the post
+const faqPageSchema = post.data.showFAQ ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqData.pt.map(item => ({
+    "@type": "Question",
+    "name": item.q,
+    "acceptedAnswer": { "@type": "Answer", "text": item.a },
+  })),
+} : null;
 ---
 <BaseLayout
   title={`${post.data.title} · Blog Vicji Massage`}
@@ -92,6 +123,26 @@ const articleSchema = {
           ))}
         </div>
       )}
+
+      {post.data.showFAQ && (
+        <section class="mt-16 pt-12 border-t border-sand-deep/30 max-w-prose mx-auto">
+          <h2 class="font-display text-3xl sm:text-4xl text-ocean mb-3 leading-tight">Perguntas frequentes</h2>
+          <p class="text-ink-muted mb-8">As dúvidas mais comuns sobre a Thai Massage tradicional.</p>
+          <div class="space-y-3">
+            {faqData.pt.map(item => (
+              <details class="group bg-white/60 backdrop-blur-sm rounded-2xl border border-sand-deep/30 overflow-hidden">
+                <summary class="cursor-pointer p-5 sm:p-6 flex items-center justify-between gap-4 list-none">
+                  <span class="font-display text-lg sm:text-xl text-ocean pr-4">{item.q}</span>
+                  <span class="flex-shrink-0 w-7 h-7 rounded-full bg-sand-dark/40 flex items-center justify-center text-ocean group-open:rotate-45 transition-transform duration-300">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+                  </span>
+                </summary>
+                <div class="px-5 sm:px-6 pb-5 sm:pb-6 text-ink-muted leading-relaxed">{item.a}</div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
 
     {all.length > 0 && (
@@ -120,4 +171,7 @@ const articleSchema = {
   ]} />
 
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqPageSchema && (
+    <script type="application/ld+json" set:html={JSON.stringify(faqPageSchema)} />
+  )}
 </BaseLayout>
