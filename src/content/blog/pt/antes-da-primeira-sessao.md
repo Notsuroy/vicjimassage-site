@@ -86,7 +86,7 @@ Cada corpo responde diferente, mas alguns padrões são comuns:
 
 **Emoção inesperada.** Algumas pessoas choram. Outras riem. Outras sentem raiva sem saber por quê. O corpo guarda coisas, e às vezes elas pedem passagem quando a tensão sai. Se acontecer com você, tudo bem. Não precisa explicar nem se desculpar. Só se permita sentir, sem julgamentos.
 
-**Sensação de estar "fora do corpo".** Comum em sessões mais longas. O sistema nervoso entrou em estado meditativo. É uma sensação mágica, aproveite. Ao momento do término da sessão tudo estará de volta ao normal.
+**Sensação de estar "fora do corpo".** Comum em sessões mais longas. O corpo entrou em estado meditativo. É uma sensação mágica, aproveite. Ao momento do término da sessão tudo estará de volta ao normal.
 
 Nenhuma dessas reações é "errada". Todas são sinais de que o trabalho está acontecendo.
 
