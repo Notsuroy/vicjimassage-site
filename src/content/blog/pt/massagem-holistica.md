@@ -78,7 +78,7 @@ Toda sessão holística verdadeira começa antes do toque.
 
 Eu recebo você com um chá. Conversamos com calma de quinze a trinta minutos. Eu quero te conhecer, saber o que você está sentindo, o seu estado de saúde, como anda o lado emocional, o seu sono, as técnicas que você já experimentou. É uma conversa que abre um campo de entendimento, compaixão e acolhimento.
 
-Depois, você deita no tatame, com roupa confortável. Eu te guio para realizar respirações profundas e completas, que preparam o sistema nervoso para o estado de descanso e entrega. Energizo o ambiente com incenso, e realizo um minuto de meditação. Não é apenas mais um procedimento, é parte essencial que conecta a técnica à intenção.
+Depois, você deita no tatame, com roupas confortáveis. Eu te guio para realizar respirações profundas e completas, que preparam o sistema nervoso para o estado de descanso e entrega. Energizo o ambiente com incenso, e realizo um minuto de meditação. Não é apenas mais um procedimento, é parte essencial que conecta a técnica à intenção.
 
 A massagem em si acontece sobre o tatame, com música tradicional ao fundo, em silêncio. Os três níveis trabalham juntos do começo ao fim. O físico libera. O energético reorganiza. O espiritual sustenta o trabalho com presença.
 
@@ -137,7 +137,7 @@ Isso é trabalho corporal de verdade. Mexe com o que está guardado.
 
 Hoje eu sou o único no Brasil que oferece esse tipo de atendimento integrado: a técnica milenar da Thai Massage combinada com a compreensão energética que carrego das minhas formações na Tailândia e na Índia.
 
-Atendo em Atibaia, no Espaço Clô, em sessões de Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Quadril (1h30, focada na base do corpo).
+Ofereço sessões de Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Quadril (1h30, focada na base do corpo).
 
 Se você está buscando uma massagem realmente holística, sem colagem, com raiz na tradição e com tempo para acontecer de verdade, eu te convido a experimentar.
 
