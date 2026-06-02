@@ -87,18 +87,32 @@ const HARD = [
     fix: 'Use "Hidrate-se" (você imperative, site-wide register consistency).',
     appliesTo: /\.(astro|md|json)$/,
   },
+  {
+    // Vicji's preference (codified across batches 14, 15): spell out "pra"
+    // unless it's one of the established colloquial idioms below.
+    // Allowed: pra você, pra mim, pra cá, pra lá, pra frente, pra trás,
+    // pra baixo, pra cima, pra dentro, pra fora, pra nós, pra si.
+    name: '"pra" followed by anything except allowed colloquials',
+    pattern: /(?<!\p{L})pra (?!você|voce|mim|cá|ca|lá|la|frente|trás|tras|baixo|cima|dentro|fora|nós|nos|si)(\p{L}+)/gu,
+    fix: 'Spell out as "para" (batches 14 + 15). Allowed colloquials only: pra você / pra mim / pra cá / pra lá / pra frente / pra trás / pra baixo / pra cima / pra dentro / pra fora.',
+    appliesTo: /\.(astro|md|json)$/,
+    // Skip reviews (client quotes, never modify) + skill docs + handoff
+    excludePath: /reviews\.json|skills.*brazilian-portuguese|HANDOFF\.md/,
+  },
+  {
+    // "pro" is a contraction of "pra o" — same problem class as bare "pra".
+    // Catch "pro X" / "pros X" / "pra os X" / "pra as X" when X is a noun.
+    name: '"pro" / "pros" / "pra os" / "pra as" contractions',
+    pattern: /(?<!\p{L})(pro|pros|pra os|pra as) (\p{L}+)/gu,
+    fix: 'Spell out as "para o" / "para os" / "para as" (batches 13-15: Vicji rejects pra+article contractions).',
+    appliesTo: /\.(astro|md|json)$/,
+    excludePath: /reviews\.json|skills.*brazilian-portuguese|HANDOFF\.md/,
+  },
 ];
 
 // WARN-only patterns. Usually wrong but can be intentional.
 // Don't block build, just flag for review.
 const WARN = [
-  {
-    name: '"pra" followed by an article ("pra a", "pra o")',
-    pattern: /\bpra (a|o) \w/g,
-    fix: 'Vicji prefers "para a" / "para o" (spell out when an article follows).',
-    appliesTo: /\.(astro|md|json)$/,
-    excludePath: /HANDOFF\.md|skills.*brazilian-portuguese/,
-  },
   {
     name: '"num" contraction',
     pattern: /\bnum (a|um|ritmo|local|tempo|momento|dia)/g,

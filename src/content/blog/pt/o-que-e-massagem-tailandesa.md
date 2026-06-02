@@ -44,7 +44,7 @@ Lá, massagem não é serviço. É oferenda. É um ato de cuidado que tem dimens
 
 Essa é a parte que mais diferencia a Thai Massage de tudo o mais. Ela nasceu integrada, e não fragmentada em partes. Quando bem executada, trabalha o corpo em três dimensões simultâneas:
 
-**Físico:** liberação miofascial, mobilização articular, descompressão da coluna. A parte que dá pra ver e medir.
+**Físico:** liberação miofascial, mobilização articular, descompressão da coluna. A parte que dá para ver e medir.
 
 **Energético:** trabalho direto sobre os centros energéticos (chakras) e as linhas de energia (sen). O corpo libera o que estava represado.
 
@@ -150,4 +150,4 @@ E se após fizer sentido, será sempre um prazer recebê-lo de volta.
 
 ---
 
-**Pronto para experimentar?** [Já agenda a sua sessão](/agendar) ou me chama no WhatsApp. Conversamos antes pra entender o que você busca.
+**Pronto para experimentar?** [Já agenda a sua sessão](/agendar) ou me chama no WhatsApp. Conversamos antes para entender o que você busca.

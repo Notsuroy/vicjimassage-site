@@ -20,7 +20,7 @@ keywords:
   - "trabalho corporal integrado"
 ---
 
-Holístico virou palavra da moda. Você vê em rótulo de creme, em descrição de spa, em currículo de quem deu um curso de fim de semana.
+Holístico virou palavra da moda. Você vê em rótulo de creme, em descrição de spa, em currículo de quem fez um curso de fim de semana.
 
 Mas o que significa, de verdade, uma massagem holística? E como saber se o que você está recebendo é realmente integrado, ou só uma massagem comum com nome bonito?
 

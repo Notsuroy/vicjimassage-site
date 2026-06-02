@@ -29,7 +29,7 @@ Adiciona a isso o estilo de vida moderno:
 - Estresse crônico, que faz o corpo manter o quadril em "modo de defesa"
 - Falta de movimento variado, especialmente rotação e alongamento
 
-O resultado: tensões se acumulam nos músculos profundos do quadril e da lombar, em particular no **psoas**, no **quadrado lombar** e nos **glúteos**. Esses músculos puxam a coluna em direções que ela não foi feita pra ir. A dor aparece como sintoma, mas a origem está em outro lugar.
+O resultado: tensões se acumulam nos músculos profundos do quadril e da lombar, em particular no **psoas**, no **quadrado lombar** e nos **glúteos**. Esses músculos puxam a coluna em direções que ela não foi feita para ir. A dor aparece como sintoma, mas a origem está em outro lugar.
 
 ## Por que tratar só o local da dor raramente resolve
 
@@ -56,9 +56,9 @@ Em uma sessão típica para alguém com dor lombar, eu:
 5. **Só então chego na lombar em si.** Pressão consciente nas linhas paralelas à coluna, alongamento da coluna toda, trabalho com a respiração.
 6. **Fecho com inversões e descompressões.** Posturas onde o quadril fica mais alto que a cabeça, permitindo que a coluna se descomprima.
 
-Esse trabalho leva tempo. Por isso minhas sessões são longas (mínimo 1h30, idealmente 2h ou mais). Não dá pra fazer esse circuito em 30 minutos. E é por isso que sessões express raramente resolvem dor lombar crônica.
+Esse trabalho leva tempo. Por isso minhas sessões são longas (mínimo 1h30, idealmente 2h ou mais). Não dá para fazer esse circuito em 30 minutos. E é por isso que sessões express raramente resolvem dor lombar crônica.
 
-## A sessão que eu desenvolvi exatamente pra isso
+## A sessão que eu desenvolvi exatamente para isso
 
 Além da Thai Massage Tradicional, eu ofereço uma sessão específica chamada **Liberação de Quadril**. Ela foi desenvolvida exatamente para o perfil que descrevi acima: foco em pernas, quadril e lombar, com técnicas de liberação miofascial e descompressão.
 
@@ -80,7 +80,7 @@ Cada corpo responde diferente, mas alguns padrões são comuns:
 A maioria das pessoas relata redução significativa da dor lombar logo após a primeira sessão. Mas é importante ter expectativas realistas:
 
 - **Se a dor é nova (semanas ou poucos meses):** uma a três sessões geralmente resolvem.
-- **Se a dor é crônica (anos):** é trabalho de meses, não de uma sessão. O corpo aprendeu um padrão e vai precisar de tempo pra reorganizar. Recomendo começar com sessões semanais ou quinzenais por dois meses, depois espaçar.
+- **Se a dor é crônica (anos):** é trabalho de meses, não de uma sessão. O corpo aprendeu um padrão e vai precisar de tempo para reorganizar. Recomendo começar com sessões semanais ou quinzenais por dois meses, depois espaçar.
 - **Se a dor tem origem estrutural (hérnia confirmada, escoliose acentuada):** a massagem ajuda muito como suporte, mas precisa ser combinada com o acompanhamento de fisioterapeuta ou médico ortopedista.
 
 Eu não substituo o médico. Se você tem dor lombar que irradia para a perna, dormência, fraqueza, ou que apareceu de repente sem causa aparente, **procura uma avaliação médica primeiro**. A massagem entra depois, como parte do tratamento.
@@ -107,4 +107,4 @@ Não é sempre que acontece. Mas se acontecer, acolhe. É parte do trabalho, e �
 
 ---
 
-**Tem dor lombar crônica e quer experimentar?** [Experimenta a Liberação de Quadril](/agendar), ou a Thai Massage Tradicional de 2h se preferir o trabalho no corpo inteiro. Conversamos antes pra entender sua história, e a gente trabalha juntos.
+**Tem dor lombar crônica e quer experimentar?** [Experimenta a Liberação de Quadril](/agendar), ou a Thai Massage Tradicional de 2h se preferir o trabalho no corpo inteiro. Conversamos antes para entender sua história, e a gente trabalha juntos.

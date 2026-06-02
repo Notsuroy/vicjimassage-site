@@ -250,7 +250,7 @@ The GBP algorithm gives a "new business boost" for the first 30-60 days. Use it.
 
 ### Week 2
 4. **Post a "Welcome" Update** on the GBP. Use his story:
-   > "Sou Victor, terapeuta de massagem tailandesa em Atibaia. Aprendi na fonte, em Chiang Mai, e trouxe a prática pro Brasil. Atendo no Espaço Clô. Te espero pra uma sessão."
+   > "Sou Victor, terapeuta de massagem tailandesa em Atibaia. Aprendi na fonte, em Chiang Mai, e trouxe a prática para o Brasil. Atendo no Espaço Clô. Te espero para uma sessão."
 5. **Reply to every review** (positive or negative) within 24h. Google notices.
 
 ### Week 3
