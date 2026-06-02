@@ -56,7 +56,7 @@ Massagista
 
 When you start typing, Google will show suggestions. Pick the exact one labeled `Massagista` (Massage therapist).
 
-**Additional categories** (you can add up to 9 — use 3-4 strategic ones):
+**Additional categories** (you can add up to 9, use 3-4 strategic ones):
 ```
 Spa
 Praticante de medicina alternativa
@@ -148,7 +148,7 @@ Massagem tailandesa tradicional em Atibaia, no Espaço Clô.
 
 Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na fonte da tradição, e em yoga na Índia. Sou o único no Brasil oferecendo esse trabalho integrado: a técnica milenar da Thai Massage combinada com a compreensão energética dessas duas formações.
 
-A sessão acontece no tatame, com roupa confortável, e trabalha o corpo em três dimensões: físico, energético e espiritual. Mais de 500 sessões realizadas.
+A sessão acontece no tatame, com roupas confortáveis, e trabalha o corpo em três dimensões: físico, energético e espiritual. Mais de 500 sessões realizadas.
 
 Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Quadril (1h30, foco na base).
 

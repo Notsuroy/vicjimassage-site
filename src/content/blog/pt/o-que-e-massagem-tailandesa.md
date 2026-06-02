@@ -136,7 +136,7 @@ Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho e
 
 Você chega, conversamos com calma de quinze a trinta minutos. Eu quero te conhecer e me apresentar, saber o que você está sentindo, o seu estado de saúde, como anda o lado emocional, o seu sono, às técnicas que já experimentou, e por aí vai. É uma conversa que abre um campo de entendimento, compaixão e acolhimento.
 
-Depois, você deita no futon, com roupa confortável. Eu trabalho em silêncio, com música tradicional ao fundo. Sem muita conversa ou bate papo.
+Depois, você deita no futon, com roupas confortáveis. Eu trabalho em silêncio, com música tradicional ao fundo. Sem muita conversa ou bate papo.
 
 No final, eu te deixo uns minutos sozinho para integrar toda a prática que tivemos. Após, volto para sala e temos uma breve conversa final, escuto de você como se sentiu e como está se sentindo, te dou um feedback sobre o estado do seu corpo e dicas extras importantes para você aplicar no seu dia a dia.
 

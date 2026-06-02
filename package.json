@@ -5,8 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node scripts/audit-vicji-voice.mjs --hard",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "audit:voice": "node scripts/audit-vicji-voice.mjs",
+    "audit:voice:hard": "node scripts/audit-vicji-voice.mjs --hard"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
