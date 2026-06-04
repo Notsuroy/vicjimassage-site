@@ -138,13 +138,13 @@ Você chega, conversamos com calma de quinze a trinta minutos. Eu quero te conhe
 
 Depois, você deita no futon, com roupas confortáveis. Eu trabalho em silêncio, com música tradicional ao fundo. Sem muita conversa ou bate papo.
 
-No final, eu te deixo uns minutos sozinho para integrar toda a prática que tivemos. Após, volto para sala e temos uma breve conversa final, escuto de você como se sentiu e como está se sentindo, te dou um feedback sobre o estado do seu corpo e dicas extras importantes para você aplicar no seu dia a dia.
+No final, eu te deixo uns minutos sozinho para integrar toda a prática que tivemos. Após, volto para a sala e temos uma breve conversa final, escuto de você como se sentiu e como está se sentindo, te dou um feedback sobre o estado do seu corpo e dicas extras importantes para você aplicar no seu dia a dia.
 
 ## Vale a pena?
 
 Eu sou suspeito para responder, então deixa eu reformular: vale a pena experimentar?
 
-Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe pra cá. Não precisa decidir se "vale a pena para sempre" depois de uma sessão. Só vem uma vez, e sente. Te garanto que, ao menos, você não irá se arrepender.
+Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe para cá. Não precisa decidir se "vale a pena para sempre" depois de uma sessão. Só vem uma vez, e sente. Te garanto que, ao menos, você não irá se arrepender.
 
 E se após fizer sentido, será sempre um prazer recebê-lo de volta.
 

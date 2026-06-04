@@ -88,15 +88,15 @@ const HARD = [
     appliesTo: /\.(astro|md|json)$/,
   },
   {
-    // Vicji's preference (codified across batches 14, 15): spell out "pra"
-    // unless it's one of the established colloquial idioms below.
-    // Allowed: pra você, pra mim, pra cá, pra lá, pra frente, pra trás,
-    // pra baixo, pra cima, pra dentro, pra fora, pra nós, pra si.
-    name: '"pra" followed by anything except allowed colloquials',
-    pattern: /(?<!\p{L})pra (?!você|voce|mim|cá|ca|lá|la|frente|trás|tras|baixo|cima|dentro|fora|nós|nos|si)(\p{L}+)/gu,
-    fix: 'Spell out as "para" (batches 14 + 15). Allowed colloquials only: pra você / pra mim / pra cá / pra lá / pra frente / pra trás / pra baixo / pra cima / pra dentro / pra fora.',
+    // Vicji's universal rule (codified across batches 14, 15, 16): ALWAYS
+    // spell out "pra" as "para". Confirmed across the entire site —
+    // Vicji uses para você / para mim / para cá / para frente even when
+    // conventional PT-BR would write the contracted form. The only thing
+    // we exclude is reviews.json (client quotes — never modify).
+    name: '"pra" contraction (always spell out as "para")',
+    pattern: /(?<!\p{L})pra (\p{L}+)/gu,
+    fix: 'Spell out as "para". Vicji rejects all "pra" contractions site-wide (batch 16). Confirmed pattern: site uses "para você" / "para mim" / "para cá" / "para frente" exclusively.',
     appliesTo: /\.(astro|md|json)$/,
-    // Skip reviews (client quotes, never modify) + skill docs + handoff
     excludePath: /reviews\.json|skills.*brazilian-portuguese|HANDOFF\.md/,
   },
   {

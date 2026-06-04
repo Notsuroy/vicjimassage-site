@@ -52,7 +52,7 @@ Em uma sessão típica para alguém com dor lombar, eu:
 1. **Começo nos pés.** Sim, pés. As linhas que sustentam a postura começam ali. Liberar tensão nos pés muda como a perna inteira se organiza.
 2. **Subo pelas pernas, trabalhando o posterior da coxa e glúteos.** Esses músculos, quando encurtados, mantêm a pelve em rotação anterior, sobrecarregando a lombar.
 3. **Abro o quadril com alongamentos passivos.** Esse é o coração do trabalho. Posturas similares ao "pombo" do yoga, e outras, mas eu sustento para você, ajustando a profundidade conforme o seu corpo permite.
-4. **Trabalho o psoas.** O psoas conecta a coluna lombar à parte interna da coxa. Quando crônicamente tenso, ele literalmente puxa a coluna pra frente, gerando compressão na lombar. Liberar o psoas é frequentemente a chave que destrava tudo.
+4. **Trabalho o psoas.** O psoas conecta a coluna lombar à parte interna da coxa. Quando crônicamente tenso, ele literalmente puxa a coluna para frente, gerando compressão na lombar. Liberar o psoas é frequentemente a chave que destrava tudo.
 5. **Só então chego na lombar em si.** Pressão consciente nas linhas paralelas à coluna, alongamento da coluna toda, trabalho com a respiração.
 6. **Fecho com inversões e descompressões.** Posturas onde o quadril fica mais alto que a cabeça, permitindo que a coluna se descomprima.
 
