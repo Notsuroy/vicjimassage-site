@@ -27,7 +27,7 @@ Adiciona a isso o estilo de vida moderno:
 - Horas sentado em frente à tela, encurtando os flexores do quadril
 - Padrões de respiração curtos e altos (peito), sem mobilizar o diafragma
 - Estresse crônico, que faz o corpo manter o quadril em "modo de defesa"
-- Falta de movimento variado, especialmente rotação e alongamento
+- Falta de movimentos variados
 
 O resultado: tensões se acumulam nos músculos profundos do quadril e da lombar, em particular no **psoas**, no **quadrado lombar** e nos **glúteos**. Esses músculos puxam a coluna em direções que ela não foi feita para ir. A dor aparece como sintoma, mas a origem está em outro lugar.
 
