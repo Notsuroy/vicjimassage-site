@@ -96,7 +96,7 @@ A sessão não termina quando você se levanta do futon. As próximas 24 horas s
 
 **Logo após:**
 
-- Tomar muita água (o trabalho mobiliza tecido e libera substâncias que precisam ser eliminadas)
+- Tomar muita água (ajuda na hidratação e no conforto após o trabalho corporal intenso)
 - Caminhar devagar, sem pressa
 - Evitar atividade física intensa nas duas horas seguintes
 
@@ -124,4 +124,4 @@ Então: não julga a prática só pela primeira sessão. Se algo te chamou, dá 
 
 ---
 
-**Pronto?** [Já marca a sua primeira sessão](/agendar), ou me manda uma mensagem no WhatsApp. Eu respondo todas pessoalmente. Atendimento em Atibaia, no Espaço Clô.
+**Pronto?** [Já marca a sua primeira sessão](/agendar), ou me manda uma mensagem no WhatsApp. Eu respondo todas pessoalmente.

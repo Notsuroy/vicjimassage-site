@@ -127,7 +127,7 @@ Eu vou ser honesto. Uma sessão de massagem holística verdadeira não é a mesm
 
 Quem busca relaxar por uma hora e voltar para casa, uma massagem relaxante boa cumpre o papel.
 
-Mas quem está buscando uma transformação mais profunda, quem sente que o corpo, a energia, e o estado mental estão pedindo um reset completo, é aí que uma prática holística verdadeira faz uma diferença que nenhuma outra técnica consegue fazer.
+Mas quem está buscando uma transformação mais profunda, quem sente que o corpo, a energia, e o estado mental estão pedindo um reset completo, é aí que uma prática holística verdadeira pode promover uma transformação difícil de alcançar com técnicas mais fragmentadas.
 
 As pessoas saem das minhas sessões mais conectadas com o próprio corpo. Algumas choram durante a sessão sem saber o porquê. Outras dormem profundamente nas noites seguintes. Outras só conseguem dizer que se sentem "diferentes" sem conseguir explicar muito.
 

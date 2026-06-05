@@ -144,7 +144,7 @@ No final, eu te deixo uns minutos sozinho para integrar toda a prática que tive
 
 Eu sou suspeito para responder, então deixa eu reformular: vale a pena experimentar?
 
-Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe para cá. Não precisa decidir se "vale a pena para sempre" depois de uma sessão. Só vem uma vez, e sente. Te garanto que, ao menos, você não irá se arrepender.
+Se você chegou até aqui, é porque algo no seu corpo, na sua vida, ou na sua curiosidade te trouxe para cá. Não precisa decidir se "vale a pena para sempre" depois de uma sessão. Só vem uma vez, e sente. Muita gente que veio uma vez voltou para uma segunda.
 
 E se após fizer sentido, será sempre um prazer recebê-lo de volta.
 
