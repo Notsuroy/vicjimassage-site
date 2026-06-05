@@ -164,19 +164,19 @@ Add each session as a separate Service:
 ### Service 1
 - **Name:** Thai Massage Tradicional, 2 horas
 - **Category:** Massagem
-- **Price:** R$ 330
+- **Price:** R$ 360
 - **Description:** Sessão completa de Thai Massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
 
 ### Service 2
 - **Name:** Thai Massage Tradicional, 3 horas (imersiva)
 - **Category:** Massagem
-- **Price:** R$ 480
+- **Price:** R$ 520
 - **Description:** A experiência completa. Cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar. Trabalho profundo nos três níveis: físico, energético, espiritual.
 
 ### Service 3
 - **Name:** Liberação de Quadril, 1h30
 - **Category:** Massagem
-- **Price:** R$ 250
+- **Price:** R$ 290
 - **Description:** Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.
 
 ---

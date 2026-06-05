@@ -23,8 +23,8 @@
       "options": [
         {
           "duration": "2h",
-          "price": 330,
-          "priceDisplay": "R$ 330",
+          "price": 360,
+          "priceDisplay": "R$ 360",
           "label": {
             "pt": "2 horas",
             "en": "2 hours"
@@ -32,8 +32,8 @@
         },
         {
           "duration": "3h",
-          "price": 480,
-          "priceDisplay": "R$ 480",
+          "price": 520,
+          "priceDisplay": "R$ 520",
           "label": {
             "pt": "3 horas (imersiva)",
             "en": "3 hours (immersive)"
@@ -95,8 +95,8 @@
       "options": [
         {
           "duration": "1h30",
-          "price": 250,
-          "priceDisplay": "R$ 250",
+          "price": 290,
+          "priceDisplay": "R$ 290",
           "label": {
             "pt": "1 hora e 30 minutos",
             "en": "1 hour 30 minutes"
