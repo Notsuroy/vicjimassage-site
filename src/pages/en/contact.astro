@@ -5,7 +5,7 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
 ---
 <BaseLayout
   title="Contact · Vicji Massage"
-  description="How to reach Victor. Studio at Espaço Clô, Atibaia, Brazil."
+  description="How to reach Victor. Sessions in Itacaré, Bahia, Brazil."
   lang="en"
   path="/en/contact"
 >
@@ -20,9 +20,13 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
         <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
           <h2 class="font-display text-2xl text-ocean mb-4">Studio</h2>
           <address class="not-italic text-ink-muted leading-relaxed">
-            <span class="block font-semibold text-ink">{site.location.studio}</span>
+            {site.location.studio && (
+              <span class="block font-semibold text-ink">{site.location.studio}</span>
+            )}
             <span class="block">{site.location.street}</span>
-            <span class="block">{site.location.neighborhood}</span>
+            {site.location.neighborhood && (
+              <span class="block">{site.location.neighborhood}</span>
+            )}
             <span class="block">{site.location.city}, {site.location.state}</span>
             <span class="block">{site.location.postalCode}, {site.location.countryEn}</span>
           </address>
@@ -82,13 +86,6 @@ const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.locatio
         ></iframe>
       </div>
 
-      <div class="mt-12 bg-sand-dark/30 rounded-2xl p-8 text-center">
-        <div class="label-overline mb-2">Coming soon</div>
-        <p class="font-display text-2xl text-ocean">Itacaré, Bahia</p>
-        <p class="text-ink-muted mt-2">
-          {site.location.futureLocation.note.en}
-        </p>
-      </div>
     </div>
   </section>
 </BaseLayout>

@@ -1,6 +1,8 @@
 # Google Business Profile setup for Victor
 
-Step-by-step guide to creating Victor's GBP. Designed for a WhatsApp screen-share session with him. Reading time: 5 min. Setup time: ~15 min. Verification time: 5 days to 2 weeks (postcard) or 1-3 days (video).
+Step-by-step guide for Victor's GBP. Designed for a WhatsApp screen-share session with him. Reading time: 5 min. Setup time: ~15 min. Verification time: 5 days to 2 weeks (postcard) or 1-3 days (video).
+
+**IMPORTANT: If Victor already has the Atibaia GBP verified, jump to [Moving an existing profile from Atibaia to Itacaré](#moving-an-existing-profile-from-atibaia-to-itacaré) at the bottom. Do NOT create a second profile.**
 
 ---
 
@@ -20,7 +22,7 @@ If Victor doesn't have a Gmail account, create one first at accounts.google.com.
 ### What to have ready
 - Phone (his Brazilian mobile, not WhatsApp number if different)
 - Email
-- Studio address: Espaço Clô, Rua Magnólia, 69, Vila Gardênia, Atibaia, SP, 12942-010
+- Address: R. Alto da Telebahia, 130, Itacaré, BA, 45530-000
 - Photos from `public/gbp/` in this repo (8 files, all sized correctly for GBP)
 
 ---
@@ -42,8 +44,8 @@ Vicji Massagem Tailandesa
 
 Notes:
 - Use `Massagem Tailandesa` not `Thai Massage` (GBP indexes in local language; this is what Brazilians search)
-- Don't add city ("Atibaia") to the name. Google will display the city automatically, and adding it triggers a name-stuffing penalty.
-- Don't add the studio name ("Espaço Clô") to the business name. The studio is a venue, not part of his brand.
+- Don't add the city ("Itacaré") to the name. Google will display the city automatically, and adding it triggers a name-stuffing penalty.
+- Don't add a studio or venue name to the business name.
 
 ---
 
@@ -65,7 +67,7 @@ Centro de bem-estar
 
 Why these:
 - `Massagista` is the core query that matches user intent
-- `Spa` captures broader wellness search traffic
+- `Spa` captures broader wellness search traffic (relevant in Itacaré, which is a tourism-heavy market)
 - `Praticante de medicina alternativa` reaches the holistic/spiritual seekers
 - `Centro de bem-estar` is broader wellness umbrella
 
@@ -79,28 +81,34 @@ Click **Yes, I serve customers at this location** (NOT "I deliver goods and serv
 
 **Address:**
 ```
-Rua Magnólia, 69
-Vila Gardênia
-Atibaia, SP, 12942-010
+R. Alto da Telebahia, 130
+Itacaré, BA, 45530-000
 Brasil
 ```
 
 Make sure when Google's map pin appears, it actually lands on the building. If it's off by a block, drag the pin to the correct spot.
 
+**Note on the home studio:** the address is Victor's home. This is fine for GBP as long as he genuinely sees clients there. If he wants to hide the exact street on the public listing (SAB, "service-area business"), see the note in Step 5.
+
 ---
 
 ## Step 5: Service area
 
-Victor works from the studio only (right now). Skip the service-area question OR leave it blank.
+Victor works from the address only (right now). Skip the service-area question OR leave it blank.
 
-If he eventually does house calls, he can add service areas later (e.g., "Atibaia, Bragança Paulista, Jundiaí").
+If he wants the street to NOT display publicly (common for home studios), toggle **"I also serve customers outside my location"** and add Itacaré + nearby areas as a service area. Google will then hide the exact street address on the listing but still use it for verification.
+
+Reasonable service areas to add if he wants coverage:
+- Itacaré, BA
+- Uruçuca, BA
+- Ilhéus, BA (for occasional house calls)
 
 ---
 
 ## Step 6: Contact info
 
 **Phone:**
-Victor's Brazilian mobile (with country code: +55 11 XXXXX-XXXX or +55 19 XXXXX-XXXX or whatever his region is).
+Victor's Brazilian mobile (with country code: +55 XX XXXXX-XXXX).
 Use his **WhatsApp number** since that's where clients book.
 
 **Website:**
@@ -118,15 +126,15 @@ Google asks how to verify:
 
 ### Option 1: Video verification (BEST if available)
 - Schedule a video call with Google support
-- Victor holds his phone, films himself walking through the studio
-- Shows the address from outside
-- Shows him doing massage stuff (technique demos, equipment, business signs)
+- Victor holds his phone, films himself walking through the space
+- Shows the address from outside (street sign or number visible)
+- Shows him doing massage stuff (technique demos, futon, equipment)
 - Approval in 1-3 business days
 - Available for most service businesses now
 
 ### Option 2: Postcard (FALLBACK)
-- Google mails a physical postcard to the studio address
-- Takes 5-14 business days in Brazil
+- Google mails a physical postcard to the address
+- Takes 5-14 business days in Brazil (Itacaré is remote, budget the longer end)
 - Contains a verification code
 - He enters the code in business.google.com to confirm
 - DO NOT modify the business profile until the postcard arrives
@@ -144,7 +152,7 @@ Google asks how to verify:
 After verification, fill in this description. **Copy/paste exactly** (~700 characters, Portuguese). This is the canonical brand description, also used in the site's LocalBusiness schema (`site.brand.fullDescription.pt`), so Google sees consistent messaging across GBP and the website:
 
 ```
-Massagem tailandesa tradicional em Atibaia, no Espaço Clô.
+Massagem tailandesa tradicional em Itacaré, Bahia.
 
 Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na fonte da tradição, e em yoga na Índia. Sou o único no Brasil oferecendo esse trabalho integrado: a técnica milenar da Thai Massage combinada com a compreensão energética dessas duas formações.
 
@@ -154,6 +162,8 @@ Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Qua
 
 Atendimentos sob agendamento, de segunda a sábado.
 ```
+
+If the copy in `src/data/site.json` (`brand.fullDescription.pt`) diverges from this doc, the JSON is the source of truth.
 
 ---
 
@@ -178,6 +188,8 @@ Add each session as a separate Service:
 - **Category:** Massagem
 - **Price:** R$ 290
 - **Description:** Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.
+
+If Victor introduces hotel-guest packages or a beach/pool-side variant in Itacaré, add those as separate Services later.
 
 ---
 
@@ -212,6 +224,8 @@ Upload from `public/gbp/` in this repo (already cropped to the right sizes):
 
 **GBP also shows photos from Google reviews and your website automatically.** The website OG image (your hero) will already be pulled.
 
+Once Victor has photos of the actual Itacaré space (interior of the room, view, the futon set up), add those too. Photos of the new location are one of the strongest signals to Google that the move is real.
+
 ---
 
 ## Step 12: Attributes
@@ -221,8 +235,8 @@ GBP asks about attributes (amenities, accessibility, etc.). Fill in what's true:
 **Highlights:**
 - Online appointments → **Yes** (WhatsApp counts)
 - LGBTQ+ friendly → **Yes** (if true)
-- Wi-Fi → If the studio has it
-- Wheelchair accessible entrance → Check with Victor (Espaço Clô may or may not)
+- Wi-Fi → If the space has it
+- Wheelchair accessible entrance → Check with Victor
 
 **Service options:**
 - In-store services → **Yes**
@@ -250,18 +264,18 @@ The GBP algorithm gives a "new business boost" for the first 30-60 days. Use it.
 
 ### Week 2
 4. **Post a "Welcome" Update** on the GBP. Use his story:
-   > "Sou Victor, terapeuta de massagem tailandesa em Atibaia. Aprendi na fonte, em Chiang Mai, e trouxe a prática para o Brasil. Atendo no Espaço Clô. Te espero para uma sessão."
+   > "Sou Victor, terapeuta de massagem tailandesa em Itacaré. Aprendi na fonte, em Chiang Mai, e trouxe a prática para o Brasil. Te espero para uma sessão."
 5. **Reply to every review** (positive or negative) within 24h. Google notices.
 
 ### Week 3
-6. **Add a new photo** every 3-4 days. Even a phone shot of the studio counts. Algorithmic preference for active profiles.
+6. **Add a new photo** every 3-4 days. Even a phone shot of the space counts. Algorithmic preference for active profiles.
 7. **Post another Update**: maybe a "What is Thai Massage" mini-explainer linking to the blog post.
 
 ### Week 4
-8. **Audit Search Console** for any "vicji" or "massagem tailandesa atibaia" impressions to see if you're appearing yet.
+8. **Audit Search Console** for any "vicji" or "massagem tailandesa itacaré" impressions to see if you're appearing yet.
 9. **Add 2 more reviews** if you can.
 
-By day 30, the GBP should be ranking for branded queries (`vicji massage`, `vicji massagem`) and starting to show for non-branded local queries (`massagem tailandesa atibaia`, `massagista atibaia`).
+By day 30, the GBP should be ranking for branded queries (`vicji massage`, `vicji massagem`) and starting to show for non-branded local queries (`massagem tailandesa itacaré`, `massagista itacaré`).
 
 ---
 
@@ -281,19 +295,61 @@ Once verified, Victor can add you so you can manage day-to-day without owning th
 - Don't put the city in the business name
 - Don't put the website URL in the business name
 - Don't make up an address (Google verifies)
-- Don't list service areas if Victor only works from the studio
+- Don't list service areas he doesn't actually work in
 - Don't add fake reviews
 - Don't bulk-import reviews from another platform
 - Don't add categories that don't actually apply (no "Hair salon")
-- Don't make a second profile for "the Itacaré location" before he moves. Wait. When he moves, you UPDATE the address on this one profile. Two profiles for one person = duplicate listing penalty.
+- Don't create a second profile for the new city. If the Atibaia GBP already exists, UPDATE it (see next section). Two profiles for one person = duplicate-listing penalty and Google will suspend one or both.
 
 ---
 
-## When Victor moves to Itacaré later this year
+## Moving an existing profile from Atibaia to Itacaré
 
-DON'T delete this profile. DON'T create a new one.
+If Vicji already has the Atibaia GBP verified (which he does), this is the path. It preserves all reviews and authority.
 
-Just go to GBP dashboard → **Edit business** → change the address. Google preserves all the review history and authority you've built. Takes a few days for the new address to verify.
+### Step 1: Update the address in the Atibaia profile
+1. Go to **business.google.com** and sign in as Victor
+2. Open the Atibaia profile
+3. **Edit profile** → **Business information** → **Location**
+4. Replace the Atibaia address with:
+   ```
+   R. Alto da Telebahia, 130
+   Itacaré, BA, 45530-000
+   Brasil
+   ```
+5. Drag the map pin onto the correct building if needed
+6. **Save**
+
+### Step 2: Re-verify
+Google will REQUIRE re-verification because a cross-state move (SP → BA) is a large jump. Expect:
+- Video verification if offered (best case, 1-3 days)
+- Postcard to the new Itacaré address (5-14 days, likely longer given Itacaré's remoteness)
+- The listing may go temporarily un-verified in Maps during this window. That's normal. Don't panic and don't create a new profile.
+
+### Step 3: Update everything else on the profile
+Same session, in the same profile:
+- **Service area:** remove Atibaia/Bragança Paulista/Jundiaí. Add Itacaré/Uruçuca/Ilhéus.
+- **Business description:** replace with the Itacaré version from [Step 8](#step-8-business-description-after-verification) above.
+- **Hours:** confirm with Victor whether they change now that he's in a beach town (tourist rhythm often shifts weekend/evening hours).
+- **Photos:** leave the existing ones for now (they still show Victor at work, which is what matters). Add photos of the new space as soon as he has them.
+
+### Step 4: Post a "We've moved" Update
+Once re-verified, post a GBP Update:
+
+> "Nova localização: Itacaré, Bahia. Continuo oferecendo Thai Massage tradicional, agora no litoral baiano. Agendamentos pelo WhatsApp."
+
+This signals to Google that the move is intentional and gives returning searchers context.
+
+### What DOESN'T need to move
+- **The reviews stay.** Google keeps them attached to the profile through an address change.
+- **The GBP URL / place ID stays.** Anywhere it's linked from (site footer, review widgets) keeps working.
+- **The Search Console `sc-domain:vicjimassage.com.br` verification stays valid.** GSC doesn't care about physical location.
+- **The website's LocalBusiness schema** already updated automatically via `src/data/site.json`.
+
+### What to DO after Google approves the move
+- Reply to any client messages that came in during the un-verified window
+- Add 1-2 new photos of the Itacaré space
+- Tell existing clients (WhatsApp broadcast, IG post) that the profile is live at the new address, and ask any who visit the new space to leave a fresh review mentioning Itacaré. Fresh reviews with the new city name are one of the strongest local-SEO signals.
 
 ---
 
@@ -303,6 +359,6 @@ Just go to GBP dashboard → **Edit business** → change the address. Google pr
 - Website to enter: `https://vicjimassage.com.br`
 - Business name: `Vicji Massagem Tailandesa`
 - Primary category: `Massagista`
-- Address: `Rua Magnólia, 69, Vila Gardênia, Atibaia, SP, 12942-010, Brasil`
+- Address: `R. Alto da Telebahia, 130, Itacaré, BA, 45530-000, Brasil`
 
 Once verified, send the GBP profile link back and I'll embed it on the contact page so visitors can leave reviews with one click.

@@ -108,4 +108,4 @@ It doesn't have to happen. But if it does, welcome it. It's part of the work.
 
 ---
 
-**Have chronic lower back pain and want to try?** [Book the Hip Release session](/en/book) (1h30, R$ 290), or the Traditional Thai Massage 2h if you prefer full-body work. We talk first to understand your story, and we work together. Sessions in Atibaia, Brazil, at Espaço Clô. English-speaking, international clients welcome.
+**Have chronic lower back pain and want to try?** [Book the Hip Release session](/en/book) (1h30, R$ 290), or the Traditional Thai Massage 2h if you prefer full-body work. We talk first to understand your story, and we work together. Sessions in Itacaré, Bahia, Brazil. English-speaking, international clients welcome.

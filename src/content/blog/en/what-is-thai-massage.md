@@ -143,4 +143,4 @@ If it makes sense, you'll come back.
 
 ---
 
-**Ready to try?** Sessions in Atibaia, Brazil, at Espaço Clô. [Book a session](/en/book) or message me on WhatsApp. We talk first to understand what you're looking for. International clients welcome. I speak English fluently and accept cash in BRL, USD, or EUR.
+**Ready to try?** Sessions in Itacaré, Bahia, Brazil. [Book a session](/en/book) or message me on WhatsApp. We talk first to understand what you're looking for. International clients welcome. I speak English fluently and accept cash in BRL, USD, or EUR.

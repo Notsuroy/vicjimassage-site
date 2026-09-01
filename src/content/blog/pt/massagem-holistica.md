@@ -12,7 +12,7 @@ lang: "pt"
 showFAQ: true
 keywords:
   - "massagem holística"
-  - "massagem holística Atibaia"
+  - "massagem holística Itacaré"
   - "o que é massagem holística"
   - "massagem integrativa"
   - "massagem tailandesa"

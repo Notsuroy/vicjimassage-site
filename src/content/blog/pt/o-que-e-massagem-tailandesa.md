@@ -17,7 +17,7 @@ keywords:
   - "benefícios da massagem tailandesa"
   - "Nuad Boran"
   - "massagem tailandesa tradicional"
-  - "massagem tailandesa Atibaia"
+  - "massagem tailandesa Itacaré"
 ---
 
 A primeira coisa que muita gente me pergunta é: "isso é tipo uma massagem normal, só que mais forte?"

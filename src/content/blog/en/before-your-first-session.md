@@ -126,4 +126,4 @@ So: don't judge the practice by the first session alone. If something called to 
 
 ---
 
-**Ready?** [Book your first session](/en/book) or message me on WhatsApp. I reply personally. Sessions in Atibaia, Brazil, at Espaço Clô. English-speaking, international clients welcome.
+**Ready?** [Book your first session](/en/book) or message me on WhatsApp. I reply personally. Sessions in Itacaré, Bahia, Brazil. English-speaking, international clients welcome.
