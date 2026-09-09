@@ -1,8 +1,159 @@
 {
-  "_note": "Three services as of 2026-09-09 (Suroy-directed split). Thai Tradicional's two duration variants (2h/3h) were split into two named sessions with their own detail pages: Thai Massage Tradicional (2h) and Thai Massage Imersiva (3h). Liberação de Quadril unchanged. Prices and durations are Victor's own, confirmed by him 2026-05-27, and must not be altered without his sign-off. Each service has a single option so the grid and the OfferCatalog schema still iterate options[].",
+  "_note": "Three services as of 2026-09-09 (Suroy-directed split). Thai Tradicional's two duration variants (2h/3h) were split into two named sessions with their own detail pages: Thai Massage Tradicional (2h) and Thai Massage Imersiva (3h). Liberação de Quadril unchanged. Prices and durations are Victor's own, confirmed by him 2026-05-27, and must not be altered without his sign-off. Each service has a single option so the grid and the OfferCatalog schema still iterate options[]. Services are ordered by ascending price (R$290 / R$360 / R$520) so the grid reads cheapest to most expensive; keep that order when adding or editing a service. The `highlight` flag stays on Thai Massage Tradicional, which now sits in the middle of the 3-up grid.",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
+    {
+      "id": "liberacao-quadril",
+      "slug": {
+        "pt": "liberacao-de-quadril",
+        "en": "hip-release"
+      },
+      "highlight": false,
+      "icon": "wave",
+      "name": {
+        "pt": "Liberação de Quadril",
+        "en": "Hip Release Session"
+      },
+      "tagline": {
+        "pt": "Foco profundo na base do corpo.",
+        "en": "Deep focus on the body's foundation."
+      },
+      "description": {
+        "pt": "Sessão focada em aliviar tensões da parte inferior do corpo, soltar os quadris, descomprimir a região lombar, e harmonizar os chakras inferiores (raiz e sacral). Trabalha aspectos emocionais relacionados à sobrevivência, segurança, estabilidade, prazer, sexualidade e criatividade. Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão.",
+        "en": "Focused session for releasing tension in the lower body, opening the hips, decompressing the lower back, and harmonizing the lower chakras (root and sacral). Works the emotional aspects connected to survival, safety, stability, pleasure, sexuality, and creativity. Combines Thai Massage techniques with targeted stretches, myofascial release, and decompression."
+      },
+      "metaTitle": {
+        "pt": "Liberação de Quadril em Itacaré · 1h30 · Vicji Massage",
+        "en": "Hip Release Session in Itacaré · 1h30 · Vicji Massage"
+      },
+      "metaDescription": {
+        "pt": "Sessão focada de 1h30 no quadril, pernas e lombar, em Itacaré, Bahia. Alongamentos específicos, liberação miofascial e técnicas de descompressão.",
+        "en": "Focused 90-minute session on hips, legs, and lower back in Itacaré, Bahia. Targeted stretches, myofascial release, and decompression techniques."
+      },
+      "intro": {
+        "pt": [
+          "O quadril é o centro energético e biomecânico do corpo. É onde a mecânica da pelve, da coluna e das pernas se encontra, e é uma das regiões em que a tensão se acumula com mais frequência em quem passa muitas horas sentado.",
+          "Esta é uma sessão focada, de uma hora e meia, dedicada à base do corpo: pernas, quadris e região lombar. Combino manobras da Thai Massage Tradicional com alongamentos específicos, liberação miofascial e técnicas de descompressão, buscando criar mais espaço e mobilidade na região.",
+          "Trabalha também os chakras raiz e sacral, ligados aos temas de segurança, estabilidade, prazer e criatividade. O quadril costuma guardar bastante do que o corpo não teve tempo de processar, e não é raro que apareça algo emocional junto com a liberação física.",
+          "É uma sessão mais curta e mais direcionada do que a Thai Massage Tradicional. Funciona bem sozinha, e funciona bem também como um retorno depois de uma sessão de corpo inteiro."
+        ],
+        "en": [
+          "The hips are the body's energetic and biomechanical center. It's where the mechanics of the pelvis, the spine, and the legs meet, and it's one of the areas where tension most often accumulates in people who spend many hours sitting.",
+          "This is a focused ninety-minute session dedicated to the body's foundation: legs, hips, and lower back. I combine traditional Thai Massage techniques with targeted stretches, myofascial release, and decompression work, aiming to create more space and mobility through the region.",
+          "It also works the root and sacral chakras, tied to themes of safety, stability, pleasure, and creativity. The hips tend to hold a lot of what the body hasn't had time to process, and it isn't unusual for something emotional to surface alongside the physical release.",
+          "This is a shorter and more targeted session than the traditional Thai Massage. It works well on its own, and it works well as a return visit after a full-body session."
+        ]
+      },
+      "forWhom": {
+        "pt": [
+          "Para quem passa muitas horas sentado, em frente às telas ou dirigindo;",
+          "Para quem sente o quadril travado, ou desconforto na lombar ao final do dia;",
+          "Para praticantes de yoga, corrida, surf ou musculação que sentem limitação de amplitude no quadril;",
+          "Para quem já fez a sessão de corpo inteiro e quer voltar em uma região específica."
+        ],
+        "en": [
+          "If you spend many hours sitting, at a screen or behind the wheel;",
+          "If your hips feel locked, or your lower back aches by the end of the day;",
+          "If you practise yoga, running, surfing, or lifting and feel limited range in the hips;",
+          "If you've already had the full-body session and want to return to one specific area."
+        ]
+      },
+      "medicalNote": {
+        "pt": "Se você apresenta dor irradiada para a perna, perda de força, dormência persistente, alterações urinárias ou intestinais, ou uma dor que surgiu de forma súbita e intensa, procure avaliação médica antes de iniciar qualquer tratamento complementar.",
+        "en": "If you have pain radiating down the leg, loss of strength, persistent numbness, changes in bladder or bowel function, or pain that came on suddenly and severely, seek medical evaluation before starting any complementary treatment."
+      },
+      "options": [
+        {
+          "duration": "1h30",
+          "durationISO": "PT1H30M",
+          "price": 290,
+          "priceDisplay": "R$ 290",
+          "label": {
+            "pt": "1 hora e 30 minutos",
+            "en": "1 hour 30 minutes"
+          }
+        }
+      ],
+      "highlights": {
+        "pt": [
+          "Foco em pernas, quadril e lombar",
+          "Liberação miofascial profunda",
+          "Harmonização dos chakras raiz e sacral",
+          "Trabalho emocional ligado à base do corpo"
+        ],
+        "en": [
+          "Focus on legs, hips, and lower back",
+          "Deep myofascial release",
+          "Harmonizing root and sacral chakras",
+          "Emotional work tied to the body's foundation"
+        ]
+      },
+      "included": {
+        "pt": [
+          "Conversa inicial de 15 a 30 minutos (te conhecer, entender o que está sentindo, alinhar a sessão)",
+          "A sessão completa, sem cronômetro acelerando o trabalho",
+          "Tempo de integração em silêncio no final, para o corpo assimilar",
+          "Conversa de encerramento com feedback sobre o seu estado físico e energético",
+          "Dicas para o seu dia a dia, baseadas no que apareceu na sessão",
+          "Acompanhamento por WhatsApp nos dias seguintes, se te interessar"
+        ],
+        "en": [
+          "Opening conversation, 15 to 30 minutes (get to know you, understand what you're feeling, set the session intention)",
+          "The full session, no clock rushing the work",
+          "Integration time in silence at the end, for the body to absorb",
+          "Closing conversation with feedback on your physical and energetic state",
+          "Day-to-day recommendations based on what came up in the session",
+          "WhatsApp follow-up over the next days if you're interested"
+        ]
+      },
+      "faqs": {
+        "pt": [
+          {
+            "q": "Essa sessão serve para dor lombar?",
+            "a": "Em muitos casos o desconforto lombar não está relacionado apenas à lombar. Os flexores do quadril, o psoas e a musculatura profunda da pelve exercem influência importante sobre a mecânica da região, e trabalhar essa base costuma trazer mais espaço e mobilidade para a coluna. Dito isso, dor lombar tem causas variadas, e essa sessão é um trabalho complementar, não um diagnóstico nem um substituto para avaliação médica."
+          },
+          {
+            "q": "Qual é a diferença para a Thai Massage Tradicional?",
+            "a": "A Thai Massage Tradicional percorre o corpo inteiro, dos pés à cabeça, em duas ou três horas. A Liberação de Quadril é mais curta, uma hora e meia, e concentra todo esse tempo na base: pernas, quadris e lombar. Se a sua tensão está espalhada, a sessão de corpo inteiro faz mais sentido. Se ela está claramente concentrada no quadril, essa aqui vai fundo mais rápido."
+          },
+          {
+            "q": "Preciso ser flexível?",
+            "a": "Não. Os alongamentos são passivos: eu conduzo o movimento e você não precisa fazer força nem alcançar posição nenhuma. Trabalho dentro da amplitude que o seu corpo tem hoje, e é justamente quem sente mais limitação que costuma notar mais diferença."
+          },
+          {
+            "q": "É normal aparecer emoção durante a sessão?",
+            "a": "Acontece com alguma frequência nessa região, e não tem nada de errado nisso. O quadril guarda bastante do que ficou sem processamento. Se aparecer, a gente segura o espaço para isso, sem pressa e sem transformar em outra coisa. É parte do trabalho, e é lindo."
+          },
+          {
+            "q": "Posso fazer se estou grávida?",
+            "a": "Gestação de risco é contraindicação. Fora isso, me avise antes para conversarmos: dependendo do trimestre e de como está a sua gestação, dá para adaptar o trabalho, ou pode ser mais prudente esperar. Prefiro decidir isso com você caso a caso, e com o aval do seu acompanhamento médico."
+          }
+        ],
+        "en": [
+          {
+            "q": "Does this session help with lower back pain?",
+            "a": "In many cases lower back discomfort isn't related to the lower back alone. The hip flexors, the psoas, and the deep pelvic muscles have significant influence over the mechanics of the region, and working that foundation tends to create more space and mobility for the spine. That said, back pain has varied causes, and this session is complementary work, not a diagnosis and not a substitute for medical evaluation."
+          },
+          {
+            "q": "How is this different from Traditional Thai Massage?",
+            "a": "Traditional Thai Massage travels the whole body, head to toe, over two or three hours. Hip Release is shorter, ninety minutes, and concentrates all of that time on the foundation: legs, hips, and lower back. If your tension is spread out, the full-body session makes more sense. If it's clearly concentrated in the hips, this one goes deep faster."
+          },
+          {
+            "q": "Do I need to be flexible?",
+            "a": "No. The stretches are passive: I guide the movement and you don't need to push or reach any position. I work within the range your body has today, and it's usually the people who feel most limited who notice the biggest difference."
+          },
+          {
+            "q": "Is it normal for emotions to surface during the session?",
+            "a": "It happens fairly often in this area, and there's nothing wrong with it. The hips hold a lot of what went unprocessed. If it comes up, we hold the space for it, without rushing and without turning it into something else. It's part of the work, and it's beautiful."
+          },
+          {
+            "q": "Can I do this while pregnant?",
+            "a": "High-risk pregnancy is a contraindication. Beyond that, let me know beforehand so we can talk: depending on the trimester and how your pregnancy is going, the work can be adapted, or it may be wiser to wait. I'd rather decide that with you case by case, and with the approval of your medical team."
+          }
+        ]
+      }
+    },
     {
       "id": "thai-tradicional",
       "slug": {
@@ -297,157 +448,6 @@
           {
             "q": "How should I plan my day?",
             "a": "Keep the three hours genuinely free, with nothing scheduled right after. Come on a light stomach, at least two hours after your last meal. And if you can, avoid planning anything that demands heavy concentration for the rest of the day: the body tends to ask for a slower pace after a long session."
-          }
-        ]
-      }
-    },
-    {
-      "id": "liberacao-quadril",
-      "slug": {
-        "pt": "liberacao-de-quadril",
-        "en": "hip-release"
-      },
-      "highlight": false,
-      "icon": "wave",
-      "name": {
-        "pt": "Liberação de Quadril",
-        "en": "Hip Release Session"
-      },
-      "tagline": {
-        "pt": "Foco profundo na base do corpo.",
-        "en": "Deep focus on the body's foundation."
-      },
-      "description": {
-        "pt": "Sessão focada em aliviar tensões da parte inferior do corpo, soltar os quadris, descomprimir a região lombar, e harmonizar os chakras inferiores (raiz e sacral). Trabalha aspectos emocionais relacionados à sobrevivência, segurança, estabilidade, prazer, sexualidade e criatividade. Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão.",
-        "en": "Focused session for releasing tension in the lower body, opening the hips, decompressing the lower back, and harmonizing the lower chakras (root and sacral). Works the emotional aspects connected to survival, safety, stability, pleasure, sexuality, and creativity. Combines Thai Massage techniques with targeted stretches, myofascial release, and decompression."
-      },
-      "metaTitle": {
-        "pt": "Liberação de Quadril em Itacaré · 1h30 · Vicji Massage",
-        "en": "Hip Release Session in Itacaré · 1h30 · Vicji Massage"
-      },
-      "metaDescription": {
-        "pt": "Sessão focada de 1h30 no quadril, pernas e lombar, em Itacaré, Bahia. Alongamentos específicos, liberação miofascial e técnicas de descompressão.",
-        "en": "Focused 90-minute session on hips, legs, and lower back in Itacaré, Bahia. Targeted stretches, myofascial release, and decompression techniques."
-      },
-      "intro": {
-        "pt": [
-          "O quadril é o centro energético e biomecânico do corpo. É onde a mecânica da pelve, da coluna e das pernas se encontra, e é uma das regiões em que a tensão se acumula com mais frequência em quem passa muitas horas sentado.",
-          "Esta é uma sessão focada, de uma hora e meia, dedicada à base do corpo: pernas, quadris e região lombar. Combino manobras da Thai Massage Tradicional com alongamentos específicos, liberação miofascial e técnicas de descompressão, buscando criar mais espaço e mobilidade na região.",
-          "Trabalha também os chakras raiz e sacral, ligados aos temas de segurança, estabilidade, prazer e criatividade. O quadril costuma guardar bastante do que o corpo não teve tempo de processar, e não é raro que apareça algo emocional junto com a liberação física.",
-          "É uma sessão mais curta e mais direcionada do que a Thai Massage Tradicional. Funciona bem sozinha, e funciona bem também como um retorno depois de uma sessão de corpo inteiro."
-        ],
-        "en": [
-          "The hips are the body's energetic and biomechanical center. It's where the mechanics of the pelvis, the spine, and the legs meet, and it's one of the areas where tension most often accumulates in people who spend many hours sitting.",
-          "This is a focused ninety-minute session dedicated to the body's foundation: legs, hips, and lower back. I combine traditional Thai Massage techniques with targeted stretches, myofascial release, and decompression work, aiming to create more space and mobility through the region.",
-          "It also works the root and sacral chakras, tied to themes of safety, stability, pleasure, and creativity. The hips tend to hold a lot of what the body hasn't had time to process, and it isn't unusual for something emotional to surface alongside the physical release.",
-          "This is a shorter and more targeted session than the traditional Thai Massage. It works well on its own, and it works well as a return visit after a full-body session."
-        ]
-      },
-      "forWhom": {
-        "pt": [
-          "Para quem passa muitas horas sentado, em frente às telas ou dirigindo;",
-          "Para quem sente o quadril travado, ou desconforto na lombar ao final do dia;",
-          "Para praticantes de yoga, corrida, surf ou musculação que sentem limitação de amplitude no quadril;",
-          "Para quem já fez a sessão de corpo inteiro e quer voltar em uma região específica."
-        ],
-        "en": [
-          "If you spend many hours sitting, at a screen or behind the wheel;",
-          "If your hips feel locked, or your lower back aches by the end of the day;",
-          "If you practise yoga, running, surfing, or lifting and feel limited range in the hips;",
-          "If you've already had the full-body session and want to return to one specific area."
-        ]
-      },
-      "medicalNote": {
-        "pt": "Se você apresenta dor irradiada para a perna, perda de força, dormência persistente, alterações urinárias ou intestinais, ou uma dor que surgiu de forma súbita e intensa, procure avaliação médica antes de iniciar qualquer tratamento complementar.",
-        "en": "If you have pain radiating down the leg, loss of strength, persistent numbness, changes in bladder or bowel function, or pain that came on suddenly and severely, seek medical evaluation before starting any complementary treatment."
-      },
-      "options": [
-        {
-          "duration": "1h30",
-          "durationISO": "PT1H30M",
-          "price": 290,
-          "priceDisplay": "R$ 290",
-          "label": {
-            "pt": "1 hora e 30 minutos",
-            "en": "1 hour 30 minutes"
-          }
-        }
-      ],
-      "highlights": {
-        "pt": [
-          "Foco em pernas, quadril e lombar",
-          "Liberação miofascial profunda",
-          "Harmonização dos chakras raiz e sacral",
-          "Trabalho emocional ligado à base do corpo"
-        ],
-        "en": [
-          "Focus on legs, hips, and lower back",
-          "Deep myofascial release",
-          "Harmonizing root and sacral chakras",
-          "Emotional work tied to the body's foundation"
-        ]
-      },
-      "included": {
-        "pt": [
-          "Conversa inicial de 15 a 30 minutos (te conhecer, entender o que está sentindo, alinhar a sessão)",
-          "A sessão completa, sem cronômetro acelerando o trabalho",
-          "Tempo de integração em silêncio no final, para o corpo assimilar",
-          "Conversa de encerramento com feedback sobre o seu estado físico e energético",
-          "Dicas para o seu dia a dia, baseadas no que apareceu na sessão",
-          "Acompanhamento por WhatsApp nos dias seguintes, se te interessar"
-        ],
-        "en": [
-          "Opening conversation, 15 to 30 minutes (get to know you, understand what you're feeling, set the session intention)",
-          "The full session, no clock rushing the work",
-          "Integration time in silence at the end, for the body to absorb",
-          "Closing conversation with feedback on your physical and energetic state",
-          "Day-to-day recommendations based on what came up in the session",
-          "WhatsApp follow-up over the next days if you're interested"
-        ]
-      },
-      "faqs": {
-        "pt": [
-          {
-            "q": "Essa sessão serve para dor lombar?",
-            "a": "Em muitos casos o desconforto lombar não está relacionado apenas à lombar. Os flexores do quadril, o psoas e a musculatura profunda da pelve exercem influência importante sobre a mecânica da região, e trabalhar essa base costuma trazer mais espaço e mobilidade para a coluna. Dito isso, dor lombar tem causas variadas, e essa sessão é um trabalho complementar, não um diagnóstico nem um substituto para avaliação médica."
-          },
-          {
-            "q": "Qual é a diferença para a Thai Massage Tradicional?",
-            "a": "A Thai Massage Tradicional percorre o corpo inteiro, dos pés à cabeça, em duas ou três horas. A Liberação de Quadril é mais curta, uma hora e meia, e concentra todo esse tempo na base: pernas, quadris e lombar. Se a sua tensão está espalhada, a sessão de corpo inteiro faz mais sentido. Se ela está claramente concentrada no quadril, essa aqui vai fundo mais rápido."
-          },
-          {
-            "q": "Preciso ser flexível?",
-            "a": "Não. Os alongamentos são passivos: eu conduzo o movimento e você não precisa fazer força nem alcançar posição nenhuma. Trabalho dentro da amplitude que o seu corpo tem hoje, e é justamente quem sente mais limitação que costuma notar mais diferença."
-          },
-          {
-            "q": "É normal aparecer emoção durante a sessão?",
-            "a": "Acontece com alguma frequência nessa região, e não tem nada de errado nisso. O quadril guarda bastante do que ficou sem processamento. Se aparecer, a gente segura o espaço para isso, sem pressa e sem transformar em outra coisa. É parte do trabalho, e é lindo."
-          },
-          {
-            "q": "Posso fazer se estou grávida?",
-            "a": "Gestação de risco é contraindicação. Fora isso, me avise antes para conversarmos: dependendo do trimestre e de como está a sua gestação, dá para adaptar o trabalho, ou pode ser mais prudente esperar. Prefiro decidir isso com você caso a caso, e com o aval do seu acompanhamento médico."
-          }
-        ],
-        "en": [
-          {
-            "q": "Does this session help with lower back pain?",
-            "a": "In many cases lower back discomfort isn't related to the lower back alone. The hip flexors, the psoas, and the deep pelvic muscles have significant influence over the mechanics of the region, and working that foundation tends to create more space and mobility for the spine. That said, back pain has varied causes, and this session is complementary work, not a diagnosis and not a substitute for medical evaluation."
-          },
-          {
-            "q": "How is this different from Traditional Thai Massage?",
-            "a": "Traditional Thai Massage travels the whole body, head to toe, over two or three hours. Hip Release is shorter, ninety minutes, and concentrates all of that time on the foundation: legs, hips, and lower back. If your tension is spread out, the full-body session makes more sense. If it's clearly concentrated in the hips, this one goes deep faster."
-          },
-          {
-            "q": "Do I need to be flexible?",
-            "a": "No. The stretches are passive: I guide the movement and you don't need to push or reach any position. I work within the range your body has today, and it's usually the people who feel most limited who notice the biggest difference."
-          },
-          {
-            "q": "Is it normal for emotions to surface during the session?",
-            "a": "It happens fairly often in this area, and there's nothing wrong with it. The hips hold a lot of what went unprocessed. If it comes up, we hold the space for it, without rushing and without turning it into something else. It's part of the work, and it's beautiful."
-          },
-          {
-            "q": "Can I do this while pregnant?",
-            "a": "High-risk pregnancy is a contraindication. Beyond that, let me know beforehand so we can talk: depending on the trimester and how your pregnancy is going, the work can be adapted, or it may be wiser to wait. I'd rather decide that with you case by case, and with the approval of your medical team."
           }
         ]
       }
