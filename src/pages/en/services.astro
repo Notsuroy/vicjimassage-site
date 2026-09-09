@@ -35,10 +35,11 @@ const offerCatalog = {
         "description": s.description.en,
         "price": o.price,
         "priceCurrency": "BRL",
+        "url": new URL(`/en/services/${s.slug.en}`, Astro.site).toString(),
         "itemOffered": {
           "@type": "Service",
           "name": s.name.en,
-          "duration": `PT${o.duration.replace(/[^\d]/g, '')}H`.replace('H30', 'H30M'),
+          "duration": o.durationISO,
         },
       }))
     ),
@@ -58,7 +59,7 @@ const offerCatalog = {
         Exclusive, original sessions.
       </h1>
       <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
-        Traditional Thai Massage runs through the whole body. Hip Release dives into the foundation. Both integrate the physical, energetic, and spiritual work.
+        Traditional Thai Massage runs through the whole body in two hours. The Immersive session takes the same path in three, without watching the clock. Hip Release dives into the foundation. All three integrate the physical, energetic, and spiritual work.
       </p>
     </div>
   </section>

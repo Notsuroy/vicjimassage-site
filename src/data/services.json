@@ -1,11 +1,14 @@
 {
-  "_note": "Two services per Victor's actual offering (his client-facing copy, sent via WhatsApp 2026-05-27). Prices and durations confirmed by Victor himself. Thai Tradicional has two duration variants (2h and 3h). Liberação de Quadril is a focused 1h30 session.",
+  "_note": "Three services as of 2026-09-09 (Suroy-directed split). Thai Tradicional's two duration variants (2h/3h) were split into two named sessions with their own detail pages: Thai Massage Tradicional (2h) and Thai Massage Imersiva (3h). Liberação de Quadril unchanged. Prices and durations are Victor's own, confirmed by him 2026-05-27, and must not be altered without his sign-off. Each service has a single option so the grid and the OfferCatalog schema still iterate options[].",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
     {
       "id": "thai-tradicional",
-      "slug": "thai-tradicional",
+      "slug": {
+        "pt": "massagem-tailandesa-tradicional",
+        "en": "traditional-thai-massage"
+      },
       "highlight": true,
       "icon": "lotus",
       "name": {
@@ -20,23 +23,51 @@
         "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga, com o objetivo de liberar a musculatura, relaxar tensões fasciais, mobilizar articulações, descomprimir vértebras, eliminar tensões e emoções acumuladas, e equilibrar os centros energéticos do corpo (chakras).",
         "en": "Complete traditional Thai Massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga, working to release muscle tension, release fascial tension, mobilize joints, decompress the spine, clear stored tensions and emotions, and balance the body's energy centers (chakras)."
       },
+      "metaTitle": {
+        "pt": "Massagem Tailandesa Tradicional em Itacaré · 2h · Vicji Massage",
+        "en": "Traditional Thai Massage in Itacaré · 2h · Vicji Massage"
+      },
+      "metaDescription": {
+        "pt": "Sessão de 2 horas de Thai Massage tradicional em Itacaré, Bahia. Corpo inteiro, no tatame, sem óleo, com alongamentos assistidos e tempo de integração.",
+        "en": "Two-hour traditional Thai Massage session in Itacaré, Bahia. Full body, on a futon, no oil, with assisted stretching and integration time at the end."
+      },
+      "intro": {
+        "pt": [
+          "A sessão de duas horas é a Thai Massage tradicional na sua forma completa. É por aqui que a maioria das pessoas começa, e é a sessão que eu indico para quem nunca recebeu esse trabalho antes.",
+          "Duas horas é o tempo que o corpo leva para desacelerar de verdade. A primeira meia hora é de chegada: a respiração se aprofunda, os ombros soltam, o sistema nervoso entende que não tem pressa nenhuma. Só depois disso o trabalho mais profundo começa a acontecer.",
+          "Percorro o corpo inteiro, dos pés à cabeça, sobre o tatame e com roupas confortáveis. Sem óleo. Combinando pressões ao longo das linhas de energia (sen) com alongamentos passivos inspirados no yoga, mobilização das articulações e descompressão da coluna.",
+          "No final, tem tempo de integração em silêncio. O corpo precisa desse espaço para assimilar o que aconteceu, e essa parte é tão importante quanto a massagem em si."
+        ],
+        "en": [
+          "The two-hour session is traditional Thai Massage in its complete form. This is where most people start, and it's the session I recommend if you've never received this work before.",
+          "Two hours is how long the body takes to actually slow down. The first half hour is arrival: the breath deepens, the shoulders let go, the nervous system understands there is no rush. Only after that does the deeper work begin.",
+          "I work the whole body, head to toe, on a futon and in comfortable clothes. No oil. Combining pressure along the energy lines (sen) with passive yoga-inspired stretches, joint mobilization, and spinal decompression.",
+          "At the end there is integration time in silence. The body needs that space to absorb what happened, and that part matters as much as the massage itself."
+        ]
+      },
+      "forWhom": {
+        "pt": [
+          "Para quem nunca recebeu uma Thai Massage e quer conhecer a prática na forma tradicional;",
+          "Para quem carrega tensão acumulada no corpo inteiro, e não em uma região específica;",
+          "Para quem quer uma sessão profunda, mas tem uma janela mais curta na agenda;",
+          "Para quem prefere começar pelo formato padrão antes de decidir sobre a imersão de três horas."
+        ],
+        "en": [
+          "If you've never received Thai Massage and want to know the practice in its traditional form;",
+          "If you carry tension across the whole body rather than in one specific area;",
+          "If you want a deep session but have a shorter window in the day;",
+          "If you'd rather start with the standard format before deciding on the three-hour immersion."
+        ]
+      },
       "options": [
         {
           "duration": "2h",
+          "durationISO": "PT2H",
           "price": 360,
           "priceDisplay": "R$ 360",
           "label": {
             "pt": "2 horas",
             "en": "2 hours"
-          }
-        },
-        {
-          "duration": "3h",
-          "price": 520,
-          "priceDisplay": "R$ 520",
-          "label": {
-            "pt": "3 horas (imersiva)",
-            "en": "3 hours (immersive)"
           }
         }
       ],
@@ -73,11 +104,209 @@
           "Day-to-day recommendations based on what came up in the session",
           "WhatsApp follow-up over the next days if you're interested"
         ]
+      },
+      "faqs": {
+        "pt": [
+          {
+            "q": "Duas horas não é tempo demais para uma massagem?",
+            "a": "É o tempo que a tradição pede. A maioria das massagens no Brasil dura uma hora porque uma hora cabe bem na agenda de quem vende a sessão como produto, entre um cliente e outro. Na Tailândia, sessões de duas e três horas são o padrão. A Thai Massage Tradicional percorre linhas de energia inteiras, sustenta alongamentos, mobiliza articulações uma a uma. Em uma hora, isso não cabe sem cortar caminho."
+          },
+          {
+            "q": "Preciso tirar a roupa?",
+            "a": "Não. A sessão acontece com roupas confortáveis, de algodão ou leggings, sobre o tatame. Não uso óleo. Muita gente prefere assim, justamente por não ter aquela sensação de estar exposto."
+          },
+          {
+            "q": "Qual é a diferença para a sessão imersiva de três horas?",
+            "a": "Na de duas horas eu percorro o corpo inteiro com profundidade e ainda sobra tempo de integração. Na imersiva de três horas, além disso, dá para sustentar cada alongamento por mais tempo, voltar em regiões que pediram mais atenção durante o próprio trabalho, e alongar bastante o silêncio do final. Uma não é a versão reduzida da outra: são dois formatos diferentes. Se é a sua primeira vez, a de duas horas costuma ser o melhor ponto de partida."
+          },
+          {
+            "q": "Dói?",
+            "a": "O toque é firme, mas não é uma sessão de dor. Trabalho na faixa em que o corpo consegue se entregar em vez de se defender, porque tensão gerada por dor atrapalha o trabalho. Durante toda a sessão você pode me dizer se algo está intenso demais, e eu faço os ajustes necessários na hora."
+          },
+          {
+            "q": "Com que frequência posso repetir?",
+            "a": "Depende bastante do momento de cada pessoa. Quem está lidando com tensão antiga costuma sentir mais resultado com sessões mais próximas no início, a cada uma ou duas semanas, espaçando conforme o corpo responde. Quem vem para manutenção geralmente encontra um ritmo mensal. Na conversa de encerramento eu comento o que faz sentido para o seu caso."
+          }
+        ],
+        "en": [
+          {
+            "q": "Isn't two hours too long for a massage?",
+            "a": "It's the time the tradition asks for. Most massages in Brazil last an hour because an hour fits neatly into the schedule of someone selling sessions as a product, one client after another. In Thailand, two and three-hour sessions are the standard. Traditional Thai Massage travels whole energy lines, sustains stretches, mobilizes joints one by one. That doesn't fit into an hour without cutting corners."
+          },
+          {
+            "q": "Do I need to undress?",
+            "a": "No. The session happens in comfortable clothes, cotton or leggings, on a futon. I don't use oil. Many people prefer it this way, precisely because there's none of that exposed feeling."
+          },
+          {
+            "q": "How is this different from the three-hour immersive session?",
+            "a": "In the two-hour session I work the whole body with depth and still leave integration time. The three-hour immersion adds room to sustain each stretch longer, return to areas that asked for more attention during the work itself, and stretch out the silence at the end. One isn't a shortened version of the other: they're two different formats. If it's your first time, two hours is usually the better starting point."
+          },
+          {
+            "q": "Does it hurt?",
+            "a": "The touch is firm, but this isn't a session about pain. I work in the range where the body can surrender rather than defend itself, because tension created by pain works against the session. You can tell me at any point if something is too intense, and I make the adjustments right there."
+          },
+          {
+            "q": "How often can I come back?",
+            "a": "It depends a lot on where each person is. People working through long-held tension tend to get more out of closer sessions at first, every week or two, spacing out as the body responds. People coming for maintenance usually settle into a monthly rhythm. In the closing conversation I'll tell you what makes sense for your case."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thai-imersiva",
+      "slug": {
+        "pt": "massagem-tailandesa-imersiva",
+        "en": "immersive-thai-massage"
+      },
+      "highlight": false,
+      "icon": "lotus",
+      "name": {
+        "pt": "Thai Massage Imersiva",
+        "en": "Immersive Thai Massage"
+      },
+      "tagline": {
+        "pt": "Três horas. O trabalho inteiro, sem nenhuma pressa.",
+        "en": "Three hours. The whole practice, with nowhere to be."
+      },
+      "description": {
+        "pt": "A sessão mais longa que eu ofereço, e a mais próxima do formato que aprendi na Tailândia. Três horas de trabalho no corpo inteiro, com tempo para sustentar cada alongamento, percorrer as linhas de energia por completo, voltar nas regiões que pedem mais atenção e encerrar com um silêncio generoso.",
+        "en": "The longest session I offer, and the closest to the format I learned in Thailand. Three hours of full-body work, with time to sustain each stretch, travel the energy lines completely, return to the areas asking for more attention, and close with a generous silence."
+      },
+      "metaTitle": {
+        "pt": "Massagem Tailandesa Imersiva · 3 horas em Itacaré · Vicji Massage",
+        "en": "Immersive Thai Massage · 3 hours in Itacaré · Vicji Massage"
+      },
+      "metaDescription": {
+        "pt": "Sessão imersiva de 3 horas de Thai Massage em Itacaré, Bahia. O formato mais próximo da tradição tailandesa, para quem quer ir fundo sem olhar o relógio.",
+        "en": "Three-hour immersive Thai Massage session in Itacaré, Bahia. The format closest to the Thai tradition, for going deep without watching the clock."
+      },
+      "intro": {
+        "pt": [
+          "Três horas é o formato que mais se aproxima do que eu aprendi na Tailândia. Lá, sessões longas são o padrão e não a exceção. O trabalho é lento por natureza, e o tempo faz parte da técnica.",
+          "A diferença para a sessão de duas horas não é apenas uma hora a mais de massagem. Com três horas, dá para percorrer as linhas de energia por completo, sustentar cada alongamento pelo tempo que o corpo pede em vez do tempo que o relógio permite, voltar em uma região que pediu mais atenção no meio do caminho, e ainda deixar um espaço largo de integração no final.",
+          "É também a sessão em que o silêncio cabe. Em sessões mais curtas, a integração é um momento. Aqui ela é uma parte inteira do trabalho.",
+          "Indico a imersiva para quem já recebeu Thai Massage antes e quer aprofundar, e também para quem está de férias em Itacaré com uma tarde livre e quer usá-la inteira."
+        ],
+        "en": [
+          "Three hours is the format closest to what I learned in Thailand. There, long sessions are the standard and not the exception. The work is slow by nature, and time is part of the technique.",
+          "The difference from the two-hour session isn't simply one more hour of massage. With three hours, there's room to travel the energy lines completely, to sustain each stretch for as long as the body asks rather than as long as the clock allows, to return to an area that asked for more attention halfway through, and still leave a wide space for integration at the end.",
+          "It's also the session where silence fits. In shorter sessions, integration is a moment. Here it becomes a whole part of the work.",
+          "I recommend the immersion for people who have received Thai Massage before and want to go deeper, and for anyone on holiday in Itacaré with a free afternoon who wants to use all of it."
+        ]
+      },
+      "forWhom": {
+        "pt": [
+          "Para quem já recebeu Thai Massage e quer aprofundar a experiência;",
+          "Para quem está viajando e tem uma tarde inteira livre em Itacaré;",
+          "Para quem carrega tensão antiga e sente que uma sessão curta só arranha a superfície;",
+          "Para quem quer o formato mais próximo do que se pratica na Tailândia."
+        ],
+        "en": [
+          "If you've received Thai Massage before and want to go deeper;",
+          "If you're travelling and have a whole free afternoon in Itacaré;",
+          "If you carry long-held tension and feel a short session only scratches the surface;",
+          "If you want the format closest to how it's practised in Thailand."
+        ]
+      },
+      "options": [
+        {
+          "duration": "3h",
+          "durationISO": "PT3H",
+          "price": 520,
+          "priceDisplay": "R$ 520",
+          "label": {
+            "pt": "3 horas",
+            "en": "3 hours"
+          }
+        }
+      ],
+      "highlights": {
+        "pt": [
+          "Corpo inteiro, com tempo para voltar onde o corpo pediu",
+          "Linhas de energia (sen) percorridas por completo",
+          "Alongamentos sustentados pelo tempo que o corpo pede",
+          "Liberação miofascial e descompressão vertebral aprofundadas",
+          "Integração longa em silêncio no encerramento"
+        ],
+        "en": [
+          "Whole body, with time to return where the body asked",
+          "Energy lines (sen) travelled from end to end",
+          "Stretches sustained for as long as the body asks",
+          "Deeper myofascial release and spinal decompression",
+          "Long integration in silence to close"
+        ]
+      },
+      "included": {
+        "pt": [
+          "Conversa inicial de 15 a 30 minutos (te conhecer, entender o que está sentindo, alinhar a sessão)",
+          "A sessão completa, sem cronômetro acelerando o trabalho",
+          "Tempo de integração em silêncio no final, para o corpo assimilar",
+          "Conversa de encerramento com feedback sobre o seu estado físico e energético",
+          "Dicas para o seu dia a dia, baseadas no que apareceu na sessão",
+          "Acompanhamento por WhatsApp nos dias seguintes, se te interessar"
+        ],
+        "en": [
+          "Opening conversation, 15 to 30 minutes (get to know you, understand what you're feeling, set the session intention)",
+          "The full session, no clock rushing the work",
+          "Integration time in silence at the end, for the body to absorb",
+          "Closing conversation with feedback on your physical and energetic state",
+          "Day-to-day recommendations based on what came up in the session",
+          "WhatsApp follow-up over the next days if you're interested"
+        ]
+      },
+      "faqs": {
+        "pt": [
+          {
+            "q": "Três horas de massagem não é cansativo?",
+            "a": "A sensação costuma ser o contrário do cansaço, porque não é um esforço ativo da sua parte. Você recebe. O que a maioria das pessoas relata é que o tempo passa de um jeito estranho, sem a noção habitual de relógio. Se em algum momento o corpo pedir uma pausa, a gente pausa. Não existe roteiro obrigatório."
+          },
+          {
+            "q": "Vale a diferença de preço em relação à sessão de duas horas?",
+            "a": "Vale se o que você quer é profundidade e tempo, não se você só quer conhecer a técnica. Para uma primeira Thai Massage, a sessão de duas horas já entrega o trabalho completo e é o melhor ponto de partida. A imersiva faz mais sentido quando você já sabe como o seu corpo responde e quer ir além, ou quando tem a tarde livre e quer usá-la inteira. Você não está investindo em mais uma hora de massagem: está investindo para que o trabalho aconteça sem nenhum corte."
+          },
+          {
+            "q": "Posso pedir foco em uma região específica?",
+            "a": "Pode, e nas três horas isso funciona especialmente bem. Percorro o corpo inteiro de qualquer forma, mas sobra tempo para dedicar uma atenção maior ao que estiver mais pedindo, seja quadril, ombros, coluna ou pernas. A gente alinha isso na conversa inicial."
+          },
+          {
+            "q": "Preciso já ter feito Thai Massage antes?",
+            "a": "Não é obrigatório. Algumas pessoas começam direto pela imersiva e se dão muito bem. Mas se você nunca recebeu esse trabalho, a sessão de duas horas costuma ser um começo mais confortável, porque você conhece a prática antes de reservar uma tarde inteira para ela."
+          },
+          {
+            "q": "Como devo organizar o meu dia?",
+            "a": "Deixe as três horas livres de verdade, sem compromisso logo em seguida. Venha com o estômago leve, pelo menos duas horas depois da última refeição. E se der, evite marcar algo que exija muita concentração no resto do dia: o corpo costuma pedir um ritmo mais lento depois de uma sessão longa."
+          }
+        ],
+        "en": [
+          {
+            "q": "Isn't three hours of massage tiring?",
+            "a": "It usually feels like the opposite of tiring, because none of it is active effort on your part. You receive. What most people describe is that time passes strangely, without the usual sense of the clock. If at any point the body asks for a pause, we pause. There's no mandatory script."
+          },
+          {
+            "q": "Is it worth the price difference over the two-hour session?",
+            "a": "It's worth it if what you want is depth and time, not if you simply want to know the technique. For a first Thai Massage, the two-hour session already delivers the complete work and is the better starting point. The immersion makes more sense once you know how your body responds and want to go further, or when you have a free afternoon and want to use all of it. You're not paying for one more hour of massage: you're investing so the work can happen without a single cut."
+          },
+          {
+            "q": "Can I ask for focus on a specific area?",
+            "a": "Yes, and across three hours that works especially well. I travel the whole body either way, but there's time left to give more attention to whatever is asking for it, whether that's hips, shoulders, spine, or legs. We set that in the opening conversation."
+          },
+          {
+            "q": "Do I need to have had Thai Massage before?",
+            "a": "It isn't required. Some people start straight with the immersion and do very well. But if you've never received this work, the two-hour session is usually a more comfortable start, because you get to know the practice before setting aside a whole afternoon for it."
+          },
+          {
+            "q": "How should I plan my day?",
+            "a": "Keep the three hours genuinely free, with nothing scheduled right after. Come on a light stomach, at least two hours after your last meal. And if you can, avoid planning anything that demands heavy concentration for the rest of the day: the body tends to ask for a slower pace after a long session."
+          }
+        ]
       }
     },
     {
       "id": "liberacao-quadril",
-      "slug": "liberacao-quadril",
+      "slug": {
+        "pt": "liberacao-de-quadril",
+        "en": "hip-release"
+      },
       "highlight": false,
       "icon": "wave",
       "name": {
@@ -92,9 +321,50 @@
         "pt": "Sessão focada em aliviar tensões da parte inferior do corpo, soltar os quadris, descomprimir a região lombar, e harmonizar os chakras inferiores (raiz e sacral). Trabalha aspectos emocionais relacionados à sobrevivência, segurança, estabilidade, prazer, sexualidade e criatividade. Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão.",
         "en": "Focused session for releasing tension in the lower body, opening the hips, decompressing the lower back, and harmonizing the lower chakras (root and sacral). Works the emotional aspects connected to survival, safety, stability, pleasure, sexuality, and creativity. Combines Thai Massage techniques with targeted stretches, myofascial release, and decompression."
       },
+      "metaTitle": {
+        "pt": "Liberação de Quadril em Itacaré · 1h30 · Vicji Massage",
+        "en": "Hip Release Session in Itacaré · 1h30 · Vicji Massage"
+      },
+      "metaDescription": {
+        "pt": "Sessão focada de 1h30 no quadril, pernas e lombar, em Itacaré, Bahia. Alongamentos específicos, liberação miofascial e técnicas de descompressão.",
+        "en": "Focused 90-minute session on hips, legs, and lower back in Itacaré, Bahia. Targeted stretches, myofascial release, and decompression techniques."
+      },
+      "intro": {
+        "pt": [
+          "O quadril é o centro energético e biomecânico do corpo. É onde a mecânica da pelve, da coluna e das pernas se encontra, e é uma das regiões em que a tensão se acumula com mais frequência em quem passa muitas horas sentado.",
+          "Esta é uma sessão focada, de uma hora e meia, dedicada à base do corpo: pernas, quadris e região lombar. Combino manobras da Thai Massage Tradicional com alongamentos específicos, liberação miofascial e técnicas de descompressão, buscando criar mais espaço e mobilidade na região.",
+          "Trabalha também os chakras raiz e sacral, ligados aos temas de segurança, estabilidade, prazer e criatividade. O quadril costuma guardar bastante do que o corpo não teve tempo de processar, e não é raro que apareça algo emocional junto com a liberação física.",
+          "É uma sessão mais curta e mais direcionada do que a Thai Massage Tradicional. Funciona bem sozinha, e funciona bem também como um retorno depois de uma sessão de corpo inteiro."
+        ],
+        "en": [
+          "The hips are the body's energetic and biomechanical center. It's where the mechanics of the pelvis, the spine, and the legs meet, and it's one of the areas where tension most often accumulates in people who spend many hours sitting.",
+          "This is a focused ninety-minute session dedicated to the body's foundation: legs, hips, and lower back. I combine traditional Thai Massage techniques with targeted stretches, myofascial release, and decompression work, aiming to create more space and mobility through the region.",
+          "It also works the root and sacral chakras, tied to themes of safety, stability, pleasure, and creativity. The hips tend to hold a lot of what the body hasn't had time to process, and it isn't unusual for something emotional to surface alongside the physical release.",
+          "This is a shorter and more targeted session than the traditional Thai Massage. It works well on its own, and it works well as a return visit after a full-body session."
+        ]
+      },
+      "forWhom": {
+        "pt": [
+          "Para quem passa muitas horas sentado, em frente às telas ou dirigindo;",
+          "Para quem sente o quadril travado, ou desconforto na lombar ao final do dia;",
+          "Para praticantes de yoga, corrida, surf ou musculação que sentem limitação de amplitude no quadril;",
+          "Para quem já fez a sessão de corpo inteiro e quer voltar em uma região específica."
+        ],
+        "en": [
+          "If you spend many hours sitting, at a screen or behind the wheel;",
+          "If your hips feel locked, or your lower back aches by the end of the day;",
+          "If you practise yoga, running, surfing, or lifting and feel limited range in the hips;",
+          "If you've already had the full-body session and want to return to one specific area."
+        ]
+      },
+      "medicalNote": {
+        "pt": "Se você apresenta dor irradiada para a perna, perda de força, dormência persistente, alterações urinárias ou intestinais, ou uma dor que surgiu de forma súbita e intensa, procure avaliação médica antes de iniciar qualquer tratamento complementar.",
+        "en": "If you have pain radiating down the leg, loss of strength, persistent numbness, changes in bladder or bowel function, or pain that came on suddenly and severely, seek medical evaluation before starting any complementary treatment."
+      },
       "options": [
         {
           "duration": "1h30",
+          "durationISO": "PT1H30M",
           "price": 290,
           "priceDisplay": "R$ 290",
           "label": {
@@ -133,6 +403,52 @@
           "Closing conversation with feedback on your physical and energetic state",
           "Day-to-day recommendations based on what came up in the session",
           "WhatsApp follow-up over the next days if you're interested"
+        ]
+      },
+      "faqs": {
+        "pt": [
+          {
+            "q": "Essa sessão serve para dor lombar?",
+            "a": "Em muitos casos o desconforto lombar não está relacionado apenas à lombar. Os flexores do quadril, o psoas e a musculatura profunda da pelve exercem influência importante sobre a mecânica da região, e trabalhar essa base costuma trazer mais espaço e mobilidade para a coluna. Dito isso, dor lombar tem causas variadas, e essa sessão é um trabalho complementar, não um diagnóstico nem um substituto para avaliação médica."
+          },
+          {
+            "q": "Qual é a diferença para a Thai Massage Tradicional?",
+            "a": "A Thai Massage Tradicional percorre o corpo inteiro, dos pés à cabeça, em duas ou três horas. A Liberação de Quadril é mais curta, uma hora e meia, e concentra todo esse tempo na base: pernas, quadris e lombar. Se a sua tensão está espalhada, a sessão de corpo inteiro faz mais sentido. Se ela está claramente concentrada no quadril, essa aqui vai fundo mais rápido."
+          },
+          {
+            "q": "Preciso ser flexível?",
+            "a": "Não. Os alongamentos são passivos: eu conduzo o movimento e você não precisa fazer força nem alcançar posição nenhuma. Trabalho dentro da amplitude que o seu corpo tem hoje, e é justamente quem sente mais limitação que costuma notar mais diferença."
+          },
+          {
+            "q": "É normal aparecer emoção durante a sessão?",
+            "a": "Acontece com alguma frequência nessa região, e não tem nada de errado nisso. O quadril guarda bastante do que ficou sem processamento. Se aparecer, a gente segura o espaço para isso, sem pressa e sem transformar em outra coisa. É parte do trabalho, e é lindo."
+          },
+          {
+            "q": "Posso fazer se estou grávida?",
+            "a": "Gestação de risco é contraindicação. Fora isso, me avise antes para conversarmos: dependendo do trimestre e de como está a sua gestação, dá para adaptar o trabalho, ou pode ser mais prudente esperar. Prefiro decidir isso com você caso a caso, e com o aval do seu acompanhamento médico."
+          }
+        ],
+        "en": [
+          {
+            "q": "Does this session help with lower back pain?",
+            "a": "In many cases lower back discomfort isn't related to the lower back alone. The hip flexors, the psoas, and the deep pelvic muscles have significant influence over the mechanics of the region, and working that foundation tends to create more space and mobility for the spine. That said, back pain has varied causes, and this session is complementary work, not a diagnosis and not a substitute for medical evaluation."
+          },
+          {
+            "q": "How is this different from Traditional Thai Massage?",
+            "a": "Traditional Thai Massage travels the whole body, head to toe, over two or three hours. Hip Release is shorter, ninety minutes, and concentrates all of that time on the foundation: legs, hips, and lower back. If your tension is spread out, the full-body session makes more sense. If it's clearly concentrated in the hips, this one goes deep faster."
+          },
+          {
+            "q": "Do I need to be flexible?",
+            "a": "No. The stretches are passive: I guide the movement and you don't need to push or reach any position. I work within the range your body has today, and it's usually the people who feel most limited who notice the biggest difference."
+          },
+          {
+            "q": "Is it normal for emotions to surface during the session?",
+            "a": "It happens fairly often in this area, and there's nothing wrong with it. The hips hold a lot of what went unprocessed. If it comes up, we hold the space for it, without rushing and without turning it into something else. It's part of the work, and it's beautiful."
+          },
+          {
+            "q": "Can I do this while pregnant?",
+            "a": "High-risk pregnancy is a contraindication. Beyond that, let me know beforehand so we can talk: depending on the trimester and how your pregnancy is going, the work can be adapted, or it may be wiser to wait. I'd rather decide that with you case by case, and with the approval of your medical team."
+          }
         ]
       }
     }

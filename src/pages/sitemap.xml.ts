@@ -1,5 +1,11 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import servicesData from '~/data/services.json';
+
+const servicePages = servicesData.services.flatMap((s) => [
+  { loc: `/servicos/${s.slug.pt}`, priority: '0.8' },
+  { loc: `/en/services/${s.slug.en}`, priority: '0.8' },
+]);
 
 const staticPages = [
   { loc: '/', priority: '1.0' },
@@ -38,6 +44,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   const allPages = [
     ...staticPages.map(p => ({ ...p, lastmod: today })),
+    ...servicePages.map(p => ({ ...p, lastmod: today })),
     ...blogEntries,
   ];
 

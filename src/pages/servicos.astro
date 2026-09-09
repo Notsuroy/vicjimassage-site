@@ -36,10 +36,11 @@ const offerCatalog = {
         "description": s.description.pt,
         "price": o.price,
         "priceCurrency": "BRL",
+        "url": new URL(`/servicos/${s.slug.pt}`, Astro.site).toString(),
         "itemOffered": {
           "@type": "Service",
           "name": s.name.pt,
-          "duration": `PT${o.duration.replace(/[^\d]/g, '')}H`.replace('H30', 'H30M'),
+          "duration": o.durationISO,
         },
       }))
     ),
@@ -68,7 +69,7 @@ const breadcrumbs = {
         Sessões exclusivas e originais.
       </h1>
       <p class="text-ink-muted text-lg leading-relaxed max-w-2xl mx-auto">
-        A Thai Massage Tradicional percorre o corpo inteiro. A Liberação de Quadril mergulha na base. Ambas integram o trabalho físico, energético e espiritual.
+        A Thai Massage Tradicional percorre o corpo inteiro em duas horas. A Imersiva faz o mesmo caminho em três, sem olhar o relógio. A Liberação de Quadril mergulha na base. Todas integram o trabalho físico, energético e espiritual.
       </p>
     </div>
   </section>

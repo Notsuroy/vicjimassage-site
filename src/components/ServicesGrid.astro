@@ -12,9 +12,10 @@ const content = {
   pt: {
     overline: 'O que ofereço',
     headline: 'Sessões exclusivas e originais.',
-    sub: 'A sessão completa, que percorre o corpo todo, e a sessão focada no quadril, centro energético e biomecânico do corpo. Ambas trabalham o campo físico, energético e espiritual.',
-    recommended: 'Sessão completa',
+    sub: 'Duas sessões de corpo inteiro, de duas e de três horas, e uma sessão focada no quadril, centro energético e biomecânico do corpo. Todas trabalham o campo físico, energético e espiritual.',
+    recommended: 'Mais procurada',
     book: 'Agendar',
+    details: 'Ver detalhes desta sessão',
     seeAll: 'Ver detalhes das sessões',
     seeAllHref: '/servicos',
     each: 'cada',
@@ -24,9 +25,10 @@ const content = {
   en: {
     overline: 'What I offer',
     headline: 'Exclusive, original sessions.',
-    sub: 'The full session, head to toe, and the focused hip-release session for the body\'s energetic and biomechanical center. Both work the physical, energetic, and spiritual field.',
-    recommended: 'Full session',
+    sub: 'Two full-body sessions, of two and three hours, and a focused hip-release session for the body\'s energetic and biomechanical center. All three work the physical, energetic, and spiritual field.',
+    recommended: 'Most booked',
     book: 'Book',
+    details: 'See this session in detail',
     seeAll: 'See session details',
     seeAllHref: '/en/services',
     each: 'each',
@@ -38,6 +40,8 @@ const content = {
 const c = content[lang];
 const items = services.services;
 const bookHref = lang === 'pt' ? '/agendar' : '/en/book';
+const detailHref = (svc: typeof items[number]) =>
+  lang === 'pt' ? `/servicos/${svc.slug.pt}` : `/en/services/${svc.slug.en}`;
 
 // FX helpers, only used when lang === 'en'
 const usdRate = site.fx?.usdPerBrl ?? 0.196;
@@ -61,7 +65,7 @@ function fxLine(brl: number) {
       <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
     </div>
 
-    <div class="grid lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
       {items.map(svc => (
         <div class={`relative rounded-2xl p-8 sm:p-10 flex flex-col transition-all duration-500 ${
           svc.highlight
@@ -75,7 +79,12 @@ function fxLine(brl: number) {
           )}
 
           <h3 class={`font-display text-3xl mb-2 ${svc.highlight ? 'text-sand' : 'text-ocean'}`}>
-            {svc.name[lang]}
+            <a
+              href={detailHref(svc)}
+              class={`transition-colors ${svc.highlight ? 'hover:text-gold' : 'hover:text-terracotta'}`}
+            >
+              {svc.name[lang]}
+            </a>
           </h3>
           <p class={`font-display italic text-lg mb-6 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
             {svc.tagline[lang]}
@@ -150,6 +159,17 @@ function fxLine(brl: number) {
                 : 'inline-flex items-center justify-center w-full py-3 rounded-full bg-ocean text-sand font-medium hover:bg-ocean-dark transition-colors'}
             >
               {c.book}
+            </a>
+
+            <a
+              href={detailHref(svc)}
+              class={`block text-center mt-3 text-sm underline underline-offset-4 transition-colors ${
+                svc.highlight
+                  ? 'text-sand/80 decoration-gold/50 hover:text-gold'
+                  : 'text-ink-muted decoration-gold/50 hover:text-terracotta'
+              }`}
+            >
+              {c.details} →
             </a>
           </div>
         </div>

@@ -1,0 +1,314 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+import CredentialsStrip from '~/components/CredentialsStrip.astro';
+import servicesData from '~/data/services.json';
+import site from '~/data/site.json';
+
+export function getStaticPaths() {
+  return servicesData.services.map((svc) => ({
+    params: { slug: svc.slug.en },
+    props: { svc },
+  }));
+}
+
+const { svc } = Astro.props;
+const lang = 'en' as const;
+const path = `/en/services/${svc.slug.en}`;
+const url = new URL(path, Astro.site).toString();
+
+const option = svc.options[0];
+const others = servicesData.services.filter((s) => s.id !== svc.id);
+
+const usdRate = site.fx?.usdPerBrl ?? 0.196;
+const eurRate = site.fx?.eurPerBrl ?? 0.181;
+const fxLine = (brl: number) => `≈ USD $${Math.round(brl * usdRate)} / EUR €${Math.round(brl * eurRate)}`;
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${url}#service`,
+  "name": svc.name.en,
+  "alternateName": svc.name.pt,
+  "description": svc.description.en,
+  "url": url,
+  "inLanguage": "en",
+  "serviceType": "Thai Massage",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Vicji Massage",
+    "url": Astro.site?.toString(),
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": site.location.street,
+      "addressLocality": site.location.city,
+      "addressRegion": site.location.state,
+      "postalCode": site.location.postalCode,
+      "addressCountry": "BR",
+    },
+    "telephone": site.contact.whatsapp.startsWith('TODO') ? undefined : `+${site.contact.whatsapp}`,
+  },
+  "areaServed": { "@type": "City", "name": site.location.city },
+  "offers": {
+    "@type": "Offer",
+    "url": url,
+    "price": option.price,
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "itemOffered": {
+      "@type": "Service",
+      "name": `${svc.name.en}, ${option.label.en}`,
+      "duration": option.durationISO,
+    },
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${url}#faq`,
+  "mainEntity": svc.faqs.en.map((f) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+---
+<BaseLayout
+  title={svc.metaTitle.en}
+  description={svc.metaDescription.en}
+  lang={lang}
+  path={path}
+>
+  <!-- Hero -->
+  <section class="pt-20 pb-14">
+    <div class="container-narrow">
+      <nav aria-label="Breadcrumb" class="mb-6 text-xs uppercase tracking-widest2 text-ink-muted">
+        <a href="/en/" class="hover:text-terracotta transition-colors">Home</a>
+        <span class="text-gold/60 mx-2">/</span>
+        <a href="/en/services" class="hover:text-terracotta transition-colors">Services</a>
+        <span class="text-gold/60 mx-2">/</span>
+        <span class="text-ink">{svc.name.en}</span>
+      </nav>
+
+      <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl text-ocean mb-4 leading-tight">
+        {svc.name.en}
+      </h1>
+      <p class="font-display italic text-xl sm:text-2xl text-terracotta mb-8">
+        {svc.tagline.en}
+      </p>
+
+      <div class="flex flex-wrap items-center gap-3 mb-8">
+        <span class="inline-flex flex-col items-center rounded-2xl bg-ocean text-sand px-5 py-2">
+          <span class="font-display text-xl">{fxLine(option.price)}</span>
+          <span class="text-xs text-sand/70">{option.priceDisplay}</span>
+        </span>
+        <span class="inline-flex items-center rounded-full border border-sand-deep/50 px-5 py-2 text-ink-muted">
+          {option.label.en}
+        </span>
+        <span class="inline-flex items-center rounded-full border border-sand-deep/50 px-5 py-2 text-ink-muted">
+          {site.location.city}, {site.location.state}
+        </span>
+      </div>
+
+      <div class="flex flex-wrap gap-3">
+        <a href="/en/book" class="btn-primary">Book this session</a>
+        <a href="/en/services" class="btn-secondary">See all sessions</a>
+      </div>
+    </div>
+  </section>
+
+  <CredentialsStrip lang={lang} />
+
+  <!-- Intro -->
+  <section class="py-16">
+    <div class="container-narrow">
+      <div class="space-y-5 text-ink-muted text-lg leading-relaxed">
+        {svc.intro.en.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Who it's for -->
+  <section class="pb-16">
+    <div class="container-narrow">
+      <div class="bg-white/60 rounded-2xl p-8 sm:p-10 border border-sand-deep/30">
+        <h2 class="label-overline mb-4">Who this session is for</h2>
+        <ul class="space-y-3 text-ink-muted leading-relaxed">
+          {svc.forWhom.en.map((item) => (
+            <li class="flex items-start gap-3">
+              <span class="text-terracotta mt-1">·</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights + included -->
+  <section class="pb-16">
+    <div class="container-narrow grid md:grid-cols-2 gap-6">
+      <div class="bg-ocean text-sand rounded-2xl p-8 shadow-soft">
+        <h2 class="label-overline text-gold mb-4">The session includes</h2>
+        <ul class="space-y-3 text-sand/90">
+          {svc.highlights.en.map((h) => (
+            <li class="flex items-start gap-3">
+              <span class="text-gold mt-0.5">·</span>
+              <span>{h}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="bg-sand-dark/40 rounded-2xl p-8 border border-sand-deep/40">
+        <h2 class="label-overline mb-4">What's included</h2>
+        <ul class="space-y-3 text-ink-muted text-sm">
+          {svc.included.en.map((item) => (
+            <li class="flex items-start gap-3">
+              <span class="text-terracotta mt-0.5">✓</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Session structure -->
+  <section class="py-20 bg-sand-dark/30">
+    <div class="container-narrow">
+      <div class="text-center mb-12">
+        <div class="label-overline mb-4">What a session with me looks like</div>
+        <h2 class="font-display text-3xl sm:text-4xl text-ocean leading-tight">
+          The session has five movements.
+        </h2>
+      </div>
+      <div class="space-y-5">
+        {servicesData.sessionStructure.en.map((step, i) => (
+          <div class="flex gap-5 bg-white/60 rounded-2xl p-6 sm:p-7 border border-sand-deep/30">
+            <div class="flex-shrink-0 text-3xl">{step.icon}</div>
+            <div class="flex-1">
+              <div class="flex items-baseline gap-3 mb-2">
+                <span class="text-gold font-display text-sm">{String(i + 1).padStart(2, '0')}</span>
+                <h3 class="font-display text-xl text-ocean">{step.label}</h3>
+              </div>
+              <p class="text-ink-muted leading-relaxed text-sm">{step.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Preparation, contraindications, medical note -->
+  <section class="py-20">
+    <div class="container-narrow">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">🧘</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">How to prepare</h2>
+          <ul class="space-y-3 text-ink-muted">
+            {servicesData.preparation.en.map((item) => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">⚠️</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">Contraindications</h2>
+          <p class="text-ink-muted text-sm mb-4">In any of these cases, tell me beforehand so we can decide together:</p>
+          <ul class="space-y-2 text-ink-muted text-sm">
+            {servicesData.contraindications.en.map((item) => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {svc.medicalNote && (
+        <div class="mt-6 rounded-2xl border-l-4 border-terracotta bg-sand-dark/40 p-6">
+          <p class="text-ink-muted leading-relaxed text-sm">{svc.medicalNote.en}</p>
+        </div>
+      )}
+
+      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-6">
+        <h3 class="font-display text-2xl text-ocean mb-4">Payment and cancellation</h3>
+        <ul class="space-y-2 text-ink-muted">
+          <li>· Pix, cash, credit or debit card, at the time of the session</li>
+          <li>· Cancellations up to 24h in advance are free. After that, a R$ 200,00 fee applies, out of respect for the time reserved exclusively for you.</li>
+          <li>· International clients: cash or international card</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="pb-20">
+    <div class="container-narrow">
+      <div class="text-center mb-12">
+        <div class="label-overline mb-4">Frequently asked</div>
+        <h2 class="font-display text-3xl sm:text-4xl text-ocean leading-tight">
+          About this session.
+        </h2>
+      </div>
+      <div class="space-y-4">
+        {svc.faqs.en.map((f) => (
+          <details class="group bg-white/60 rounded-2xl border border-sand-deep/30 p-6 open:shadow-soft">
+            <summary class="cursor-pointer font-display text-xl text-ocean list-none flex items-start justify-between gap-4">
+              <span>{f.q}</span>
+              <span class="text-gold text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="mt-4 text-ink-muted leading-relaxed">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Other sessions -->
+  <section class="pb-20">
+    <div class="container-narrow">
+      <div class="text-center mb-10">
+        <div class="label-overline mb-4">Other sessions</div>
+        <h2 class="font-display text-3xl text-ocean leading-tight">
+          Maybe another one fits you better.
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-5">
+        {others.map((o) => (
+          <a
+            href={`/en/services/${o.slug.en}`}
+            class="block bg-white/60 rounded-2xl p-7 border border-sand-deep/30 hover:shadow-soft hover:border-gold/50 transition-all"
+          >
+            <h3 class="font-display text-2xl text-ocean mb-1">{o.name.en}</h3>
+            <p class="font-display italic text-terracotta mb-4">{o.tagline.en}</p>
+            <div class="flex items-baseline justify-between gap-4">
+              <span class="text-ink-muted text-sm">{o.options[0].label.en}</span>
+              <span class="font-display text-xl text-ocean whitespace-nowrap">{fxLine(o.options[0].price)}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <FinalCTA lang={lang} />
+
+  <Breadcrumbs items={[
+    { name: 'Home', href: '/en/' },
+    { name: 'Services', href: '/en/services' },
+    { name: svc.name.en, href: path },
+  ]} />
+
+  <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+</BaseLayout>

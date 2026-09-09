@@ -1,0 +1,309 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import FinalCTA from '~/components/FinalCTA.astro';
+import CredentialsStrip from '~/components/CredentialsStrip.astro';
+import servicesData from '~/data/services.json';
+import site from '~/data/site.json';
+
+export function getStaticPaths() {
+  return servicesData.services.map((svc) => ({
+    params: { slug: svc.slug.pt },
+    props: { svc },
+  }));
+}
+
+const { svc } = Astro.props;
+const lang = 'pt' as const;
+const path = `/servicos/${svc.slug.pt}`;
+const url = new URL(path, Astro.site).toString();
+
+const option = svc.options[0];
+const others = servicesData.services.filter((s) => s.id !== svc.id);
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${url}#service`,
+  "name": svc.name.pt,
+  "alternateName": svc.name.en,
+  "description": svc.description.pt,
+  "url": url,
+  "inLanguage": "pt-BR",
+  "serviceType": "Massagem Tailandesa",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Vicji Massage",
+    "url": Astro.site?.toString(),
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": site.location.street,
+      "addressLocality": site.location.city,
+      "addressRegion": site.location.state,
+      "postalCode": site.location.postalCode,
+      "addressCountry": "BR",
+    },
+    "telephone": site.contact.whatsapp.startsWith('TODO') ? undefined : `+${site.contact.whatsapp}`,
+  },
+  "areaServed": { "@type": "City", "name": site.location.city },
+  "offers": {
+    "@type": "Offer",
+    "url": url,
+    "price": option.price,
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "itemOffered": {
+      "@type": "Service",
+      "name": `${svc.name.pt}, ${option.label.pt}`,
+      "duration": option.durationISO,
+    },
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${url}#faq`,
+  "mainEntity": svc.faqs.pt.map((f) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+---
+<BaseLayout
+  title={svc.metaTitle.pt}
+  description={svc.metaDescription.pt}
+  lang={lang}
+  path={path}
+>
+  <!-- Hero -->
+  <section class="pt-20 pb-14">
+    <div class="container-narrow">
+      <nav aria-label="Breadcrumb" class="mb-6 text-xs uppercase tracking-widest2 text-ink-muted">
+        <a href="/" class="hover:text-terracotta transition-colors">Início</a>
+        <span class="text-gold/60 mx-2">/</span>
+        <a href="/servicos" class="hover:text-terracotta transition-colors">Serviços</a>
+        <span class="text-gold/60 mx-2">/</span>
+        <span class="text-ink">{svc.name.pt}</span>
+      </nav>
+
+      <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl text-ocean mb-4 leading-tight">
+        {svc.name.pt}
+      </h1>
+      <p class="font-display italic text-xl sm:text-2xl text-terracotta mb-8">
+        {svc.tagline.pt}
+      </p>
+
+      <div class="flex flex-wrap items-center gap-3 mb-8">
+        <span class="inline-flex items-center rounded-full bg-ocean text-sand px-5 py-2 font-display text-xl">
+          {option.priceDisplay}
+        </span>
+        <span class="inline-flex items-center rounded-full border border-sand-deep/50 px-5 py-2 text-ink-muted">
+          {option.label.pt}
+        </span>
+        <span class="inline-flex items-center rounded-full border border-sand-deep/50 px-5 py-2 text-ink-muted">
+          {site.location.city}, {site.location.state}
+        </span>
+      </div>
+
+      <div class="flex flex-wrap gap-3">
+        <a href="/agendar" class="btn-primary">Agendar esta sessão</a>
+        <a href="/servicos" class="btn-secondary">Ver todas as sessões</a>
+      </div>
+    </div>
+  </section>
+
+  <CredentialsStrip lang={lang} />
+
+  <!-- Intro -->
+  <section class="py-16">
+    <div class="container-narrow">
+      <div class="space-y-5 text-ink-muted text-lg leading-relaxed">
+        {svc.intro.pt.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Para quem é -->
+  <section class="pb-16">
+    <div class="container-narrow">
+      <div class="bg-white/60 rounded-2xl p-8 sm:p-10 border border-sand-deep/30">
+        <h2 class="label-overline mb-4">Para quem é esta sessão</h2>
+        <ul class="space-y-3 text-ink-muted leading-relaxed">
+          {svc.forWhom.pt.map((item) => (
+            <li class="flex items-start gap-3">
+              <span class="text-terracotta mt-1">·</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights + included -->
+  <section class="pb-16">
+    <div class="container-narrow grid md:grid-cols-2 gap-6">
+      <div class="bg-ocean text-sand rounded-2xl p-8 shadow-soft">
+        <h2 class="label-overline text-gold mb-4">A sessão inclui</h2>
+        <ul class="space-y-3 text-sand/90">
+          {svc.highlights.pt.map((h) => (
+            <li class="flex items-start gap-3">
+              <span class="text-gold mt-0.5">·</span>
+              <span>{h}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="bg-sand-dark/40 rounded-2xl p-8 border border-sand-deep/40">
+        <h2 class="label-overline mb-4">O que está incluso</h2>
+        <ul class="space-y-3 text-ink-muted text-sm">
+          {svc.included.pt.map((item) => (
+            <li class="flex items-start gap-3">
+              <span class="text-terracotta mt-0.5">✓</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Session structure -->
+  <section class="py-20 bg-sand-dark/30">
+    <div class="container-narrow">
+      <div class="text-center mb-12">
+        <div class="label-overline mb-4">Como é uma sessão comigo</div>
+        <h2 class="font-display text-3xl sm:text-4xl text-ocean leading-tight">
+          A sessão tem cinco momentos.
+        </h2>
+      </div>
+      <div class="space-y-5">
+        {servicesData.sessionStructure.pt.map((step, i) => (
+          <div class="flex gap-5 bg-white/60 rounded-2xl p-6 sm:p-7 border border-sand-deep/30">
+            <div class="flex-shrink-0 text-3xl">{step.icon}</div>
+            <div class="flex-1">
+              <div class="flex items-baseline gap-3 mb-2">
+                <span class="text-gold font-display text-sm">{String(i + 1).padStart(2, '0')}</span>
+                <h3 class="font-display text-xl text-ocean">{step.label}</h3>
+              </div>
+              <p class="text-ink-muted leading-relaxed text-sm">{step.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Preparation, contraindications, medical note -->
+  <section class="py-20">
+    <div class="container-narrow">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">🧘</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">Como se preparar</h2>
+          <ul class="space-y-3 text-ink-muted">
+            {servicesData.preparation.pt.map((item) => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="bg-white/60 rounded-2xl p-8 border border-sand-deep/30">
+          <div class="text-2xl mb-3">⚠️</div>
+          <h2 class="font-display text-2xl text-ocean mb-4">Contraindicações</h2>
+          <p class="text-ink-muted text-sm mb-4">Em qualquer um desses casos, me avisa antes para decidirmos juntos:</p>
+          <ul class="space-y-2 text-ink-muted text-sm">
+            {servicesData.contraindications.pt.map((item) => (
+              <li class="flex items-start gap-2">
+                <span class="text-terracotta mt-0.5">·</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {svc.medicalNote && (
+        <div class="mt-6 rounded-2xl border-l-4 border-terracotta bg-sand-dark/40 p-6">
+          <p class="text-ink-muted leading-relaxed text-sm">{svc.medicalNote.pt}</p>
+        </div>
+      )}
+
+      <div class="bg-sand-dark/30 rounded-2xl p-8 mt-6">
+        <h3 class="font-display text-2xl text-ocean mb-4">Pagamento e cancelamento</h3>
+        <ul class="space-y-2 text-ink-muted">
+          <li>· Pix, dinheiro, cartão de crédito ou débito, na hora da sessão</li>
+          <li>· Cancelamentos com até 24h de antecedência, sem custo. Após esse prazo, estarão sujeitos a uma taxa de R$ 200,00, em respeito ao tempo reservado exclusivamente para o seu atendimento.</li>
+          <li>· Clientes internacionais: dinheiro ou cartão internacional</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="pb-20">
+    <div class="container-narrow">
+      <div class="text-center mb-12">
+        <div class="label-overline mb-4">Perguntas frequentes</div>
+        <h2 class="font-display text-3xl sm:text-4xl text-ocean leading-tight">
+          Sobre esta sessão.
+        </h2>
+      </div>
+      <div class="space-y-4">
+        {svc.faqs.pt.map((f) => (
+          <details class="group bg-white/60 rounded-2xl border border-sand-deep/30 p-6 open:shadow-soft">
+            <summary class="cursor-pointer font-display text-xl text-ocean list-none flex items-start justify-between gap-4">
+              <span>{f.q}</span>
+              <span class="text-gold text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="mt-4 text-ink-muted leading-relaxed">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Other sessions -->
+  <section class="pb-20">
+    <div class="container-narrow">
+      <div class="text-center mb-10">
+        <div class="label-overline mb-4">Outras sessões</div>
+        <h2 class="font-display text-3xl text-ocean leading-tight">
+          Talvez seja outra que faça mais sentido para você.
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-5">
+        {others.map((o) => (
+          <a
+            href={`/servicos/${o.slug.pt}`}
+            class="block bg-white/60 rounded-2xl p-7 border border-sand-deep/30 hover:shadow-soft hover:border-gold/50 transition-all"
+          >
+            <h3 class="font-display text-2xl text-ocean mb-1">{o.name.pt}</h3>
+            <p class="font-display italic text-terracotta mb-4">{o.tagline.pt}</p>
+            <div class="flex items-baseline justify-between gap-4">
+              <span class="text-ink-muted text-sm">{o.options[0].label.pt}</span>
+              <span class="font-display text-2xl text-ocean">{o.options[0].priceDisplay}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <FinalCTA lang={lang} />
+
+  <Breadcrumbs items={[
+    { name: 'Início', href: '/' },
+    { name: 'Serviços', href: '/servicos' },
+    { name: svc.name.pt, href: path },
+  ]} />
+
+  <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+</BaseLayout>
