@@ -30,12 +30,18 @@ Honest limit: TripAdvisor is not a high volume booking channel for wellness. Tre
 
 Victor has to do this himself. TripAdvisor verifies by phone and ties the listing to an owner account.
 
-1. Go to **tripadvisor.com/Owners**
-2. Click **List your property free**
-3. Choose **Things to Do / Attraction** (NOT Hotel, NOT Restaurant)
-4. Category path: **Spas & Wellness** then **Spas**
+**Verified 2026-09-25.** Searched TripAdvisor for "Vicji Massagem Itacare" and no listing exists yet, so this is a create, not a claim. Do not use `tripadvisor.com/Owners`, which is the flow for claiming a listing that already exists. `tripadvisor.com/AddaPlace` returns a 404.
 
-The category page breadcrumb confirms this path: South America > Brazil > State of Bahia (BA) > Itacare > Things to Do in Itacare > Spas & Wellness Centers in Itacare.
+**Correct URL: `tripadvisor.com/GetListedNew`**
+
+The form is two steps:
+
+1. **Location details.** Business name, category, address, and a checkbox confirming he is the owner or an official representative.
+2. **Contact and hours.** Phone, website, opening hours.
+
+At the category question, pick **Things to do**. Not Accommodation, not Restaurant. There is also a separate "Own a tour company?" link on that page, which is the Viator tour-operator flow and is not the right path for a massage practice.
+
+The finer Spas & Wellness categorisation is assigned after the listing is approved, either by TripAdvisor's moderators or in the owner dashboard. The category page breadcrumb confirms where it should land: South America > Brazil > State of Bahia (BA) > Itacare > Things to Do in Itacare > Spas & Wellness Centers in Itacare.
 
 **Listing details to enter:**
 
