@@ -64,7 +64,7 @@ If lower back pain is your main concern, there are two paths.
 
 **Traditional Thai Massage** (2h or 3h) runs the full circuit described above: feet, legs, glutes, hips, psoas, and only then the lower back. It is the more complete approach, and it is the one that works the origin rather than the symptom.
 
-**Deep Tissue** (1h30) is more direct. A full-body oil massage with firm, progressive pressure through the muscles of the back, glutes, and legs. No assisted stretching, no energetic work. It suits anyone who wants direct muscular relief, or who prefers the more conventional massage format.
+**Thai Fusion** (1h30) is more direct. A table session that adds the stretches and joint mobilizations of Thai to deep tissue oil gliding through the muscles of the back, glutes, and legs. It suits anyone who wants direct muscular relief alongside a gain in range of motion, and it can focus on just the area that is bothering you.
 
 For chronic lower back pain, the 2h Traditional Thai Massage tends to be the better starting point, precisely because it works through the regions that pull on the lower back before arriving there.
 
@@ -110,4 +110,4 @@ It doesn't have to happen. But if it does, welcome it. It's part of the work.
 
 ---
 
-**Have chronic lower back pain and want to try?** [Book the Traditional Thai Massage 2h](/en/book), or Deep Tissue (1h30) if you prefer direct muscular work with oil. We talk first to understand your story, and we work together. Sessions in Itacaré, Bahia, Brazil. English-speaking, international clients welcome.
+**Have chronic lower back pain and want to try?** [Book the Traditional Thai Massage 2h](/en/book), or Thai Fusion (1h30) if you prefer direct muscular work with oil, focused on the area that hurts. We talk first to understand your story, and we work together. Sessions in Itacaré, Bahia, Brazil. English-speaking, international clients welcome.

@@ -12,7 +12,7 @@ const content = {
   pt: {
     overline: 'O que ofereço',
     headline: 'Sessões exclusivas e originais.',
-    sub: 'Duas sessões de Thai Massage de corpo inteiro, de duas e de três horas, que trabalham o campo físico, energético e espiritual. E o Deep Tissue, massagem com óleo focada em relaxamento profundo e recuperação muscular.',
+    sub: 'Duas sessões de Thai Massage de corpo inteiro, no tatame, que trabalham o campo físico, energético e espiritual. E o Thai Fusion, na maca, somando os alongamentos da Thai ao deep tissue a óleo.',
     recommended: 'Mais procurada',
     book: 'Agendar',
     details: 'Ver detalhes desta sessão',
@@ -25,7 +25,7 @@ const content = {
   en: {
     overline: 'What I offer',
     headline: 'Exclusive, original sessions.',
-    sub: 'Two full-body Thai Massage sessions, of two and three hours, working the physical, energetic, and spiritual field. Plus Deep Tissue, an oil massage focused on deep relaxation and muscular recovery.',
+    sub: 'Two full-body Thai Massage sessions on the futon, working the physical, energetic, and spiritual field. Plus Thai Fusion, on the table, combining Thai stretching with deep tissue oil work.',
     recommended: 'Most booked',
     book: 'Book',
     details: 'See this session in detail',
@@ -63,6 +63,11 @@ function fxLine(brl: number) {
         ))}
       </h2>
       <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
+      {site.promo.active && (
+        <p class="mt-5 inline-block rounded-full bg-terracotta/10 border border-terracotta/30 px-5 py-2 text-terracotta text-sm font-medium">
+          {site.promo.line[lang]}
+        </p>
+      )}
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -146,6 +151,16 @@ function fxLine(brl: number) {
                   {lang === 'en' && (
                     <div class={`text-xs text-right mt-0.5 ${svc.highlight ? 'text-sand/60' : 'text-ink-muted/70'}`}>
                       {opt.priceDisplay}
+                    </div>
+                  )}
+                  {site.promo.active && (
+                    <div class={`mt-2 flex items-baseline justify-between gap-2 rounded-lg px-3 py-1.5 ${svc.highlight ? 'bg-gold/15' : 'bg-terracotta/10'}`}>
+                      <span class={`text-[11px] font-semibold tracking-wide ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
+                        {site.promo.badge[lang]}
+                      </span>
+                      <span class={`font-display text-lg whitespace-nowrap ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
+                        R$ {Math.round(opt.price * (1 - site.promo.percentOff / 100))}
+                      </span>
                     </div>
                   )}
                 </div>

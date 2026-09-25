@@ -99,6 +99,12 @@ const faqSchema = {
         <span class="inline-flex items-center rounded-full bg-ocean text-sand px-5 py-2 font-display text-xl">
           {option.priceDisplay}
         </span>
+        {site.promo.active && (
+          <span class="inline-flex items-center gap-2 rounded-full bg-terracotta text-white px-5 py-2">
+            <span class="text-xs font-semibold tracking-wide">{site.promo.badge.pt}</span>
+            <span class="font-display text-xl">R$ {Math.round(option.price * (1 - site.promo.percentOff / 100))}</span>
+          </span>
+        )}
         <span class="inline-flex items-center rounded-full border border-sand-deep/50 px-5 py-2 text-ink-muted">
           {option.label.pt}
         </span>

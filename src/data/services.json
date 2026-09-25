@@ -1,62 +1,62 @@
 {
-  "_note": "Three services as of 2026-09-25. Liberacao de Quadril was REMOVED (Victor no longer offers it) and replaced by Deep Tissue, a full-body oil massage focused on relaxation and muscular recovery. Deep Tissue is the only session that uses oil and the only one where the client undresses, so every no-oil / stay-clothed claim elsewhere on the site must stay scoped to the Thai sessions. Prices raised 2026-09-25 (Suroy-directed): Thai Tradicional R$360 to R$400, Thai Imersiva R$520 to R$570, and the 1h30 slot R$290 to R$330. Durations are TOTAL session time; hands-on massage is about 30 min less in every tier (1h30=1h, 2h=1h30, 3h=2h30), a fixed ritual overhead of roughly 30 min for intake, breathwork, integration and closing. Prices and durations are Victor's and must not be altered without his sign-off. Services are ordered by ascending price (R$330 / R$400 / R$570) so the grid reads cheapest to most expensive; keep that order when adding or editing a service. The highlight flag stays on Thai Massage Tradicional, which sits in the middle of the 3-up grid.",
+  "_note": "Three services as of 2026-09-25. History: Liberacao de Quadril was removed (Victor no longer offers it); it was briefly replaced by a pure Deep Tissue session, then corrected to Thai Fusion Massage once Victor's own description arrived. Thai Fusion is a TABLE session (na maca) with oil that combines Thai stretching and joint mobilization with deep tissue gliding. It is the only session using oil and the only one where the client undresses, so every no-oil / stay-clothed claim elsewhere must stay scoped to the two Thai sessions. Victor quoted it at 1h / R$200; Suroy set the list price to R$250 with a 20% October grand-opening promo (see site.promo), which lands first-time October bookings back at R$200. Prices raised 2026-09-25: Thai Tradicional R$360 to R$400, Thai Imersiva R$520 to R$570. Durations are TOTAL session time; hands-on is about 30 min less in every tier (1h30=1h, 2h=1h30, 3h=2h30). Thai Fusion has a SIMPLER opening than the Thai sessions: no tea and no guided breathwork, just conversation, the work, and a closing chat. Prices and durations are Victor's and must not be altered without his sign-off. Services are ordered by ascending price (R$250 / R$400 / R$570); keep that order. The highlight flag stays on Thai Massage Tradicional, in the middle.",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
     {
-      "id": "deep-tissue",
+      "id": "thai-fusion",
       "slug": {
-        "pt": "deep-tissue",
-        "en": "deep-tissue"
+        "pt": "thai-fusion",
+        "en": "thai-fusion"
       },
       "highlight": false,
       "icon": "wave",
       "name": {
-        "pt": "Deep Tissue",
-        "en": "Deep Tissue"
+        "pt": "Thai Fusion Massage",
+        "en": "Thai Fusion Massage"
       },
       "tagline": {
-        "pt": "Relaxamento profundo e recuperação do corpo.",
-        "en": "Deep relaxation and body recovery."
+        "pt": "Alongamentos da Thai com deslizamentos a óleo.",
+        "en": "Thai stretching combined with deep tissue oil work."
       },
       "description": {
-        "pt": "Massagem de corpo inteiro com óleo, focada em relaxamento profundo e recuperação muscular. Trabalho direto no tecido, com pressão firme e progressiva, para soltar tensões acumuladas e devolver mobilidade. É a sessão mais direta que ofereço, indicada para quem busca recuperação física sem os alongamentos assistidos e o trabalho energético da Thai Massage.",
-        "en": "Full-body oil massage focused on deep relaxation and muscular recovery. Direct work on the tissue, with firm and progressive pressure, to release accumulated tension and restore mobility. This is the most direct session I offer, for anyone who wants physical recovery without the assisted stretching and energetic work of Thai Massage."
+        "pt": "Sessão na maca que combina os alongamentos e as mobilizações da massagem tailandesa com deep tissue, em deslizamentos a óleo. Indicada para quem busca alívio muscular profundo, mobilização articular, ganho de amplitude de movimento, performance nos treinos e competições, e relaxamento mental e corporal. Pode ser feita no corpo todo ou com foco em regiões específicas.",
+        "en": "A table session combining the stretches and joint mobilizations of Thai Massage with deep tissue work in oil glides. For anyone looking for deep muscular relief, joint mobilization, gains in range of motion, performance in training and competition, and deep mental and physical relaxation. It can be done full body or focused on specific areas."
       },
       "metaTitle": {
-        "pt": "Deep Tissue em Itacaré · 1h30 · Vicji Massage",
-        "en": "Deep Tissue Massage in Itacaré · 1h30 · Vicji Massage"
+        "pt": "Thai Fusion Massage em Itacaré · 1h30 · Vicji Massage",
+        "en": "Thai Fusion Massage in Itacaré · 1h30 · Vicji Massage"
       },
       "metaDescription": {
-        "pt": "Massagem deep tissue de corpo inteiro em Itacaré, Bahia. Sessão de 1h30 com óleo e pressão firme, focada em relaxamento profundo e recuperação muscular.",
-        "en": "Full-body deep tissue massage in Itacaré, Bahia. A 90-minute session with oil and firm pressure, focused on deep relaxation and muscular recovery."
+        "pt": "Thai Fusion em Itacaré, Bahia: alongamentos da massagem tailandesa com deep tissue a óleo, na maca. Alívio muscular profundo e ganho de amplitude.",
+        "en": "Thai Fusion massage in Itacaré, Bahia: Thai stretching combined with deep tissue oil work, on the table. Deep muscular relief and better range of motion."
       },
       "intro": {
         "pt": [
-          "Nem todo corpo chega pedindo alongamento e trabalho energético. Às vezes o que o corpo pede é mais simples e mais direto: pressão firme, óleo, e tempo suficiente para a musculatura realmente soltar.",
-          "O Deep Tissue é uma massagem de corpo inteiro com óleo. São aproximadamente sessenta minutos de trabalho manual dentro de uma sessão de uma hora e meia. Percorro o corpo camada por camada, com pressão constante e progressiva, nas regiões onde a tensão se acumulou.",
-          "É a sessão mais direta que eu ofereço. Não tem alongamento assistido, não tem trabalho nas linhas de energia. Tem tecido, pressão e respiração. Para muita gente é exatamente isso que estava faltando.",
-          "Funciona bem para quem chega de uma viagem longa, para quem treina, surfa ou caminha muito, e para quem simplesmente quer relaxar profundamente sem precisar entender nenhuma tradição para aproveitar."
+          "Tem dia em que o corpo quer alongamento, e tem dia em que o corpo quer pressão. O Thai Fusion junta os dois.",
+          "É uma sessão na maca que combina os alongamentos e as mobilizações articulares da massagem tailandesa com o trabalho de deep tissue, em deslizamentos a óleo. O alongamento abre a articulação e ganha amplitude. O deslizamento profundo solta a musculatura que estava segurando aquele movimento.",
+          "São aproximadamente sessenta minutos de trabalho manual dentro de uma sessão de uma hora e meia. A sessão pode percorrer o corpo todo ou se concentrar em regiões específicas, dependendo do que você trouxer no dia.",
+          "É a sessão mais direta que eu ofereço, e funciona especialmente bem para quem treina. Alívio muscular profundo, mais amplitude de movimento, e um relaxamento que costuma durar dias."
         ],
         "en": [
-          "Not every body arrives asking for stretching and energetic work. Sometimes what the body wants is simpler and more direct: firm pressure, oil, and enough time for the muscle to actually let go.",
-          "Deep Tissue is a full-body oil massage. It is roughly sixty minutes of hands-on work inside a ninety-minute session. I work through the body layer by layer, with steady and progressive pressure, through the areas where tension has built up.",
-          "This is the most direct session I offer. No assisted stretching, no work along the energy lines. Tissue, pressure, and breath. For a lot of people that is exactly what was missing.",
-          "It works well if you have just come off a long trip, if you train, surf, or walk a lot, and if you simply want to relax deeply without needing to understand any tradition to benefit from it."
+          "Some days the body wants stretching, some days it wants pressure. Thai Fusion brings the two together.",
+          "It is a table session that combines the stretches and joint mobilizations of Thai Massage with deep tissue work in oil glides. The stretching opens the joint and builds range. The deep gliding releases the muscle that was holding that movement back.",
+          "It is roughly sixty minutes of hands-on work inside a ninety-minute session. It can run through the whole body or concentrate on specific areas, depending on what you bring on the day.",
+          "This is the most direct session I offer, and it works especially well for anyone who trains. Deep muscular relief, more range of motion, and a relaxation that tends to last for days."
         ]
       },
       "forWhom": {
         "pt": [
-          "Para quem quer recuperação muscular direta, depois de treino, surf, trilha ou viagem;",
-          "Para quem prefere massagem com óleo e pressão firme, no formato mais convencional;",
-          "Para quem busca relaxamento profundo sem o trabalho energético da Thai Massage;",
-          "Para quem está conhecendo o trabalho e prefere começar por algo mais familiar."
+          "Para quem treina, surfa, corre ou compete e precisa de recuperação muscular;",
+          "Para quem quer ganhar amplitude de movimento e soltar articulações travadas;",
+          "Para quem prefere massagem com óleo, na maca, no formato mais convencional;",
+          "Para quem quer trabalho direto em uma região específica, sem sessão de corpo inteiro."
         ],
         "en": [
-          "If you want direct muscular recovery after training, surfing, hiking, or travel;",
-          "If you prefer oil massage with firm pressure, in the more conventional format;",
-          "If you are looking for deep relaxation without the energetic work of Thai Massage;",
-          "If you are new to this work and would rather start with something familiar."
+          "If you train, surf, run, or compete and need muscular recovery;",
+          "If you want to build range of motion and free up locked joints;",
+          "If you prefer oil massage on the table, in the more conventional format;",
+          "If you want focused work on one specific area rather than a full-body session."
         ]
       },
       "medicalNote": {
@@ -67,8 +67,8 @@
         {
           "duration": "1h30",
           "durationISO": "PT1H30M",
-          "price": 330,
-          "priceDisplay": "R$ 330",
+          "price": 250,
+          "priceDisplay": "R$ 250",
           "label": {
             "pt": "1 hora e 30 minutos",
             "en": "1 hour 30 minutes"
@@ -77,31 +77,31 @@
       ],
       "highlights": {
         "pt": [
-          "Corpo inteiro, com óleo",
-          "Pressão firme e progressiva",
-          "Foco em recuperação muscular",
+          "Na maca, com óleo",
+          "Alongamentos da Thai somados ao deep tissue",
+          "Corpo todo ou foco em regiões específicas",
           "Cerca de 1 hora de massagem em uma sessão de 1h30"
         ],
         "en": [
-          "Full body, with oil",
-          "Firm and progressive pressure",
-          "Focused on muscular recovery",
+          "On the table, with oil",
+          "Thai stretching plus deep tissue work",
+          "Full body or focused on specific areas",
           "About 1 hour of hands-on work in a 90-minute session"
         ]
       },
       "included": {
         "pt": [
-          "Conversa inicial de 15 a 30 minutos (te conhecer, entender o que está sentindo, alinhar a sessão)",
+          "Conversa inicial para entender o que você está sentindo e definir o foco da sessão",
           "A sessão completa, sem cronômetro acelerando o trabalho",
-          "Tempo de integração em silêncio no final, para o corpo assimilar",
+          "Escolha entre corpo todo ou foco em regiões específicas",
           "Conversa de encerramento com feedback sobre o seu estado físico",
           "Dicas para o seu dia a dia, baseadas no que apareceu na sessão",
           "Acompanhamento por WhatsApp nos dias seguintes, se te interessar"
         ],
         "en": [
-          "Opening conversation, 15 to 30 minutes (get to know you, understand what you're feeling, set the session intention)",
+          "Opening conversation to understand what you're feeling and set the focus of the session",
           "The full session, no clock rushing the work",
-          "Integration time in silence at the end, for the body to absorb",
+          "Your choice of full body or focused work on specific areas",
           "Closing conversation with feedback on your physical state",
           "Day-to-day recommendations based on what came up in the session",
           "WhatsApp follow-up over the next days if you're interested"
@@ -110,46 +110,46 @@
       "faqs": {
         "pt": [
           {
-            "q": "Qual é a diferença para a Thai Massage?",
-            "a": "A Thai Massage acontece com roupa e sem óleo, e combina pressão nas linhas de energia (sen) com alongamentos passivos inspirados no yoga. O Deep Tissue usa óleo e trabalha direto na musculatura, camada por camada, sem alongamento assistido. A Thai é mais ampla e mais energética. O Deep Tissue é mais direto e mais focado em recuperação física."
+            "q": "Qual é a diferença para a Thai Massage Tradicional?",
+            "a": "A Thai Massage Tradicional acontece no tatame, com roupa e sem óleo, e trabalha o corpo em três dimensões: física, energética e espiritual. O Thai Fusion acontece na maca, com óleo, e é um trabalho mais direto: pega os alongamentos e as mobilizações da Thai e soma aos deslizamentos profundos do deep tissue. É mais focado em recuperação física e menos em trabalho energético."
           },
           {
             "q": "Preciso tirar a roupa?",
-            "a": "Como a sessão usa óleo, o trabalho acontece sobre a pele. Você fica de roupa íntima e permanece coberto com lençol durante toda a sessão, com apenas a região que estou trabalhando exposta. Se você prefere receber vestido e sem óleo, a Thai Massage é o caminho."
+            "a": "Como a sessão usa óleo, o trabalho acontece sobre a pele. Você fica de roupa íntima e permanece coberto com lençol durante toda a sessão, com apenas a região que estou trabalhando exposta. Se você prefere receber vestido e sem óleo, a Thai Massage Tradicional é o caminho."
+          },
+          {
+            "q": "Serve para quem treina?",
+            "a": "É um dos melhores usos dessa sessão. A combinação de alongamento com deslizamento profundo ajuda na recuperação muscular, na mobilidade articular e no ganho de amplitude. Funciona bem tanto na preparação quanto na recuperação depois do treino ou da competição."
+          },
+          {
+            "q": "Posso pedir foco em uma região só?",
+            "a": "Pode. A sessão pode percorrer o corpo todo ou se concentrar onde você mais precisa: ombros e pescoço, lombar, pernas, quadril. A gente define isso na conversa inicial."
           },
           {
             "q": "Dói?",
-            "a": "Não deveria. Pressão profunda é diferente de dor. Eu trabalho sempre dentro do limite que o seu corpo aceita naquele dia, e ajusto assim que você pedir. Se algo passar do ponto, me fale na hora. Trabalho corporal só funciona quando o corpo confia no que está acontecendo."
-          },
-          {
-            "q": "Vou ficar dolorido no dia seguinte?",
-            "a": "Pode aparecer uma sensação parecida com a de pós-treino, principalmente se faz tempo que você não recebe um trabalho profundo. É normal e costuma passar em um ou dois dias. Beba bastante água depois da sessão."
-          },
-          {
-            "q": "Posso fazer se nunca recebi massagem antes?",
-            "a": "Pode, e costuma ser uma boa porta de entrada. O Deep Tissue é o formato mais conhecido e mais familiar, então não exige nenhuma preparação nem entendimento prévio. A gente conversa antes para eu entender o que você procura e ajustar a sessão."
+            "a": "Não deveria. Pressão profunda é diferente de dor. Eu trabalho sempre dentro do limite que o seu corpo aceita naquele dia, e ajusto assim que você pedir. Se algo passar do ponto, me fale na hora."
           }
         ],
         "en": [
           {
-            "q": "How is this different from Thai Massage?",
-            "a": "Thai Massage happens fully clothed and without oil, combining pressure along the energy lines (sen) with passive yoga-inspired stretches. Deep Tissue uses oil and works directly on the muscle, layer by layer, with no assisted stretching. Thai is broader and more energetic. Deep Tissue is more direct and more focused on physical recovery."
+            "q": "How is this different from Traditional Thai Massage?",
+            "a": "Traditional Thai Massage happens on a futon, fully clothed and without oil, and works the body in three dimensions: physical, energetic, and spiritual. Thai Fusion happens on the table, with oil, and is more direct: it takes the stretches and joint mobilizations of Thai and adds the deep gliding strokes of deep tissue. More focused on physical recovery, less on energetic work."
           },
           {
             "q": "Do I need to undress?",
-            "a": "Because the session uses oil, the work happens on the skin. You stay in your underwear and remain covered with a sheet throughout, with only the area I am working on uncovered. If you would rather stay clothed and skip the oil, Thai Massage is the way to go."
+            "a": "Because the session uses oil, the work happens on the skin. You stay in your underwear and remain covered with a sheet throughout, with only the area I am working on uncovered. If you would rather stay clothed and skip the oil, Traditional Thai Massage is the way to go."
+          },
+          {
+            "q": "Is it good for people who train?",
+            "a": "That is one of the best uses for this session. Combining stretching with deep gliding work helps muscular recovery, joint mobility, and range of motion. It works well both in preparation and in recovery after training or competition."
+          },
+          {
+            "q": "Can I ask for one area only?",
+            "a": "Yes. The session can run through the whole body or concentrate wherever you need it most: shoulders and neck, lower back, legs, hips. We decide that in the opening conversation."
           },
           {
             "q": "Does it hurt?",
-            "a": "It shouldn't. Deep pressure is not the same as pain. I always work within the limit your body accepts that day, and I adjust the moment you ask. If something goes past the point, say so right away. Bodywork only functions when the body trusts what is happening."
-          },
-          {
-            "q": "Will I be sore the next day?",
-            "a": "You may feel something similar to post-workout soreness, especially if it has been a while since you received deep work. That is normal and usually passes in a day or two. Drink plenty of water after the session."
-          },
-          {
-            "q": "Can I book this if I have never had a massage before?",
-            "a": "Yes, and it tends to be a good way in. Deep Tissue is the most familiar and widely known format, so it asks for no preparation or prior understanding. We talk first so I can understand what you are looking for and adjust the session."
+            "a": "It shouldn't. Deep pressure is not the same as pain. I always work within the limit your body accepts that day, and I adjust the moment you ask. If something goes past the point, say so right away."
           }
         ]
       }

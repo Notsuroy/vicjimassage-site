@@ -112,14 +112,14 @@ To make it concrete, here's how Thai compares to other common modalities:
 
 **Thai Massage:** no oil, with clothes, on a futon. Combines deep pressure with stretching. Works the whole body as a system, including the energetic and spiritual dimensions. Long sessions, unhurried.
 
-Each has its place. I offer Deep Tissue for anyone who wants that direct muscular work with oil. But Thai is the practice I trained in and the one I keep returning to, because in my experience it most deeply cares for the whole being.
+Each has its place. I offer Thai Fusion for anyone who wants that direct muscular work with oil. But Thai is the practice I trained in and the one I keep returning to, because in my experience it most deeply cares for the whole being.
 
 ## The two sessions I offer
 
 Today I work with two types of session:
 
 - **Traditional Thai Massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
-- **Deep Tissue (1h30):** a full-body oil massage with firm pressure, focused on deep relaxation and muscular recovery. The most direct session I offer, with no assisted stretching.
+- **Thai Fusion (1h30):** a table session adding Thai stretching to deep tissue oil work. Deep muscular relief and a gain in range of motion. Full body or focused on specific areas.
 
 Traditional sessions in Thailand can last two or three hours. I keep that tradition here. The difference between a quick spa session and the real work isn't just "more time". It's the difference between scratching the surface and actually immersing.
 

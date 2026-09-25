@@ -85,7 +85,7 @@ I am Victor (Vicji), a Brazilian therapist trained in Thailand at the source of 
 
 Sessions happen on a futon, in comfortable clothes, with no oil. The work reaches the body in three dimensions: physical, energetic, and spiritual. Over 500 sessions delivered.
 
-Sessions available: Traditional Thai Massage (2h or 3h, full body) and Deep Tissue (1h30, a full-body oil massage focused on deep relaxation and muscular recovery).
+Sessions available: Traditional Thai Massage (2h or 3h, full body) and Thai Fusion (1h30, a table session combining Thai stretching with deep tissue oil work).
 
 English spoken fluently. International travelers welcome. By appointment, Monday through Saturday.
 ```
@@ -99,7 +99,7 @@ Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na f
 
 A sessão acontece no tatame, com roupas confortáveis e sem óleo. O trabalho alcança o corpo em três dimensões: físico, energético e espiritual. Mais de 500 sessões realizadas.
 
-Sessões disponíveis: Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Deep Tissue (1h30, massagem de corpo inteiro com óleo, focada em relaxamento profundo e recuperação muscular).
+Sessões disponíveis: Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Thai Fusion (1h30, na maca, somando os alongamentos da Thai ao deep tissue a óleo).
 
 Atendimento em português e inglês. Sob agendamento, de segunda a sábado.
 ```
@@ -156,7 +156,7 @@ Sunday:     Closed
 ```
 Confirm against Victor's real schedule before submitting.
 
-**Price range:** `$$` (moderate). His sessions run R$ 330 to R$ 570, which lands mid range for a wellness experience in a Brazilian beach town.
+**Price range:** `$$` (moderate). His sessions run R$ 250 to R$ 570, which lands mid range for a wellness experience in a Brazilian beach town.
 
 **Duration of experience:** 1.5 to 3 hours
 

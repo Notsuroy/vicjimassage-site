@@ -2,6 +2,9 @@
 /inicio  /  301
 /home    /  301
 
-# Liberacao de Quadril removed 2026-09-25, replaced by Deep Tissue
-/servicos/liberacao-de-quadril  /servicos/deep-tissue     301
-/en/services/hip-release        /en/services/deep-tissue  301
+# Liberacao de Quadril removed 2026-09-25, replaced by Thai Fusion.
+# deep-tissue was a short-lived intermediate slug on 2026-09-25; kept so it never 404s.
+/servicos/liberacao-de-quadril  /servicos/thai-fusion     301
+/en/services/hip-release        /en/services/thai-fusion  301
+/servicos/deep-tissue           /servicos/thai-fusion     301
+/en/services/deep-tissue        /en/services/thai-fusion  301
