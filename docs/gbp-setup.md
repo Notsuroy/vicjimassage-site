@@ -158,7 +158,7 @@ Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na f
 
 A sessão acontece no tatame, com roupas confortáveis, e trabalha o corpo em três dimensões: físico, energético e espiritual. Mais de 500 sessões realizadas.
 
-Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Quadril (1h30, foco na base).
+Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Deep Tissue (1h30, massagem com óleo focada em recuperação muscular).
 
 Atendimentos sob agendamento, de segunda a sábado.
 ```
@@ -174,20 +174,20 @@ Add each session as a separate Service:
 ### Service 1
 - **Name:** Thai Massage Tradicional, 2 horas
 - **Category:** Massagem
-- **Price:** R$ 360
+- **Price:** R$ 400
 - **Description:** Sessão completa de Thai Massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
 
 ### Service 2
 - **Name:** Thai Massage Tradicional, 3 horas (imersiva)
 - **Category:** Massagem
-- **Price:** R$ 520
+- **Price:** R$ 570
 - **Description:** A experiência completa. Cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar. Trabalho profundo nos três níveis: físico, energético, espiritual.
 
 ### Service 3
-- **Name:** Liberação de Quadril, 1h30
+- **Name:** Deep Tissue, 1h30
 - **Category:** Massagem
-- **Price:** R$ 290
-- **Description:** Sessão focada na parte inferior do corpo: pernas, quadril, lombar. Harmoniza os chakras inferiores (raiz e sacral). Combina manobras da Thai Massage com alongamentos específicos, liberação miofascial e técnicas de descompressão. Centro energético e biomecânico do corpo.
+- **Price:** R$ 330
+- **Description:** Massagem de corpo inteiro com óleo, focada em relaxamento profundo e recuperação muscular. Pressão firme e progressiva, trabalho direto no tecido, sem alongamento assistido. Indicada para quem busca recuperação física ou prefere o formato mais convencional de massagem.
 
 If Victor introduces hotel-guest packages or a beach/pool-side variant in Itacaré, add those as separate Services later.
 

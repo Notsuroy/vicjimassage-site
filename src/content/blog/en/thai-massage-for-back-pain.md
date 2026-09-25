@@ -58,13 +58,15 @@ In a typical session for someone with lower back pain, I:
 
 This work takes time. That's why my sessions are long (minimum 1h30, ideally 2h or more). You can't do this circuit in 30 minutes. And that's why express sessions rarely resolve chronic lower back pain.
 
-## The session I built exactly for this
+## Which session to choose
 
-Alongside the Traditional Thai Massage, I offer a focused session called **Hip Release** (1h30, R$ 290). It was developed for exactly the profile I described above: focus on legs, hips, and lower back, with myofascial release and decompression techniques.
+If lower back pain is your main concern, there are two paths.
 
-On the energetic side, it works the lower chakras (root and sacral), which are exactly the ones that hold the emotional aspects connected to the body's foundation: survival, safety, stability. Often it's that chronic emotional weight that keeps the lower back locked.
+**Traditional Thai Massage** (2h or 3h) runs the full circuit described above: feet, legs, glutes, hips, psoas, and only then the lower back. It is the more complete approach, and it is the one that works the origin rather than the symptom.
 
-If your main concern is lower back pain and you want to start focused, that's the way in. If you want broader work (full body), the Traditional Thai Massage in 2h or 3h covers the lower back region as part of the complete circuit.
+**Deep Tissue** (1h30) is more direct. A full-body oil massage with firm, progressive pressure through the muscles of the back, glutes, and legs. No assisted stretching, no energetic work. It suits anyone who wants direct muscular relief, or who prefers the more conventional massage format.
+
+For chronic lower back pain, the 2h Traditional Thai Massage tends to be the better starting point, precisely because it works through the regions that pull on the lower back before arriving there.
 
 ## What to expect right after the session
 
@@ -108,4 +110,4 @@ It doesn't have to happen. But if it does, welcome it. It's part of the work.
 
 ---
 
-**Have chronic lower back pain and want to try?** [Book the Hip Release session](/en/book) (1h30, R$ 290), or the Traditional Thai Massage 2h if you prefer full-body work. We talk first to understand your story, and we work together. Sessions in Itacaré, Bahia, Brazil. English-speaking, international clients welcome.
+**Have chronic lower back pain and want to try?** [Book the Traditional Thai Massage 2h](/en/book), or Deep Tissue (1h30) if you prefer direct muscular work with oil. We talk first to understand your story, and we work together. Sessions in Itacaré, Bahia, Brazil. English-speaking, international clients welcome.

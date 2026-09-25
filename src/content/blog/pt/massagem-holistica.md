@@ -137,7 +137,7 @@ Isso é trabalho corporal de verdade. Mexe com o que está guardado.
 
 Hoje eu sou o único no Brasil que oferece esse tipo de atendimento integrado: a técnica milenar da Thai Massage combinada com a compreensão energética que carrego das minhas formações na Tailândia e na Índia.
 
-Ofereço sessões de Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Liberação de Quadril (1h30, focada na base do corpo).
+Ofereço sessões de Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Deep Tissue (1h30, massagem com óleo focada em recuperação muscular).
 
 Se você está buscando uma massagem realmente holística, sem colagem, com raiz na tradição e com tempo para acontecer de verdade, eu te convido a experimentar.
 

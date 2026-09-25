@@ -121,14 +121,14 @@ Para ficar claro, aqui está a diferença das modalidades mais comuns:
 
 **Massagem tailandesa tradicional:** sem óleo, com roupa, no tatame. Combina pressão profunda com alongamentos. Trabalha o corpo como um todo, incluindo a dimensão energética e espiritual. Sessões mais longas, sem pressa.
 
-Cada uma tem seu espaço. A tailandesa é a que eu pratico porque, na minha experiência, é a que mais cuida do ser como um todo.
+Cada uma tem seu espaço. Eu ofereço o Deep Tissue para quem procura esse trabalho muscular mais direto, com óleo. Mas a tailandesa é a prática em que me formei e a que eu sempre volto, porque na minha experiência é a que mais cuida do ser como um todo.
 
 ## As duas sessões que eu ofereço
 
 Hoje atendo dois tipos de sessão:
 
 - **Thai Massage Tradicional (2h ou 3h):** corpo inteiro, dos pés à cabeça. A versão de 2h é o ponto de entrada natural. A de 3h é a experiência imersiva, ideal para quem está há muitos anos com tensão acumulada ou precisa de um cuidado mais específico.
-- **Liberação de Quadril (1h30):** sessão focada na base do corpo. Quadril, pernas, lombar, e os chakras inferiores. Mais curta, mas ainda sim profunda.
+- **Deep Tissue (1h30):** massagem de corpo inteiro com óleo, com pressão firme e foco em relaxamento profundo e recuperação muscular. É a sessão mais direta que ofereço, sem alongamento assistido.
 
 Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho essa tradição aqui. A diferença entre uma sessão curta de spa e o trabalho de verdade não é só "mais tempo". É a diferença entre arranhar a superfície e realmente imergir.
 

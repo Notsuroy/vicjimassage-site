@@ -67,17 +67,15 @@ Esse trabalho leva tempo. Por isso minhas sessões são longas (mínimo de 1h30,
 
 Não é possível percorrer todo esse processo em apenas 30 minutos. E é justamente por isso que sessões muito rápidas raramente promovem mudanças significativas em quadros crônicos.
 
-## A sessão que desenvolvi exatamente para isso
+## Qual sessão escolher
 
-Além da Thai Massage Tradicional, ofereço uma sessão específica chamada **Liberação de Quadril**.
+Se a sua principal queixa é dor lombar, existem dois caminhos.
 
-Ela foi desenvolvida para pessoas que apresentam tensão concentrada em pernas, quadris e lombar, utilizando técnicas de liberação miofascial, mobilidade articular, alongamentos assistidos e descompressão.
+A **Thai Massage Tradicional** (2h ou 3h) percorre todo o circuito descrito acima: pés, pernas, glúteos, quadril, psoas, e só então a lombar. É a abordagem mais completa, e é a que trabalha a origem em vez do sintoma.
 
-Sob a perspectiva energética das tradições orientais, essa sessão também trabalha regiões associadas aos chakras inferiores (raiz e sacral), tradicionalmente relacionados a temas como estabilidade, segurança e vitalidade.
+O **Deep Tissue** (1h30) é mais direto. Massagem de corpo inteiro com óleo, com pressão firme e progressiva na musculatura das costas, dos glúteos e das pernas. Não tem alongamento assistido nem trabalho energético. Funciona bem para quem quer alívio muscular direto, ou para quem prefere o formato mais convencional de massagem.
 
-Se a sua principal queixa é dor lombar e você deseja um trabalho mais direcionado, esse costuma ser um excelente ponto de partida.
-
-Se busca uma abordagem mais ampla e integrada do corpo inteiro, a Thai Massage Tradicional de 2 ou 3 horas contempla a região lombar dentro de um circuito completo.
+Para um quadro lombar crônico, a Thai Massage Tradicional de 2 horas costuma ser o melhor ponto de partida, justamente por percorrer as regiões que puxam a lombar antes de chegar nela.
 
 ## O que esperar logo após a sessão
 
@@ -130,4 +128,4 @@ Mas, quando acontece, procuro acolher esse processo com presença e respeito.
 
 ---
 
-**Tem dor lombar crônica e quer experimentar?** [Experimenta a Liberação de Quadril](/agendar), ou a Thai Massage Tradicional de 2h se preferir o trabalho no corpo inteiro. Conversamos antes para entender sua história, e a gente trabalha juntos.
+**Tem dor lombar crônica e quer experimentar?** [Agenda a Thai Massage Tradicional de 2h](/agendar), ou o Deep Tissue de 1h30 se preferir um trabalho muscular mais direto, com óleo. Conversamos antes para entender sua história, e a gente trabalha juntos.

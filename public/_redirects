@@ -1,3 +1,7 @@
 # Cloudflare Pages redirects
 /inicio  /  301
 /home    /  301
+
+# Liberacao de Quadril removed 2026-09-25, replaced by Deep Tissue
+/servicos/liberacao-de-quadril  /servicos/deep-tissue     301
+/en/services/hip-release        /en/services/deep-tissue  301
