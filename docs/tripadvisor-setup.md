@@ -156,7 +156,7 @@ Sunday:     Closed
 ```
 Confirm against Victor's real schedule before submitting.
 
-**Price range:** `$$` (moderate). His sessions run R$ 250 to R$ 570, which lands mid range for a wellness experience in a Brazilian beach town.
+**Price range:** `$$` (moderate). His sessions run R$ 250 to R$ 650, which lands mid range for a wellness experience in a Brazilian beach town.
 
 **Duration of experience:** 1.5 to 3 hours
 

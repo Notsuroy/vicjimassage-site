@@ -1,5 +1,5 @@
 {
-  "_note": "Three services as of 2026-09-25. History: Liberacao de Quadril was removed (Victor no longer offers it); it was briefly replaced by a pure Deep Tissue session, then corrected to Thai Fusion Massage once Victor's own description arrived. Thai Fusion is a TABLE session (na maca) with oil that combines Thai stretching and joint mobilization with deep tissue gliding. It is the only session using oil and the only one where the client undresses, so every no-oil / stay-clothed claim elsewhere must stay scoped to the two Thai sessions. Victor quoted it at 1h / R$200; Suroy set the list price to R$250 with a 20% October grand-opening promo (see site.promo), which lands first-time October bookings back at R$200. Prices raised 2026-09-25: Thai Tradicional R$360 to R$400, Thai Imersiva R$520 to R$570. Durations are TOTAL session time; hands-on is about 30 min less in every tier (1h30=1h, 2h=1h30, 3h=2h30). Thai Fusion has a SIMPLER opening than the Thai sessions: no tea and no guided breathwork, just conversation, the work, and a closing chat. Prices and durations are Victor's and must not be altered without his sign-off. Services are ordered by ascending price (R$250 / R$400 / R$570); keep that order. The highlight flag stays on Thai Massage Tradicional, in the middle.",
+  "_note": "Three services as of 2026-09-29. History: Liberacao de Quadril was removed (Victor no longer offers it), briefly replaced by a pure Deep Tissue session, then corrected to Thai Fusion Massage once Victor's own description arrived. Thai Fusion is a TABLE session (na maca) with oil combining Thai stretching and joint mobilization with deep tissue gliding. It is the only session using oil and the only one where the client undresses, so every no-oil / stay-clothed claim elsewhere must stay scoped to the two Thai sessions. PRICING: list prices are set so that the 20% October promo (site.promo) lands exactly on the prices charged through September 2026 (R$200 / R$360 / R$520). 250x0.8=200, 450x0.8=360, 650x0.8=520. An earlier pass had list at 250/400/570, which made the promo price LOWER than the September price on both Thai sessions and erased the raise; Suroy caught it 2026-09-29. IMPORTANT CONSEQUENCE: the promo is only an honest discount if 450 and 650 are actually charged from November onward. Reverting to 400/570 in November would make the advertised 20% a markdown against a price nobody ever paid. Durations are TOTAL session time; hands-on is about 30 min less in every tier (1h30=1h, 2h=1h30, 3h=2h30). Thai Fusion has a SIMPLER opening than the Thai sessions: no tea and no guided breathwork. Prices and durations are Victor's and must not be altered without his sign-off. Services are ordered by ascending price (R$250 / R$450 / R$650); keep that order. The highlight flag stays on Thai Massage Tradicional, in the middle of the 3-up grid.",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
@@ -214,8 +214,8 @@
         {
           "duration": "2h",
           "durationISO": "PT2H",
-          "price": 400,
-          "priceDisplay": "R$ 400",
+          "price": 450,
+          "priceDisplay": "R$ 450",
           "label": {
             "pt": "2 horas",
             "en": "2 hours"
@@ -363,8 +363,8 @@
         {
           "duration": "3h",
           "durationISO": "PT3H",
-          "price": 570,
-          "priceDisplay": "R$ 570",
+          "price": 650,
+          "priceDisplay": "R$ 650",
           "label": {
             "pt": "3 horas",
             "en": "3 hours"
