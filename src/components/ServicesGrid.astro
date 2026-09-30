@@ -111,7 +111,7 @@ function fxLine(brl: number) {
             </ul>
           )}
 
-          {showAll && svc.cardList && (
+          {svc.cardList && (
             <div class={`rounded-xl p-5 mb-6 ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
               <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
                 {svc.cardList.label[lang]}
