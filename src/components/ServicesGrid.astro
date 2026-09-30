@@ -55,7 +55,7 @@ function fxLine(brl: number) {
 
 <section class="py-24 sm:py-32">
   <div class="container-wide">
-    <div class="max-w-narrow mx-auto text-center mb-16">
+    <div class="max-w-narrow mx-auto text-center">
       <div class="label-overline mb-4">{c.overline}</div>
       <h2 class="font-display text-4xl sm:text-5xl text-ink leading-tight">
         {(showAll ? c.headlineAll : c.headline).split('. ').map((part, i, arr) => (
@@ -63,8 +63,10 @@ function fxLine(brl: number) {
         ))}
       </h2>
     </div>
+  </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+  <div class="max-w-[1320px] mx-auto px-6 sm:px-8 mt-16">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       {items.map(svc => (
         <div class={`relative rounded-2xl p-8 sm:p-10 flex flex-col transition-all duration-500 ${
           svc.highlight
@@ -152,7 +154,7 @@ function fxLine(brl: number) {
               {svc.options.map(opt => (
                 <div>
                   <div class="flex items-baseline justify-between gap-4">
-                    <span class={svc.highlight ? 'text-sand' : 'text-ink'}>
+                    <span class={`whitespace-nowrap ${svc.highlight ? 'text-sand' : 'text-ink'}`}>
                       {opt.label[lang]}
                     </span>
                     {lang === 'en' ? (
