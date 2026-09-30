@@ -66,9 +66,9 @@ function fxLine(brl: number) {
   </div>
 
   <div class="max-w-[1320px] mx-auto px-6 sm:px-8 mt-16">
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 lg:gap-y-0">
       {items.map(svc => (
-        <div class={`relative rounded-2xl p-8 sm:p-10 flex flex-col transition-all duration-500 ${
+        <div class={`relative rounded-2xl p-8 sm:p-10 flex flex-col lg:grid lg:grid-rows-subgrid lg:row-span-6 transition-all duration-500 ${
           svc.highlight
             ? 'bg-ocean text-sand shadow-soft ring-2 ring-gold'
             : 'bg-white/60 backdrop-blur-sm border border-sand-deep/30 hover:shadow-soft'
@@ -98,23 +98,12 @@ function fxLine(brl: number) {
             {svc.tagline[lang]}
           </p>
 
-          <p class={`text-base leading-relaxed mb-6 flex-1 ${svc.highlight ? 'text-sand/85' : 'text-ink-muted'}`}>
+          <p class={`text-base leading-relaxed mb-6 ${svc.highlight ? 'text-sand/85' : 'text-ink-muted'}`}>
             {svc.description[lang]}
           </p>
 
-          {showAll && !svc.cardList && svc.highlights && (
-            <ul class={`space-y-2 mb-6 text-sm ${svc.highlight ? 'text-sand/90' : 'text-ink-muted'}`}>
-              {svc.highlights[lang].map(h => (
-                <li class="flex items-start gap-2">
-                  <span class={svc.highlight ? 'text-gold mt-0.5' : 'text-terracotta mt-0.5'}>·</span>
-                  <span>{h}</span>
-                </li>
-              ))}
-            </ul>
-          )}
-
           {svc.cardList && (
-            <div class={`rounded-xl p-5 mb-6 ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
+            <div class={`rounded-xl p-5 mb-6 lg:self-start ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
               <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
                 {svc.cardList.label[lang]}
               </div>
@@ -129,23 +118,9 @@ function fxLine(brl: number) {
             </div>
           )}
 
-          {showAll && !svc.cardList && svc.included && (
-            <div class={`rounded-xl p-5 mb-6 ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
-              <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
-                {c.included}
-              </div>
-              <ul class={`space-y-2 text-sm ${svc.highlight ? 'text-sand/90' : 'text-ink-muted'}`}>
-                {svc.included[lang].map(item => (
-                  <li class="flex items-start gap-2">
-                    <span class={svc.highlight ? 'text-gold mt-0.5' : 'text-terracotta mt-0.5'}>✓</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          <!-- Pricing options -->
+          <!-- Footer: price, book, detail link. One element so the card is
+               exactly six children, matching lg:row-span-6 above. -->
+          <div>
           <div class={`pt-6 border-t ${svc.highlight ? 'border-sand/20' : 'border-sand-deep/40'}`}>
             <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
               {svc.options.length > 1 ? (lang === 'pt' ? 'Duração' : 'Duration') : (lang === 'pt' ? 'Sessão' : 'Session')}
@@ -205,6 +180,7 @@ function fxLine(brl: number) {
             >
               {c.details} →
             </a>
+          </div>
           </div>
         </div>
       ))}
