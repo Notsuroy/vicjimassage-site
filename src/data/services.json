@@ -380,11 +380,11 @@
         "en": "The way the ancient masters did."
       },
       "description": {
-        "pt": "Tudo o que tem na Thai Massage Tradicional, mais uma terceira hora. Não é uma massagem mais longa, é mais tempo para trabalhar devagar e aprofundar onde o corpo pede.",
-        "en": "Everything in the Traditional Thai Massage, plus a third hour. Not a longer massage, but more time to work slowly and go deeper where the body asks."
+        "pt": "Tudo o que tem na Thai Massage Tradicional, mais uma terceira hora. A intenção não é fazer mais, é ter mais tempo para trabalhar com presença, profundidade e cuidado.",
+        "en": "Everything in the Traditional Thai Massage, plus a third hour. The intention is not to do more, but to have more time to work with presence, depth and care."
       },
       "cardList": {
-        "_note": "Card-only override, same mechanism as thai-fusion and thai-tradicional. Built from Victor's own 3-hour write-up (2026-09-29): the extra hour is for presence and depth, not for doing more. Leads with the 2h session so the tiers read as additive.",
+        "_note": "Card-only override, same mechanism as thai-fusion and thai-tradicional. Wording tracks Victor's own 3-hour write-up closely (reworded 2026-09-29 at Suroy's request to sit nearer his phrasing). Leads with the 2h session so the tiers read as additive.",
         "label": {
           "pt": "Para quem busca:",
           "en": "For anyone looking for:"
@@ -392,20 +392,22 @@
         "items": {
           "pt": [
             "Tudo o que tem na Thai Massage Tradicional de 2 horas",
-            "Mais tempo em quadril, pernas, lombar, coluna, ombros, pescoço e pés",
-            "Uma sessão que se adapta ao que o seu corpo traz no dia",
-            "Técnica mais lenta e detalhada, com liberação miofascial",
-            "Mais espaço para pausas, presença e integração",
-            "Uma conexão mais profunda com o corpo, além do relaxamento",
+            "Mais tempo nas áreas que guardam mais tensão: quadril, pernas, lombar, coluna, ombros, pescoço e pés",
+            "Uma sessão adaptada ao que o seu corpo apresenta no momento",
+            "Uma abordagem mais gradual e mais atenta",
+            "Alongamentos assistidos, mobilizações articulares, respiração e liberação miofascial",
+            "Mais espaço para pausas, presença e integração, para o corpo absorver o trabalho",
+            "Ir além do relaxamento, para uma conexão mais profunda com o corpo",
             "No tatame, com roupas confortáveis"
           ],
           "en": [
             "Everything in the 2 hour Traditional Thai Massage",
-            "Extra time on hips, legs, lower back, spine, shoulders, neck and feet",
-            "A session that adapts to what your body brings that day",
-            "Slower, more detailed technique and myofascial release",
-            "More space for pauses, presence and integration",
-            "A deeper connection with your body, beyond relaxation",
+            "More time on the areas holding greater tension: hips, legs, lower back, spine, shoulders, neck and feet",
+            "A session adapted to what your body presents in the moment",
+            "A more gradual and more attentive approach",
+            "Assisted stretches, joint mobilizations, breathing and myofascial release",
+            "More space for pauses, presence and integration, so the body absorbs the work",
+            "Going beyond relaxation, into a deeper connection with your body",
             "On a futon, in comfortable clothes"
           ]
         }
