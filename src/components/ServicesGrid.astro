@@ -20,7 +20,6 @@ const content = {
     seeAllHref: '/servicos',
     each: 'cada',
     included: 'O que está incluso na sessão',
-    totalNote: 'sessão completa',
     highlightsLabel: 'A sessão inclui',
   },
   en: {
@@ -34,7 +33,6 @@ const content = {
     seeAllHref: '/en/services',
     each: 'each',
     included: "What's included in the session",
-    totalNote: 'full session',
     highlightsLabel: 'The session includes',
   },
 };
@@ -90,12 +88,9 @@ function fxLine(brl: number) {
           <div class="flex flex-wrap items-center gap-2 mb-3">
             {svc.options.map(opt => (
               <span class={`inline-flex items-center rounded-full px-3.5 py-1 text-sm font-medium ${svc.highlight ? 'bg-gold/20 text-gold' : 'bg-ocean/10 text-ocean'}`}>
-                {opt.duration}
+                {opt.chipLabel ? opt.chipLabel[lang] : opt.duration}
               </span>
             ))}
-            <span class={`text-xs ${svc.highlight ? 'text-sand/60' : 'text-ink-muted/70'}`}>
-              {c.totalNote}
-            </span>
           </div>
           <p class={`font-display italic text-lg mb-6 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
             {svc.tagline[lang]}

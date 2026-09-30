@@ -31,20 +31,20 @@
         },
         "items": {
           "pt": [
-            "alívio muscular profundo",
-            "mobilização articular",
-            "ganho de amplitude de movimento",
-            "performance nos treinos e competições",
-            "relaxamento mental e corporal profundo",
+            "Alívio muscular profundo",
+            "Mobilização articular",
+            "Ganho de amplitude de movimento",
+            "Performance nos treinos e competições",
+            "Relaxamento mental e corporal profundo",
             "Na maca, com óleo",
             "Cerca de 1 hora de massagem em uma sessão de 1h30"
           ],
           "en": [
-            "deep muscular relief",
-            "joint mobilization",
-            "gains in range of motion",
-            "performance in training and competition",
-            "deep mental and physical relaxation",
+            "Deep muscular relief",
+            "Joint mobilization",
+            "Gains in range of motion",
+            "Performance in training and competition",
+            "Deep mental and physical relaxation",
             "On the table, with oil",
             "About 1 hour of hands-on work in a 90-minute session"
           ]
@@ -99,6 +99,10 @@
           "label": {
             "pt": "1 hora e 30 minutos",
             "en": "1 hour 30 minutes"
+          },
+          "chipLabel": {
+            "pt": "1 hora de massagem",
+            "en": "1 Hour Massage"
           }
         }
       ],
@@ -198,8 +202,8 @@
         "en": "The full session. Body, energy, spirit."
       },
       "description": {
-        "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga.",
-        "en": "Complete traditional Thai Massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga."
+        "pt": "Sessão completa de massagem tailandesa tradicional. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga.",
+        "en": "Complete traditional Thai Massage session. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga."
       },
       "cardList": {
         "_note": "Card-only override, same mechanism as thai-fusion. ServicesGrid renders this labelled list INSTEAD of the highlights bullets and the 'what's included' box; the detail page ignores it and still uses highlights + included. PT items reuse Victor's own wording from the original description clause rather than being back-translated from the English.",
@@ -215,7 +219,9 @@
             "Mobilizar articulações",
             "Descomprimir vértebras",
             "Eliminar tensões e emoções acumuladas",
-            "Equilibrar os centros energéticos do corpo (chakras)"
+            "Equilibrar os centros energéticos do corpo (chakras)",
+            "No tatame, com roupas confortáveis",
+            "Cerca de 2 horas de massagem em uma sessão de 2h30"
           ],
           "en": [
             "Release muscle tension",
@@ -224,13 +230,15 @@
             "Mobilize joints",
             "Decompress the spine",
             "Clear stored tensions and emotions",
-            "Balance the body's energy centers (chakras)"
+            "Balance the body's energy centers (chakras)",
+            "On a futon, in comfortable clothes",
+            "About 2 hours of hands-on massage in a 2.5-hour session"
           ]
         }
       },
       "metaTitle": {
-        "pt": "Massagem Tailandesa Tradicional em Itacaré · 2h · Vicji Massage",
-        "en": "Traditional Thai Massage in Itacaré · 2h · Vicji Massage"
+        "pt": "Massagem Tailandesa Tradicional em Itacaré · 2h30 · Vicji Massage",
+        "en": "Traditional Thai Massage in Itacaré · 2h30 · Vicji Massage"
       },
       "metaDescription": {
         "pt": "Sessão de 2 horas de Thai Massage tradicional em Itacaré, Bahia. Corpo inteiro, no tatame, sem óleo, com alongamentos assistidos e tempo de integração.",
@@ -266,13 +274,17 @@
       },
       "options": [
         {
-          "duration": "2h",
-          "durationISO": "PT2H",
+          "duration": "2h30",
+          "durationISO": "PT2H30M",
           "price": 450,
           "priceDisplay": "R$ 450",
           "label": {
-            "pt": "2 horas",
-            "en": "2 hours"
+            "pt": "2 horas e 30 minutos",
+            "en": "2 hours 30 minutes"
+          },
+          "chipLabel": {
+            "pt": "2 horas de massagem",
+            "en": "2 Hour Massage"
           }
         }
       ],
@@ -378,8 +390,8 @@
         "en": "The longest session I offer, and the closest to the format I learned in Thailand. Three hours of full-body work, with time to sustain each stretch, travel the energy lines completely, return to the areas asking for more attention, and close with a generous silence."
       },
       "metaTitle": {
-        "pt": "Massagem Tailandesa Imersiva · 3 horas em Itacaré · Vicji Massage",
-        "en": "Immersive Thai Massage · 3 hours in Itacaré · Vicji Massage"
+        "pt": "Massagem Tailandesa Imersiva · 3h30 em Itacaré · Vicji Massage",
+        "en": "Immersive Thai Massage · 3h30 in Itacaré · Vicji Massage"
       },
       "metaDescription": {
         "pt": "Sessão imersiva de 3 horas de Thai Massage em Itacaré, Bahia. O formato mais próximo da tradição tailandesa, para quem quer ir fundo sem olhar o relógio.",
@@ -415,13 +427,17 @@
       },
       "options": [
         {
-          "duration": "3h",
-          "durationISO": "PT3H",
+          "duration": "3h30",
+          "durationISO": "PT3H30M",
           "price": 650,
           "priceDisplay": "R$ 650",
           "label": {
-            "pt": "3 horas",
-            "en": "3 hours"
+            "pt": "3 horas e 30 minutos",
+            "en": "3 hours 30 minutes"
+          },
+          "chipLabel": {
+            "pt": "3 horas de massagem",
+            "en": "3 Hour Massage"
           }
         }
       ],
