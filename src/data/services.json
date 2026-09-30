@@ -380,8 +380,35 @@
         "en": "Three hours. The whole practice, with nowhere to be."
       },
       "description": {
-        "pt": "A sessão mais longa que eu ofereço, e a mais próxima do formato que aprendi na Tailândia. Três horas de trabalho no corpo inteiro, com tempo para sustentar cada alongamento, percorrer as linhas de energia por completo, voltar nas regiões que pedem mais atenção e encerrar com um silêncio generoso.",
-        "en": "The longest session I offer, and the closest to the format I learned in Thailand. Three hours of full-body work, with time to sustain each stretch, travel the energy lines completely, return to the areas asking for more attention, and close with a generous silence."
+        "pt": "Tudo o que tem na Thai Massage Tradicional, mais uma terceira hora. Não é uma massagem mais longa, é mais tempo para trabalhar devagar e aprofundar onde o corpo pede.",
+        "en": "Everything in the Traditional Thai Massage, plus a third hour. Not a longer massage, but more time to work slowly and go deeper where the body asks."
+      },
+      "cardList": {
+        "_note": "Card-only override, same mechanism as thai-fusion and thai-tradicional. Built from Victor's own 3-hour write-up (2026-09-29): the extra hour is for presence and depth, not for doing more. Leads with the 2h session so the tiers read as additive.",
+        "label": {
+          "pt": "Para quem busca:",
+          "en": "For anyone looking for:"
+        },
+        "items": {
+          "pt": [
+            "Tudo o que tem na Thai Massage Tradicional de 2 horas",
+            "Mais tempo em quadril, pernas, lombar, coluna, ombros, pescoço e pés",
+            "Uma sessão que se adapta ao que o seu corpo traz no dia",
+            "Técnica mais lenta e detalhada, com liberação miofascial",
+            "Mais espaço para pausas, presença e integração",
+            "Uma conexão mais profunda com o corpo, além do relaxamento",
+            "No tatame, com roupas confortáveis"
+          ],
+          "en": [
+            "Everything in the 2 hour Traditional Thai Massage",
+            "Extra time on hips, legs, lower back, spine, shoulders, neck and feet",
+            "A session that adapts to what your body brings that day",
+            "Slower, more detailed technique and myofascial release",
+            "More space for pauses, presence and integration",
+            "A deeper connection with your body, beyond relaxation",
+            "On a futon, in comfortable clothes"
+          ]
+        }
       },
       "metaTitle": {
         "pt": "Massagem Tailandesa Imersiva · 3h em Itacaré · Vicji Massage",
