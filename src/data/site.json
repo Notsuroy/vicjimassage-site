@@ -69,7 +69,7 @@
     }
   },
   "promo": {
-    "_note": "Grand-opening promo for the Itacare move: 20% off every session during October 2026. DISPLAY ONLY. The Offer schema and services.json keep the regular prices on purpose, so Google never caches a discounted price that outlives the promo. To end it, set active to false (endDate is copy, nothing enforces it in code).",
+    "_note": "Grand-opening promo for the Itacare move: 20% off every session during October 2026. DISPLAY ONLY. services.json and the Offer schema keep the list prices on purpose, so Google never caches a discounted price that outlives the promo. Note that list prices are set so 20% off lands exactly on the prices charged through September (200/360/520); see the services.json note. To end the promo set active to false (endDate is copy, nothing enforces it in code). RENDERING: only `badge` is rendered, as a price pill on each service card and detail page. `line` is kept for reuse but is NOT rendered anywhere right now; the banner that used it was removed from ServicesGrid on 2026-09-29 at Suroy's request.",
     "active": true,
     "percentOff": 20,
     "endDate": "2026-10-31",

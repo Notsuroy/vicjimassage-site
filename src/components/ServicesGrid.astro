@@ -12,7 +12,7 @@ const content = {
   pt: {
     overline: 'O que ofereço',
     headline: 'Sessões exclusivas e originais.',
-    sub: 'Duas sessões de Thai Massage de corpo inteiro, no tatame, que trabalham o campo físico, energético e espiritual. E o Thai Fusion, na maca, somando os alongamentos da Thai ao deep tissue a óleo.',
+    headlineAll: 'As sessões.',
     recommended: 'Mais procurada',
     book: 'Agendar',
     details: 'Ver detalhes desta sessão',
@@ -26,7 +26,7 @@ const content = {
   en: {
     overline: 'What I offer',
     headline: 'Exclusive, original sessions.',
-    sub: 'Two full-body Thai Massage sessions on the futon, working the physical, energetic, and spiritual field. Plus Thai Fusion, on the table, combining Thai stretching with deep tissue oil work.',
+    headlineAll: 'The sessions.',
     recommended: 'Most booked',
     book: 'Book',
     details: 'See this session in detail',
@@ -59,17 +59,11 @@ function fxLine(brl: number) {
   <div class="container-wide">
     <div class="max-w-narrow mx-auto text-center mb-16">
       <div class="label-overline mb-4">{c.overline}</div>
-      <h2 class="font-display text-4xl sm:text-5xl text-ink mb-6 leading-tight">
-        {c.headline.split('. ').map((part, i, arr) => (
+      <h2 class="font-display text-4xl sm:text-5xl text-ink leading-tight">
+        {(showAll ? c.headlineAll : c.headline).split('. ').map((part, i, arr) => (
           <span class="block">{part}{i < arr.length - 1 ? '.' : ''}</span>
         ))}
       </h2>
-      <p class="text-ink-muted text-lg leading-relaxed">{c.sub}</p>
-      {site.promo.active && (
-        <p class="mt-5 inline-block rounded-full bg-terracotta/10 border border-terracotta/30 px-5 py-2 text-terracotta text-sm font-medium">
-          {site.promo.line[lang]}
-        </p>
-      )}
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
