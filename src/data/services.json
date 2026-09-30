@@ -198,8 +198,35 @@
         "en": "The full session. Body, energy, spirit."
       },
       "description": {
-        "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga, com o objetivo de liberar a musculatura, relaxar tensões fasciais, mobilizar articulações, descomprimir vértebras, eliminar tensões e emoções acumuladas, e equilibrar os centros energéticos do corpo (chakras).",
-        "en": "Complete traditional Thai Massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga, working to release muscle tension, release fascial tension, mobilize joints, decompress the spine, clear stored tensions and emotions, and balance the body's energy centers (chakras)."
+        "pt": "Sessão completa de massagem tailandesa tradicional, feita no tatame com roupas confortáveis. Combina pressões em pontos energéticos estratégicos e alongamentos passivos inspirados no yoga.",
+        "en": "Complete traditional Thai Massage session, performed on a futon in comfortable clothes. Combines pressure on strategic energy points with assisted passive stretches inspired by yoga."
+      },
+      "cardList": {
+        "_note": "Card-only override, same mechanism as thai-fusion. ServicesGrid renders this labelled list INSTEAD of the highlights bullets and the 'what's included' box; the detail page ignores it and still uses highlights + included. PT items reuse Victor's own wording from the original description clause rather than being back-translated from the English.",
+        "label": {
+          "pt": "Para quem busca:",
+          "en": "For anyone looking for:"
+        },
+        "items": {
+          "pt": [
+            "Liberar a musculatura",
+            "Relaxar tensões fasciais",
+            "Aliviar dores crônicas",
+            "Mobilizar articulações",
+            "Descomprimir vértebras",
+            "Eliminar tensões e emoções acumuladas",
+            "Equilibrar os centros energéticos do corpo (chakras)"
+          ],
+          "en": [
+            "Release muscle tension",
+            "Release fascial tension",
+            "Relieve chronic pain",
+            "Mobilize joints",
+            "Decompress the spine",
+            "Clear stored tensions and emotions",
+            "Balance the body's energy centers (chakras)"
+          ]
+        }
       },
       "metaTitle": {
         "pt": "Massagem Tailandesa Tradicional em Itacaré · 2h · Vicji Massage",
