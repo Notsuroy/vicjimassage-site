@@ -158,7 +158,7 @@ Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na f
 
 A sessão acontece no tatame, com roupas confortáveis, e trabalha o corpo em três dimensões: físico, energético e espiritual. Mais de 500 sessões realizadas.
 
-Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Thai Fusion Massage (1h30, na maca, somando os alongamentos da Thai ao deep tissue a óleo).
+Ofereço Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Thai Fusion Massage (1h30, na maca, somando os alongamentos da Thai ao deep tissue).
 
 Atendimentos sob agendamento, de segunda a sábado.
 ```
@@ -187,7 +187,7 @@ Add each session as a separate Service:
 - **Name:** Thai Fusion Massage, 1h30
 - **Category:** Massagem
 - **Price:** R$ 250
-- **Description:** Sessão na maca que combina os alongamentos e as mobilizações da massagem tailandesa com deep tissue, em deslizamentos a óleo. Alívio muscular profundo, mobilização articular, ganho de amplitude, performance nos treinos e relaxamento mental e corporal. Pode ser no corpo todo ou com foco em regiões específicas.
+- **Description:** Sessão na maca que combina os alongamentos e as mobilizações da massagem tailandesa com deep tissue. Alívio muscular profundo, mobilização articular, ganho de amplitude, performance nos treinos e relaxamento mental e corporal.
 
 If Victor introduces hotel-guest packages or a beach/pool-side variant in Itacaré, add those as separate Services later.
 

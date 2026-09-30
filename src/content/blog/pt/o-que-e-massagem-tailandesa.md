@@ -128,7 +128,7 @@ Cada uma tem seu espaço. Eu ofereço o Thai Fusion para quem procura esse traba
 Hoje atendo dois tipos de sessão:
 
 - **Thai Massage Tradicional (2h ou 3h):** corpo inteiro, dos pés à cabeça. A versão de 2h é o ponto de entrada natural. A de 3h é a experiência imersiva, ideal para quem está há muitos anos com tensão acumulada ou precisa de um cuidado mais específico.
-- **Thai Fusion (1h30):** sessão na maca que soma os alongamentos da Thai ao deep tissue, em deslizamentos a óleo. Alívio muscular profundo e ganho de amplitude. Pode ser no corpo todo ou com foco em regiões específicas.
+- **Thai Fusion (1h30):** sessão na maca que soma os alongamentos da Thai ao deep tissue. Alívio muscular profundo e ganho de amplitude.
 
 Sessões tradicionais na Tailândia podem durar duas, três horas. Eu mantenho essa tradição aqui. A diferença entre uma sessão curta de spa e o trabalho de verdade não é só "mais tempo". É a diferença entre arranhar a superfície e realmente imergir.
 

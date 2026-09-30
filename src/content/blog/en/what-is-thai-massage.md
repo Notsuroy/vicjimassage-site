@@ -119,7 +119,7 @@ Each has its place. I offer Thai Fusion for anyone who wants that direct muscula
 Today I work with two types of session:
 
 - **Traditional Thai Massage (2h or 3h):** the whole body, head to toe. The 2h version is the natural entry point. The 3h is the immersive experience, ideal for someone who's been running without stopping for a long time.
-- **Thai Fusion (1h30):** a table session adding Thai stretching to deep tissue oil work. Deep muscular relief and a gain in range of motion. Full body or focused on specific areas.
+- **Thai Fusion (1h30):** a table session adding Thai stretching to deep tissue work. Deep muscular relief and a gain in range of motion.
 
 Traditional sessions in Thailand can last two or three hours. I keep that tradition here. The difference between a quick spa session and the real work isn't just "more time". It's the difference between scratching the surface and actually immersing.
 
