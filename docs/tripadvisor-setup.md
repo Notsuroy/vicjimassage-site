@@ -85,7 +85,7 @@ I am Victor (Vicji), a Brazilian therapist trained in Thailand at the source of 
 
 Sessions happen on a futon, in comfortable clothes, with no oil. The work reaches the body in three dimensions: physical, energetic, and spiritual. Over 500 sessions delivered.
 
-Sessions available: Traditional Thai Massage (2h or 3h, full body) and Thai Fusion (1h30, a table session combining Thai stretching with deep tissue work).
+Sessions available: Traditional Thai Massage (2h or 3h, full body) and Thai Fusion (1h, a table session combining Thai stretching with deep tissue work).
 
 English spoken fluently. International travelers welcome. By appointment, Monday through Saturday.
 ```
@@ -99,7 +99,7 @@ Eu sou o Victor (Vicji), brasileiro, formado como massagista na Tailândia, na f
 
 A sessão acontece no tatame, com roupas confortáveis e sem óleo. O trabalho alcança o corpo em três dimensões: físico, energético e espiritual. Mais de 500 sessões realizadas.
 
-Sessões disponíveis: Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Thai Fusion (1h30, na maca, somando os alongamentos da Thai ao deep tissue).
+Sessões disponíveis: Thai Massage Tradicional (2h ou 3h, corpo inteiro) e Thai Fusion (1h, na maca, somando os alongamentos da Thai ao deep tissue).
 
 Atendimento em português e inglês. Sob agendamento, de segunda a sábado.
 ```

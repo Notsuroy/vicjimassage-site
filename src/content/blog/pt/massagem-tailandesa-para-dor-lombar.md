@@ -63,7 +63,7 @@ Em uma sessão típica para alguém com dor lombar, eu:
 5. **Só então chego à lombar em si.** Utilizo pressões conscientes ao longo da musculatura paravertebral, mobilizações suaves da coluna e trabalho associado à respiração.
 6. **Finalizo com técnicas de alongamento e descompressão**, buscando criar mais espaço, mobilidade e relaxamento para a região.
 
-Esse trabalho leva tempo. Por isso minhas sessões são longas (mínimo de 1h30, idealmente 2h ou mais).
+Esse trabalho leva tempo. Por isso minhas sessões de Thai são longas (2h ou 3h).
 
 Não é possível percorrer todo esse processo em apenas 30 minutos. E é justamente por isso que sessões muito rápidas raramente promovem mudanças significativas em quadros crônicos.
 
@@ -73,7 +73,7 @@ Se a sua principal queixa é dor lombar, existem dois caminhos.
 
 A **Thai Massage Tradicional** (2h ou 3h) percorre todo o circuito descrito acima: pés, pernas, glúteos, quadril, psoas, e só então a lombar. É a abordagem mais completa, e é a que trabalha a origem em vez do sintoma.
 
-O **Thai Fusion** (1h30) é mais direto. Sessão na maca que soma os alongamentos e as mobilizações da Thai aos deslizamentos profundos do deep tissue, a óleo, na musculatura das costas, dos glúteos e das pernas. Funciona bem para quem quer alívio muscular direto com ganho de amplitude, e pode ser focado só na região que está incomodando.
+O **Thai Fusion** (1h) é mais direto. Sessão na maca que soma os alongamentos e as mobilizações da Thai aos deslizamentos profundos do deep tissue, a óleo, na musculatura das costas, dos glúteos e das pernas. Funciona bem para quem quer alívio muscular direto com ganho de amplitude, e pode ser focado só na região que está incomodando.
 
 Para um quadro lombar crônico, a Thai Massage Tradicional de 2 horas costuma ser o melhor ponto de partida, justamente por percorrer as regiões que puxam a lombar antes de chegar nela.
 
@@ -128,4 +128,4 @@ Mas, quando acontece, procuro acolher esse processo com presença e respeito.
 
 ---
 
-**Tem dor lombar crônica e quer experimentar?** [Agenda a Thai Massage Tradicional de 2h](/agendar), ou o Thai Fusion de 1h30 se preferir um trabalho muscular mais direto, com óleo e foco na região que incomoda. Conversamos antes para entender sua história, e a gente trabalha juntos.
+**Tem dor lombar crônica e quer experimentar?** [Agenda a Thai Massage Tradicional de 2h](/agendar), ou o Thai Fusion de 1h se preferir um trabalho muscular mais direto, com óleo e foco na região que incomoda. Conversamos antes para entender sua história, e a gente trabalha juntos.

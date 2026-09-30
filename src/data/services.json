@@ -1,5 +1,5 @@
 {
-  "_note": "Three services as of 2026-09-29. History: Liberacao de Quadril was removed (Victor no longer offers it), briefly replaced by a pure Deep Tissue session, then corrected to Thai Fusion Massage once Victor's own description arrived. Thai Fusion is a TABLE session (na maca) with oil combining Thai stretching and joint mobilization with deep tissue gliding. It is the only session using oil and the only one where the client undresses, so every no-oil / stay-clothed claim elsewhere must stay scoped to the two Thai sessions. PRICING: list prices are set so that the 20% October promo (site.promo) lands exactly on the prices charged through September 2026 (R$200 / R$360 / R$520). 250x0.8=200, 450x0.8=360, 650x0.8=520. An earlier pass had list at 250/400/570, which made the promo price LOWER than the September price on both Thai sessions and erased the raise; Suroy caught it 2026-09-29. IMPORTANT CONSEQUENCE: the promo is only an honest discount if 450 and 650 are actually charged from November onward. Reverting to 400/570 in November would make the advertised 20% a markdown against a price nobody ever paid. Durations are TOTAL session time; hands-on is about 30 min less in every tier (1h30=1h, 2h=1h30, 3h=2h30). Thai Fusion has a SIMPLER opening than the Thai sessions: no tea and no guided breathwork. Prices and durations are Victor's and must not be altered without his sign-off. Services are ordered by ascending price (R$250 / R$450 / R$650); keep that order. The highlight flag stays on Thai Massage Tradicional, in the middle of the 3-up grid.",
+  "_note": "Three services as of 2026-09-29. History: Liberacao de Quadril removed (Victor no longer offers it), briefly replaced by a pure Deep Tissue session, then corrected to Thai Fusion Massage from Victor's own description. Thai Fusion is a TABLE session (na maca) with oil combining Thai stretching and joint mobilization with deep tissue gliding; it is the only session using oil and the only one where the client undresses, so every no-oil / stay-clothed claim elsewhere must stay scoped to the two Thai sessions. DURATIONS: every number on the site is the HANDS-ON MASSAGE time (1h / 2h / 3h). Each session actually runs about 30 min longer than that (1h30 / 2h30 / 3h30 door to door) because of the intake conversation and the closing, but that is deliberately NOT advertised anywhere as of 2026-09-29; Victor explains it on WhatsApp when booking. duration, durationISO, label, chipLabel and the metaTitles all carry the massage time so nothing on a card contradicts anything else. If you ever put the total back on the site, put it everywhere at once. PRICING: list prices are set so the 20% October promo (site.promo) lands exactly on the prices charged through September 2026: 250x0.8=200, 450x0.8=360, 650x0.8=520. That only stays an honest discount if 450 and 650 are actually charged from November. Prices and durations are Victor's and must not be altered without his sign-off. Services are ordered by ascending price (R$250 / R$450 / R$650); keep that order. The highlight flag stays on Thai Massage Tradicional, in the middle of the 3-up grid. cardList is a card-only override: when present ServicesGrid renders it instead of highlights + included, and the detail page ignores it.",
   "currency": "BRL",
   "currencySymbol": "R$",
   "services": [
@@ -36,8 +36,7 @@
             "Ganho de amplitude de movimento",
             "Performance nos treinos e competições",
             "Relaxamento mental e corporal profundo",
-            "Na maca, com óleo",
-            "Cerca de 1 hora de massagem em uma sessão de 1h30"
+            "Na maca, com óleo"
           ],
           "en": [
             "Deep muscular relief",
@@ -45,14 +44,13 @@
             "Gains in range of motion",
             "Performance in training and competition",
             "Deep mental and physical relaxation",
-            "On the table, with oil",
-            "About 1 hour of hands-on work in a 90-minute session"
+            "On the table, with oil"
           ]
         }
       },
       "metaTitle": {
-        "pt": "Thai Fusion Massage em Itacaré · 1h30 · Vicji Massage",
-        "en": "Thai Fusion Massage in Itacaré · 1h30 · Vicji Massage"
+        "pt": "Thai Fusion Massage em Itacaré · 1h · Vicji Massage",
+        "en": "Thai Fusion Massage in Itacaré · 1h · Vicji Massage"
       },
       "metaDescription": {
         "pt": "Thai Fusion em Itacaré, Bahia: alongamentos da massagem tailandesa com deep tissue, na maca. Alívio muscular profundo e ganho de amplitude.",
@@ -62,13 +60,13 @@
         "pt": [
           "Tem dia em que o corpo quer alongamento, e tem dia em que o corpo quer pressão. O Thai Fusion junta os dois.",
           "É uma sessão na maca que combina os alongamentos e as mobilizações articulares da massagem tailandesa com o trabalho de deep tissue, em deslizamentos a óleo. O alongamento abre a articulação e ganha amplitude. O deslizamento profundo solta a musculatura que estava segurando aquele movimento.",
-          "São aproximadamente sessenta minutos de trabalho manual dentro de uma sessão de uma hora e meia. A sessão pode percorrer o corpo todo ou se concentrar em regiões específicas, dependendo do que você trouxer no dia.",
+          "A sessão pode percorrer o corpo todo ou se concentrar em regiões específicas, dependendo do que você trouxer no dia.",
           "É a sessão mais direta que eu ofereço, e funciona especialmente bem para quem treina. Alívio muscular profundo, mais amplitude de movimento, e um relaxamento que costuma durar dias."
         ],
         "en": [
           "Some days the body wants stretching, some days it wants pressure. Thai Fusion brings the two together.",
           "It is a table session that combines the stretches and joint mobilizations of Thai Massage with deep tissue work in oil glides. The stretching opens the joint and builds range. The deep gliding releases the muscle that was holding that movement back.",
-          "It is roughly sixty minutes of hands-on work inside a ninety-minute session. It can run through the whole body or concentrate on specific areas, depending on what you bring on the day.",
+          "It can run through the whole body or concentrate on specific areas, depending on what you bring on the day.",
           "This is the most direct session I offer, and it works especially well for anyone who trains. Deep muscular relief, more range of motion, and a relaxation that tends to last for days."
         ]
       },
@@ -92,13 +90,13 @@
       },
       "options": [
         {
-          "duration": "1h30",
-          "durationISO": "PT1H30M",
+          "duration": "1h",
+          "durationISO": "PT1H",
           "price": 250,
           "priceDisplay": "R$ 250",
           "label": {
-            "pt": "1 hora e 30 minutos",
-            "en": "1 hour 30 minutes"
+            "pt": "1 hora",
+            "en": "1 hour"
           },
           "chipLabel": {
             "pt": "1 hora de massagem",
@@ -110,14 +108,12 @@
         "pt": [
           "Na maca, com óleo",
           "Alongamentos da Thai somados ao deep tissue",
-          "Corpo todo ou foco em regiões específicas",
-          "Cerca de 1 hora de massagem em uma sessão de 1h30"
+          "Corpo todo ou foco em regiões específicas"
         ],
         "en": [
           "On the table, with oil",
           "Thai stretching plus deep tissue work",
-          "Full body or focused on specific areas",
-          "About 1 hour of hands-on work in a 90-minute session"
+          "Full body or focused on specific areas"
         ]
       },
       "included": {
@@ -220,8 +216,7 @@
             "Descomprimir vértebras",
             "Eliminar tensões e emoções acumuladas",
             "Equilibrar os centros energéticos do corpo (chakras)",
-            "No tatame, com roupas confortáveis",
-            "Cerca de 2 horas de massagem em uma sessão de 2h30"
+            "No tatame, com roupas confortáveis"
           ],
           "en": [
             "Release muscle tension",
@@ -231,14 +226,13 @@
             "Decompress the spine",
             "Clear stored tensions and emotions",
             "Balance the body's energy centers (chakras)",
-            "On a futon, in comfortable clothes",
-            "About 2 hours of hands-on massage in a 2.5-hour session"
+            "On a futon, in comfortable clothes"
           ]
         }
       },
       "metaTitle": {
-        "pt": "Massagem Tailandesa Tradicional em Itacaré · 2h30 · Vicji Massage",
-        "en": "Traditional Thai Massage in Itacaré · 2h30 · Vicji Massage"
+        "pt": "Massagem Tailandesa Tradicional em Itacaré · 2h · Vicji Massage",
+        "en": "Traditional Thai Massage in Itacaré · 2h · Vicji Massage"
       },
       "metaDescription": {
         "pt": "Sessão de 2 horas de Thai Massage tradicional em Itacaré, Bahia. Corpo inteiro, no tatame, sem óleo, com alongamentos assistidos e tempo de integração.",
@@ -274,13 +268,13 @@
       },
       "options": [
         {
-          "duration": "2h30",
-          "durationISO": "PT2H30M",
+          "duration": "2h",
+          "durationISO": "PT2H",
           "price": 450,
           "priceDisplay": "R$ 450",
           "label": {
-            "pt": "2 horas e 30 minutos",
-            "en": "2 hours 30 minutes"
+            "pt": "2 horas",
+            "en": "2 hours"
           },
           "chipLabel": {
             "pt": "2 horas de massagem",
@@ -390,8 +384,8 @@
         "en": "The longest session I offer, and the closest to the format I learned in Thailand. Three hours of full-body work, with time to sustain each stretch, travel the energy lines completely, return to the areas asking for more attention, and close with a generous silence."
       },
       "metaTitle": {
-        "pt": "Massagem Tailandesa Imersiva · 3h30 em Itacaré · Vicji Massage",
-        "en": "Immersive Thai Massage · 3h30 in Itacaré · Vicji Massage"
+        "pt": "Massagem Tailandesa Imersiva · 3h em Itacaré · Vicji Massage",
+        "en": "Immersive Thai Massage · 3h in Itacaré · Vicji Massage"
       },
       "metaDescription": {
         "pt": "Sessão imersiva de 3 horas de Thai Massage em Itacaré, Bahia. O formato mais próximo da tradição tailandesa, para quem quer ir fundo sem olhar o relógio.",
@@ -427,13 +421,13 @@
       },
       "options": [
         {
-          "duration": "3h30",
-          "durationISO": "PT3H30M",
+          "duration": "3h",
+          "durationISO": "PT3H",
           "price": 650,
           "priceDisplay": "R$ 650",
           "label": {
-            "pt": "3 horas e 30 minutos",
-            "en": "3 hours 30 minutes"
+            "pt": "3 horas",
+            "en": "3 hours"
           },
           "chipLabel": {
             "pt": "3 horas de massagem",
