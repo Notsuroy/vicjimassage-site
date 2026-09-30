@@ -20,8 +20,35 @@
         "en": "Thai stretching with deep tissue work."
       },
       "description": {
-        "pt": "Sessão na maca que combina os alongamentos e as mobilizações da massagem tailandesa com deep tissue. Indicada para quem busca alívio muscular profundo, mobilização articular, ganho de amplitude de movimento, performance nos treinos e competições, e relaxamento mental e corporal.",
-        "en": "A table session combining the stretches and joint mobilizations of Thai Massage with deep tissue work. For anyone looking for deep muscular relief, joint mobilization, gains in range of motion, performance in training and competition, and deep mental and physical relaxation."
+        "pt": "Sessão na maca que combina os alongamentos e as mobilizações da massagem tailandesa com deep tissue.",
+        "en": "A table session combining the stretches and joint mobilizations of Thai Massage with deep tissue work."
+      },
+      "cardList": {
+        "_note": "Card-only override. When present, ServicesGrid renders this labelled list INSTEAD of the highlights bullets and the 'what's included' box. The detail page ignores it and still uses highlights + included. Added for Thai Fusion 2026-09-29 because the included list repeated the 'five moments' section that sits further down the same page.",
+        "label": {
+          "pt": "Para quem busca:",
+          "en": "For anyone looking for:"
+        },
+        "items": {
+          "pt": [
+            "alívio muscular profundo",
+            "mobilização articular",
+            "ganho de amplitude de movimento",
+            "performance nos treinos e competições",
+            "relaxamento mental e corporal profundo",
+            "Na maca, com óleo",
+            "Cerca de 1 hora de massagem em uma sessão de 1h30"
+          ],
+          "en": [
+            "deep muscular relief",
+            "joint mobilization",
+            "gains in range of motion",
+            "performance in training and competition",
+            "deep mental and physical relaxation",
+            "On the table, with oil",
+            "About 1 hour of hands-on work in a 90-minute session"
+          ]
+        }
       },
       "metaTitle": {
         "pt": "Thai Fusion Massage em Itacaré · 1h30 · Vicji Massage",

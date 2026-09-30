@@ -105,7 +105,7 @@ function fxLine(brl: number) {
             {svc.description[lang]}
           </p>
 
-          {showAll && svc.highlights && (
+          {showAll && !svc.cardList && svc.highlights && (
             <ul class={`space-y-2 mb-6 text-sm ${svc.highlight ? 'text-sand/90' : 'text-ink-muted'}`}>
               {svc.highlights[lang].map(h => (
                 <li class="flex items-start gap-2">
@@ -116,7 +116,23 @@ function fxLine(brl: number) {
             </ul>
           )}
 
-          {showAll && svc.included && (
+          {showAll && svc.cardList && (
+            <div class={`rounded-xl p-5 mb-6 ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
+              <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
+                {svc.cardList.label[lang]}
+              </div>
+              <ul class={`space-y-2 text-sm ${svc.highlight ? 'text-sand/90' : 'text-ink-muted'}`}>
+                {svc.cardList.items[lang].map(item => (
+                  <li class="flex items-start gap-2">
+                    <span class={svc.highlight ? 'text-gold mt-0.5' : 'text-terracotta mt-0.5'}>✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {showAll && !svc.cardList && svc.included && (
             <div class={`rounded-xl p-5 mb-6 ${svc.highlight ? 'bg-sand/10 border border-sand/20' : 'bg-sand-dark/40 border border-sand-deep/40'}`}>
               <div class={`text-xs uppercase tracking-widest2 mb-3 ${svc.highlight ? 'text-gold' : 'text-terracotta'}`}>
                 {c.included}
