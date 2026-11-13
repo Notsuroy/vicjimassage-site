@@ -174,19 +174,19 @@ Add each session as a separate Service:
 ### Service 1
 - **Name:** Thai Massage Tradicional, 2 horas
 - **Category:** Massagem
-- **Price:** R$ 450
+- **Price:** R$ 300
 - **Description:** Sessão completa de Thai Massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
 
 ### Service 2
 - **Name:** Thai Massage Tradicional, 3 horas (imersiva)
 - **Category:** Massagem
-- **Price:** R$ 650
+- **Price:** R$ 520
 - **Description:** A experiência completa. Cabeça aos pés, com tempo suficiente para o sistema nervoso entrar em coerência. Ideal para quem está há muito tempo sem parar. Trabalho profundo nos três níveis: físico, energético, espiritual.
 
 ### Service 3
 - **Name:** Thai Fusion Massage, 1h
 - **Category:** Massagem
-- **Price:** R$ 250
+- **Price:** R$ 200
 - **Description:** Sessão na maca que combina os alongamentos e as mobilizações da massagem tailandesa com deep tissue. Alívio muscular profundo, mobilização articular, ganho de amplitude, performance nos treinos e relaxamento mental e corporal.
 
 If Victor introduces hotel-guest packages or a beach/pool-side variant in Itacaré, add those as separate Services later.
