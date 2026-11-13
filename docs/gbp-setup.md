@@ -174,7 +174,7 @@ Add each session as a separate Service:
 ### Service 1
 - **Name:** Thai Massage Tradicional, 2 horas
 - **Category:** Massagem
-- **Price:** R$ 300
+- **Price:** R$ 360
 - **Description:** Sessão completa de Thai Massage tradicional, corpo inteiro dos pés à cabeça. Combina pressões em pontos energéticos (sen) e alongamentos passivos. Liberação muscular, mobilização articular, equilíbrio dos chakras. Sessão recomendada para conhecer o trabalho.
 
 ### Service 2
